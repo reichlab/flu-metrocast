@@ -1,0 +1,27 @@
+{
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
+    "rounds": [
+        {
+            "round_id_from_variable": true,
+            "round_id": "task_id_variable_that_defines_a_round",
+            "model_tasks": [
+                {
+                    "task_ids": {
+                        "task_id_variable_that_defines_a_round": {
+                            "required": [],
+                            "optional": []
+                        }
+                    },
+                    "output_type": {},
+                    "target_metadata":[]
+                }
+            ],
+            "submissions_due": {
+                "start": "1900-01-01",
+                "end": "2900-12-31"
+            }
+        }
+    ],
+    "output_type_id_datatype": "auto",
+    "derived_task_ids": null
+}

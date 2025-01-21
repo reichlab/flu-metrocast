@@ -3,25 +3,100 @@
     "rounds": [
         {
             "round_id_from_variable": true,
-            "round_id": "task_id_variable_that_defines_a_round",
+            "round_id": "reference_date",
             "model_tasks": [
                 {
                     "task_ids": {
-                        "task_id_variable_that_defines_a_round": {
-                            "required": [],
-                            "optional": []
+                        "reference_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-01-25", "2025-02-01", "2025-02-08",
+                                "2025-02-15", "2025-02-22", "2025-03-01", "2025-03-08",
+                                "2025-03-15", "2025-03-22", "2025-03-29", "2025-04-05",
+                                "2025-04-12", "2025-04-19", "2025-04-26", "2025-05-03",
+                                "2025-05-10", "2025-05-17", "2025-05-24", "2025-05-31"
+                            ]
+                        },
+                        "target": {
+                            "required": null,
+                            "optional": ["ILI ED visits"]
+                        },
+                        "horizon": {
+                            "required": null,
+                            "optional": [0, 1, 2, 3, 4]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                              "NYC",
+                              "Bronx",
+                              "Brooklyn",
+                              "Manhattan",
+                              "Queens",
+                              "Staten Island"
+                              ]
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-01-25",
+                                "2025-02-01", "2025-02-08", "2025-02-15", "2025-02-22",
+                                "2025-03-01", "2025-03-08", "2025-03-15", "2025-03-22",
+                                "2025-03-29", "2025-04-05", "2025-04-12", "2025-04-19",
+                                "2025-04-26", "2025-05-03", "2025-05-10", "2025-05-17",
+                                "2025-05-24", "2025-05-31", "2025-06-07", "2025-06-14",
+                                "2025-06-21", "2025-06-28"
+
+                            ]
                         }
                     },
-                    "output_type": {},
-                    "target_metadata":[]
+                    "output_type": {
+                        "quantile": {
+                            "is_required": true,
+                            "output_type_id": {
+                                "required": [
+                                    0.025,
+                                    0.05,
+                                    0.1,
+                                    0.25,
+                                    0.5,
+                                    0.75,
+                                    0.9,
+                                    0.95,
+                                    0.975
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0
+                            }
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "ILI ED visits",
+                            "target_name": "ED visits due to ILI",
+                            "target_units": "count",
+                            "target_keys": {
+                                "target": "ILI ED visits"
+                            },
+                            "target_type": "continuous",
+                            "description": "This target represents the count of ED visits due to ILI in the week ending on the date [horizon] weeks after the reference_date, on the target_end_date.",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
                 }
             ],
             "submissions_due": {
-                "start": "1900-01-01",
-                "end": "2900-12-31"
+                "relative_to": "reference_date",
+                "start": -6,
+                "end": -3
             }
         }
     ],
     "output_type_id_datatype": "auto",
-    "derived_task_ids": null
+    "derived_task_ids": [
+      "target_end_date"
+    ]
 }

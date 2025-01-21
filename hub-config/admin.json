@@ -1,16 +1,16 @@
 {
     "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/admin-schema.json",
-    "name": "Template Forecast Hub",
-    "maintainer": "Consortium of Infectious Disease Modeling Hubs",
+    "name": "Flu MetroCast",
+    "maintainer": "epiENGAGE",
     "contact": {
-        "name": "Joe Bloggs",
-        "email": "j.bloggs@cidmh.com"
+        "name": "Dongah Kim",
+        "email": "donga0223@gmail.com"
     },
     "repository": {
         "host": "github",
-        "owner": "hubverse-org",
-        "name": "hubTemplate"
+        "owner": "reichlab",
+        "name": "flu-metrocast"
     },
-    "file_format": ["csv", "parquet"],
+    "file_format": ["csv"],
     "timezone": "US/Eastern"
 }

@@ -1,0 +1,2910 @@
+"","target_end_date","location","target","oracle_value","population"
+"1",2024-10-05,"Bronx","ILI ED visits",419,1472654
+"2",2024-10-12,"Bronx","ILI ED visits",469,1472654
+"3",2024-10-19,"Bronx","ILI ED visits",521,1472654
+"4",2024-10-26,"Bronx","ILI ED visits",562,1472654
+"5",2024-11-02,"Bronx","ILI ED visits",468,1472654
+"6",2024-11-09,"Bronx","ILI ED visits",570,1472654
+"7",2024-11-16,"Bronx","ILI ED visits",594,1472654
+"8",2024-11-23,"Bronx","ILI ED visits",629,1472654
+"9",2024-11-30,"Bronx","ILI ED visits",676,1472654
+"10",2024-12-14,"Bronx","ILI ED visits",871,1472654
+"11",2024-12-21,"Bronx","ILI ED visits",1004,1472654
+"12",2024-12-28,"Bronx","ILI ED visits",1268,1472654
+"13",2025-01-04,"Bronx","ILI ED visits",1386,1472654
+"14",2025-01-11,"Bronx","ILI ED visits",1348,1472654
+"15",2025-01-18,"Bronx","ILI ED visits",1663,1472654
+"16",2025-01-25,"Bronx","ILI ED visits",543,1472654
+"17",2024-10-05,"Brooklyn","ILI ED visits",578,2736074
+"18",2024-10-12,"Brooklyn","ILI ED visits",553,2736074
+"19",2024-10-19,"Brooklyn","ILI ED visits",585,2736074
+"20",2024-10-26,"Brooklyn","ILI ED visits",638,2736074
+"21",2024-11-02,"Brooklyn","ILI ED visits",627,2736074
+"22",2024-11-09,"Brooklyn","ILI ED visits",687,2736074
+"23",2024-11-16,"Brooklyn","ILI ED visits",698,2736074
+"24",2024-11-23,"Brooklyn","ILI ED visits",825,2736074
+"25",2024-12-14,"Brooklyn","ILI ED visits",1132,2736074
+"26",2024-12-21,"Brooklyn","ILI ED visits",1339,2736074
+"27",2024-12-28,"Brooklyn","ILI ED visits",1578,2736074
+"28",2025-01-04,"Brooklyn","ILI ED visits",1657,2736074
+"29",2025-01-11,"Brooklyn","ILI ED visits",1609,2736074
+"30",2025-01-18,"Brooklyn","ILI ED visits",2037,2736074
+"31",2025-01-25,"Brooklyn","ILI ED visits",578,2736074
+"32",2024-10-05,"Manhattan","ILI ED visits",293,1694251
+"33",2024-10-12,"Manhattan","ILI ED visits",329,1694251
+"34",2024-10-19,"Manhattan","ILI ED visits",329,1694251
+"35",2024-10-26,"Manhattan","ILI ED visits",350,1694251
+"36",2024-11-02,"Manhattan","ILI ED visits",324,1694251
+"37",2024-11-09,"Manhattan","ILI ED visits",361,1694251
+"38",2024-11-16,"Manhattan","ILI ED visits",352,1694251
+"39",2024-11-23,"Manhattan","ILI ED visits",434,1694251
+"40",2024-11-30,"Manhattan","ILI ED visits",361,1694251
+"41",2024-12-07,"Manhattan","ILI ED visits",413,1694251
+"42",2024-12-14,"Manhattan","ILI ED visits",557,1694251
+"43",2024-12-21,"Manhattan","ILI ED visits",605,1694251
+"44",2024-12-28,"Manhattan","ILI ED visits",756,1694251
+"45",2025-01-04,"Manhattan","ILI ED visits",842,1694251
+"46",2025-01-11,"Manhattan","ILI ED visits",754,1694251
+"47",2025-01-18,"Manhattan","ILI ED visits",963,1694251
+"48",2025-01-25,"Manhattan","ILI ED visits",305,1694251
+"49",2024-10-05,"NYC","ILI ED visits",1932,8804190
+"50",2024-10-12,"NYC","ILI ED visits",2021,8804190
+"51",2024-10-19,"NYC","ILI ED visits",2113,8804190
+"52",2024-10-26,"NYC","ILI ED visits",2351,8804190
+"53",2024-11-02,"NYC","ILI ED visits",2147,8804190
+"54",2024-11-09,"NYC","ILI ED visits",2371,8804190
+"55",2024-11-16,"NYC","ILI ED visits",2444,8804190
+"56",2024-11-23,"NYC","ILI ED visits",2749,8804190
+"57",2024-12-14,"NYC","ILI ED visits",3804,8804190
+"58",2024-12-21,"NYC","ILI ED visits",4301,8804190
+"59",2024-12-28,"NYC","ILI ED visits",5385,8804190
+"60",2025-01-04,"NYC","ILI ED visits",5859,8804190
+"61",2025-01-11,"NYC","ILI ED visits",5585,8804190
+"62",2025-01-18,"NYC","ILI ED visits",6737,8804190
+"63",2025-01-25,"NYC","ILI ED visits",2042,8804190
+"64",2024-10-05,"Queens","ILI ED visits",531,2405464
+"65",2024-10-12,"Queens","ILI ED visits",549,2405464
+"66",2024-10-19,"Queens","ILI ED visits",550,2405464
+"67",2024-10-26,"Queens","ILI ED visits",680,2405464
+"68",2024-11-02,"Queens","ILI ED visits",618,2405464
+"69",2024-11-09,"Queens","ILI ED visits",644,2405464
+"70",2024-11-16,"Queens","ILI ED visits",658,2405464
+"71",2024-11-23,"Queens","ILI ED visits",704,2405464
+"72",2024-11-30,"Queens","ILI ED visits",777,2405464
+"73",2024-12-07,"Queens","ILI ED visits",911,2405464
+"74",2024-12-14,"Queens","ILI ED visits",1027,2405464
+"75",2024-12-21,"Queens","ILI ED visits",1103,2405464
+"76",2024-12-28,"Queens","ILI ED visits",1411,2405464
+"77",2025-01-04,"Queens","ILI ED visits",1577,2405464
+"78",2025-01-11,"Queens","ILI ED visits",1556,2405464
+"79",2025-01-18,"Queens","ILI ED visits",1703,2405464
+"80",2025-01-25,"Queens","ILI ED visits",511,2405464
+"81",2024-10-05,"Staten Island","ILI ED visits",38,495747
+"82",2024-10-12,"Staten Island","ILI ED visits",42,495747
+"83",2024-10-19,"Staten Island","ILI ED visits",54,495747
+"84",2024-10-26,"Staten Island","ILI ED visits",44,495747
+"85",2024-11-02,"Staten Island","ILI ED visits",44,495747
+"86",2024-11-09,"Staten Island","ILI ED visits",46,495747
+"87",2024-11-16,"Staten Island","ILI ED visits",57,495747
+"88",2024-11-23,"Staten Island","ILI ED visits",73,495747
+"89",2024-11-30,"Staten Island","ILI ED visits",66,495747
+"90",2024-12-07,"Staten Island","ILI ED visits",89,495747
+"91",2024-12-14,"Staten Island","ILI ED visits",99,495747
+"92",2024-12-21,"Staten Island","ILI ED visits",111,495747
+"93",2024-12-28,"Staten Island","ILI ED visits",190,495747
+"94",2025-01-04,"Staten Island","ILI ED visits",195,495747
+"95",2025-01-11,"Staten Island","ILI ED visits",152,495747
+"96",2025-01-18,"Staten Island","ILI ED visits",171,495747
+"97",2025-01-25,"Staten Island","ILI ED visits",55,495747
+"98",2016-01-02,"Bronx","ILI ED visits",165,1472654
+"99",2016-01-09,"Bronx","ILI ED visits",447,1472654
+"100",2016-01-16,"Bronx","ILI ED visits",387,1472654
+"101",2016-01-23,"Bronx","ILI ED visits",350,1472654
+"102",2016-01-30,"Bronx","ILI ED visits",429,1472654
+"103",2016-02-06,"Bronx","ILI ED visits",463,1472654
+"104",2016-02-13,"Bronx","ILI ED visits",571,1472654
+"105",2016-02-20,"Bronx","ILI ED visits",571,1472654
+"106",2016-02-27,"Bronx","ILI ED visits",628,1472654
+"107",2016-03-05,"Bronx","ILI ED visits",577,1472654
+"108",2016-03-12,"Bronx","ILI ED visits",755,1472654
+"109",2016-03-19,"Bronx","ILI ED visits",614,1472654
+"110",2016-03-26,"Bronx","ILI ED visits",514,1472654
+"111",2016-04-02,"Bronx","ILI ED visits",461,1472654
+"112",2016-04-09,"Bronx","ILI ED visits",421,1472654
+"113",2016-04-16,"Bronx","ILI ED visits",431,1472654
+"114",2016-04-23,"Bronx","ILI ED visits",410,1472654
+"115",2016-04-30,"Bronx","ILI ED visits",342,1472654
+"116",2016-05-07,"Bronx","ILI ED visits",280,1472654
+"117",2016-05-14,"Bronx","ILI ED visits",271,1472654
+"118",2016-05-21,"Bronx","ILI ED visits",288,1472654
+"119",2016-05-28,"Bronx","ILI ED visits",285,1472654
+"120",2016-06-04,"Bronx","ILI ED visits",236,1472654
+"121",2016-06-11,"Bronx","ILI ED visits",236,1472654
+"122",2016-06-18,"Bronx","ILI ED visits",206,1472654
+"123",2016-06-25,"Bronx","ILI ED visits",194,1472654
+"124",2016-07-02,"Bronx","ILI ED visits",189,1472654
+"125",2016-07-09,"Bronx","ILI ED visits",194,1472654
+"126",2016-07-16,"Bronx","ILI ED visits",225,1472654
+"127",2016-07-23,"Bronx","ILI ED visits",214,1472654
+"128",2016-07-30,"Bronx","ILI ED visits",189,1472654
+"129",2016-08-06,"Bronx","ILI ED visits",201,1472654
+"130",2016-08-13,"Bronx","ILI ED visits",197,1472654
+"131",2016-08-20,"Bronx","ILI ED visits",201,1472654
+"132",2016-08-27,"Bronx","ILI ED visits",206,1472654
+"133",2016-09-03,"Bronx","ILI ED visits",184,1472654
+"134",2016-09-10,"Bronx","ILI ED visits",160,1472654
+"135",2016-09-17,"Bronx","ILI ED visits",168,1472654
+"136",2016-09-24,"Bronx","ILI ED visits",246,1472654
+"137",2016-10-01,"Bronx","ILI ED visits",289,1472654
+"138",2016-10-08,"Bronx","ILI ED visits",289,1472654
+"139",2016-10-15,"Bronx","ILI ED visits",303,1472654
+"140",2016-10-22,"Bronx","ILI ED visits",310,1472654
+"141",2016-10-29,"Bronx","ILI ED visits",316,1472654
+"142",2016-11-05,"Bronx","ILI ED visits",301,1472654
+"143",2016-11-12,"Bronx","ILI ED visits",384,1472654
+"144",2016-11-19,"Bronx","ILI ED visits",351,1472654
+"145",2016-11-26,"Bronx","ILI ED visits",397,1472654
+"146",2016-12-03,"Bronx","ILI ED visits",446,1472654
+"147",2016-12-10,"Bronx","ILI ED visits",524,1472654
+"148",2016-12-17,"Bronx","ILI ED visits",469,1472654
+"149",2016-12-24,"Bronx","ILI ED visits",602,1472654
+"150",2016-12-31,"Bronx","ILI ED visits",874,1472654
+"151",2017-01-07,"Bronx","ILI ED visits",709,1472654
+"152",2017-01-14,"Bronx","ILI ED visits",673,1472654
+"153",2017-01-21,"Bronx","ILI ED visits",870,1472654
+"154",2017-01-28,"Bronx","ILI ED visits",827,1472654
+"155",2017-02-04,"Bronx","ILI ED visits",683,1472654
+"156",2017-02-11,"Bronx","ILI ED visits",597,1472654
+"157",2017-02-18,"Bronx","ILI ED visits",462,1472654
+"158",2017-02-25,"Bronx","ILI ED visits",423,1472654
+"159",2017-03-04,"Bronx","ILI ED visits",303,1472654
+"160",2017-03-11,"Bronx","ILI ED visits",292,1472654
+"161",2017-03-18,"Bronx","ILI ED visits",290,1472654
+"162",2017-03-25,"Bronx","ILI ED visits",318,1472654
+"163",2017-04-01,"Bronx","ILI ED visits",394,1472654
+"164",2017-04-08,"Bronx","ILI ED visits",354,1472654
+"165",2017-04-15,"Bronx","ILI ED visits",344,1472654
+"166",2017-04-22,"Bronx","ILI ED visits",284,1472654
+"167",2017-04-29,"Bronx","ILI ED visits",244,1472654
+"168",2017-05-06,"Bronx","ILI ED visits",242,1472654
+"169",2017-05-13,"Bronx","ILI ED visits",321,1472654
+"170",2017-05-20,"Bronx","ILI ED visits",302,1472654
+"171",2017-05-27,"Bronx","ILI ED visits",270,1472654
+"172",2017-06-03,"Bronx","ILI ED visits",254,1472654
+"173",2017-06-10,"Bronx","ILI ED visits",278,1472654
+"174",2017-06-17,"Bronx","ILI ED visits",244,1472654
+"175",2017-06-24,"Bronx","ILI ED visits",215,1472654
+"176",2017-07-01,"Bronx","ILI ED visits",235,1472654
+"177",2017-07-08,"Bronx","ILI ED visits",206,1472654
+"178",2017-07-15,"Bronx","ILI ED visits",161,1472654
+"179",2017-07-22,"Bronx","ILI ED visits",147,1472654
+"180",2017-07-29,"Bronx","ILI ED visits",159,1472654
+"181",2017-08-05,"Bronx","ILI ED visits",157,1472654
+"182",2017-08-12,"Bronx","ILI ED visits",147,1472654
+"183",2017-08-19,"Bronx","ILI ED visits",149,1472654
+"184",2017-08-26,"Bronx","ILI ED visits",170,1472654
+"185",2017-09-02,"Bronx","ILI ED visits",159,1472654
+"186",2017-09-09,"Bronx","ILI ED visits",142,1472654
+"187",2017-09-16,"Bronx","ILI ED visits",188,1472654
+"188",2017-09-23,"Bronx","ILI ED visits",213,1472654
+"189",2017-09-30,"Bronx","ILI ED visits",225,1472654
+"190",2017-10-07,"Bronx","ILI ED visits",236,1472654
+"191",2017-10-14,"Bronx","ILI ED visits",245,1472654
+"192",2017-10-21,"Bronx","ILI ED visits",297,1472654
+"193",2017-10-28,"Bronx","ILI ED visits",336,1472654
+"194",2017-11-04,"Bronx","ILI ED visits",359,1472654
+"195",2017-11-11,"Bronx","ILI ED visits",400,1472654
+"196",2017-11-18,"Bronx","ILI ED visits",430,1472654
+"197",2017-11-25,"Bronx","ILI ED visits",406,1472654
+"198",2017-12-02,"Bronx","ILI ED visits",470,1472654
+"199",2017-12-09,"Bronx","ILI ED visits",473,1472654
+"200",2017-12-16,"Bronx","ILI ED visits",420,1472654
+"201",2017-12-23,"Bronx","ILI ED visits",497,1472654
+"202",2017-12-30,"Bronx","ILI ED visits",526,1472654
+"203",2018-01-06,"Bronx","ILI ED visits",559,1472654
+"204",2018-01-13,"Bronx","ILI ED visits",676,1472654
+"205",2018-01-20,"Bronx","ILI ED visits",936,1472654
+"206",2018-01-27,"Bronx","ILI ED visits",1293,1472654
+"207",2018-02-03,"Bronx","ILI ED visits",1635,1472654
+"208",2018-02-10,"Bronx","ILI ED visits",1959,1472654
+"209",2018-02-17,"Bronx","ILI ED visits",1922,1472654
+"210",2018-02-24,"Bronx","ILI ED visits",1282,1472654
+"211",2018-03-03,"Bronx","ILI ED visits",670,1472654
+"212",2018-03-10,"Bronx","ILI ED visits",486,1472654
+"213",2018-03-17,"Bronx","ILI ED visits",424,1472654
+"214",2018-03-24,"Bronx","ILI ED visits",409,1472654
+"215",2018-03-31,"Bronx","ILI ED visits",413,1472654
+"216",2018-04-07,"Bronx","ILI ED visits",335,1472654
+"217",2018-04-14,"Bronx","ILI ED visits",293,1472654
+"218",2018-04-21,"Bronx","ILI ED visits",280,1472654
+"219",2018-04-28,"Bronx","ILI ED visits",305,1472654
+"220",2018-05-05,"Bronx","ILI ED visits",322,1472654
+"221",2018-05-12,"Bronx","ILI ED visits",275,1472654
+"222",2018-05-19,"Bronx","ILI ED visits",314,1472654
+"223",2018-05-26,"Bronx","ILI ED visits",373,1472654
+"224",2018-06-02,"Bronx","ILI ED visits",356,1472654
+"225",2018-06-09,"Bronx","ILI ED visits",337,1472654
+"226",2018-06-16,"Bronx","ILI ED visits",321,1472654
+"227",2018-06-23,"Bronx","ILI ED visits",249,1472654
+"228",2018-06-30,"Bronx","ILI ED visits",222,1472654
+"229",2018-07-07,"Bronx","ILI ED visits",201,1472654
+"230",2018-07-14,"Bronx","ILI ED visits",192,1472654
+"231",2018-07-21,"Bronx","ILI ED visits",177,1472654
+"232",2018-07-28,"Bronx","ILI ED visits",143,1472654
+"233",2018-08-04,"Bronx","ILI ED visits",150,1472654
+"234",2018-08-11,"Bronx","ILI ED visits",171,1472654
+"235",2018-08-18,"Bronx","ILI ED visits",181,1472654
+"236",2018-08-25,"Bronx","ILI ED visits",174,1472654
+"237",2018-09-01,"Bronx","ILI ED visits",182,1472654
+"238",2018-09-08,"Bronx","ILI ED visits",185,1472654
+"239",2018-09-15,"Bronx","ILI ED visits",207,1472654
+"240",2018-09-22,"Bronx","ILI ED visits",309,1472654
+"241",2018-09-29,"Bronx","ILI ED visits",360,1472654
+"242",2018-10-06,"Bronx","ILI ED visits",389,1472654
+"243",2018-10-13,"Bronx","ILI ED visits",394,1472654
+"244",2018-10-20,"Bronx","ILI ED visits",461,1472654
+"245",2018-10-27,"Bronx","ILI ED visits",517,1472654
+"246",2018-11-03,"Bronx","ILI ED visits",452,1472654
+"247",2018-11-10,"Bronx","ILI ED visits",477,1472654
+"248",2018-11-17,"Bronx","ILI ED visits",455,1472654
+"249",2018-11-24,"Bronx","ILI ED visits",498,1472654
+"250",2018-12-01,"Bronx","ILI ED visits",489,1472654
+"251",2018-12-08,"Bronx","ILI ED visits",589,1472654
+"252",2018-12-15,"Bronx","ILI ED visits",612,1472654
+"253",2018-12-22,"Bronx","ILI ED visits",610,1472654
+"254",2018-12-29,"Bronx","ILI ED visits",699,1472654
+"255",2019-01-05,"Bronx","ILI ED visits",702,1472654
+"256",2019-01-12,"Bronx","ILI ED visits",655,1472654
+"257",2019-01-19,"Bronx","ILI ED visits",670,1472654
+"258",2019-01-26,"Bronx","ILI ED visits",652,1472654
+"259",2019-02-02,"Bronx","ILI ED visits",674,1472654
+"260",2019-02-09,"Bronx","ILI ED visits",702,1472654
+"261",2019-02-16,"Bronx","ILI ED visits",651,1472654
+"262",2019-02-23,"Bronx","ILI ED visits",700,1472654
+"263",2019-03-02,"Bronx","ILI ED visits",514,1472654
+"264",2019-03-09,"Bronx","ILI ED visits",572,1472654
+"265",2019-03-16,"Bronx","ILI ED visits",547,1472654
+"266",2019-03-23,"Bronx","ILI ED visits",516,1472654
+"267",2019-03-30,"Bronx","ILI ED visits",509,1472654
+"268",2019-04-06,"Bronx","ILI ED visits",533,1472654
+"269",2019-04-13,"Bronx","ILI ED visits",507,1472654
+"270",2019-04-20,"Bronx","ILI ED visits",430,1472654
+"271",2019-04-27,"Bronx","ILI ED visits",348,1472654
+"272",2019-05-04,"Bronx","ILI ED visits",336,1472654
+"273",2019-05-11,"Bronx","ILI ED visits",313,1472654
+"274",2019-05-18,"Bronx","ILI ED visits",343,1472654
+"275",2019-05-25,"Bronx","ILI ED visits",379,1472654
+"276",2019-06-01,"Bronx","ILI ED visits",356,1472654
+"277",2019-06-08,"Bronx","ILI ED visits",326,1472654
+"278",2019-06-15,"Bronx","ILI ED visits",321,1472654
+"279",2019-06-22,"Bronx","ILI ED visits",268,1472654
+"280",2019-06-29,"Bronx","ILI ED visits",275,1472654
+"281",2019-07-06,"Bronx","ILI ED visits",212,1472654
+"282",2019-07-13,"Bronx","ILI ED visits",205,1472654
+"283",2019-07-20,"Bronx","ILI ED visits",244,1472654
+"284",2019-07-27,"Bronx","ILI ED visits",191,1472654
+"285",2019-08-03,"Bronx","ILI ED visits",138,1472654
+"286",2019-08-10,"Bronx","ILI ED visits",157,1472654
+"287",2019-08-17,"Bronx","ILI ED visits",278,1472654
+"288",2019-08-24,"Bronx","ILI ED visits",269,1472654
+"289",2019-08-31,"Bronx","ILI ED visits",282,1472654
+"290",2019-09-07,"Bronx","ILI ED visits",234,1472654
+"291",2019-09-14,"Bronx","ILI ED visits",305,1472654
+"292",2019-09-21,"Bronx","ILI ED visits",426,1472654
+"293",2019-09-28,"Bronx","ILI ED visits",412,1472654
+"294",2019-10-05,"Bronx","ILI ED visits",334,1472654
+"295",2019-10-12,"Bronx","ILI ED visits",342,1472654
+"296",2019-10-19,"Bronx","ILI ED visits",356,1472654
+"297",2019-10-26,"Bronx","ILI ED visits",391,1472654
+"298",2019-11-02,"Bronx","ILI ED visits",424,1472654
+"299",2019-11-09,"Bronx","ILI ED visits",539,1472654
+"300",2019-11-16,"Bronx","ILI ED visits",554,1472654
+"301",2019-11-23,"Bronx","ILI ED visits",614,1472654
+"302",2019-11-30,"Bronx","ILI ED visits",671,1472654
+"303",2019-12-07,"Bronx","ILI ED visits",826,1472654
+"304",2019-12-14,"Bronx","ILI ED visits",1009,1472654
+"305",2019-12-21,"Bronx","ILI ED visits",1283,1472654
+"306",2019-12-28,"Bronx","ILI ED visits",1568,1472654
+"307",2020-01-04,"Bronx","ILI ED visits",1642,1472654
+"308",2020-01-11,"Bronx","ILI ED visits",1526,1472654
+"309",2020-01-18,"Bronx","ILI ED visits",1655,1472654
+"310",2020-01-25,"Bronx","ILI ED visits",1889,1472654
+"311",2020-02-01,"Bronx","ILI ED visits",1911,1472654
+"312",2020-02-08,"Bronx","ILI ED visits",1627,1472654
+"313",2020-02-15,"Bronx","ILI ED visits",1240,1472654
+"314",2020-02-22,"Bronx","ILI ED visits",947,1472654
+"315",2020-02-29,"Bronx","ILI ED visits",775,1472654
+"316",2020-03-07,"Bronx","ILI ED visits",977,1472654
+"317",2020-03-14,"Bronx","ILI ED visits",1369,1472654
+"318",2020-03-21,"Bronx","ILI ED visits",1968,1472654
+"319",2020-03-28,"Bronx","ILI ED visits",2117,1472654
+"320",2020-04-04,"Bronx","ILI ED visits",1282,1472654
+"321",2020-04-11,"Bronx","ILI ED visits",711,1472654
+"322",2020-04-18,"Bronx","ILI ED visits",408,1472654
+"323",2020-04-25,"Bronx","ILI ED visits",261,1472654
+"324",2020-05-02,"Bronx","ILI ED visits",154,1472654
+"325",2020-05-09,"Bronx","ILI ED visits",116,1472654
+"326",2020-05-16,"Bronx","ILI ED visits",88,1472654
+"327",2020-05-23,"Bronx","ILI ED visits",86,1472654
+"328",2020-05-30,"Bronx","ILI ED visits",75,1472654
+"329",2020-06-06,"Bronx","ILI ED visits",66,1472654
+"330",2020-06-13,"Bronx","ILI ED visits",77,1472654
+"331",2020-06-20,"Bronx","ILI ED visits",63,1472654
+"332",2020-06-27,"Bronx","ILI ED visits",76,1472654
+"333",2020-07-04,"Bronx","ILI ED visits",91,1472654
+"334",2020-07-11,"Bronx","ILI ED visits",71,1472654
+"335",2020-07-18,"Bronx","ILI ED visits",98,1472654
+"336",2020-07-25,"Bronx","ILI ED visits",112,1472654
+"337",2020-08-01,"Bronx","ILI ED visits",110,1472654
+"338",2020-08-08,"Bronx","ILI ED visits",135,1472654
+"339",2020-08-15,"Bronx","ILI ED visits",127,1472654
+"340",2020-08-22,"Bronx","ILI ED visits",157,1472654
+"341",2020-08-29,"Bronx","ILI ED visits",154,1472654
+"342",2020-09-05,"Bronx","ILI ED visits",134,1472654
+"343",2020-09-12,"Bronx","ILI ED visits",148,1472654
+"344",2020-09-19,"Bronx","ILI ED visits",94,1472654
+"345",2020-09-26,"Bronx","ILI ED visits",121,1472654
+"346",2020-10-03,"Bronx","ILI ED visits",139,1472654
+"347",2020-10-10,"Bronx","ILI ED visits",154,1472654
+"348",2020-10-17,"Bronx","ILI ED visits",112,1472654
+"349",2020-10-24,"Bronx","ILI ED visits",144,1472654
+"350",2020-10-31,"Bronx","ILI ED visits",119,1472654
+"351",2020-11-07,"Bronx","ILI ED visits",148,1472654
+"352",2020-11-14,"Bronx","ILI ED visits",170,1472654
+"353",2020-11-21,"Bronx","ILI ED visits",148,1472654
+"354",2020-11-28,"Bronx","ILI ED visits",167,1472654
+"355",2020-12-05,"Bronx","ILI ED visits",170,1472654
+"356",2020-12-12,"Bronx","ILI ED visits",175,1472654
+"357",2020-12-19,"Bronx","ILI ED visits",167,1472654
+"358",2020-12-26,"Bronx","ILI ED visits",170,1472654
+"359",2021-01-02,"Bronx","ILI ED visits",165,1472654
+"360",2021-01-09,"Bronx","ILI ED visits",203,1472654
+"361",2021-01-16,"Bronx","ILI ED visits",219,1472654
+"362",2021-01-23,"Bronx","ILI ED visits",191,1472654
+"363",2021-01-30,"Bronx","ILI ED visits",187,1472654
+"364",2021-02-06,"Bronx","ILI ED visits",181,1472654
+"365",2021-02-13,"Bronx","ILI ED visits",206,1472654
+"366",2021-02-20,"Bronx","ILI ED visits",171,1472654
+"367",2021-02-27,"Bronx","ILI ED visits",180,1472654
+"368",2021-03-06,"Bronx","ILI ED visits",146,1472654
+"369",2021-03-13,"Bronx","ILI ED visits",168,1472654
+"370",2021-03-20,"Bronx","ILI ED visits",190,1472654
+"371",2021-03-27,"Bronx","ILI ED visits",188,1472654
+"372",2021-04-03,"Bronx","ILI ED visits",180,1472654
+"373",2021-04-10,"Bronx","ILI ED visits",212,1472654
+"374",2021-04-17,"Bronx","ILI ED visits",179,1472654
+"375",2021-04-24,"Bronx","ILI ED visits",209,1472654
+"376",2021-05-01,"Bronx","ILI ED visits",198,1472654
+"377",2021-05-08,"Bronx","ILI ED visits",195,1472654
+"378",2021-05-15,"Bronx","ILI ED visits",177,1472654
+"379",2021-05-22,"Bronx","ILI ED visits",199,1472654
+"380",2021-05-29,"Bronx","ILI ED visits",186,1472654
+"381",2021-06-05,"Bronx","ILI ED visits",216,1472654
+"382",2021-06-12,"Bronx","ILI ED visits",232,1472654
+"383",2021-06-19,"Bronx","ILI ED visits",244,1472654
+"384",2021-06-26,"Bronx","ILI ED visits",255,1472654
+"385",2021-07-03,"Bronx","ILI ED visits",225,1472654
+"386",2021-07-10,"Bronx","ILI ED visits",271,1472654
+"387",2021-07-17,"Bronx","ILI ED visits",283,1472654
+"388",2021-07-24,"Bronx","ILI ED visits",304,1472654
+"389",2021-07-31,"Bronx","ILI ED visits",364,1472654
+"390",2021-08-07,"Bronx","ILI ED visits",336,1472654
+"391",2021-08-14,"Bronx","ILI ED visits",339,1472654
+"392",2021-08-21,"Bronx","ILI ED visits",343,1472654
+"393",2021-08-28,"Bronx","ILI ED visits",335,1472654
+"394",2021-09-04,"Bronx","ILI ED visits",302,1472654
+"395",2021-09-11,"Bronx","ILI ED visits",314,1472654
+"396",2021-09-18,"Bronx","ILI ED visits",366,1472654
+"397",2021-09-25,"Bronx","ILI ED visits",458,1472654
+"398",2021-10-02,"Bronx","ILI ED visits",541,1472654
+"399",2021-10-09,"Bronx","ILI ED visits",488,1472654
+"400",2021-10-16,"Bronx","ILI ED visits",424,1472654
+"401",2021-10-23,"Bronx","ILI ED visits",442,1472654
+"402",2021-10-30,"Bronx","ILI ED visits",366,1472654
+"403",2021-11-06,"Bronx","ILI ED visits",400,1472654
+"404",2021-11-13,"Bronx","ILI ED visits",444,1472654
+"405",2021-11-20,"Bronx","ILI ED visits",421,1472654
+"406",2021-11-27,"Bronx","ILI ED visits",416,1472654
+"407",2021-12-04,"Bronx","ILI ED visits",561,1472654
+"408",2021-12-11,"Bronx","ILI ED visits",549,1472654
+"409",2021-12-18,"Bronx","ILI ED visits",669,1472654
+"410",2021-12-25,"Bronx","ILI ED visits",1152,1472654
+"411",2022-01-01,"Bronx","ILI ED visits",1507,1472654
+"412",2022-01-08,"Bronx","ILI ED visits",727,1472654
+"413",2022-01-15,"Bronx","ILI ED visits",332,1472654
+"414",2022-01-22,"Bronx","ILI ED visits",206,1472654
+"415",2022-01-29,"Bronx","ILI ED visits",229,1472654
+"416",2022-02-05,"Bronx","ILI ED visits",174,1472654
+"417",2022-02-12,"Bronx","ILI ED visits",195,1472654
+"418",2022-02-19,"Bronx","ILI ED visits",231,1472654
+"419",2022-02-26,"Bronx","ILI ED visits",191,1472654
+"420",2022-03-05,"Bronx","ILI ED visits",246,1472654
+"421",2022-03-12,"Bronx","ILI ED visits",235,1472654
+"422",2022-03-19,"Bronx","ILI ED visits",276,1472654
+"423",2022-03-26,"Bronx","ILI ED visits",300,1472654
+"424",2022-04-02,"Bronx","ILI ED visits",342,1472654
+"425",2022-04-09,"Bronx","ILI ED visits",459,1472654
+"426",2022-04-16,"Bronx","ILI ED visits",477,1472654
+"427",2022-04-23,"Bronx","ILI ED visits",464,1472654
+"428",2022-04-30,"Bronx","ILI ED visits",449,1472654
+"429",2022-05-07,"Bronx","ILI ED visits",490,1472654
+"430",2022-05-14,"Bronx","ILI ED visits",599,1472654
+"431",2022-05-21,"Bronx","ILI ED visits",612,1472654
+"432",2022-05-28,"Bronx","ILI ED visits",641,1472654
+"433",2022-06-04,"Bronx","ILI ED visits",520,1472654
+"434",2022-06-11,"Bronx","ILI ED visits",542,1472654
+"435",2022-06-18,"Bronx","ILI ED visits",511,1472654
+"436",2022-06-25,"Bronx","ILI ED visits",473,1472654
+"437",2022-07-02,"Bronx","ILI ED visits",516,1472654
+"438",2022-07-09,"Bronx","ILI ED visits",439,1472654
+"439",2022-07-16,"Bronx","ILI ED visits",444,1472654
+"440",2022-07-23,"Bronx","ILI ED visits",370,1472654
+"441",2022-07-30,"Bronx","ILI ED visits",376,1472654
+"442",2022-08-06,"Bronx","ILI ED visits",370,1472654
+"443",2022-08-13,"Bronx","ILI ED visits",323,1472654
+"444",2022-08-20,"Bronx","ILI ED visits",348,1472654
+"445",2022-08-27,"Bronx","ILI ED visits",327,1472654
+"446",2022-09-03,"Bronx","ILI ED visits",301,1472654
+"447",2022-09-10,"Bronx","ILI ED visits",301,1472654
+"448",2022-09-17,"Bronx","ILI ED visits",389,1472654
+"449",2022-09-24,"Bronx","ILI ED visits",605,1472654
+"450",2022-10-01,"Bronx","ILI ED visits",561,1472654
+"451",2022-10-08,"Bronx","ILI ED visits",559,1472654
+"452",2022-10-15,"Bronx","ILI ED visits",630,1472654
+"453",2022-10-22,"Bronx","ILI ED visits",689,1472654
+"454",2022-10-29,"Bronx","ILI ED visits",989,1472654
+"455",2022-11-05,"Bronx","ILI ED visits",1332,1472654
+"456",2022-11-12,"Bronx","ILI ED visits",1450,1472654
+"457",2022-11-19,"Bronx","ILI ED visits",1465,1472654
+"458",2022-11-26,"Bronx","ILI ED visits",1877,1472654
+"459",2022-12-03,"Bronx","ILI ED visits",2249,1472654
+"460",2022-12-10,"Bronx","ILI ED visits",2206,1472654
+"461",2022-12-17,"Bronx","ILI ED visits",1683,1472654
+"462",2022-12-24,"Bronx","ILI ED visits",1281,1472654
+"463",2022-12-31,"Bronx","ILI ED visits",1045,1472654
+"464",2023-01-07,"Bronx","ILI ED visits",877,1472654
+"465",2023-01-14,"Bronx","ILI ED visits",637,1472654
+"466",2023-01-21,"Bronx","ILI ED visits",591,1472654
+"467",2023-01-28,"Bronx","ILI ED visits",583,1472654
+"468",2023-02-04,"Bronx","ILI ED visits",545,1472654
+"469",2023-02-11,"Bronx","ILI ED visits",631,1472654
+"470",2023-02-18,"Bronx","ILI ED visits",631,1472654
+"471",2023-02-25,"Bronx","ILI ED visits",589,1472654
+"472",2023-03-04,"Bronx","ILI ED visits",554,1472654
+"473",2023-03-11,"Bronx","ILI ED visits",569,1472654
+"474",2023-03-18,"Bronx","ILI ED visits",551,1472654
+"475",2023-03-25,"Bronx","ILI ED visits",712,1472654
+"476",2023-04-01,"Bronx","ILI ED visits",692,1472654
+"477",2023-04-08,"Bronx","ILI ED visits",668,1472654
+"478",2023-04-15,"Bronx","ILI ED visits",598,1472654
+"479",2023-04-22,"Bronx","ILI ED visits",513,1472654
+"480",2023-04-29,"Bronx","ILI ED visits",478,1472654
+"481",2023-05-06,"Bronx","ILI ED visits",513,1472654
+"482",2023-05-13,"Bronx","ILI ED visits",535,1472654
+"483",2023-05-20,"Bronx","ILI ED visits",564,1472654
+"484",2023-05-27,"Bronx","ILI ED visits",504,1472654
+"485",2023-06-03,"Bronx","ILI ED visits",545,1472654
+"486",2023-06-10,"Bronx","ILI ED visits",433,1472654
+"487",2023-06-17,"Bronx","ILI ED visits",457,1472654
+"488",2023-06-24,"Bronx","ILI ED visits",410,1472654
+"489",2023-07-01,"Bronx","ILI ED visits",340,1472654
+"490",2023-07-08,"Bronx","ILI ED visits",343,1472654
+"491",2023-07-15,"Bronx","ILI ED visits",317,1472654
+"492",2023-07-22,"Bronx","ILI ED visits",297,1472654
+"493",2023-07-29,"Bronx","ILI ED visits",271,1472654
+"494",2023-08-05,"Bronx","ILI ED visits",352,1472654
+"495",2023-08-12,"Bronx","ILI ED visits",293,1472654
+"496",2023-08-19,"Bronx","ILI ED visits",286,1472654
+"497",2023-08-26,"Bronx","ILI ED visits",284,1472654
+"498",2023-09-02,"Bronx","ILI ED visits",331,1472654
+"499",2023-09-09,"Bronx","ILI ED visits",323,1472654
+"500",2023-09-16,"Bronx","ILI ED visits",316,1472654
+"501",2023-09-23,"Bronx","ILI ED visits",428,1472654
+"502",2023-09-30,"Bronx","ILI ED visits",464,1472654
+"503",2023-10-07,"Bronx","ILI ED visits",501,1472654
+"504",2023-10-14,"Bronx","ILI ED visits",521,1472654
+"505",2023-10-21,"Bronx","ILI ED visits",556,1472654
+"506",2023-10-28,"Bronx","ILI ED visits",634,1472654
+"507",2023-11-04,"Bronx","ILI ED visits",691,1472654
+"508",2023-11-11,"Bronx","ILI ED visits",755,1472654
+"509",2023-11-18,"Bronx","ILI ED visits",752,1472654
+"510",2023-11-25,"Bronx","ILI ED visits",727,1472654
+"511",2023-12-02,"Bronx","ILI ED visits",933,1472654
+"512",2023-12-09,"Bronx","ILI ED visits",1056,1472654
+"513",2023-12-16,"Bronx","ILI ED visits",1156,1472654
+"514",2023-12-23,"Bronx","ILI ED visits",1277,1472654
+"515",2023-12-30,"Bronx","ILI ED visits",1520,1472654
+"516",2024-01-06,"Bronx","ILI ED visits",1204,1472654
+"517",2024-01-13,"Bronx","ILI ED visits",1132,1472654
+"518",2024-01-20,"Bronx","ILI ED visits",927,1472654
+"519",2024-01-27,"Bronx","ILI ED visits",928,1472654
+"520",2024-02-03,"Bronx","ILI ED visits",963,1472654
+"521",2024-02-10,"Bronx","ILI ED visits",924,1472654
+"522",2024-02-17,"Bronx","ILI ED visits",908,1472654
+"523",2024-02-24,"Bronx","ILI ED visits",828,1472654
+"524",2024-03-02,"Bronx","ILI ED visits",768,1472654
+"525",2024-03-09,"Bronx","ILI ED visits",690,1472654
+"526",2024-03-16,"Bronx","ILI ED visits",660,1472654
+"527",2024-03-23,"Bronx","ILI ED visits",649,1472654
+"528",2024-03-30,"Bronx","ILI ED visits",691,1472654
+"529",2024-04-06,"Bronx","ILI ED visits",566,1472654
+"530",2024-04-13,"Bronx","ILI ED visits",539,1472654
+"531",2024-04-20,"Bronx","ILI ED visits",528,1472654
+"532",2024-04-27,"Bronx","ILI ED visits",433,1472654
+"533",2024-05-04,"Bronx","ILI ED visits",399,1472654
+"534",2024-05-11,"Bronx","ILI ED visits",399,1472654
+"535",2024-05-18,"Bronx","ILI ED visits",474,1472654
+"536",2024-05-25,"Bronx","ILI ED visits",446,1472654
+"537",2024-06-01,"Bronx","ILI ED visits",461,1472654
+"538",2024-06-08,"Bronx","ILI ED visits",440,1472654
+"539",2024-06-15,"Bronx","ILI ED visits",401,1472654
+"540",2024-06-22,"Bronx","ILI ED visits",373,1472654
+"541",2024-06-29,"Bronx","ILI ED visits",331,1472654
+"542",2024-07-06,"Bronx","ILI ED visits",319,1472654
+"543",2024-07-13,"Bronx","ILI ED visits",312,1472654
+"544",2024-07-20,"Bronx","ILI ED visits",294,1472654
+"545",2024-07-27,"Bronx","ILI ED visits",361,1472654
+"546",2024-08-03,"Bronx","ILI ED visits",309,1472654
+"547",2024-08-10,"Bronx","ILI ED visits",314,1472654
+"548",2024-08-17,"Bronx","ILI ED visits",291,1472654
+"549",2024-08-24,"Bronx","ILI ED visits",329,1472654
+"550",2024-08-31,"Bronx","ILI ED visits",350,1472654
+"551",2024-09-07,"Bronx","ILI ED visits",291,1472654
+"552",2024-09-14,"Bronx","ILI ED visits",364,1472654
+"553",2024-09-21,"Bronx","ILI ED visits",508,1472654
+"554",2024-09-28,"Bronx","ILI ED visits",508,1472654
+"555",2024-10-05,"Bronx","ILI ED visits",419,1472654
+"556",2024-10-12,"Bronx","ILI ED visits",469,1472654
+"557",2024-10-19,"Bronx","ILI ED visits",521,1472654
+"558",2024-10-26,"Bronx","ILI ED visits",562,1472654
+"559",2024-11-02,"Bronx","ILI ED visits",468,1472654
+"560",2024-11-09,"Bronx","ILI ED visits",570,1472654
+"561",2024-11-16,"Bronx","ILI ED visits",594,1472654
+"562",2024-11-23,"Bronx","ILI ED visits",629,1472654
+"563",2024-11-30,"Bronx","ILI ED visits",676,1472654
+"564",2024-12-07,"Bronx","ILI ED visits",807,1472654
+"565",2024-12-21,"Bronx","ILI ED visits",1004,1472654
+"566",2024-12-28,"Bronx","ILI ED visits",1268,1472654
+"567",2016-01-02,"Brooklyn","ILI ED visits",166,2736074
+"568",2016-01-09,"Brooklyn","ILI ED visits",462,2736074
+"569",2016-01-16,"Brooklyn","ILI ED visits",406,2736074
+"570",2016-01-23,"Brooklyn","ILI ED visits",450,2736074
+"571",2016-01-30,"Brooklyn","ILI ED visits",442,2736074
+"572",2016-02-06,"Brooklyn","ILI ED visits",531,2736074
+"573",2016-02-13,"Brooklyn","ILI ED visits",633,2736074
+"574",2016-02-20,"Brooklyn","ILI ED visits",692,2736074
+"575",2016-02-27,"Brooklyn","ILI ED visits",745,2736074
+"576",2016-03-05,"Brooklyn","ILI ED visits",831,2736074
+"577",2016-03-12,"Brooklyn","ILI ED visits",946,2736074
+"578",2016-03-19,"Brooklyn","ILI ED visits",778,2736074
+"579",2016-03-26,"Brooklyn","ILI ED visits",639,2736074
+"580",2016-04-02,"Brooklyn","ILI ED visits",575,2736074
+"581",2016-04-09,"Brooklyn","ILI ED visits",511,2736074
+"582",2016-04-16,"Brooklyn","ILI ED visits",501,2736074
+"583",2016-04-23,"Brooklyn","ILI ED visits",541,2736074
+"584",2016-04-30,"Brooklyn","ILI ED visits",451,2736074
+"585",2016-05-07,"Brooklyn","ILI ED visits",425,2736074
+"586",2016-05-14,"Brooklyn","ILI ED visits",417,2736074
+"587",2016-05-21,"Brooklyn","ILI ED visits",326,2736074
+"588",2016-05-28,"Brooklyn","ILI ED visits",344,2736074
+"589",2016-06-04,"Brooklyn","ILI ED visits",360,2736074
+"590",2016-06-11,"Brooklyn","ILI ED visits",315,2736074
+"591",2016-06-18,"Brooklyn","ILI ED visits",299,2736074
+"592",2016-06-25,"Brooklyn","ILI ED visits",289,2736074
+"593",2016-07-02,"Brooklyn","ILI ED visits",325,2736074
+"594",2016-07-09,"Brooklyn","ILI ED visits",273,2736074
+"595",2016-07-16,"Brooklyn","ILI ED visits",255,2736074
+"596",2016-07-23,"Brooklyn","ILI ED visits",256,2736074
+"597",2016-07-30,"Brooklyn","ILI ED visits",270,2736074
+"598",2016-08-06,"Brooklyn","ILI ED visits",300,2736074
+"599",2016-08-13,"Brooklyn","ILI ED visits",235,2736074
+"600",2016-08-20,"Brooklyn","ILI ED visits",219,2736074
+"601",2016-08-27,"Brooklyn","ILI ED visits",270,2736074
+"602",2016-09-03,"Brooklyn","ILI ED visits",211,2736074
+"603",2016-09-10,"Brooklyn","ILI ED visits",217,2736074
+"604",2016-09-17,"Brooklyn","ILI ED visits",273,2736074
+"605",2016-09-24,"Brooklyn","ILI ED visits",356,2736074
+"606",2016-10-01,"Brooklyn","ILI ED visits",395,2736074
+"607",2016-10-08,"Brooklyn","ILI ED visits",418,2736074
+"608",2016-10-15,"Brooklyn","ILI ED visits",371,2736074
+"609",2016-10-22,"Brooklyn","ILI ED visits",419,2736074
+"610",2016-10-29,"Brooklyn","ILI ED visits",398,2736074
+"611",2016-11-05,"Brooklyn","ILI ED visits",499,2736074
+"612",2016-11-12,"Brooklyn","ILI ED visits",489,2736074
+"613",2016-11-19,"Brooklyn","ILI ED visits",501,2736074
+"614",2016-11-26,"Brooklyn","ILI ED visits",511,2736074
+"615",2016-12-03,"Brooklyn","ILI ED visits",677,2736074
+"616",2016-12-10,"Brooklyn","ILI ED visits",707,2736074
+"617",2016-12-17,"Brooklyn","ILI ED visits",780,2736074
+"618",2016-12-24,"Brooklyn","ILI ED visits",978,2736074
+"619",2016-12-31,"Brooklyn","ILI ED visits",1301,2736074
+"620",2017-01-07,"Brooklyn","ILI ED visits",960,2736074
+"621",2017-01-14,"Brooklyn","ILI ED visits",897,2736074
+"622",2017-01-21,"Brooklyn","ILI ED visits",1017,2736074
+"623",2017-01-28,"Brooklyn","ILI ED visits",901,2736074
+"624",2017-02-04,"Brooklyn","ILI ED visits",943,2736074
+"625",2017-02-11,"Brooklyn","ILI ED visits",830,2736074
+"626",2017-02-18,"Brooklyn","ILI ED visits",737,2736074
+"627",2017-02-25,"Brooklyn","ILI ED visits",702,2736074
+"628",2017-03-04,"Brooklyn","ILI ED visits",515,2736074
+"629",2017-03-11,"Brooklyn","ILI ED visits",422,2736074
+"630",2017-03-18,"Brooklyn","ILI ED visits",491,2736074
+"631",2017-03-25,"Brooklyn","ILI ED visits",497,2736074
+"632",2017-04-01,"Brooklyn","ILI ED visits",636,2736074
+"633",2017-04-08,"Brooklyn","ILI ED visits",640,2736074
+"634",2017-04-15,"Brooklyn","ILI ED visits",520,2736074
+"635",2017-04-22,"Brooklyn","ILI ED visits",426,2736074
+"636",2017-04-29,"Brooklyn","ILI ED visits",356,2736074
+"637",2017-05-06,"Brooklyn","ILI ED visits",377,2736074
+"638",2017-05-13,"Brooklyn","ILI ED visits",390,2736074
+"639",2017-05-20,"Brooklyn","ILI ED visits",406,2736074
+"640",2017-05-27,"Brooklyn","ILI ED visits",334,2736074
+"641",2017-06-03,"Brooklyn","ILI ED visits",347,2736074
+"642",2017-06-10,"Brooklyn","ILI ED visits",325,2736074
+"643",2017-06-17,"Brooklyn","ILI ED visits",331,2736074
+"644",2017-06-24,"Brooklyn","ILI ED visits",259,2736074
+"645",2017-07-01,"Brooklyn","ILI ED visits",273,2736074
+"646",2017-07-08,"Brooklyn","ILI ED visits",271,2736074
+"647",2017-07-15,"Brooklyn","ILI ED visits",247,2736074
+"648",2017-07-22,"Brooklyn","ILI ED visits",234,2736074
+"649",2017-07-29,"Brooklyn","ILI ED visits",255,2736074
+"650",2017-08-05,"Brooklyn","ILI ED visits",224,2736074
+"651",2017-08-12,"Brooklyn","ILI ED visits",251,2736074
+"652",2017-08-19,"Brooklyn","ILI ED visits",242,2736074
+"653",2017-08-26,"Brooklyn","ILI ED visits",247,2736074
+"654",2017-09-02,"Brooklyn","ILI ED visits",212,2736074
+"655",2017-09-09,"Brooklyn","ILI ED visits",223,2736074
+"656",2017-09-16,"Brooklyn","ILI ED visits",280,2736074
+"657",2017-09-23,"Brooklyn","ILI ED visits",354,2736074
+"658",2017-09-30,"Brooklyn","ILI ED visits",317,2736074
+"659",2017-10-07,"Brooklyn","ILI ED visits",293,2736074
+"660",2017-10-14,"Brooklyn","ILI ED visits",326,2736074
+"661",2017-10-21,"Brooklyn","ILI ED visits",356,2736074
+"662",2017-10-28,"Brooklyn","ILI ED visits",403,2736074
+"663",2017-11-04,"Brooklyn","ILI ED visits",452,2736074
+"664",2017-11-11,"Brooklyn","ILI ED visits",384,2736074
+"665",2017-11-18,"Brooklyn","ILI ED visits",470,2736074
+"666",2017-11-25,"Brooklyn","ILI ED visits",502,2736074
+"667",2017-12-02,"Brooklyn","ILI ED visits",555,2736074
+"668",2017-12-09,"Brooklyn","ILI ED visits",544,2736074
+"669",2017-12-16,"Brooklyn","ILI ED visits",589,2736074
+"670",2017-12-23,"Brooklyn","ILI ED visits",660,2736074
+"671",2017-12-30,"Brooklyn","ILI ED visits",756,2736074
+"672",2018-01-06,"Brooklyn","ILI ED visits",749,2736074
+"673",2018-01-13,"Brooklyn","ILI ED visits",929,2736074
+"674",2018-01-20,"Brooklyn","ILI ED visits",1297,2736074
+"675",2018-01-27,"Brooklyn","ILI ED visits",1776,2736074
+"676",2018-02-03,"Brooklyn","ILI ED visits",2077,2736074
+"677",2018-02-10,"Brooklyn","ILI ED visits",2332,2736074
+"678",2018-02-17,"Brooklyn","ILI ED visits",2346,2736074
+"679",2018-02-24,"Brooklyn","ILI ED visits",1471,2736074
+"680",2018-03-03,"Brooklyn","ILI ED visits",832,2736074
+"681",2018-03-10,"Brooklyn","ILI ED visits",586,2736074
+"682",2018-03-17,"Brooklyn","ILI ED visits",503,2736074
+"683",2018-03-24,"Brooklyn","ILI ED visits",495,2736074
+"684",2018-03-31,"Brooklyn","ILI ED visits",459,2736074
+"685",2018-04-07,"Brooklyn","ILI ED visits",371,2736074
+"686",2018-04-14,"Brooklyn","ILI ED visits",347,2736074
+"687",2018-04-21,"Brooklyn","ILI ED visits",320,2736074
+"688",2018-04-28,"Brooklyn","ILI ED visits",308,2736074
+"689",2018-05-05,"Brooklyn","ILI ED visits",297,2736074
+"690",2018-05-12,"Brooklyn","ILI ED visits",344,2736074
+"691",2018-05-19,"Brooklyn","ILI ED visits",267,2736074
+"692",2018-05-26,"Brooklyn","ILI ED visits",315,2736074
+"693",2018-06-02,"Brooklyn","ILI ED visits",305,2736074
+"694",2018-06-09,"Brooklyn","ILI ED visits",292,2736074
+"695",2018-06-16,"Brooklyn","ILI ED visits",279,2736074
+"696",2018-06-23,"Brooklyn","ILI ED visits",215,2736074
+"697",2018-06-30,"Brooklyn","ILI ED visits",205,2736074
+"698",2018-07-07,"Brooklyn","ILI ED visits",194,2736074
+"699",2018-07-14,"Brooklyn","ILI ED visits",196,2736074
+"700",2018-07-21,"Brooklyn","ILI ED visits",176,2736074
+"701",2018-07-28,"Brooklyn","ILI ED visits",144,2736074
+"702",2018-08-04,"Brooklyn","ILI ED visits",147,2736074
+"703",2018-08-11,"Brooklyn","ILI ED visits",194,2736074
+"704",2018-08-18,"Brooklyn","ILI ED visits",209,2736074
+"705",2018-08-25,"Brooklyn","ILI ED visits",166,2736074
+"706",2018-09-01,"Brooklyn","ILI ED visits",183,2736074
+"707",2018-09-08,"Brooklyn","ILI ED visits",203,2736074
+"708",2018-09-15,"Brooklyn","ILI ED visits",211,2736074
+"709",2018-09-22,"Brooklyn","ILI ED visits",287,2736074
+"710",2018-09-29,"Brooklyn","ILI ED visits",339,2736074
+"711",2018-10-06,"Brooklyn","ILI ED visits",378,2736074
+"712",2018-10-13,"Brooklyn","ILI ED visits",331,2736074
+"713",2018-10-20,"Brooklyn","ILI ED visits",409,2736074
+"714",2018-10-27,"Brooklyn","ILI ED visits",426,2736074
+"715",2018-11-03,"Brooklyn","ILI ED visits",418,2736074
+"716",2018-11-10,"Brooklyn","ILI ED visits",416,2736074
+"717",2018-11-17,"Brooklyn","ILI ED visits",438,2736074
+"718",2018-11-24,"Brooklyn","ILI ED visits",460,2736074
+"719",2018-12-01,"Brooklyn","ILI ED visits",525,2736074
+"720",2018-12-08,"Brooklyn","ILI ED visits",534,2736074
+"721",2018-12-15,"Brooklyn","ILI ED visits",611,2736074
+"722",2018-12-22,"Brooklyn","ILI ED visits",694,2736074
+"723",2018-12-29,"Brooklyn","ILI ED visits",910,2736074
+"724",2019-01-05,"Brooklyn","ILI ED visits",836,2736074
+"725",2019-01-12,"Brooklyn","ILI ED visits",760,2736074
+"726",2019-01-19,"Brooklyn","ILI ED visits",917,2736074
+"727",2019-01-26,"Brooklyn","ILI ED visits",850,2736074
+"728",2019-02-02,"Brooklyn","ILI ED visits",959,2736074
+"729",2019-02-09,"Brooklyn","ILI ED visits",985,2736074
+"730",2019-02-16,"Brooklyn","ILI ED visits",913,2736074
+"731",2019-02-23,"Brooklyn","ILI ED visits",809,2736074
+"732",2019-03-02,"Brooklyn","ILI ED visits",595,2736074
+"733",2019-03-09,"Brooklyn","ILI ED visits",613,2736074
+"734",2019-03-16,"Brooklyn","ILI ED visits",583,2736074
+"735",2019-03-23,"Brooklyn","ILI ED visits",537,2736074
+"736",2019-03-30,"Brooklyn","ILI ED visits",540,2736074
+"737",2019-04-06,"Brooklyn","ILI ED visits",488,2736074
+"738",2019-04-13,"Brooklyn","ILI ED visits",519,2736074
+"739",2019-04-20,"Brooklyn","ILI ED visits",460,2736074
+"740",2019-04-27,"Brooklyn","ILI ED visits",384,2736074
+"741",2019-05-04,"Brooklyn","ILI ED visits",393,2736074
+"742",2019-05-11,"Brooklyn","ILI ED visits",345,2736074
+"743",2019-05-18,"Brooklyn","ILI ED visits",357,2736074
+"744",2019-05-25,"Brooklyn","ILI ED visits",415,2736074
+"745",2019-06-01,"Brooklyn","ILI ED visits",381,2736074
+"746",2019-06-08,"Brooklyn","ILI ED visits",286,2736074
+"747",2019-06-15,"Brooklyn","ILI ED visits",308,2736074
+"748",2019-06-22,"Brooklyn","ILI ED visits",285,2736074
+"749",2019-06-29,"Brooklyn","ILI ED visits",279,2736074
+"750",2019-07-06,"Brooklyn","ILI ED visits",247,2736074
+"751",2019-07-13,"Brooklyn","ILI ED visits",204,2736074
+"752",2019-07-20,"Brooklyn","ILI ED visits",203,2736074
+"753",2019-07-27,"Brooklyn","ILI ED visits",206,2736074
+"754",2019-08-03,"Brooklyn","ILI ED visits",79,2736074
+"755",2019-08-10,"Brooklyn","ILI ED visits",95,2736074
+"756",2019-08-17,"Brooklyn","ILI ED visits",189,2736074
+"757",2019-08-24,"Brooklyn","ILI ED visits",161,2736074
+"758",2019-08-31,"Brooklyn","ILI ED visits",178,2736074
+"759",2019-09-07,"Brooklyn","ILI ED visits",180,2736074
+"760",2019-09-14,"Brooklyn","ILI ED visits",226,2736074
+"761",2019-09-21,"Brooklyn","ILI ED visits",333,2736074
+"762",2019-09-28,"Brooklyn","ILI ED visits",321,2736074
+"763",2019-10-05,"Brooklyn","ILI ED visits",259,2736074
+"764",2019-10-12,"Brooklyn","ILI ED visits",250,2736074
+"765",2019-10-19,"Brooklyn","ILI ED visits",292,2736074
+"766",2019-10-26,"Brooklyn","ILI ED visits",285,2736074
+"767",2019-11-02,"Brooklyn","ILI ED visits",282,2736074
+"768",2019-11-09,"Brooklyn","ILI ED visits",379,2736074
+"769",2019-11-16,"Brooklyn","ILI ED visits",406,2736074
+"770",2019-11-23,"Brooklyn","ILI ED visits",441,2736074
+"771",2019-11-30,"Brooklyn","ILI ED visits",545,2736074
+"772",2019-12-07,"Brooklyn","ILI ED visits",627,2736074
+"773",2019-12-14,"Brooklyn","ILI ED visits",845,2736074
+"774",2019-12-21,"Brooklyn","ILI ED visits",974,2736074
+"775",2019-12-28,"Brooklyn","ILI ED visits",1523,2736074
+"776",2020-01-04,"Brooklyn","ILI ED visits",1553,2736074
+"777",2020-01-11,"Brooklyn","ILI ED visits",1517,2736074
+"778",2020-01-18,"Brooklyn","ILI ED visits",1631,2736074
+"779",2020-01-25,"Brooklyn","ILI ED visits",1820,2736074
+"780",2020-02-01,"Brooklyn","ILI ED visits",1892,2736074
+"781",2020-02-08,"Brooklyn","ILI ED visits",1729,2736074
+"782",2020-02-15,"Brooklyn","ILI ED visits",1316,2736074
+"783",2020-02-22,"Brooklyn","ILI ED visits",936,2736074
+"784",2020-02-29,"Brooklyn","ILI ED visits",788,2736074
+"785",2020-03-07,"Brooklyn","ILI ED visits",1026,2736074
+"786",2020-03-14,"Brooklyn","ILI ED visits",1528,2736074
+"787",2020-03-21,"Brooklyn","ILI ED visits",2296,2736074
+"788",2020-03-28,"Brooklyn","ILI ED visits",2504,2736074
+"789",2020-04-04,"Brooklyn","ILI ED visits",1568,2736074
+"790",2020-04-11,"Brooklyn","ILI ED visits",799,2736074
+"791",2020-04-18,"Brooklyn","ILI ED visits",419,2736074
+"792",2020-04-25,"Brooklyn","ILI ED visits",243,2736074
+"793",2020-05-02,"Brooklyn","ILI ED visits",141,2736074
+"794",2020-05-09,"Brooklyn","ILI ED visits",121,2736074
+"795",2020-05-16,"Brooklyn","ILI ED visits",110,2736074
+"796",2020-05-23,"Brooklyn","ILI ED visits",74,2736074
+"797",2020-05-30,"Brooklyn","ILI ED visits",61,2736074
+"798",2020-06-06,"Brooklyn","ILI ED visits",53,2736074
+"799",2020-06-13,"Brooklyn","ILI ED visits",71,2736074
+"800",2020-06-20,"Brooklyn","ILI ED visits",47,2736074
+"801",2020-06-27,"Brooklyn","ILI ED visits",56,2736074
+"802",2020-07-04,"Brooklyn","ILI ED visits",57,2736074
+"803",2020-07-11,"Brooklyn","ILI ED visits",67,2736074
+"804",2020-07-18,"Brooklyn","ILI ED visits",100,2736074
+"805",2020-07-25,"Brooklyn","ILI ED visits",64,2736074
+"806",2020-08-01,"Brooklyn","ILI ED visits",80,2736074
+"807",2020-08-08,"Brooklyn","ILI ED visits",87,2736074
+"808",2020-08-15,"Brooklyn","ILI ED visits",97,2736074
+"809",2020-08-22,"Brooklyn","ILI ED visits",105,2736074
+"810",2020-08-29,"Brooklyn","ILI ED visits",107,2736074
+"811",2020-09-05,"Brooklyn","ILI ED visits",98,2736074
+"812",2020-09-12,"Brooklyn","ILI ED visits",85,2736074
+"813",2020-09-19,"Brooklyn","ILI ED visits",97,2736074
+"814",2020-09-26,"Brooklyn","ILI ED visits",114,2736074
+"815",2020-10-03,"Brooklyn","ILI ED visits",141,2736074
+"816",2020-10-10,"Brooklyn","ILI ED visits",127,2736074
+"817",2020-10-17,"Brooklyn","ILI ED visits",116,2736074
+"818",2020-10-24,"Brooklyn","ILI ED visits",131,2736074
+"819",2020-10-31,"Brooklyn","ILI ED visits",138,2736074
+"820",2020-11-07,"Brooklyn","ILI ED visits",147,2736074
+"821",2020-11-14,"Brooklyn","ILI ED visits",119,2736074
+"822",2020-11-21,"Brooklyn","ILI ED visits",144,2736074
+"823",2020-11-28,"Brooklyn","ILI ED visits",136,2736074
+"824",2020-12-05,"Brooklyn","ILI ED visits",159,2736074
+"825",2020-12-12,"Brooklyn","ILI ED visits",181,2736074
+"826",2020-12-19,"Brooklyn","ILI ED visits",148,2736074
+"827",2020-12-26,"Brooklyn","ILI ED visits",183,2736074
+"828",2021-01-02,"Brooklyn","ILI ED visits",190,2736074
+"829",2021-01-09,"Brooklyn","ILI ED visits",222,2736074
+"830",2021-01-16,"Brooklyn","ILI ED visits",223,2736074
+"831",2021-01-23,"Brooklyn","ILI ED visits",227,2736074
+"832",2021-01-30,"Brooklyn","ILI ED visits",213,2736074
+"833",2021-02-06,"Brooklyn","ILI ED visits",209,2736074
+"834",2021-02-13,"Brooklyn","ILI ED visits",194,2736074
+"835",2021-02-20,"Brooklyn","ILI ED visits",148,2736074
+"836",2021-02-27,"Brooklyn","ILI ED visits",185,2736074
+"837",2021-03-06,"Brooklyn","ILI ED visits",162,2736074
+"838",2021-03-13,"Brooklyn","ILI ED visits",218,2736074
+"839",2021-03-20,"Brooklyn","ILI ED visits",257,2736074
+"840",2021-03-27,"Brooklyn","ILI ED visits",232,2736074
+"841",2021-04-03,"Brooklyn","ILI ED visits",227,2736074
+"842",2021-04-10,"Brooklyn","ILI ED visits",226,2736074
+"843",2021-04-17,"Brooklyn","ILI ED visits",172,2736074
+"844",2021-04-24,"Brooklyn","ILI ED visits",198,2736074
+"845",2021-05-01,"Brooklyn","ILI ED visits",181,2736074
+"846",2021-05-08,"Brooklyn","ILI ED visits",183,2736074
+"847",2021-05-15,"Brooklyn","ILI ED visits",157,2736074
+"848",2021-05-22,"Brooklyn","ILI ED visits",227,2736074
+"849",2021-05-29,"Brooklyn","ILI ED visits",160,2736074
+"850",2021-06-05,"Brooklyn","ILI ED visits",183,2736074
+"851",2021-06-12,"Brooklyn","ILI ED visits",197,2736074
+"852",2021-06-19,"Brooklyn","ILI ED visits",220,2736074
+"853",2021-06-26,"Brooklyn","ILI ED visits",259,2736074
+"854",2021-07-03,"Brooklyn","ILI ED visits",238,2736074
+"855",2021-07-10,"Brooklyn","ILI ED visits",257,2736074
+"856",2021-07-17,"Brooklyn","ILI ED visits",284,2736074
+"857",2021-07-24,"Brooklyn","ILI ED visits",357,2736074
+"858",2021-07-31,"Brooklyn","ILI ED visits",330,2736074
+"859",2021-08-07,"Brooklyn","ILI ED visits",319,2736074
+"860",2021-08-14,"Brooklyn","ILI ED visits",341,2736074
+"861",2021-08-21,"Brooklyn","ILI ED visits",326,2736074
+"862",2021-08-28,"Brooklyn","ILI ED visits",338,2736074
+"863",2021-09-04,"Brooklyn","ILI ED visits",281,2736074
+"864",2021-09-11,"Brooklyn","ILI ED visits",339,2736074
+"865",2021-09-18,"Brooklyn","ILI ED visits",335,2736074
+"866",2021-09-25,"Brooklyn","ILI ED visits",397,2736074
+"867",2021-10-02,"Brooklyn","ILI ED visits",486,2736074
+"868",2021-10-09,"Brooklyn","ILI ED visits",447,2736074
+"869",2021-10-16,"Brooklyn","ILI ED visits",439,2736074
+"870",2021-10-23,"Brooklyn","ILI ED visits",400,2736074
+"871",2021-10-30,"Brooklyn","ILI ED visits",404,2736074
+"872",2021-11-06,"Brooklyn","ILI ED visits",402,2736074
+"873",2021-11-13,"Brooklyn","ILI ED visits",389,2736074
+"874",2021-11-20,"Brooklyn","ILI ED visits",407,2736074
+"875",2021-11-27,"Brooklyn","ILI ED visits",385,2736074
+"876",2021-12-04,"Brooklyn","ILI ED visits",439,2736074
+"877",2021-12-11,"Brooklyn","ILI ED visits",494,2736074
+"878",2021-12-18,"Brooklyn","ILI ED visits",710,2736074
+"879",2021-12-25,"Brooklyn","ILI ED visits",1139,2736074
+"880",2022-01-01,"Brooklyn","ILI ED visits",1471,2736074
+"881",2022-01-08,"Brooklyn","ILI ED visits",834,2736074
+"882",2022-01-15,"Brooklyn","ILI ED visits",400,2736074
+"883",2022-01-22,"Brooklyn","ILI ED visits",257,2736074
+"884",2022-01-29,"Brooklyn","ILI ED visits",214,2736074
+"885",2022-02-05,"Brooklyn","ILI ED visits",142,2736074
+"886",2022-02-12,"Brooklyn","ILI ED visits",158,2736074
+"887",2022-02-19,"Brooklyn","ILI ED visits",163,2736074
+"888",2022-02-26,"Brooklyn","ILI ED visits",180,2736074
+"889",2022-03-05,"Brooklyn","ILI ED visits",194,2736074
+"890",2022-03-12,"Brooklyn","ILI ED visits",225,2736074
+"891",2022-03-19,"Brooklyn","ILI ED visits",282,2736074
+"892",2022-03-26,"Brooklyn","ILI ED visits",343,2736074
+"893",2022-04-02,"Brooklyn","ILI ED visits",348,2736074
+"894",2022-04-09,"Brooklyn","ILI ED visits",401,2736074
+"895",2022-04-16,"Brooklyn","ILI ED visits",377,2736074
+"896",2022-04-23,"Brooklyn","ILI ED visits",383,2736074
+"897",2022-04-30,"Brooklyn","ILI ED visits",377,2736074
+"898",2022-05-07,"Brooklyn","ILI ED visits",479,2736074
+"899",2022-05-14,"Brooklyn","ILI ED visits",581,2736074
+"900",2022-05-21,"Brooklyn","ILI ED visits",605,2736074
+"901",2022-05-28,"Brooklyn","ILI ED visits",597,2736074
+"902",2022-06-04,"Brooklyn","ILI ED visits",563,2736074
+"903",2022-06-11,"Brooklyn","ILI ED visits",538,2736074
+"904",2022-06-18,"Brooklyn","ILI ED visits",489,2736074
+"905",2022-06-25,"Brooklyn","ILI ED visits",482,2736074
+"906",2022-07-02,"Brooklyn","ILI ED visits",463,2736074
+"907",2022-07-09,"Brooklyn","ILI ED visits",425,2736074
+"908",2022-07-16,"Brooklyn","ILI ED visits",413,2736074
+"909",2022-07-23,"Brooklyn","ILI ED visits",375,2736074
+"910",2022-07-30,"Brooklyn","ILI ED visits",394,2736074
+"911",2022-08-06,"Brooklyn","ILI ED visits",367,2736074
+"912",2022-08-13,"Brooklyn","ILI ED visits",347,2736074
+"913",2022-08-20,"Brooklyn","ILI ED visits",335,2736074
+"914",2022-08-27,"Brooklyn","ILI ED visits",284,2736074
+"915",2022-09-03,"Brooklyn","ILI ED visits",276,2736074
+"916",2022-09-10,"Brooklyn","ILI ED visits",288,2736074
+"917",2022-09-17,"Brooklyn","ILI ED visits",432,2736074
+"918",2022-09-24,"Brooklyn","ILI ED visits",541,2736074
+"919",2022-10-01,"Brooklyn","ILI ED visits",590,2736074
+"920",2022-10-08,"Brooklyn","ILI ED visits",512,2736074
+"921",2022-10-15,"Brooklyn","ILI ED visits",751,2736074
+"922",2022-10-22,"Brooklyn","ILI ED visits",773,2736074
+"923",2022-10-29,"Brooklyn","ILI ED visits",1014,2736074
+"924",2022-11-05,"Brooklyn","ILI ED visits",1335,2736074
+"925",2022-11-12,"Brooklyn","ILI ED visits",1536,2736074
+"926",2022-11-19,"Brooklyn","ILI ED visits",1395,2736074
+"927",2022-11-26,"Brooklyn","ILI ED visits",1821,2736074
+"928",2022-12-03,"Brooklyn","ILI ED visits",2066,2736074
+"929",2022-12-10,"Brooklyn","ILI ED visits",1943,2736074
+"930",2022-12-17,"Brooklyn","ILI ED visits",1454,2736074
+"931",2022-12-24,"Brooklyn","ILI ED visits",1253,2736074
+"932",2022-12-31,"Brooklyn","ILI ED visits",1058,2736074
+"933",2023-01-07,"Brooklyn","ILI ED visits",873,2736074
+"934",2023-01-14,"Brooklyn","ILI ED visits",629,2736074
+"935",2023-01-21,"Brooklyn","ILI ED visits",576,2736074
+"936",2023-01-28,"Brooklyn","ILI ED visits",509,2736074
+"937",2023-02-04,"Brooklyn","ILI ED visits",561,2736074
+"938",2023-02-11,"Brooklyn","ILI ED visits",565,2736074
+"939",2023-02-18,"Brooklyn","ILI ED visits",579,2736074
+"940",2023-02-25,"Brooklyn","ILI ED visits",522,2736074
+"941",2023-03-04,"Brooklyn","ILI ED visits",512,2736074
+"942",2023-03-11,"Brooklyn","ILI ED visits",490,2736074
+"943",2023-03-18,"Brooklyn","ILI ED visits",584,2736074
+"944",2023-03-25,"Brooklyn","ILI ED visits",591,2736074
+"945",2023-04-01,"Brooklyn","ILI ED visits",633,2736074
+"946",2023-04-08,"Brooklyn","ILI ED visits",545,2736074
+"947",2023-04-15,"Brooklyn","ILI ED visits",479,2736074
+"948",2023-04-22,"Brooklyn","ILI ED visits",423,2736074
+"949",2023-04-29,"Brooklyn","ILI ED visits",371,2736074
+"950",2023-05-06,"Brooklyn","ILI ED visits",454,2736074
+"951",2023-05-13,"Brooklyn","ILI ED visits",549,2736074
+"952",2023-05-20,"Brooklyn","ILI ED visits",552,2736074
+"953",2023-05-27,"Brooklyn","ILI ED visits",502,2736074
+"954",2023-06-03,"Brooklyn","ILI ED visits",546,2736074
+"955",2023-06-10,"Brooklyn","ILI ED visits",397,2736074
+"956",2023-06-17,"Brooklyn","ILI ED visits",440,2736074
+"957",2023-06-24,"Brooklyn","ILI ED visits",361,2736074
+"958",2023-07-01,"Brooklyn","ILI ED visits",355,2736074
+"959",2023-07-08,"Brooklyn","ILI ED visits",322,2736074
+"960",2023-07-15,"Brooklyn","ILI ED visits",294,2736074
+"961",2023-07-22,"Brooklyn","ILI ED visits",312,2736074
+"962",2023-07-29,"Brooklyn","ILI ED visits",334,2736074
+"963",2023-08-05,"Brooklyn","ILI ED visits",305,2736074
+"964",2023-08-12,"Brooklyn","ILI ED visits",308,2736074
+"965",2023-08-19,"Brooklyn","ILI ED visits",324,2736074
+"966",2023-08-26,"Brooklyn","ILI ED visits",314,2736074
+"967",2023-09-02,"Brooklyn","ILI ED visits",296,2736074
+"968",2023-09-09,"Brooklyn","ILI ED visits",370,2736074
+"969",2023-09-16,"Brooklyn","ILI ED visits",336,2736074
+"970",2023-09-23,"Brooklyn","ILI ED visits",460,2736074
+"971",2023-09-30,"Brooklyn","ILI ED visits",439,2736074
+"972",2023-10-07,"Brooklyn","ILI ED visits",458,2736074
+"973",2023-10-14,"Brooklyn","ILI ED visits",462,2736074
+"974",2023-10-21,"Brooklyn","ILI ED visits",589,2736074
+"975",2023-10-28,"Brooklyn","ILI ED visits",608,2736074
+"976",2023-11-04,"Brooklyn","ILI ED visits",664,2736074
+"977",2023-11-11,"Brooklyn","ILI ED visits",743,2736074
+"978",2023-11-18,"Brooklyn","ILI ED visits",818,2736074
+"979",2023-11-25,"Brooklyn","ILI ED visits",739,2736074
+"980",2023-12-02,"Brooklyn","ILI ED visits",903,2736074
+"981",2023-12-09,"Brooklyn","ILI ED visits",1007,2736074
+"982",2023-12-16,"Brooklyn","ILI ED visits",1292,2736074
+"983",2023-12-23,"Brooklyn","ILI ED visits",1419,2736074
+"984",2023-12-30,"Brooklyn","ILI ED visits",1729,2736074
+"985",2024-01-06,"Brooklyn","ILI ED visits",1364,2736074
+"986",2024-01-13,"Brooklyn","ILI ED visits",1155,2736074
+"987",2024-01-20,"Brooklyn","ILI ED visits",950,2736074
+"988",2024-01-27,"Brooklyn","ILI ED visits",1051,2736074
+"989",2024-02-03,"Brooklyn","ILI ED visits",997,2736074
+"990",2024-02-10,"Brooklyn","ILI ED visits",1095,2736074
+"991",2024-02-17,"Brooklyn","ILI ED visits",900,2736074
+"992",2024-02-24,"Brooklyn","ILI ED visits",829,2736074
+"993",2024-03-02,"Brooklyn","ILI ED visits",720,2736074
+"994",2024-03-09,"Brooklyn","ILI ED visits",641,2736074
+"995",2024-03-16,"Brooklyn","ILI ED visits",668,2736074
+"996",2024-03-23,"Brooklyn","ILI ED visits",630,2736074
+"997",2024-03-30,"Brooklyn","ILI ED visits",663,2736074
+"998",2024-04-06,"Brooklyn","ILI ED visits",671,2736074
+"999",2024-04-13,"Brooklyn","ILI ED visits",627,2736074
+"1000",2024-04-20,"Brooklyn","ILI ED visits",573,2736074
+"1001",2024-04-27,"Brooklyn","ILI ED visits",509,2736074
+"1002",2024-05-04,"Brooklyn","ILI ED visits",418,2736074
+"1003",2024-05-11,"Brooklyn","ILI ED visits",393,2736074
+"1004",2024-05-18,"Brooklyn","ILI ED visits",464,2736074
+"1005",2024-05-25,"Brooklyn","ILI ED visits",455,2736074
+"1006",2024-06-01,"Brooklyn","ILI ED visits",441,2736074
+"1007",2024-06-08,"Brooklyn","ILI ED visits",449,2736074
+"1008",2024-06-15,"Brooklyn","ILI ED visits",352,2736074
+"1009",2024-06-22,"Brooklyn","ILI ED visits",383,2736074
+"1010",2024-06-29,"Brooklyn","ILI ED visits",368,2736074
+"1011",2024-07-06,"Brooklyn","ILI ED visits",340,2736074
+"1012",2024-07-13,"Brooklyn","ILI ED visits",351,2736074
+"1013",2024-07-20,"Brooklyn","ILI ED visits",344,2736074
+"1014",2024-07-27,"Brooklyn","ILI ED visits",353,2736074
+"1015",2024-08-03,"Brooklyn","ILI ED visits",318,2736074
+"1016",2024-08-10,"Brooklyn","ILI ED visits",309,2736074
+"1017",2024-08-17,"Brooklyn","ILI ED visits",332,2736074
+"1018",2024-08-24,"Brooklyn","ILI ED visits",350,2736074
+"1019",2024-08-31,"Brooklyn","ILI ED visits",329,2736074
+"1020",2024-09-07,"Brooklyn","ILI ED visits",301,2736074
+"1021",2024-09-14,"Brooklyn","ILI ED visits",418,2736074
+"1022",2024-09-21,"Brooklyn","ILI ED visits",552,2736074
+"1023",2024-09-28,"Brooklyn","ILI ED visits",552,2736074
+"1024",2024-10-05,"Brooklyn","ILI ED visits",578,2736074
+"1025",2024-10-12,"Brooklyn","ILI ED visits",553,2736074
+"1026",2024-10-19,"Brooklyn","ILI ED visits",585,2736074
+"1027",2024-10-26,"Brooklyn","ILI ED visits",638,2736074
+"1028",2024-11-02,"Brooklyn","ILI ED visits",627,2736074
+"1029",2024-11-09,"Brooklyn","ILI ED visits",687,2736074
+"1030",2024-11-16,"Brooklyn","ILI ED visits",698,2736074
+"1031",2024-11-23,"Brooklyn","ILI ED visits",825,2736074
+"1032",2024-11-30,"Brooklyn","ILI ED visits",895,2736074
+"1033",2024-12-07,"Brooklyn","ILI ED visits",947,2736074
+"1034",2024-12-21,"Brooklyn","ILI ED visits",1339,2736074
+"1035",2024-12-28,"Brooklyn","ILI ED visits",1578,2736074
+"1036",2016-01-02,"Manhattan","ILI ED visits",84,1694251
+"1037",2016-01-09,"Manhattan","ILI ED visits",241,1694251
+"1038",2016-01-16,"Manhattan","ILI ED visits",247,1694251
+"1039",2016-01-23,"Manhattan","ILI ED visits",235,1694251
+"1040",2016-01-30,"Manhattan","ILI ED visits",244,1694251
+"1041",2016-02-06,"Manhattan","ILI ED visits",288,1694251
+"1042",2016-02-13,"Manhattan","ILI ED visits",345,1694251
+"1043",2016-02-20,"Manhattan","ILI ED visits",408,1694251
+"1044",2016-02-27,"Manhattan","ILI ED visits",440,1694251
+"1045",2016-03-05,"Manhattan","ILI ED visits",477,1694251
+"1046",2016-03-12,"Manhattan","ILI ED visits",464,1694251
+"1047",2016-03-19,"Manhattan","ILI ED visits",422,1694251
+"1048",2016-03-26,"Manhattan","ILI ED visits",385,1694251
+"1049",2016-04-02,"Manhattan","ILI ED visits",324,1694251
+"1050",2016-04-09,"Manhattan","ILI ED visits",274,1694251
+"1051",2016-04-16,"Manhattan","ILI ED visits",289,1694251
+"1052",2016-04-23,"Manhattan","ILI ED visits",299,1694251
+"1053",2016-04-30,"Manhattan","ILI ED visits",252,1694251
+"1054",2016-05-07,"Manhattan","ILI ED visits",210,1694251
+"1055",2016-05-14,"Manhattan","ILI ED visits",230,1694251
+"1056",2016-05-21,"Manhattan","ILI ED visits",206,1694251
+"1057",2016-05-28,"Manhattan","ILI ED visits",226,1694251
+"1058",2016-06-04,"Manhattan","ILI ED visits",182,1694251
+"1059",2016-06-11,"Manhattan","ILI ED visits",159,1694251
+"1060",2016-06-18,"Manhattan","ILI ED visits",160,1694251
+"1061",2016-06-25,"Manhattan","ILI ED visits",140,1694251
+"1062",2016-07-02,"Manhattan","ILI ED visits",105,1694251
+"1063",2016-07-09,"Manhattan","ILI ED visits",106,1694251
+"1064",2016-07-16,"Manhattan","ILI ED visits",93,1694251
+"1065",2016-07-23,"Manhattan","ILI ED visits",126,1694251
+"1066",2016-07-30,"Manhattan","ILI ED visits",125,1694251
+"1067",2016-08-06,"Manhattan","ILI ED visits",91,1694251
+"1068",2016-08-13,"Manhattan","ILI ED visits",143,1694251
+"1069",2016-08-20,"Manhattan","ILI ED visits",139,1694251
+"1070",2016-08-27,"Manhattan","ILI ED visits",142,1694251
+"1071",2016-09-03,"Manhattan","ILI ED visits",124,1694251
+"1072",2016-09-10,"Manhattan","ILI ED visits",137,1694251
+"1073",2016-09-17,"Manhattan","ILI ED visits",115,1694251
+"1074",2016-09-24,"Manhattan","ILI ED visits",171,1694251
+"1075",2016-10-01,"Manhattan","ILI ED visits",164,1694251
+"1076",2016-10-08,"Manhattan","ILI ED visits",165,1694251
+"1077",2016-10-15,"Manhattan","ILI ED visits",176,1694251
+"1078",2016-10-22,"Manhattan","ILI ED visits",206,1694251
+"1079",2016-10-29,"Manhattan","ILI ED visits",156,1694251
+"1080",2016-11-05,"Manhattan","ILI ED visits",204,1694251
+"1081",2016-11-12,"Manhattan","ILI ED visits",212,1694251
+"1082",2016-11-19,"Manhattan","ILI ED visits",204,1694251
+"1083",2016-11-26,"Manhattan","ILI ED visits",242,1694251
+"1084",2016-12-03,"Manhattan","ILI ED visits",247,1694251
+"1085",2016-12-10,"Manhattan","ILI ED visits",287,1694251
+"1086",2016-12-17,"Manhattan","ILI ED visits",329,1694251
+"1087",2016-12-24,"Manhattan","ILI ED visits",416,1694251
+"1088",2016-12-31,"Manhattan","ILI ED visits",501,1694251
+"1089",2017-01-07,"Manhattan","ILI ED visits",427,1694251
+"1090",2017-01-14,"Manhattan","ILI ED visits",459,1694251
+"1091",2017-01-21,"Manhattan","ILI ED visits",480,1694251
+"1092",2017-01-28,"Manhattan","ILI ED visits",454,1694251
+"1093",2017-02-04,"Manhattan","ILI ED visits",448,1694251
+"1094",2017-02-11,"Manhattan","ILI ED visits",430,1694251
+"1095",2017-02-18,"Manhattan","ILI ED visits",357,1694251
+"1096",2017-02-25,"Manhattan","ILI ED visits",289,1694251
+"1097",2017-03-04,"Manhattan","ILI ED visits",211,1694251
+"1098",2017-03-11,"Manhattan","ILI ED visits",206,1694251
+"1099",2017-03-18,"Manhattan","ILI ED visits",187,1694251
+"1100",2017-03-25,"Manhattan","ILI ED visits",248,1694251
+"1101",2017-04-01,"Manhattan","ILI ED visits",271,1694251
+"1102",2017-04-08,"Manhattan","ILI ED visits",265,1694251
+"1103",2017-04-15,"Manhattan","ILI ED visits",199,1694251
+"1104",2017-04-22,"Manhattan","ILI ED visits",205,1694251
+"1105",2017-04-29,"Manhattan","ILI ED visits",185,1694251
+"1106",2017-05-06,"Manhattan","ILI ED visits",169,1694251
+"1107",2017-05-13,"Manhattan","ILI ED visits",195,1694251
+"1108",2017-05-20,"Manhattan","ILI ED visits",189,1694251
+"1109",2017-05-27,"Manhattan","ILI ED visits",150,1694251
+"1110",2017-06-03,"Manhattan","ILI ED visits",162,1694251
+"1111",2017-06-10,"Manhattan","ILI ED visits",160,1694251
+"1112",2017-06-17,"Manhattan","ILI ED visits",127,1694251
+"1113",2017-06-24,"Manhattan","ILI ED visits",135,1694251
+"1114",2017-07-01,"Manhattan","ILI ED visits",143,1694251
+"1115",2017-07-08,"Manhattan","ILI ED visits",112,1694251
+"1116",2017-07-15,"Manhattan","ILI ED visits",100,1694251
+"1117",2017-07-22,"Manhattan","ILI ED visits",86,1694251
+"1118",2017-07-29,"Manhattan","ILI ED visits",106,1694251
+"1119",2017-08-05,"Manhattan","ILI ED visits",99,1694251
+"1120",2017-08-12,"Manhattan","ILI ED visits",114,1694251
+"1121",2017-08-19,"Manhattan","ILI ED visits",108,1694251
+"1122",2017-08-26,"Manhattan","ILI ED visits",94,1694251
+"1123",2017-09-02,"Manhattan","ILI ED visits",126,1694251
+"1124",2017-09-09,"Manhattan","ILI ED visits",104,1694251
+"1125",2017-09-16,"Manhattan","ILI ED visits",115,1694251
+"1126",2017-09-23,"Manhattan","ILI ED visits",149,1694251
+"1127",2017-09-30,"Manhattan","ILI ED visits",122,1694251
+"1128",2017-10-07,"Manhattan","ILI ED visits",133,1694251
+"1129",2017-10-14,"Manhattan","ILI ED visits",150,1694251
+"1130",2017-10-21,"Manhattan","ILI ED visits",157,1694251
+"1131",2017-10-28,"Manhattan","ILI ED visits",139,1694251
+"1132",2017-11-04,"Manhattan","ILI ED visits",181,1694251
+"1133",2017-11-11,"Manhattan","ILI ED visits",220,1694251
+"1134",2017-11-18,"Manhattan","ILI ED visits",257,1694251
+"1135",2017-11-25,"Manhattan","ILI ED visits",225,1694251
+"1136",2017-12-02,"Manhattan","ILI ED visits",271,1694251
+"1137",2017-12-09,"Manhattan","ILI ED visits",254,1694251
+"1138",2017-12-16,"Manhattan","ILI ED visits",273,1694251
+"1139",2017-12-23,"Manhattan","ILI ED visits",311,1694251
+"1140",2017-12-30,"Manhattan","ILI ED visits",389,1694251
+"1141",2018-01-06,"Manhattan","ILI ED visits",366,1694251
+"1142",2018-01-13,"Manhattan","ILI ED visits",493,1694251
+"1143",2018-01-20,"Manhattan","ILI ED visits",612,1694251
+"1144",2018-01-27,"Manhattan","ILI ED visits",884,1694251
+"1145",2018-02-03,"Manhattan","ILI ED visits",953,1694251
+"1146",2018-02-10,"Manhattan","ILI ED visits",1240,1694251
+"1147",2018-02-17,"Manhattan","ILI ED visits",1181,1694251
+"1148",2018-02-24,"Manhattan","ILI ED visits",752,1694251
+"1149",2018-03-03,"Manhattan","ILI ED visits",442,1694251
+"1150",2018-03-10,"Manhattan","ILI ED visits",335,1694251
+"1151",2018-03-17,"Manhattan","ILI ED visits",291,1694251
+"1152",2018-03-24,"Manhattan","ILI ED visits",265,1694251
+"1153",2018-03-31,"Manhattan","ILI ED visits",247,1694251
+"1154",2018-04-07,"Manhattan","ILI ED visits",191,1694251
+"1155",2018-04-14,"Manhattan","ILI ED visits",185,1694251
+"1156",2018-04-21,"Manhattan","ILI ED visits",187,1694251
+"1157",2018-04-28,"Manhattan","ILI ED visits",173,1694251
+"1158",2018-05-05,"Manhattan","ILI ED visits",165,1694251
+"1159",2018-05-12,"Manhattan","ILI ED visits",140,1694251
+"1160",2018-05-19,"Manhattan","ILI ED visits",161,1694251
+"1161",2018-05-26,"Manhattan","ILI ED visits",162,1694251
+"1162",2018-06-02,"Manhattan","ILI ED visits",178,1694251
+"1163",2018-06-09,"Manhattan","ILI ED visits",144,1694251
+"1164",2018-06-16,"Manhattan","ILI ED visits",143,1694251
+"1165",2018-06-23,"Manhattan","ILI ED visits",122,1694251
+"1166",2018-06-30,"Manhattan","ILI ED visits",101,1694251
+"1167",2018-07-07,"Manhattan","ILI ED visits",80,1694251
+"1168",2018-07-14,"Manhattan","ILI ED visits",98,1694251
+"1169",2018-07-21,"Manhattan","ILI ED visits",96,1694251
+"1170",2018-07-28,"Manhattan","ILI ED visits",87,1694251
+"1171",2018-08-04,"Manhattan","ILI ED visits",78,1694251
+"1172",2018-08-11,"Manhattan","ILI ED visits",96,1694251
+"1173",2018-08-18,"Manhattan","ILI ED visits",78,1694251
+"1174",2018-08-25,"Manhattan","ILI ED visits",90,1694251
+"1175",2018-09-01,"Manhattan","ILI ED visits",89,1694251
+"1176",2018-09-08,"Manhattan","ILI ED visits",119,1694251
+"1177",2018-09-15,"Manhattan","ILI ED visits",117,1694251
+"1178",2018-09-22,"Manhattan","ILI ED visits",168,1694251
+"1179",2018-09-29,"Manhattan","ILI ED visits",187,1694251
+"1180",2018-10-06,"Manhattan","ILI ED visits",227,1694251
+"1181",2018-10-13,"Manhattan","ILI ED visits",225,1694251
+"1182",2018-10-20,"Manhattan","ILI ED visits",247,1694251
+"1183",2018-10-27,"Manhattan","ILI ED visits",270,1694251
+"1184",2018-11-03,"Manhattan","ILI ED visits",228,1694251
+"1185",2018-11-10,"Manhattan","ILI ED visits",228,1694251
+"1186",2018-11-17,"Manhattan","ILI ED visits",219,1694251
+"1187",2018-11-24,"Manhattan","ILI ED visits",256,1694251
+"1188",2018-12-01,"Manhattan","ILI ED visits",261,1694251
+"1189",2018-12-08,"Manhattan","ILI ED visits",260,1694251
+"1190",2018-12-15,"Manhattan","ILI ED visits",325,1694251
+"1191",2018-12-22,"Manhattan","ILI ED visits",377,1694251
+"1192",2018-12-29,"Manhattan","ILI ED visits",420,1694251
+"1193",2019-01-05,"Manhattan","ILI ED visits",409,1694251
+"1194",2019-01-12,"Manhattan","ILI ED visits",381,1694251
+"1195",2019-01-19,"Manhattan","ILI ED visits",400,1694251
+"1196",2019-01-26,"Manhattan","ILI ED visits",365,1694251
+"1197",2019-02-02,"Manhattan","ILI ED visits",398,1694251
+"1198",2019-02-09,"Manhattan","ILI ED visits",458,1694251
+"1199",2019-02-16,"Manhattan","ILI ED visits",372,1694251
+"1200",2019-02-23,"Manhattan","ILI ED visits",356,1694251
+"1201",2019-03-02,"Manhattan","ILI ED visits",263,1694251
+"1202",2019-03-09,"Manhattan","ILI ED visits",288,1694251
+"1203",2019-03-16,"Manhattan","ILI ED visits",291,1694251
+"1204",2019-03-23,"Manhattan","ILI ED visits",254,1694251
+"1205",2019-03-30,"Manhattan","ILI ED visits",227,1694251
+"1206",2019-04-06,"Manhattan","ILI ED visits",247,1694251
+"1207",2019-04-13,"Manhattan","ILI ED visits",286,1694251
+"1208",2019-04-20,"Manhattan","ILI ED visits",243,1694251
+"1209",2019-04-27,"Manhattan","ILI ED visits",181,1694251
+"1210",2019-05-04,"Manhattan","ILI ED visits",187,1694251
+"1211",2019-05-11,"Manhattan","ILI ED visits",199,1694251
+"1212",2019-05-18,"Manhattan","ILI ED visits",167,1694251
+"1213",2019-05-25,"Manhattan","ILI ED visits",169,1694251
+"1214",2019-06-01,"Manhattan","ILI ED visits",170,1694251
+"1215",2019-06-08,"Manhattan","ILI ED visits",157,1694251
+"1216",2019-06-15,"Manhattan","ILI ED visits",172,1694251
+"1217",2019-06-22,"Manhattan","ILI ED visits",137,1694251
+"1218",2019-06-29,"Manhattan","ILI ED visits",144,1694251
+"1219",2019-07-06,"Manhattan","ILI ED visits",143,1694251
+"1220",2019-07-13,"Manhattan","ILI ED visits",121,1694251
+"1221",2019-07-20,"Manhattan","ILI ED visits",106,1694251
+"1222",2019-07-27,"Manhattan","ILI ED visits",123,1694251
+"1223",2019-08-03,"Manhattan","ILI ED visits",43,1694251
+"1224",2019-08-10,"Manhattan","ILI ED visits",63,1694251
+"1225",2019-08-17,"Manhattan","ILI ED visits",93,1694251
+"1226",2019-08-24,"Manhattan","ILI ED visits",99,1694251
+"1227",2019-08-31,"Manhattan","ILI ED visits",97,1694251
+"1228",2019-09-07,"Manhattan","ILI ED visits",111,1694251
+"1229",2019-09-14,"Manhattan","ILI ED visits",135,1694251
+"1230",2019-09-21,"Manhattan","ILI ED visits",176,1694251
+"1231",2019-09-28,"Manhattan","ILI ED visits",198,1694251
+"1232",2019-10-05,"Manhattan","ILI ED visits",179,1694251
+"1233",2019-10-12,"Manhattan","ILI ED visits",161,1694251
+"1234",2019-10-19,"Manhattan","ILI ED visits",145,1694251
+"1235",2019-10-26,"Manhattan","ILI ED visits",176,1694251
+"1236",2019-11-02,"Manhattan","ILI ED visits",185,1694251
+"1237",2019-11-09,"Manhattan","ILI ED visits",199,1694251
+"1238",2019-11-16,"Manhattan","ILI ED visits",251,1694251
+"1239",2019-11-23,"Manhattan","ILI ED visits",257,1694251
+"1240",2019-11-30,"Manhattan","ILI ED visits",297,1694251
+"1241",2019-12-07,"Manhattan","ILI ED visits",385,1694251
+"1242",2019-12-14,"Manhattan","ILI ED visits",492,1694251
+"1243",2019-12-21,"Manhattan","ILI ED visits",509,1694251
+"1244",2019-12-28,"Manhattan","ILI ED visits",702,1694251
+"1245",2020-01-04,"Manhattan","ILI ED visits",823,1694251
+"1246",2020-01-11,"Manhattan","ILI ED visits",817,1694251
+"1247",2020-01-18,"Manhattan","ILI ED visits",833,1694251
+"1248",2020-01-25,"Manhattan","ILI ED visits",898,1694251
+"1249",2020-02-01,"Manhattan","ILI ED visits",973,1694251
+"1250",2020-02-08,"Manhattan","ILI ED visits",768,1694251
+"1251",2020-02-15,"Manhattan","ILI ED visits",578,1694251
+"1252",2020-02-22,"Manhattan","ILI ED visits",500,1694251
+"1253",2020-02-29,"Manhattan","ILI ED visits",346,1694251
+"1254",2020-03-07,"Manhattan","ILI ED visits",567,1694251
+"1255",2020-03-14,"Manhattan","ILI ED visits",1020,1694251
+"1256",2020-03-21,"Manhattan","ILI ED visits",1245,1694251
+"1257",2020-03-28,"Manhattan","ILI ED visits",1209,1694251
+"1258",2020-04-04,"Manhattan","ILI ED visits",872,1694251
+"1259",2020-04-11,"Manhattan","ILI ED visits",433,1694251
+"1260",2020-04-18,"Manhattan","ILI ED visits",283,1694251
+"1261",2020-04-25,"Manhattan","ILI ED visits",151,1694251
+"1262",2020-05-02,"Manhattan","ILI ED visits",96,1694251
+"1263",2020-05-09,"Manhattan","ILI ED visits",86,1694251
+"1264",2020-05-16,"Manhattan","ILI ED visits",75,1694251
+"1265",2020-05-23,"Manhattan","ILI ED visits",69,1694251
+"1266",2020-05-30,"Manhattan","ILI ED visits",49,1694251
+"1267",2020-06-06,"Manhattan","ILI ED visits",59,1694251
+"1268",2020-06-13,"Manhattan","ILI ED visits",36,1694251
+"1269",2020-06-20,"Manhattan","ILI ED visits",50,1694251
+"1270",2020-06-27,"Manhattan","ILI ED visits",52,1694251
+"1271",2020-07-04,"Manhattan","ILI ED visits",46,1694251
+"1272",2020-07-11,"Manhattan","ILI ED visits",77,1694251
+"1273",2020-07-18,"Manhattan","ILI ED visits",64,1694251
+"1274",2020-07-25,"Manhattan","ILI ED visits",82,1694251
+"1275",2020-08-01,"Manhattan","ILI ED visits",74,1694251
+"1276",2020-08-08,"Manhattan","ILI ED visits",80,1694251
+"1277",2020-08-15,"Manhattan","ILI ED visits",79,1694251
+"1278",2020-08-22,"Manhattan","ILI ED visits",91,1694251
+"1279",2020-08-29,"Manhattan","ILI ED visits",102,1694251
+"1280",2020-09-05,"Manhattan","ILI ED visits",69,1694251
+"1281",2020-09-12,"Manhattan","ILI ED visits",85,1694251
+"1282",2020-09-19,"Manhattan","ILI ED visits",71,1694251
+"1283",2020-09-26,"Manhattan","ILI ED visits",62,1694251
+"1284",2020-10-03,"Manhattan","ILI ED visits",72,1694251
+"1285",2020-10-10,"Manhattan","ILI ED visits",80,1694251
+"1286",2020-10-17,"Manhattan","ILI ED visits",62,1694251
+"1287",2020-10-24,"Manhattan","ILI ED visits",97,1694251
+"1288",2020-10-31,"Manhattan","ILI ED visits",70,1694251
+"1289",2020-11-07,"Manhattan","ILI ED visits",75,1694251
+"1290",2020-11-14,"Manhattan","ILI ED visits",82,1694251
+"1291",2020-11-21,"Manhattan","ILI ED visits",95,1694251
+"1292",2020-11-28,"Manhattan","ILI ED visits",94,1694251
+"1293",2020-12-05,"Manhattan","ILI ED visits",86,1694251
+"1294",2020-12-12,"Manhattan","ILI ED visits",104,1694251
+"1295",2020-12-19,"Manhattan","ILI ED visits",91,1694251
+"1296",2020-12-26,"Manhattan","ILI ED visits",99,1694251
+"1297",2021-01-02,"Manhattan","ILI ED visits",94,1694251
+"1298",2021-01-09,"Manhattan","ILI ED visits",88,1694251
+"1299",2021-01-16,"Manhattan","ILI ED visits",102,1694251
+"1300",2021-01-23,"Manhattan","ILI ED visits",117,1694251
+"1301",2021-01-30,"Manhattan","ILI ED visits",101,1694251
+"1302",2021-02-06,"Manhattan","ILI ED visits",78,1694251
+"1303",2021-02-13,"Manhattan","ILI ED visits",119,1694251
+"1304",2021-02-20,"Manhattan","ILI ED visits",83,1694251
+"1305",2021-02-27,"Manhattan","ILI ED visits",98,1694251
+"1306",2021-03-06,"Manhattan","ILI ED visits",87,1694251
+"1307",2021-03-13,"Manhattan","ILI ED visits",112,1694251
+"1308",2021-03-20,"Manhattan","ILI ED visits",111,1694251
+"1309",2021-03-27,"Manhattan","ILI ED visits",102,1694251
+"1310",2021-04-03,"Manhattan","ILI ED visits",93,1694251
+"1311",2021-04-10,"Manhattan","ILI ED visits",111,1694251
+"1312",2021-04-17,"Manhattan","ILI ED visits",104,1694251
+"1313",2021-04-24,"Manhattan","ILI ED visits",92,1694251
+"1314",2021-05-01,"Manhattan","ILI ED visits",79,1694251
+"1315",2021-05-08,"Manhattan","ILI ED visits",93,1694251
+"1316",2021-05-15,"Manhattan","ILI ED visits",87,1694251
+"1317",2021-05-22,"Manhattan","ILI ED visits",79,1694251
+"1318",2021-05-29,"Manhattan","ILI ED visits",92,1694251
+"1319",2021-06-05,"Manhattan","ILI ED visits",79,1694251
+"1320",2021-06-12,"Manhattan","ILI ED visits",97,1694251
+"1321",2021-06-19,"Manhattan","ILI ED visits",126,1694251
+"1322",2021-06-26,"Manhattan","ILI ED visits",109,1694251
+"1323",2021-07-03,"Manhattan","ILI ED visits",95,1694251
+"1324",2021-07-10,"Manhattan","ILI ED visits",127,1694251
+"1325",2021-07-17,"Manhattan","ILI ED visits",109,1694251
+"1326",2021-07-24,"Manhattan","ILI ED visits",152,1694251
+"1327",2021-07-31,"Manhattan","ILI ED visits",171,1694251
+"1328",2021-08-07,"Manhattan","ILI ED visits",148,1694251
+"1329",2021-08-14,"Manhattan","ILI ED visits",148,1694251
+"1330",2021-08-21,"Manhattan","ILI ED visits",190,1694251
+"1331",2021-08-28,"Manhattan","ILI ED visits",174,1694251
+"1332",2021-09-04,"Manhattan","ILI ED visits",133,1694251
+"1333",2021-09-11,"Manhattan","ILI ED visits",149,1694251
+"1334",2021-09-18,"Manhattan","ILI ED visits",154,1694251
+"1335",2021-09-25,"Manhattan","ILI ED visits",220,1694251
+"1336",2021-10-02,"Manhattan","ILI ED visits",212,1694251
+"1337",2021-10-09,"Manhattan","ILI ED visits",223,1694251
+"1338",2021-10-16,"Manhattan","ILI ED visits",249,1694251
+"1339",2021-10-23,"Manhattan","ILI ED visits",196,1694251
+"1340",2021-10-30,"Manhattan","ILI ED visits",171,1694251
+"1341",2021-11-06,"Manhattan","ILI ED visits",197,1694251
+"1342",2021-11-13,"Manhattan","ILI ED visits",197,1694251
+"1343",2021-11-20,"Manhattan","ILI ED visits",172,1694251
+"1344",2021-11-27,"Manhattan","ILI ED visits",174,1694251
+"1345",2021-12-04,"Manhattan","ILI ED visits",203,1694251
+"1346",2021-12-11,"Manhattan","ILI ED visits",238,1694251
+"1347",2021-12-18,"Manhattan","ILI ED visits",424,1694251
+"1348",2021-12-25,"Manhattan","ILI ED visits",640,1694251
+"1349",2022-01-01,"Manhattan","ILI ED visits",740,1694251
+"1350",2022-01-08,"Manhattan","ILI ED visits",436,1694251
+"1351",2022-01-15,"Manhattan","ILI ED visits",207,1694251
+"1352",2022-01-22,"Manhattan","ILI ED visits",141,1694251
+"1353",2022-01-29,"Manhattan","ILI ED visits",121,1694251
+"1354",2022-02-05,"Manhattan","ILI ED visits",102,1694251
+"1355",2022-02-12,"Manhattan","ILI ED visits",71,1694251
+"1356",2022-02-19,"Manhattan","ILI ED visits",105,1694251
+"1357",2022-02-26,"Manhattan","ILI ED visits",89,1694251
+"1358",2022-03-05,"Manhattan","ILI ED visits",114,1694251
+"1359",2022-03-12,"Manhattan","ILI ED visits",125,1694251
+"1360",2022-03-19,"Manhattan","ILI ED visits",138,1694251
+"1361",2022-03-26,"Manhattan","ILI ED visits",134,1694251
+"1362",2022-04-02,"Manhattan","ILI ED visits",186,1694251
+"1363",2022-04-09,"Manhattan","ILI ED visits",248,1694251
+"1364",2022-04-16,"Manhattan","ILI ED visits",245,1694251
+"1365",2022-04-23,"Manhattan","ILI ED visits",196,1694251
+"1366",2022-04-30,"Manhattan","ILI ED visits",228,1694251
+"1367",2022-05-07,"Manhattan","ILI ED visits",266,1694251
+"1368",2022-05-14,"Manhattan","ILI ED visits",300,1694251
+"1369",2022-05-21,"Manhattan","ILI ED visits",328,1694251
+"1370",2022-05-28,"Manhattan","ILI ED visits",305,1694251
+"1371",2022-06-04,"Manhattan","ILI ED visits",257,1694251
+"1372",2022-06-11,"Manhattan","ILI ED visits",264,1694251
+"1373",2022-06-18,"Manhattan","ILI ED visits",252,1694251
+"1374",2022-06-25,"Manhattan","ILI ED visits",268,1694251
+"1375",2022-07-02,"Manhattan","ILI ED visits",265,1694251
+"1376",2022-07-09,"Manhattan","ILI ED visits",262,1694251
+"1377",2022-07-16,"Manhattan","ILI ED visits",220,1694251
+"1378",2022-07-23,"Manhattan","ILI ED visits",230,1694251
+"1379",2022-07-30,"Manhattan","ILI ED visits",246,1694251
+"1380",2022-08-06,"Manhattan","ILI ED visits",225,1694251
+"1381",2022-08-13,"Manhattan","ILI ED visits",204,1694251
+"1382",2022-08-20,"Manhattan","ILI ED visits",219,1694251
+"1383",2022-08-27,"Manhattan","ILI ED visits",173,1694251
+"1384",2022-09-03,"Manhattan","ILI ED visits",181,1694251
+"1385",2022-09-10,"Manhattan","ILI ED visits",173,1694251
+"1386",2022-09-17,"Manhattan","ILI ED visits",230,1694251
+"1387",2022-09-24,"Manhattan","ILI ED visits",342,1694251
+"1388",2022-10-01,"Manhattan","ILI ED visits",339,1694251
+"1389",2022-10-08,"Manhattan","ILI ED visits",347,1694251
+"1390",2022-10-15,"Manhattan","ILI ED visits",395,1694251
+"1391",2022-10-22,"Manhattan","ILI ED visits",461,1694251
+"1392",2022-10-29,"Manhattan","ILI ED visits",569,1694251
+"1393",2022-11-05,"Manhattan","ILI ED visits",722,1694251
+"1394",2022-11-12,"Manhattan","ILI ED visits",793,1694251
+"1395",2022-11-19,"Manhattan","ILI ED visits",724,1694251
+"1396",2022-11-26,"Manhattan","ILI ED visits",946,1694251
+"1397",2022-12-03,"Manhattan","ILI ED visits",1058,1694251
+"1398",2022-12-10,"Manhattan","ILI ED visits",970,1694251
+"1399",2022-12-17,"Manhattan","ILI ED visits",876,1694251
+"1400",2022-12-24,"Manhattan","ILI ED visits",754,1694251
+"1401",2022-12-31,"Manhattan","ILI ED visits",621,1694251
+"1402",2023-01-07,"Manhattan","ILI ED visits",479,1694251
+"1403",2023-01-14,"Manhattan","ILI ED visits",393,1694251
+"1404",2023-01-21,"Manhattan","ILI ED visits",316,1694251
+"1405",2023-01-28,"Manhattan","ILI ED visits",313,1694251
+"1406",2023-02-04,"Manhattan","ILI ED visits",321,1694251
+"1407",2023-02-11,"Manhattan","ILI ED visits",343,1694251
+"1408",2023-02-18,"Manhattan","ILI ED visits",291,1694251
+"1409",2023-02-25,"Manhattan","ILI ED visits",320,1694251
+"1410",2023-03-04,"Manhattan","ILI ED visits",313,1694251
+"1411",2023-03-11,"Manhattan","ILI ED visits",275,1694251
+"1412",2023-03-18,"Manhattan","ILI ED visits",317,1694251
+"1413",2023-03-25,"Manhattan","ILI ED visits",362,1694251
+"1414",2023-04-01,"Manhattan","ILI ED visits",357,1694251
+"1415",2023-04-08,"Manhattan","ILI ED visits",329,1694251
+"1416",2023-04-15,"Manhattan","ILI ED visits",324,1694251
+"1417",2023-04-22,"Manhattan","ILI ED visits",226,1694251
+"1418",2023-04-29,"Manhattan","ILI ED visits",267,1694251
+"1419",2023-05-06,"Manhattan","ILI ED visits",329,1694251
+"1420",2023-05-13,"Manhattan","ILI ED visits",305,1694251
+"1421",2023-05-20,"Manhattan","ILI ED visits",315,1694251
+"1422",2023-05-27,"Manhattan","ILI ED visits",284,1694251
+"1423",2023-06-03,"Manhattan","ILI ED visits",273,1694251
+"1424",2023-06-10,"Manhattan","ILI ED visits",281,1694251
+"1425",2023-06-17,"Manhattan","ILI ED visits",269,1694251
+"1426",2023-06-24,"Manhattan","ILI ED visits",217,1694251
+"1427",2023-07-01,"Manhattan","ILI ED visits",192,1694251
+"1428",2023-07-08,"Manhattan","ILI ED visits",219,1694251
+"1429",2023-07-15,"Manhattan","ILI ED visits",185,1694251
+"1430",2023-07-22,"Manhattan","ILI ED visits",200,1694251
+"1431",2023-07-29,"Manhattan","ILI ED visits",178,1694251
+"1432",2023-08-05,"Manhattan","ILI ED visits",202,1694251
+"1433",2023-08-12,"Manhattan","ILI ED visits",178,1694251
+"1434",2023-08-19,"Manhattan","ILI ED visits",189,1694251
+"1435",2023-08-26,"Manhattan","ILI ED visits",222,1694251
+"1436",2023-09-02,"Manhattan","ILI ED visits",212,1694251
+"1437",2023-09-09,"Manhattan","ILI ED visits",235,1694251
+"1438",2023-09-16,"Manhattan","ILI ED visits",227,1694251
+"1439",2023-09-23,"Manhattan","ILI ED visits",297,1694251
+"1440",2023-09-30,"Manhattan","ILI ED visits",294,1694251
+"1441",2023-10-07,"Manhattan","ILI ED visits",363,1694251
+"1442",2023-10-14,"Manhattan","ILI ED visits",349,1694251
+"1443",2023-10-21,"Manhattan","ILI ED visits",352,1694251
+"1444",2023-10-28,"Manhattan","ILI ED visits",377,1694251
+"1445",2023-11-04,"Manhattan","ILI ED visits",393,1694251
+"1446",2023-11-11,"Manhattan","ILI ED visits",498,1694251
+"1447",2023-11-18,"Manhattan","ILI ED visits",614,1694251
+"1448",2023-11-25,"Manhattan","ILI ED visits",529,1694251
+"1449",2023-12-02,"Manhattan","ILI ED visits",625,1694251
+"1450",2023-12-09,"Manhattan","ILI ED visits",712,1694251
+"1451",2023-12-16,"Manhattan","ILI ED visits",815,1694251
+"1452",2023-12-23,"Manhattan","ILI ED visits",877,1694251
+"1453",2023-12-30,"Manhattan","ILI ED visits",920,1694251
+"1454",2024-01-06,"Manhattan","ILI ED visits",785,1694251
+"1455",2024-01-13,"Manhattan","ILI ED visits",765,1694251
+"1456",2024-01-20,"Manhattan","ILI ED visits",619,1694251
+"1457",2024-01-27,"Manhattan","ILI ED visits",669,1694251
+"1458",2024-02-03,"Manhattan","ILI ED visits",588,1694251
+"1459",2024-02-10,"Manhattan","ILI ED visits",568,1694251
+"1460",2024-02-17,"Manhattan","ILI ED visits",532,1694251
+"1461",2024-02-24,"Manhattan","ILI ED visits",537,1694251
+"1462",2024-03-02,"Manhattan","ILI ED visits",490,1694251
+"1463",2024-03-09,"Manhattan","ILI ED visits",498,1694251
+"1464",2024-03-16,"Manhattan","ILI ED visits",418,1694251
+"1465",2024-03-23,"Manhattan","ILI ED visits",430,1694251
+"1466",2024-03-30,"Manhattan","ILI ED visits",393,1694251
+"1467",2024-04-06,"Manhattan","ILI ED visits",406,1694251
+"1468",2024-04-13,"Manhattan","ILI ED visits",391,1694251
+"1469",2024-04-20,"Manhattan","ILI ED visits",367,1694251
+"1470",2024-04-27,"Manhattan","ILI ED visits",325,1694251
+"1471",2024-05-04,"Manhattan","ILI ED visits",287,1694251
+"1472",2024-05-11,"Manhattan","ILI ED visits",329,1694251
+"1473",2024-05-18,"Manhattan","ILI ED visits",324,1694251
+"1474",2024-05-25,"Manhattan","ILI ED visits",309,1694251
+"1475",2024-06-01,"Manhattan","ILI ED visits",296,1694251
+"1476",2024-06-08,"Manhattan","ILI ED visits",299,1694251
+"1477",2024-06-15,"Manhattan","ILI ED visits",239,1694251
+"1478",2024-06-22,"Manhattan","ILI ED visits",237,1694251
+"1479",2024-06-29,"Manhattan","ILI ED visits",209,1694251
+"1480",2024-07-06,"Manhattan","ILI ED visits",211,1694251
+"1481",2024-07-13,"Manhattan","ILI ED visits",200,1694251
+"1482",2024-07-20,"Manhattan","ILI ED visits",198,1694251
+"1483",2024-07-27,"Manhattan","ILI ED visits",215,1694251
+"1484",2024-08-03,"Manhattan","ILI ED visits",223,1694251
+"1485",2024-08-10,"Manhattan","ILI ED visits",204,1694251
+"1486",2024-08-17,"Manhattan","ILI ED visits",229,1694251
+"1487",2024-08-24,"Manhattan","ILI ED visits",194,1694251
+"1488",2024-08-31,"Manhattan","ILI ED visits",207,1694251
+"1489",2024-09-07,"Manhattan","ILI ED visits",216,1694251
+"1490",2024-09-14,"Manhattan","ILI ED visits",239,1694251
+"1491",2024-09-21,"Manhattan","ILI ED visits",332,1694251
+"1492",2024-09-28,"Manhattan","ILI ED visits",315,1694251
+"1493",2024-10-05,"Manhattan","ILI ED visits",293,1694251
+"1494",2024-10-12,"Manhattan","ILI ED visits",329,1694251
+"1495",2024-10-19,"Manhattan","ILI ED visits",329,1694251
+"1496",2024-10-26,"Manhattan","ILI ED visits",350,1694251
+"1497",2024-11-02,"Manhattan","ILI ED visits",324,1694251
+"1498",2024-11-09,"Manhattan","ILI ED visits",361,1694251
+"1499",2024-11-16,"Manhattan","ILI ED visits",352,1694251
+"1500",2024-11-23,"Manhattan","ILI ED visits",434,1694251
+"1501",2024-11-30,"Manhattan","ILI ED visits",361,1694251
+"1502",2024-12-07,"Manhattan","ILI ED visits",413,1694251
+"1503",2024-12-21,"Manhattan","ILI ED visits",605,1694251
+"1504",2024-12-28,"Manhattan","ILI ED visits",756,1694251
+"1505",2016-01-02,"NYC","ILI ED visits",744,8804190
+"1506",2016-01-09,"NYC","ILI ED visits",2055,8804190
+"1507",2016-01-16,"NYC","ILI ED visits",1810,8804190
+"1508",2016-01-23,"NYC","ILI ED visits",1748,8804190
+"1509",2016-01-30,"NYC","ILI ED visits",1933,8804190
+"1510",2016-02-06,"NYC","ILI ED visits",2170,8804190
+"1511",2016-02-13,"NYC","ILI ED visits",2469,8804190
+"1512",2016-02-20,"NYC","ILI ED visits",2722,8804190
+"1513",2016-02-27,"NYC","ILI ED visits",2895,8804190
+"1514",2016-03-05,"NYC","ILI ED visits",3018,8804190
+"1515",2016-03-12,"NYC","ILI ED visits",3619,8804190
+"1516",2016-03-19,"NYC","ILI ED visits",2927,8804190
+"1517",2016-03-26,"NYC","ILI ED visits",2545,8804190
+"1518",2016-04-02,"NYC","ILI ED visits",2176,8804190
+"1519",2016-04-09,"NYC","ILI ED visits",1742,8804190
+"1520",2016-04-16,"NYC","ILI ED visits",1770,8804190
+"1521",2016-04-23,"NYC","ILI ED visits",1823,8804190
+"1522",2016-04-30,"NYC","ILI ED visits",1494,8804190
+"1523",2016-05-07,"NYC","ILI ED visits",1293,8804190
+"1524",2016-05-14,"NYC","ILI ED visits",1302,8804190
+"1525",2016-05-21,"NYC","ILI ED visits",1199,8804190
+"1526",2016-05-28,"NYC","ILI ED visits",1280,8804190
+"1527",2016-06-04,"NYC","ILI ED visits",1174,8804190
+"1528",2016-06-11,"NYC","ILI ED visits",1054,8804190
+"1529",2016-06-18,"NYC","ILI ED visits",1070,8804190
+"1530",2016-06-25,"NYC","ILI ED visits",981,8804190
+"1531",2016-07-02,"NYC","ILI ED visits",990,8804190
+"1532",2016-07-09,"NYC","ILI ED visits",886,8804190
+"1533",2016-07-16,"NYC","ILI ED visits",851,8804190
+"1534",2016-07-23,"NYC","ILI ED visits",875,8804190
+"1535",2016-07-30,"NYC","ILI ED visits",852,8804190
+"1536",2016-08-06,"NYC","ILI ED visits",878,8804190
+"1537",2016-08-13,"NYC","ILI ED visits",847,8804190
+"1538",2016-08-20,"NYC","ILI ED visits",812,8804190
+"1539",2016-08-27,"NYC","ILI ED visits",892,8804190
+"1540",2016-09-03,"NYC","ILI ED visits",804,8804190
+"1541",2016-09-10,"NYC","ILI ED visits",741,8804190
+"1542",2016-09-17,"NYC","ILI ED visits",819,8804190
+"1543",2016-09-24,"NYC","ILI ED visits",1120,8804190
+"1544",2016-10-01,"NYC","ILI ED visits",1226,8804190
+"1545",2016-10-08,"NYC","ILI ED visits",1235,8804190
+"1546",2016-10-15,"NYC","ILI ED visits",1169,8804190
+"1547",2016-10-22,"NYC","ILI ED visits",1312,8804190
+"1548",2016-10-29,"NYC","ILI ED visits",1258,8804190
+"1549",2016-11-05,"NYC","ILI ED visits",1518,8804190
+"1550",2016-11-12,"NYC","ILI ED visits",1640,8804190
+"1551",2016-11-19,"NYC","ILI ED visits",1702,8804190
+"1552",2016-11-26,"NYC","ILI ED visits",1793,8804190
+"1553",2016-12-03,"NYC","ILI ED visits",2083,8804190
+"1554",2016-12-10,"NYC","ILI ED visits",2252,8804190
+"1555",2016-12-17,"NYC","ILI ED visits",2412,8804190
+"1556",2016-12-24,"NYC","ILI ED visits",3127,8804190
+"1557",2016-12-31,"NYC","ILI ED visits",4344,8804190
+"1558",2017-01-07,"NYC","ILI ED visits",3261,8804190
+"1559",2017-01-14,"NYC","ILI ED visits",3106,8804190
+"1560",2017-01-21,"NYC","ILI ED visits",3633,8804190
+"1561",2017-01-28,"NYC","ILI ED visits",3235,8804190
+"1562",2017-02-04,"NYC","ILI ED visits",3090,8804190
+"1563",2017-02-11,"NYC","ILI ED visits",2909,8804190
+"1564",2017-02-18,"NYC","ILI ED visits",2381,8804190
+"1565",2017-02-25,"NYC","ILI ED visits",2165,8804190
+"1566",2017-03-04,"NYC","ILI ED visits",1619,8804190
+"1567",2017-03-11,"NYC","ILI ED visits",1452,8804190
+"1568",2017-03-18,"NYC","ILI ED visits",1525,8804190
+"1569",2017-03-25,"NYC","ILI ED visits",1711,8804190
+"1570",2017-04-01,"NYC","ILI ED visits",2046,8804190
+"1571",2017-04-08,"NYC","ILI ED visits",2045,8804190
+"1572",2017-04-15,"NYC","ILI ED visits",1808,8804190
+"1573",2017-04-22,"NYC","ILI ED visits",1467,8804190
+"1574",2017-04-29,"NYC","ILI ED visits",1266,8804190
+"1575",2017-05-06,"NYC","ILI ED visits",1254,8804190
+"1576",2017-05-13,"NYC","ILI ED visits",1383,8804190
+"1577",2017-05-20,"NYC","ILI ED visits",1447,8804190
+"1578",2017-05-27,"NYC","ILI ED visits",1209,8804190
+"1579",2017-06-03,"NYC","ILI ED visits",1266,8804190
+"1580",2017-06-10,"NYC","ILI ED visits",1181,8804190
+"1581",2017-06-17,"NYC","ILI ED visits",1135,8804190
+"1582",2017-06-24,"NYC","ILI ED visits",1013,8804190
+"1583",2017-07-01,"NYC","ILI ED visits",1080,8804190
+"1584",2017-07-08,"NYC","ILI ED visits",1034,8804190
+"1585",2017-07-15,"NYC","ILI ED visits",932,8804190
+"1586",2017-07-22,"NYC","ILI ED visits",833,8804190
+"1587",2017-07-29,"NYC","ILI ED visits",864,8804190
+"1588",2017-08-05,"NYC","ILI ED visits",817,8804190
+"1589",2017-08-12,"NYC","ILI ED visits",865,8804190
+"1590",2017-08-19,"NYC","ILI ED visits",791,8804190
+"1591",2017-08-26,"NYC","ILI ED visits",815,8804190
+"1592",2017-09-02,"NYC","ILI ED visits",831,8804190
+"1593",2017-09-09,"NYC","ILI ED visits",758,8804190
+"1594",2017-09-16,"NYC","ILI ED visits",923,8804190
+"1595",2017-09-23,"NYC","ILI ED visits",1120,8804190
+"1596",2017-09-30,"NYC","ILI ED visits",1070,8804190
+"1597",2017-10-07,"NYC","ILI ED visits",1052,8804190
+"1598",2017-10-14,"NYC","ILI ED visits",1137,8804190
+"1599",2017-10-21,"NYC","ILI ED visits",1274,8804190
+"1600",2017-10-28,"NYC","ILI ED visits",1380,8804190
+"1601",2017-11-04,"NYC","ILI ED visits",1506,8804190
+"1602",2017-11-11,"NYC","ILI ED visits",1589,8804190
+"1603",2017-11-18,"NYC","ILI ED visits",1789,8804190
+"1604",2017-11-25,"NYC","ILI ED visits",1791,8804190
+"1605",2017-12-02,"NYC","ILI ED visits",2039,8804190
+"1606",2017-12-09,"NYC","ILI ED visits",2029,8804190
+"1607",2017-12-16,"NYC","ILI ED visits",2060,8804190
+"1608",2017-12-23,"NYC","ILI ED visits",2393,8804190
+"1609",2017-12-30,"NYC","ILI ED visits",2766,8804190
+"1610",2018-01-06,"NYC","ILI ED visits",2699,8804190
+"1611",2018-01-13,"NYC","ILI ED visits",3373,8804190
+"1612",2018-01-20,"NYC","ILI ED visits",4613,8804190
+"1613",2018-01-27,"NYC","ILI ED visits",6195,8804190
+"1614",2018-02-03,"NYC","ILI ED visits",7163,8804190
+"1615",2018-02-10,"NYC","ILI ED visits",8501,8804190
+"1616",2018-02-17,"NYC","ILI ED visits",8227,8804190
+"1617",2018-02-24,"NYC","ILI ED visits",5350,8804190
+"1618",2018-03-03,"NYC","ILI ED visits",2944,8804190
+"1619",2018-03-10,"NYC","ILI ED visits",2136,8804190
+"1620",2018-03-17,"NYC","ILI ED visits",1859,8804190
+"1621",2018-03-24,"NYC","ILI ED visits",1825,8804190
+"1622",2018-03-31,"NYC","ILI ED visits",1776,8804190
+"1623",2018-04-07,"NYC","ILI ED visits",1432,8804190
+"1624",2018-04-14,"NYC","ILI ED visits",1331,8804190
+"1625",2018-04-21,"NYC","ILI ED visits",1282,8804190
+"1626",2018-04-28,"NYC","ILI ED visits",1260,8804190
+"1627",2018-05-05,"NYC","ILI ED visits",1309,8804190
+"1628",2018-05-12,"NYC","ILI ED visits",1298,8804190
+"1629",2018-05-19,"NYC","ILI ED visits",1239,8804190
+"1630",2018-05-26,"NYC","ILI ED visits",1314,8804190
+"1631",2018-06-02,"NYC","ILI ED visits",1314,8804190
+"1632",2018-06-09,"NYC","ILI ED visits",1210,8804190
+"1633",2018-06-16,"NYC","ILI ED visits",1166,8804190
+"1634",2018-06-23,"NYC","ILI ED visits",1010,8804190
+"1635",2018-06-30,"NYC","ILI ED visits",906,8804190
+"1636",2018-07-07,"NYC","ILI ED visits",806,8804190
+"1637",2018-07-14,"NYC","ILI ED visits",851,8804190
+"1638",2018-07-21,"NYC","ILI ED visits",785,8804190
+"1639",2018-07-28,"NYC","ILI ED visits",657,8804190
+"1640",2018-08-04,"NYC","ILI ED visits",706,8804190
+"1641",2018-08-11,"NYC","ILI ED visits",775,8804190
+"1642",2018-08-18,"NYC","ILI ED visits",774,8804190
+"1643",2018-08-25,"NYC","ILI ED visits",720,8804190
+"1644",2018-09-01,"NYC","ILI ED visits",776,8804190
+"1645",2018-09-08,"NYC","ILI ED visits",824,8804190
+"1646",2018-09-15,"NYC","ILI ED visits",895,8804190
+"1647",2018-09-22,"NYC","ILI ED visits",1301,8804190
+"1648",2018-09-29,"NYC","ILI ED visits",1401,8804190
+"1649",2018-10-06,"NYC","ILI ED visits",1591,8804190
+"1650",2018-10-13,"NYC","ILI ED visits",1575,8804190
+"1651",2018-10-20,"NYC","ILI ED visits",1749,8804190
+"1652",2018-10-27,"NYC","ILI ED visits",1854,8804190
+"1653",2018-11-03,"NYC","ILI ED visits",1754,8804190
+"1654",2018-11-10,"NYC","ILI ED visits",1795,8804190
+"1655",2018-11-17,"NYC","ILI ED visits",1811,8804190
+"1656",2018-11-24,"NYC","ILI ED visits",2005,8804190
+"1657",2018-12-01,"NYC","ILI ED visits",2029,8804190
+"1658",2018-12-08,"NYC","ILI ED visits",2242,8804190
+"1659",2018-12-15,"NYC","ILI ED visits",2585,8804190
+"1660",2018-12-22,"NYC","ILI ED visits",2941,8804190
+"1661",2018-12-29,"NYC","ILI ED visits",3606,8804190
+"1662",2019-01-05,"NYC","ILI ED visits",3327,8804190
+"1663",2019-01-12,"NYC","ILI ED visits",2881,8804190
+"1664",2019-01-19,"NYC","ILI ED visits",3163,8804190
+"1665",2019-01-26,"NYC","ILI ED visits",3067,8804190
+"1666",2019-02-02,"NYC","ILI ED visits",3078,8804190
+"1667",2019-02-09,"NYC","ILI ED visits",3328,8804190
+"1668",2019-02-16,"NYC","ILI ED visits",3160,8804190
+"1669",2019-02-23,"NYC","ILI ED visits",3046,8804190
+"1670",2019-03-02,"NYC","ILI ED visits",2167,8804190
+"1671",2019-03-09,"NYC","ILI ED visits",2215,8804190
+"1672",2019-03-16,"NYC","ILI ED visits",2237,8804190
+"1673",2019-03-23,"NYC","ILI ED visits",2105,8804190
+"1674",2019-03-30,"NYC","ILI ED visits",2026,8804190
+"1675",2019-04-06,"NYC","ILI ED visits",1990,8804190
+"1676",2019-04-13,"NYC","ILI ED visits",2065,8804190
+"1677",2019-04-20,"NYC","ILI ED visits",1810,8804190
+"1678",2019-04-27,"NYC","ILI ED visits",1485,8804190
+"1679",2019-05-04,"NYC","ILI ED visits",1459,8804190
+"1680",2019-05-11,"NYC","ILI ED visits",1376,8804190
+"1681",2019-05-18,"NYC","ILI ED visits",1398,8804190
+"1682",2019-05-25,"NYC","ILI ED visits",1547,8804190
+"1683",2019-06-01,"NYC","ILI ED visits",1488,8804190
+"1684",2019-06-08,"NYC","ILI ED visits",1335,8804190
+"1685",2019-06-15,"NYC","ILI ED visits",1319,8804190
+"1686",2019-06-22,"NYC","ILI ED visits",1225,8804190
+"1687",2019-06-29,"NYC","ILI ED visits",1212,8804190
+"1688",2019-07-06,"NYC","ILI ED visits",1048,8804190
+"1689",2019-07-13,"NYC","ILI ED visits",918,8804190
+"1690",2019-07-20,"NYC","ILI ED visits",906,8804190
+"1691",2019-07-27,"NYC","ILI ED visits",837,8804190
+"1692",2019-08-03,"NYC","ILI ED visits",422,8804190
+"1693",2019-08-10,"NYC","ILI ED visits",502,8804190
+"1694",2019-08-17,"NYC","ILI ED visits",815,8804190
+"1695",2019-08-24,"NYC","ILI ED visits",794,8804190
+"1696",2019-08-31,"NYC","ILI ED visits",848,8804190
+"1697",2019-09-07,"NYC","ILI ED visits",801,8804190
+"1698",2019-09-14,"NYC","ILI ED visits",1015,8804190
+"1699",2019-09-21,"NYC","ILI ED visits",1448,8804190
+"1700",2019-09-28,"NYC","ILI ED visits",1407,8804190
+"1701",2019-10-05,"NYC","ILI ED visits",1169,8804190
+"1702",2019-10-12,"NYC","ILI ED visits",1128,8804190
+"1703",2019-10-19,"NYC","ILI ED visits",1202,8804190
+"1704",2019-10-26,"NYC","ILI ED visits",1331,8804190
+"1705",2019-11-02,"NYC","ILI ED visits",1400,8804190
+"1706",2019-11-09,"NYC","ILI ED visits",1695,8804190
+"1707",2019-11-16,"NYC","ILI ED visits",1845,8804190
+"1708",2019-11-23,"NYC","ILI ED visits",1997,8804190
+"1709",2019-11-30,"NYC","ILI ED visits",2358,8804190
+"1710",2019-12-07,"NYC","ILI ED visits",2705,8804190
+"1711",2019-12-14,"NYC","ILI ED visits",3362,8804190
+"1712",2019-12-21,"NYC","ILI ED visits",4106,8804190
+"1713",2019-12-28,"NYC","ILI ED visits",5941,8804190
+"1714",2020-01-04,"NYC","ILI ED visits",6247,8804190
+"1715",2020-01-11,"NYC","ILI ED visits",5707,8804190
+"1716",2020-01-18,"NYC","ILI ED visits",6131,8804190
+"1717",2020-01-25,"NYC","ILI ED visits",6826,8804190
+"1718",2020-02-01,"NYC","ILI ED visits",7066,8804190
+"1719",2020-02-08,"NYC","ILI ED visits",6189,8804190
+"1720",2020-02-15,"NYC","ILI ED visits",4661,8804190
+"1721",2020-02-22,"NYC","ILI ED visits",3520,8804190
+"1722",2020-02-29,"NYC","ILI ED visits",2890,8804190
+"1723",2020-03-07,"NYC","ILI ED visits",3775,8804190
+"1724",2020-03-14,"NYC","ILI ED visits",6201,8804190
+"1725",2020-03-21,"NYC","ILI ED visits",9345,8804190
+"1726",2020-03-28,"NYC","ILI ED visits",9623,8804190
+"1727",2020-04-04,"NYC","ILI ED visits",6083,8804190
+"1728",2020-04-11,"NYC","ILI ED visits",3170,8804190
+"1729",2020-04-18,"NYC","ILI ED visits",1730,8804190
+"1730",2020-04-25,"NYC","ILI ED visits",941,8804190
+"1731",2020-05-02,"NYC","ILI ED visits",592,8804190
+"1732",2020-05-09,"NYC","ILI ED visits",450,8804190
+"1733",2020-05-16,"NYC","ILI ED visits",376,8804190
+"1734",2020-05-23,"NYC","ILI ED visits",325,8804190
+"1735",2020-05-30,"NYC","ILI ED visits",271,8804190
+"1736",2020-06-06,"NYC","ILI ED visits",255,8804190
+"1737",2020-06-13,"NYC","ILI ED visits",265,8804190
+"1738",2020-06-20,"NYC","ILI ED visits",230,8804190
+"1739",2020-06-27,"NYC","ILI ED visits",274,8804190
+"1740",2020-07-04,"NYC","ILI ED visits",265,8804190
+"1741",2020-07-11,"NYC","ILI ED visits",308,8804190
+"1742",2020-07-18,"NYC","ILI ED visits",379,8804190
+"1743",2020-07-25,"NYC","ILI ED visits",361,8804190
+"1744",2020-08-01,"NYC","ILI ED visits",388,8804190
+"1745",2020-08-08,"NYC","ILI ED visits",430,8804190
+"1746",2020-08-15,"NYC","ILI ED visits",439,8804190
+"1747",2020-08-22,"NYC","ILI ED visits",482,8804190
+"1748",2020-08-29,"NYC","ILI ED visits",486,8804190
+"1749",2020-09-05,"NYC","ILI ED visits",410,8804190
+"1750",2020-09-12,"NYC","ILI ED visits",456,8804190
+"1751",2020-09-19,"NYC","ILI ED visits",385,8804190
+"1752",2020-09-26,"NYC","ILI ED visits",441,8804190
+"1753",2020-10-03,"NYC","ILI ED visits",506,8804190
+"1754",2020-10-10,"NYC","ILI ED visits",526,8804190
+"1755",2020-10-17,"NYC","ILI ED visits",450,8804190
+"1756",2020-10-24,"NYC","ILI ED visits",546,8804190
+"1757",2020-10-31,"NYC","ILI ED visits",459,8804190
+"1758",2020-11-07,"NYC","ILI ED visits",505,8804190
+"1759",2020-11-14,"NYC","ILI ED visits",563,8804190
+"1760",2020-11-21,"NYC","ILI ED visits",566,8804190
+"1761",2020-11-28,"NYC","ILI ED visits",586,8804190
+"1762",2020-12-05,"NYC","ILI ED visits",599,8804190
+"1763",2020-12-12,"NYC","ILI ED visits",658,8804190
+"1764",2020-12-19,"NYC","ILI ED visits",623,8804190
+"1765",2020-12-26,"NYC","ILI ED visits",674,8804190
+"1766",2021-01-02,"NYC","ILI ED visits",699,8804190
+"1767",2021-01-09,"NYC","ILI ED visits",784,8804190
+"1768",2021-01-16,"NYC","ILI ED visits",776,8804190
+"1769",2021-01-23,"NYC","ILI ED visits",782,8804190
+"1770",2021-01-30,"NYC","ILI ED visits",717,8804190
+"1771",2021-02-06,"NYC","ILI ED visits",671,8804190
+"1772",2021-02-13,"NYC","ILI ED visits",729,8804190
+"1773",2021-02-20,"NYC","ILI ED visits",601,8804190
+"1774",2021-02-27,"NYC","ILI ED visits",668,8804190
+"1775",2021-03-06,"NYC","ILI ED visits",615,8804190
+"1776",2021-03-13,"NYC","ILI ED visits",740,8804190
+"1777",2021-03-20,"NYC","ILI ED visits",835,8804190
+"1778",2021-03-27,"NYC","ILI ED visits",781,8804190
+"1779",2021-04-03,"NYC","ILI ED visits",755,8804190
+"1780",2021-04-10,"NYC","ILI ED visits",793,8804190
+"1781",2021-04-17,"NYC","ILI ED visits",698,8804190
+"1782",2021-04-24,"NYC","ILI ED visits",722,8804190
+"1783",2021-05-01,"NYC","ILI ED visits",682,8804190
+"1784",2021-05-08,"NYC","ILI ED visits",686,8804190
+"1785",2021-05-15,"NYC","ILI ED visits",628,8804190
+"1786",2021-05-22,"NYC","ILI ED visits",787,8804190
+"1787",2021-05-29,"NYC","ILI ED visits",665,8804190
+"1788",2021-06-05,"NYC","ILI ED visits",736,8804190
+"1789",2021-06-12,"NYC","ILI ED visits",791,8804190
+"1790",2021-06-19,"NYC","ILI ED visits",883,8804190
+"1791",2021-06-26,"NYC","ILI ED visits",906,8804190
+"1792",2021-07-03,"NYC","ILI ED visits",896,8804190
+"1793",2021-07-10,"NYC","ILI ED visits",995,8804190
+"1794",2021-07-17,"NYC","ILI ED visits",1048,8804190
+"1795",2021-07-24,"NYC","ILI ED visits",1235,8804190
+"1796",2021-07-31,"NYC","ILI ED visits",1311,8804190
+"1797",2021-08-07,"NYC","ILI ED visits",1276,8804190
+"1798",2021-08-14,"NYC","ILI ED visits",1306,8804190
+"1799",2021-08-21,"NYC","ILI ED visits",1324,8804190
+"1800",2021-08-28,"NYC","ILI ED visits",1264,8804190
+"1801",2021-09-04,"NYC","ILI ED visits",1091,8804190
+"1802",2021-09-11,"NYC","ILI ED visits",1215,8804190
+"1803",2021-09-18,"NYC","ILI ED visits",1333,8804190
+"1804",2021-09-25,"NYC","ILI ED visits",1666,8804190
+"1805",2021-10-02,"NYC","ILI ED visits",1851,8804190
+"1806",2021-10-09,"NYC","ILI ED visits",1790,8804190
+"1807",2021-10-16,"NYC","ILI ED visits",1691,8804190
+"1808",2021-10-23,"NYC","ILI ED visits",1632,8804190
+"1809",2021-10-30,"NYC","ILI ED visits",1472,8804190
+"1810",2021-11-06,"NYC","ILI ED visits",1523,8804190
+"1811",2021-11-13,"NYC","ILI ED visits",1641,8804190
+"1812",2021-11-20,"NYC","ILI ED visits",1568,8804190
+"1813",2021-11-27,"NYC","ILI ED visits",1525,8804190
+"1814",2021-12-04,"NYC","ILI ED visits",1872,8804190
+"1815",2021-12-11,"NYC","ILI ED visits",1975,8804190
+"1816",2021-12-18,"NYC","ILI ED visits",2593,8804190
+"1817",2021-12-25,"NYC","ILI ED visits",4397,8804190
+"1818",2022-01-01,"NYC","ILI ED visits",5636,8804190
+"1819",2022-01-08,"NYC","ILI ED visits",3170,8804190
+"1820",2022-01-15,"NYC","ILI ED visits",1478,8804190
+"1821",2022-01-22,"NYC","ILI ED visits",921,8804190
+"1822",2022-01-29,"NYC","ILI ED visits",816,8804190
+"1823",2022-02-05,"NYC","ILI ED visits",599,8804190
+"1824",2022-02-12,"NYC","ILI ED visits",642,8804190
+"1825",2022-02-19,"NYC","ILI ED visits",744,8804190
+"1826",2022-02-26,"NYC","ILI ED visits",720,8804190
+"1827",2022-03-05,"NYC","ILI ED visits",827,8804190
+"1828",2022-03-12,"NYC","ILI ED visits",906,8804190
+"1829",2022-03-19,"NYC","ILI ED visits",1082,8804190
+"1830",2022-03-26,"NYC","ILI ED visits",1221,8804190
+"1831",2022-04-02,"NYC","ILI ED visits",1395,8804190
+"1832",2022-04-09,"NYC","ILI ED visits",1771,8804190
+"1833",2022-04-16,"NYC","ILI ED visits",1757,8804190
+"1834",2022-04-23,"NYC","ILI ED visits",1686,8804190
+"1835",2022-04-30,"NYC","ILI ED visits",1757,8804190
+"1836",2022-05-07,"NYC","ILI ED visits",1948,8804190
+"1837",2022-05-14,"NYC","ILI ED visits",2270,8804190
+"1838",2022-05-21,"NYC","ILI ED visits",2438,8804190
+"1839",2022-05-28,"NYC","ILI ED visits",2427,8804190
+"1840",2022-06-04,"NYC","ILI ED visits",2197,8804190
+"1841",2022-06-11,"NYC","ILI ED visits",2134,8804190
+"1842",2022-06-18,"NYC","ILI ED visits",2020,8804190
+"1843",2022-06-25,"NYC","ILI ED visits",1972,8804190
+"1844",2022-07-02,"NYC","ILI ED visits",2018,8804190
+"1845",2022-07-09,"NYC","ILI ED visits",1878,8804190
+"1846",2022-07-16,"NYC","ILI ED visits",1702,8804190
+"1847",2022-07-23,"NYC","ILI ED visits",1539,8804190
+"1848",2022-07-30,"NYC","ILI ED visits",1616,8804190
+"1849",2022-08-06,"NYC","ILI ED visits",1501,8804190
+"1850",2022-08-13,"NYC","ILI ED visits",1369,8804190
+"1851",2022-08-20,"NYC","ILI ED visits",1371,8804190
+"1852",2022-08-27,"NYC","ILI ED visits",1221,8804190
+"1853",2022-09-03,"NYC","ILI ED visits",1172,8804190
+"1854",2022-09-10,"NYC","ILI ED visits",1169,8804190
+"1855",2022-09-17,"NYC","ILI ED visits",1687,8804190
+"1856",2022-09-24,"NYC","ILI ED visits",2281,8804190
+"1857",2022-10-01,"NYC","ILI ED visits",2276,8804190
+"1858",2022-10-08,"NYC","ILI ED visits",2172,8804190
+"1859",2022-10-15,"NYC","ILI ED visits",2660,8804190
+"1860",2022-10-22,"NYC","ILI ED visits",2992,8804190
+"1861",2022-10-29,"NYC","ILI ED visits",3909,8804190
+"1862",2022-11-05,"NYC","ILI ED visits",5184,8804190
+"1863",2022-11-12,"NYC","ILI ED visits",5722,8804190
+"1864",2022-11-19,"NYC","ILI ED visits",5369,8804190
+"1865",2022-11-26,"NYC","ILI ED visits",6978,8804190
+"1866",2022-12-03,"NYC","ILI ED visits",8053,8804190
+"1867",2022-12-10,"NYC","ILI ED visits",7654,8804190
+"1868",2022-12-17,"NYC","ILI ED visits",6181,8804190
+"1869",2022-12-24,"NYC","ILI ED visits",5025,8804190
+"1870",2022-12-31,"NYC","ILI ED visits",4421,8804190
+"1871",2023-01-07,"NYC","ILI ED visits",3466,8804190
+"1872",2023-01-14,"NYC","ILI ED visits",2469,8804190
+"1873",2023-01-21,"NYC","ILI ED visits",2237,8804190
+"1874",2023-01-28,"NYC","ILI ED visits",2161,8804190
+"1875",2023-02-04,"NYC","ILI ED visits",2162,8804190
+"1876",2023-02-11,"NYC","ILI ED visits",2375,8804190
+"1877",2023-02-18,"NYC","ILI ED visits",2285,8804190
+"1878",2023-02-25,"NYC","ILI ED visits",2187,8804190
+"1879",2023-03-04,"NYC","ILI ED visits",2098,8804190
+"1880",2023-03-11,"NYC","ILI ED visits",2050,8804190
+"1881",2023-03-18,"NYC","ILI ED visits",2210,8804190
+"1882",2023-03-25,"NYC","ILI ED visits",2518,8804190
+"1883",2023-04-01,"NYC","ILI ED visits",2498,8804190
+"1884",2023-04-08,"NYC","ILI ED visits",2334,8804190
+"1885",2023-04-15,"NYC","ILI ED visits",2098,8804190
+"1886",2023-04-22,"NYC","ILI ED visits",1722,8804190
+"1887",2023-04-29,"NYC","ILI ED visits",1728,8804190
+"1888",2023-05-06,"NYC","ILI ED visits",1903,8804190
+"1889",2023-05-13,"NYC","ILI ED visits",2087,8804190
+"1890",2023-05-20,"NYC","ILI ED visits",2160,8804190
+"1891",2023-05-27,"NYC","ILI ED visits",2045,8804190
+"1892",2023-06-03,"NYC","ILI ED visits",2089,8804190
+"1893",2023-06-10,"NYC","ILI ED visits",1748,8804190
+"1894",2023-06-17,"NYC","ILI ED visits",1750,8804190
+"1895",2023-06-24,"NYC","ILI ED visits",1531,8804190
+"1896",2023-07-01,"NYC","ILI ED visits",1391,8804190
+"1897",2023-07-08,"NYC","ILI ED visits",1360,8804190
+"1898",2023-07-15,"NYC","ILI ED visits",1228,8804190
+"1899",2023-07-22,"NYC","ILI ED visits",1243,8804190
+"1900",2023-07-29,"NYC","ILI ED visits",1200,8804190
+"1901",2023-08-05,"NYC","ILI ED visits",1285,8804190
+"1902",2023-08-12,"NYC","ILI ED visits",1259,8804190
+"1903",2023-08-19,"NYC","ILI ED visits",1231,8804190
+"1904",2023-08-26,"NYC","ILI ED visits",1184,8804190
+"1905",2023-09-02,"NYC","ILI ED visits",1299,8804190
+"1906",2023-09-09,"NYC","ILI ED visits",1373,8804190
+"1907",2023-09-16,"NYC","ILI ED visits",1365,8804190
+"1908",2023-09-23,"NYC","ILI ED visits",1835,8804190
+"1909",2023-09-30,"NYC","ILI ED visits",1795,8804190
+"1910",2023-10-07,"NYC","ILI ED visits",2038,8804190
+"1911",2023-10-14,"NYC","ILI ED visits",2015,8804190
+"1912",2023-10-21,"NYC","ILI ED visits",2343,8804190
+"1913",2023-10-28,"NYC","ILI ED visits",2477,8804190
+"1914",2023-11-04,"NYC","ILI ED visits",2619,8804190
+"1915",2023-11-11,"NYC","ILI ED visits",3026,8804190
+"1916",2023-11-18,"NYC","ILI ED visits",3292,8804190
+"1917",2023-11-25,"NYC","ILI ED visits",3103,8804190
+"1918",2023-12-02,"NYC","ILI ED visits",3730,8804190
+"1919",2023-12-09,"NYC","ILI ED visits",4200,8804190
+"1920",2023-12-16,"NYC","ILI ED visits",4924,8804190
+"1921",2023-12-23,"NYC","ILI ED visits",5494,8804190
+"1922",2023-12-30,"NYC","ILI ED visits",6475,8804190
+"1923",2024-01-06,"NYC","ILI ED visits",5177,8804190
+"1924",2024-01-13,"NYC","ILI ED visits",4843,8804190
+"1925",2024-01-20,"NYC","ILI ED visits",3842,8804190
+"1926",2024-01-27,"NYC","ILI ED visits",3911,8804190
+"1927",2024-02-03,"NYC","ILI ED visits",3858,8804190
+"1928",2024-02-10,"NYC","ILI ED visits",3861,8804190
+"1929",2024-02-17,"NYC","ILI ED visits",3587,8804190
+"1930",2024-02-24,"NYC","ILI ED visits",3338,8804190
+"1931",2024-03-02,"NYC","ILI ED visits",2963,8804190
+"1932",2024-03-09,"NYC","ILI ED visits",2723,8804190
+"1933",2024-03-16,"NYC","ILI ED visits",2601,8804190
+"1934",2024-03-23,"NYC","ILI ED visits",2558,8804190
+"1935",2024-03-30,"NYC","ILI ED visits",2637,8804190
+"1936",2024-04-06,"NYC","ILI ED visits",2469,8804190
+"1937",2024-04-13,"NYC","ILI ED visits",2279,8804190
+"1938",2024-04-20,"NYC","ILI ED visits",2190,8804190
+"1939",2024-04-27,"NYC","ILI ED visits",1931,8804190
+"1940",2024-05-04,"NYC","ILI ED visits",1683,8804190
+"1941",2024-05-11,"NYC","ILI ED visits",1610,8804190
+"1942",2024-05-18,"NYC","ILI ED visits",1814,8804190
+"1943",2024-05-25,"NYC","ILI ED visits",1881,8804190
+"1944",2024-06-01,"NYC","ILI ED visits",1804,8804190
+"1945",2024-06-08,"NYC","ILI ED visits",1750,8804190
+"1946",2024-06-15,"NYC","ILI ED visits",1551,8804190
+"1947",2024-06-22,"NYC","ILI ED visits",1559,8804190
+"1948",2024-06-29,"NYC","ILI ED visits",1489,8804190
+"1949",2024-07-06,"NYC","ILI ED visits",1360,8804190
+"1950",2024-07-13,"NYC","ILI ED visits",1339,8804190
+"1951",2024-07-20,"NYC","ILI ED visits",1325,8804190
+"1952",2024-07-27,"NYC","ILI ED visits",1433,8804190
+"1953",2024-08-03,"NYC","ILI ED visits",1281,8804190
+"1954",2024-08-10,"NYC","ILI ED visits",1234,8804190
+"1955",2024-08-17,"NYC","ILI ED visits",1278,8804190
+"1956",2024-08-24,"NYC","ILI ED visits",1321,8804190
+"1957",2024-08-31,"NYC","ILI ED visits",1298,8804190
+"1958",2024-09-07,"NYC","ILI ED visits",1255,8804190
+"1959",2024-09-14,"NYC","ILI ED visits",1528,8804190
+"1960",2024-09-21,"NYC","ILI ED visits",2031,8804190
+"1961",2024-09-28,"NYC","ILI ED visits",2033,8804190
+"1962",2024-10-05,"NYC","ILI ED visits",1932,8804190
+"1963",2024-10-12,"NYC","ILI ED visits",2021,8804190
+"1964",2024-10-19,"NYC","ILI ED visits",2113,8804190
+"1965",2024-10-26,"NYC","ILI ED visits",2351,8804190
+"1966",2024-11-02,"NYC","ILI ED visits",2147,8804190
+"1967",2024-11-09,"NYC","ILI ED visits",2371,8804190
+"1968",2024-11-16,"NYC","ILI ED visits",2444,8804190
+"1969",2024-11-23,"NYC","ILI ED visits",2749,8804190
+"1970",2024-11-30,"NYC","ILI ED visits",2874,8804190
+"1971",2024-12-07,"NYC","ILI ED visits",3292,8804190
+"1972",2024-12-21,"NYC","ILI ED visits",4301,8804190
+"1973",2016-01-02,"Queens","ILI ED visits",280,2405464
+"1974",2016-01-09,"Queens","ILI ED visits",746,2405464
+"1975",2016-01-16,"Queens","ILI ED visits",643,2405464
+"1976",2016-01-23,"Queens","ILI ED visits",594,2405464
+"1977",2016-01-30,"Queens","ILI ED visits",684,2405464
+"1978",2016-02-06,"Queens","ILI ED visits",727,2405464
+"1979",2016-02-13,"Queens","ILI ED visits",744,2405464
+"1980",2016-02-20,"Queens","ILI ED visits",861,2405464
+"1981",2016-02-27,"Queens","ILI ED visits",865,2405464
+"1982",2016-03-05,"Queens","ILI ED visits",934,2405464
+"1983",2016-03-12,"Queens","ILI ED visits",1187,2405464
+"1984",2016-03-19,"Queens","ILI ED visits",925,2405464
+"1985",2016-03-26,"Queens","ILI ED visits",810,2405464
+"1986",2016-04-02,"Queens","ILI ED visits",643,2405464
+"1987",2016-04-09,"Queens","ILI ED visits",397,2405464
+"1988",2016-04-16,"Queens","ILI ED visits",385,2405464
+"1989",2016-04-23,"Queens","ILI ED visits",427,2405464
+"1990",2016-04-30,"Queens","ILI ED visits",337,2405464
+"1991",2016-05-07,"Queens","ILI ED visits",272,2405464
+"1992",2016-05-14,"Queens","ILI ED visits",292,2405464
+"1993",2016-05-21,"Queens","ILI ED visits",285,2405464
+"1994",2016-05-28,"Queens","ILI ED visits",334,2405464
+"1995",2016-06-04,"Queens","ILI ED visits",296,2405464
+"1996",2016-06-11,"Queens","ILI ED visits",261,2405464
+"1997",2016-06-18,"Queens","ILI ED visits",334,2405464
+"1998",2016-06-25,"Queens","ILI ED visits",286,2405464
+"1999",2016-07-02,"Queens","ILI ED visits",278,2405464
+"2000",2016-07-09,"Queens","ILI ED visits",253,2405464
+"2001",2016-07-16,"Queens","ILI ED visits",209,2405464
+"2002",2016-07-23,"Queens","ILI ED visits",231,2405464
+"2003",2016-07-30,"Queens","ILI ED visits",204,2405464
+"2004",2016-08-06,"Queens","ILI ED visits",226,2405464
+"2005",2016-08-13,"Queens","ILI ED visits",218,2405464
+"2006",2016-08-20,"Queens","ILI ED visits",200,2405464
+"2007",2016-08-27,"Queens","ILI ED visits",210,2405464
+"2008",2016-09-03,"Queens","ILI ED visits",224,2405464
+"2009",2016-09-10,"Queens","ILI ED visits",178,2405464
+"2010",2016-09-17,"Queens","ILI ED visits",210,2405464
+"2011",2016-09-24,"Queens","ILI ED visits",272,2405464
+"2012",2016-10-01,"Queens","ILI ED visits",296,2405464
+"2013",2016-10-08,"Queens","ILI ED visits",295,2405464
+"2014",2016-10-15,"Queens","ILI ED visits",247,2405464
+"2015",2016-10-22,"Queens","ILI ED visits",282,2405464
+"2016",2016-10-29,"Queens","ILI ED visits",330,2405464
+"2017",2016-11-05,"Queens","ILI ED visits",422,2405464
+"2018",2016-11-12,"Queens","ILI ED visits",449,2405464
+"2019",2016-11-19,"Queens","ILI ED visits",532,2405464
+"2020",2016-11-26,"Queens","ILI ED visits",554,2405464
+"2021",2016-12-03,"Queens","ILI ED visits",589,2405464
+"2022",2016-12-10,"Queens","ILI ED visits",593,2405464
+"2023",2016-12-17,"Queens","ILI ED visits",690,2405464
+"2024",2016-12-24,"Queens","ILI ED visits",922,2405464
+"2025",2016-12-31,"Queens","ILI ED visits",1316,2405464
+"2026",2017-01-07,"Queens","ILI ED visits",912,2405464
+"2027",2017-01-14,"Queens","ILI ED visits",856,2405464
+"2028",2017-01-21,"Queens","ILI ED visits",1025,2405464
+"2029",2017-01-28,"Queens","ILI ED visits",859,2405464
+"2030",2017-02-04,"Queens","ILI ED visits",837,2405464
+"2031",2017-02-11,"Queens","ILI ED visits",873,2405464
+"2032",2017-02-18,"Queens","ILI ED visits",681,2405464
+"2033",2017-02-25,"Queens","ILI ED visits",588,2405464
+"2034",2017-03-04,"Queens","ILI ED visits",484,2405464
+"2035",2017-03-11,"Queens","ILI ED visits",431,2405464
+"2036",2017-03-18,"Queens","ILI ED visits",453,2405464
+"2037",2017-03-25,"Queens","ILI ED visits",533,2405464
+"2038",2017-04-01,"Queens","ILI ED visits",599,2405464
+"2039",2017-04-08,"Queens","ILI ED visits",653,2405464
+"2040",2017-04-15,"Queens","ILI ED visits",592,2405464
+"2041",2017-04-22,"Queens","ILI ED visits",449,2405464
+"2042",2017-04-29,"Queens","ILI ED visits",384,2405464
+"2043",2017-05-06,"Queens","ILI ED visits",388,2405464
+"2044",2017-05-13,"Queens","ILI ED visits",393,2405464
+"2045",2017-05-20,"Queens","ILI ED visits",462,2405464
+"2046",2017-05-27,"Queens","ILI ED visits",390,2405464
+"2047",2017-06-03,"Queens","ILI ED visits",418,2405464
+"2048",2017-06-10,"Queens","ILI ED visits",340,2405464
+"2049",2017-06-17,"Queens","ILI ED visits",365,2405464
+"2050",2017-06-24,"Queens","ILI ED visits",345,2405464
+"2051",2017-07-01,"Queens","ILI ED visits",370,2405464
+"2052",2017-07-08,"Queens","ILI ED visits",389,2405464
+"2053",2017-07-15,"Queens","ILI ED visits",364,2405464
+"2054",2017-07-22,"Queens","ILI ED visits",298,2405464
+"2055",2017-07-29,"Queens","ILI ED visits",295,2405464
+"2056",2017-08-05,"Queens","ILI ED visits",282,2405464
+"2057",2017-08-12,"Queens","ILI ED visits",291,2405464
+"2058",2017-08-19,"Queens","ILI ED visits",254,2405464
+"2059",2017-08-26,"Queens","ILI ED visits",251,2405464
+"2060",2017-09-02,"Queens","ILI ED visits",274,2405464
+"2061",2017-09-09,"Queens","ILI ED visits",232,2405464
+"2062",2017-09-16,"Queens","ILI ED visits",263,2405464
+"2063",2017-09-23,"Queens","ILI ED visits",333,2405464
+"2064",2017-09-30,"Queens","ILI ED visits",338,2405464
+"2065",2017-10-07,"Queens","ILI ED visits",324,2405464
+"2066",2017-10-14,"Queens","ILI ED visits",337,2405464
+"2067",2017-10-21,"Queens","ILI ED visits",366,2405464
+"2068",2017-10-28,"Queens","ILI ED visits",419,2405464
+"2069",2017-11-04,"Queens","ILI ED visits",409,2405464
+"2070",2017-11-11,"Queens","ILI ED visits",381,2405464
+"2071",2017-11-18,"Queens","ILI ED visits",528,2405464
+"2072",2017-11-25,"Queens","ILI ED visits",544,2405464
+"2073",2017-12-02,"Queens","ILI ED visits",587,2405464
+"2074",2017-12-09,"Queens","ILI ED visits",627,2405464
+"2075",2017-12-16,"Queens","ILI ED visits",637,2405464
+"2076",2017-12-23,"Queens","ILI ED visits",757,2405464
+"2077",2017-12-30,"Queens","ILI ED visits",833,2405464
+"2078",2018-01-06,"Queens","ILI ED visits",800,2405464
+"2079",2018-01-13,"Queens","ILI ED visits",992,2405464
+"2080",2018-01-20,"Queens","ILI ED visits",1390,2405464
+"2081",2018-01-27,"Queens","ILI ED visits",1796,2405464
+"2082",2018-02-03,"Queens","ILI ED visits",2010,2405464
+"2083",2018-02-10,"Queens","ILI ED visits",2367,2405464
+"2084",2018-02-17,"Queens","ILI ED visits",2220,2405464
+"2085",2018-02-24,"Queens","ILI ED visits",1465,2405464
+"2086",2018-03-03,"Queens","ILI ED visits",817,2405464
+"2087",2018-03-10,"Queens","ILI ED visits",589,2405464
+"2088",2018-03-17,"Queens","ILI ED visits",513,2405464
+"2089",2018-03-24,"Queens","ILI ED visits",541,2405464
+"2090",2018-03-31,"Queens","ILI ED visits",566,2405464
+"2091",2018-04-07,"Queens","ILI ED visits",446,2405464
+"2092",2018-04-14,"Queens","ILI ED visits",411,2405464
+"2093",2018-04-21,"Queens","ILI ED visits",420,2405464
+"2094",2018-04-28,"Queens","ILI ED visits",402,2405464
+"2095",2018-05-05,"Queens","ILI ED visits",455,2405464
+"2096",2018-05-12,"Queens","ILI ED visits",472,2405464
+"2097",2018-05-19,"Queens","ILI ED visits",427,2405464
+"2098",2018-05-26,"Queens","ILI ED visits",409,2405464
+"2099",2018-06-02,"Queens","ILI ED visits",411,2405464
+"2100",2018-06-09,"Queens","ILI ED visits",378,2405464
+"2101",2018-06-16,"Queens","ILI ED visits",361,2405464
+"2102",2018-06-23,"Queens","ILI ED visits",363,2405464
+"2103",2018-06-30,"Queens","ILI ED visits",316,2405464
+"2104",2018-07-07,"Queens","ILI ED visits",293,2405464
+"2105",2018-07-14,"Queens","ILI ED visits",316,2405464
+"2106",2018-07-21,"Queens","ILI ED visits",295,2405464
+"2107",2018-07-28,"Queens","ILI ED visits",242,2405464
+"2108",2018-08-04,"Queens","ILI ED visits",283,2405464
+"2109",2018-08-11,"Queens","ILI ED visits",275,2405464
+"2110",2018-08-18,"Queens","ILI ED visits",264,2405464
+"2111",2018-08-25,"Queens","ILI ED visits",246,2405464
+"2112",2018-09-01,"Queens","ILI ED visits",285,2405464
+"2113",2018-09-08,"Queens","ILI ED visits",266,2405464
+"2114",2018-09-15,"Queens","ILI ED visits",300,2405464
+"2115",2018-09-22,"Queens","ILI ED visits",471,2405464
+"2116",2018-09-29,"Queens","ILI ED visits",438,2405464
+"2117",2018-10-06,"Queens","ILI ED visits",505,2405464
+"2118",2018-10-13,"Queens","ILI ED visits",532,2405464
+"2119",2018-10-20,"Queens","ILI ED visits",525,2405464
+"2120",2018-10-27,"Queens","ILI ED visits",531,2405464
+"2121",2018-11-03,"Queens","ILI ED visits",564,2405464
+"2122",2018-11-10,"Queens","ILI ED visits",579,2405464
+"2123",2018-11-17,"Queens","ILI ED visits",596,2405464
+"2124",2018-11-24,"Queens","ILI ED visits",688,2405464
+"2125",2018-12-01,"Queens","ILI ED visits",625,2405464
+"2126",2018-12-08,"Queens","ILI ED visits",725,2405464
+"2127",2018-12-15,"Queens","ILI ED visits",904,2405464
+"2128",2018-12-22,"Queens","ILI ED visits",1062,2405464
+"2129",2018-12-29,"Queens","ILI ED visits",1227,2405464
+"2130",2019-01-05,"Queens","ILI ED visits",1135,2405464
+"2131",2019-01-12,"Queens","ILI ED visits",911,2405464
+"2132",2019-01-19,"Queens","ILI ED visits",1001,2405464
+"2133",2019-01-26,"Queens","ILI ED visits",1010,2405464
+"2134",2019-02-02,"Queens","ILI ED visits",854,2405464
+"2135",2019-02-09,"Queens","ILI ED visits",951,2405464
+"2136",2019-02-16,"Queens","ILI ED visits",1010,2405464
+"2137",2019-02-23,"Queens","ILI ED visits",974,2405464
+"2138",2019-03-02,"Queens","ILI ED visits",637,2405464
+"2139",2019-03-09,"Queens","ILI ED visits",609,2405464
+"2140",2019-03-16,"Queens","ILI ED visits",664,2405464
+"2141",2019-03-23,"Queens","ILI ED visits",674,2405464
+"2142",2019-03-30,"Queens","ILI ED visits",613,2405464
+"2143",2019-04-06,"Queens","ILI ED visits",592,2405464
+"2144",2019-04-13,"Queens","ILI ED visits",644,2405464
+"2145",2019-04-20,"Queens","ILI ED visits",570,2405464
+"2146",2019-04-27,"Queens","ILI ED visits",485,2405464
+"2147",2019-05-04,"Queens","ILI ED visits",462,2405464
+"2148",2019-05-11,"Queens","ILI ED visits",436,2405464
+"2149",2019-05-18,"Queens","ILI ED visits",461,2405464
+"2150",2019-05-25,"Queens","ILI ED visits",489,2405464
+"2151",2019-06-01,"Queens","ILI ED visits",513,2405464
+"2152",2019-06-08,"Queens","ILI ED visits",485,2405464
+"2153",2019-06-15,"Queens","ILI ED visits",437,2405464
+"2154",2019-06-22,"Queens","ILI ED visits",471,2405464
+"2155",2019-06-29,"Queens","ILI ED visits",440,2405464
+"2156",2019-07-06,"Queens","ILI ED visits",378,2405464
+"2157",2019-07-13,"Queens","ILI ED visits",333,2405464
+"2158",2019-07-20,"Queens","ILI ED visits",299,2405464
+"2159",2019-07-27,"Queens","ILI ED visits",275,2405464
+"2160",2019-08-03,"Queens","ILI ED visits",138,2405464
+"2161",2019-08-10,"Queens","ILI ED visits",163,2405464
+"2162",2019-08-17,"Queens","ILI ED visits",199,2405464
+"2163",2019-08-24,"Queens","ILI ED visits",221,2405464
+"2164",2019-08-31,"Queens","ILI ED visits",245,2405464
+"2165",2019-09-07,"Queens","ILI ED visits",225,2405464
+"2166",2019-09-14,"Queens","ILI ED visits",288,2405464
+"2167",2019-09-21,"Queens","ILI ED visits",435,2405464
+"2168",2019-09-28,"Queens","ILI ED visits",392,2405464
+"2169",2019-10-05,"Queens","ILI ED visits",347,2405464
+"2170",2019-10-12,"Queens","ILI ED visits",309,2405464
+"2171",2019-10-19,"Queens","ILI ED visits",320,2405464
+"2172",2019-10-26,"Queens","ILI ED visits",396,2405464
+"2173",2019-11-02,"Queens","ILI ED visits",422,2405464
+"2174",2019-11-09,"Queens","ILI ED visits",481,2405464
+"2175",2019-11-16,"Queens","ILI ED visits",554,2405464
+"2176",2019-11-23,"Queens","ILI ED visits",591,2405464
+"2177",2019-11-30,"Queens","ILI ED visits",720,2405464
+"2178",2019-12-07,"Queens","ILI ED visits",691,2405464
+"2179",2019-12-14,"Queens","ILI ED visits",834,2405464
+"2180",2019-12-21,"Queens","ILI ED visits",1115,2405464
+"2181",2019-12-28,"Queens","ILI ED visits",1757,2405464
+"2182",2020-01-04,"Queens","ILI ED visits",1726,2405464
+"2183",2020-01-11,"Queens","ILI ED visits",1542,2405464
+"2184",2020-01-18,"Queens","ILI ED visits",1654,2405464
+"2185",2020-01-25,"Queens","ILI ED visits",1810,2405464
+"2186",2020-02-01,"Queens","ILI ED visits",1834,2405464
+"2187",2020-02-08,"Queens","ILI ED visits",1678,2405464
+"2188",2020-02-15,"Queens","ILI ED visits",1219,2405464
+"2189",2020-02-22,"Queens","ILI ED visits",940,2405464
+"2190",2020-02-29,"Queens","ILI ED visits",777,2405464
+"2191",2020-03-07,"Queens","ILI ED visits",938,2405464
+"2192",2020-03-14,"Queens","ILI ED visits",1759,2405464
+"2193",2020-03-21,"Queens","ILI ED visits",3095,2405464
+"2194",2020-03-28,"Queens","ILI ED visits",3031,2405464
+"2195",2020-04-04,"Queens","ILI ED visits",1775,2405464
+"2196",2020-04-11,"Queens","ILI ED visits",919,2405464
+"2197",2020-04-18,"Queens","ILI ED visits",464,2405464
+"2198",2020-04-25,"Queens","ILI ED visits",200,2405464
+"2199",2020-05-02,"Queens","ILI ED visits",138,2405464
+"2200",2020-05-09,"Queens","ILI ED visits",83,2405464
+"2201",2020-05-16,"Queens","ILI ED visits",80,2405464
+"2202",2020-05-23,"Queens","ILI ED visits",72,2405464
+"2203",2020-05-30,"Queens","ILI ED visits",58,2405464
+"2204",2020-06-06,"Queens","ILI ED visits",61,2405464
+"2205",2020-06-13,"Queens","ILI ED visits",66,2405464
+"2206",2020-06-20,"Queens","ILI ED visits",55,2405464
+"2207",2020-06-27,"Queens","ILI ED visits",65,2405464
+"2208",2020-07-04,"Queens","ILI ED visits",52,2405464
+"2209",2020-07-11,"Queens","ILI ED visits",67,2405464
+"2210",2020-07-18,"Queens","ILI ED visits",86,2405464
+"2211",2020-07-25,"Queens","ILI ED visits",70,2405464
+"2212",2020-08-01,"Queens","ILI ED visits",102,2405464
+"2213",2020-08-08,"Queens","ILI ED visits",102,2405464
+"2214",2020-08-15,"Queens","ILI ED visits",98,2405464
+"2215",2020-08-22,"Queens","ILI ED visits",96,2405464
+"2216",2020-08-29,"Queens","ILI ED visits",87,2405464
+"2217",2020-09-05,"Queens","ILI ED visits",85,2405464
+"2218",2020-09-12,"Queens","ILI ED visits",105,2405464
+"2219",2020-09-19,"Queens","ILI ED visits",96,2405464
+"2220",2020-09-26,"Queens","ILI ED visits",109,2405464
+"2221",2020-10-03,"Queens","ILI ED visits",125,2405464
+"2222",2020-10-10,"Queens","ILI ED visits",132,2405464
+"2223",2020-10-17,"Queens","ILI ED visits",118,2405464
+"2224",2020-10-24,"Queens","ILI ED visits",143,2405464
+"2225",2020-10-31,"Queens","ILI ED visits",96,2405464
+"2226",2020-11-07,"Queens","ILI ED visits",102,2405464
+"2227",2020-11-14,"Queens","ILI ED visits",149,2405464
+"2228",2020-11-21,"Queens","ILI ED visits",136,2405464
+"2229",2020-11-28,"Queens","ILI ED visits",132,2405464
+"2230",2020-12-05,"Queens","ILI ED visits",141,2405464
+"2231",2020-12-12,"Queens","ILI ED visits",154,2405464
+"2232",2020-12-19,"Queens","ILI ED visits",163,2405464
+"2233",2020-12-26,"Queens","ILI ED visits",182,2405464
+"2234",2021-01-02,"Queens","ILI ED visits",206,2405464
+"2235",2021-01-09,"Queens","ILI ED visits",211,2405464
+"2236",2021-01-16,"Queens","ILI ED visits",195,2405464
+"2237",2021-01-23,"Queens","ILI ED visits",205,2405464
+"2238",2021-01-30,"Queens","ILI ED visits",185,2405464
+"2239",2021-02-06,"Queens","ILI ED visits",171,2405464
+"2240",2021-02-13,"Queens","ILI ED visits",175,2405464
+"2241",2021-02-20,"Queens","ILI ED visits",170,2405464
+"2242",2021-02-27,"Queens","ILI ED visits",176,2405464
+"2243",2021-03-06,"Queens","ILI ED visits",185,2405464
+"2244",2021-03-13,"Queens","ILI ED visits",200,2405464
+"2245",2021-03-20,"Queens","ILI ED visits",228,2405464
+"2246",2021-03-27,"Queens","ILI ED visits",219,2405464
+"2247",2021-04-03,"Queens","ILI ED visits",209,2405464
+"2248",2021-04-10,"Queens","ILI ED visits",206,2405464
+"2249",2021-04-17,"Queens","ILI ED visits",193,2405464
+"2250",2021-04-24,"Queens","ILI ED visits",174,2405464
+"2251",2021-05-01,"Queens","ILI ED visits",191,2405464
+"2252",2021-05-08,"Queens","ILI ED visits",183,2405464
+"2253",2021-05-15,"Queens","ILI ED visits",163,2405464
+"2254",2021-05-22,"Queens","ILI ED visits",247,2405464
+"2255",2021-05-29,"Queens","ILI ED visits",202,2405464
+"2256",2021-06-05,"Queens","ILI ED visits",220,2405464
+"2257",2021-06-12,"Queens","ILI ED visits",222,2405464
+"2258",2021-06-19,"Queens","ILI ED visits",241,2405464
+"2259",2021-06-26,"Queens","ILI ED visits",228,2405464
+"2260",2021-07-03,"Queens","ILI ED visits",288,2405464
+"2261",2021-07-10,"Queens","ILI ED visits",280,2405464
+"2262",2021-07-17,"Queens","ILI ED visits",315,2405464
+"2263",2021-07-24,"Queens","ILI ED visits",364,2405464
+"2264",2021-07-31,"Queens","ILI ED visits",360,2405464
+"2265",2021-08-07,"Queens","ILI ED visits",390,2405464
+"2266",2021-08-14,"Queens","ILI ED visits",398,2405464
+"2267",2021-08-21,"Queens","ILI ED visits",381,2405464
+"2268",2021-08-28,"Queens","ILI ED visits",336,2405464
+"2269",2021-09-04,"Queens","ILI ED visits",314,2405464
+"2270",2021-09-11,"Queens","ILI ED visits",348,2405464
+"2271",2021-09-18,"Queens","ILI ED visits",397,2405464
+"2272",2021-09-25,"Queens","ILI ED visits",507,2405464
+"2273",2021-10-02,"Queens","ILI ED visits",526,2405464
+"2274",2021-10-09,"Queens","ILI ED visits",541,2405464
+"2275",2021-10-16,"Queens","ILI ED visits",496,2405464
+"2276",2021-10-23,"Queens","ILI ED visits",498,2405464
+"2277",2021-10-30,"Queens","ILI ED visits",460,2405464
+"2278",2021-11-06,"Queens","ILI ED visits",434,2405464
+"2279",2021-11-13,"Queens","ILI ED visits",529,2405464
+"2280",2021-11-20,"Queens","ILI ED visits",496,2405464
+"2281",2021-11-27,"Queens","ILI ED visits",468,2405464
+"2282",2021-12-04,"Queens","ILI ED visits",547,2405464
+"2283",2021-12-11,"Queens","ILI ED visits",565,2405464
+"2284",2021-12-18,"Queens","ILI ED visits",624,2405464
+"2285",2021-12-25,"Queens","ILI ED visits",1099,2405464
+"2286",2022-01-01,"Queens","ILI ED visits",1474,2405464
+"2287",2022-01-08,"Queens","ILI ED visits",902,2405464
+"2288",2022-01-15,"Queens","ILI ED visits",445,2405464
+"2289",2022-01-22,"Queens","ILI ED visits",263,2405464
+"2290",2022-01-29,"Queens","ILI ED visits",199,2405464
+"2291",2022-02-05,"Queens","ILI ED visits",143,2405464
+"2292",2022-02-12,"Queens","ILI ED visits",172,2405464
+"2293",2022-02-19,"Queens","ILI ED visits",198,2405464
+"2294",2022-02-26,"Queens","ILI ED visits",222,2405464
+"2295",2022-03-05,"Queens","ILI ED visits",232,2405464
+"2296",2022-03-12,"Queens","ILI ED visits",274,2405464
+"2297",2022-03-19,"Queens","ILI ED visits",322,2405464
+"2298",2022-03-26,"Queens","ILI ED visits",376,2405464
+"2299",2022-04-02,"Queens","ILI ED visits",446,2405464
+"2300",2022-04-09,"Queens","ILI ED visits",544,2405464
+"2301",2022-04-16,"Queens","ILI ED visits",536,2405464
+"2302",2022-04-23,"Queens","ILI ED visits",531,2405464
+"2303",2022-04-30,"Queens","ILI ED visits",581,2405464
+"2304",2022-05-07,"Queens","ILI ED visits",610,2405464
+"2305",2022-05-14,"Queens","ILI ED visits",662,2405464
+"2306",2022-05-21,"Queens","ILI ED visits",733,2405464
+"2307",2022-05-28,"Queens","ILI ED visits",739,2405464
+"2308",2022-06-04,"Queens","ILI ED visits",728,2405464
+"2309",2022-06-11,"Queens","ILI ED visits",670,2405464
+"2310",2022-06-18,"Queens","ILI ED visits",653,2405464
+"2311",2022-06-25,"Queens","ILI ED visits",649,2405464
+"2312",2022-07-02,"Queens","ILI ED visits",629,2405464
+"2313",2022-07-09,"Queens","ILI ED visits",633,2405464
+"2314",2022-07-16,"Queens","ILI ED visits",510,2405464
+"2315",2022-07-23,"Queens","ILI ED visits",462,2405464
+"2316",2022-07-30,"Queens","ILI ED visits",496,2405464
+"2317",2022-08-06,"Queens","ILI ED visits",450,2405464
+"2318",2022-08-13,"Queens","ILI ED visits",421,2405464
+"2319",2022-08-20,"Queens","ILI ED visits",395,2405464
+"2320",2022-08-27,"Queens","ILI ED visits",366,2405464
+"2321",2022-09-03,"Queens","ILI ED visits",341,2405464
+"2322",2022-09-10,"Queens","ILI ED visits",345,2405464
+"2323",2022-09-17,"Queens","ILI ED visits",541,2405464
+"2324",2022-09-24,"Queens","ILI ED visits",686,2405464
+"2325",2022-10-01,"Queens","ILI ED visits",644,2405464
+"2326",2022-10-08,"Queens","ILI ED visits",612,2405464
+"2327",2022-10-15,"Queens","ILI ED visits",760,2405464
+"2328",2022-10-22,"Queens","ILI ED visits",890,2405464
+"2329",2022-10-29,"Queens","ILI ED visits",1152,2405464
+"2330",2022-11-05,"Queens","ILI ED visits",1488,2405464
+"2331",2022-11-12,"Queens","ILI ED visits",1585,2405464
+"2332",2022-11-19,"Queens","ILI ED visits",1479,2405464
+"2333",2022-11-26,"Queens","ILI ED visits",1968,2405464
+"2334",2022-12-03,"Queens","ILI ED visits",2201,2405464
+"2335",2022-12-10,"Queens","ILI ED visits",2120,2405464
+"2336",2022-12-17,"Queens","ILI ED visits",1819,2405464
+"2337",2022-12-24,"Queens","ILI ED visits",1443,2405464
+"2338",2022-12-31,"Queens","ILI ED visits",1371,2405464
+"2339",2023-01-07,"Queens","ILI ED visits",1018,2405464
+"2340",2023-01-14,"Queens","ILI ED visits",678,2405464
+"2341",2023-01-21,"Queens","ILI ED visits",629,2405464
+"2342",2023-01-28,"Queens","ILI ED visits",637,2405464
+"2343",2023-02-04,"Queens","ILI ED visits",619,2405464
+"2344",2023-02-11,"Queens","ILI ED visits",692,2405464
+"2345",2023-02-18,"Queens","ILI ED visits",685,2405464
+"2346",2023-02-25,"Queens","ILI ED visits",634,2405464
+"2347",2023-03-04,"Queens","ILI ED visits",604,2405464
+"2348",2023-03-11,"Queens","ILI ED visits",599,2405464
+"2349",2023-03-18,"Queens","ILI ED visits",642,2405464
+"2350",2023-03-25,"Queens","ILI ED visits",728,2405464
+"2351",2023-04-01,"Queens","ILI ED visits",711,2405464
+"2352",2023-04-08,"Queens","ILI ED visits",656,2405464
+"2353",2023-04-15,"Queens","ILI ED visits",572,2405464
+"2354",2023-04-22,"Queens","ILI ED visits",476,2405464
+"2355",2023-04-29,"Queens","ILI ED visits",525,2405464
+"2356",2023-05-06,"Queens","ILI ED visits",511,2405464
+"2357",2023-05-13,"Queens","ILI ED visits",591,2405464
+"2358",2023-05-20,"Queens","ILI ED visits",625,2405464
+"2359",2023-05-27,"Queens","ILI ED visits",646,2405464
+"2360",2023-06-03,"Queens","ILI ED visits",622,2405464
+"2361",2023-06-10,"Queens","ILI ED visits",553,2405464
+"2362",2023-06-17,"Queens","ILI ED visits",520,2405464
+"2363",2023-06-24,"Queens","ILI ED visits",475,2405464
+"2364",2023-07-01,"Queens","ILI ED visits",416,2405464
+"2365",2023-07-08,"Queens","ILI ED visits",413,2405464
+"2366",2023-07-15,"Queens","ILI ED visits",387,2405464
+"2367",2023-07-22,"Queens","ILI ED visits",372,2405464
+"2368",2023-07-29,"Queens","ILI ED visits",356,2405464
+"2369",2023-08-05,"Queens","ILI ED visits",360,2405464
+"2370",2023-08-12,"Queens","ILI ED visits",410,2405464
+"2371",2023-08-19,"Queens","ILI ED visits",358,2405464
+"2372",2023-08-26,"Queens","ILI ED visits",317,2405464
+"2373",2023-09-02,"Queens","ILI ED visits",378,2405464
+"2374",2023-09-09,"Queens","ILI ED visits",362,2405464
+"2375",2023-09-16,"Queens","ILI ED visits",408,2405464
+"2376",2023-09-23,"Queens","ILI ED visits",566,2405464
+"2377",2023-09-30,"Queens","ILI ED visits",510,2405464
+"2378",2023-10-07,"Queens","ILI ED visits",601,2405464
+"2379",2023-10-14,"Queens","ILI ED visits",566,2405464
+"2380",2023-10-21,"Queens","ILI ED visits",723,2405464
+"2381",2023-10-28,"Queens","ILI ED visits",738,2405464
+"2382",2023-11-04,"Queens","ILI ED visits",735,2405464
+"2383",2023-11-11,"Queens","ILI ED visits",885,2405464
+"2384",2023-11-18,"Queens","ILI ED visits",928,2405464
+"2385",2023-11-25,"Queens","ILI ED visits",917,2405464
+"2386",2023-12-02,"Queens","ILI ED visits",1080,2405464
+"2387",2023-12-09,"Queens","ILI ED visits",1217,2405464
+"2388",2023-12-16,"Queens","ILI ED visits",1409,2405464
+"2389",2023-12-23,"Queens","ILI ED visits",1618,2405464
+"2390",2023-12-30,"Queens","ILI ED visits",1887,2405464
+"2391",2024-01-06,"Queens","ILI ED visits",1500,2405464
+"2392",2024-01-13,"Queens","ILI ED visits",1512,2405464
+"2393",2024-01-20,"Queens","ILI ED visits",1145,2405464
+"2394",2024-01-27,"Queens","ILI ED visits",1074,2405464
+"2395",2024-02-03,"Queens","ILI ED visits",1115,2405464
+"2396",2024-02-10,"Queens","ILI ED visits",1063,2405464
+"2397",2024-02-17,"Queens","ILI ED visits",1040,2405464
+"2398",2024-02-24,"Queens","ILI ED visits",954,2405464
+"2399",2024-03-02,"Queens","ILI ED visits",812,2405464
+"2400",2024-03-09,"Queens","ILI ED visits",736,2405464
+"2401",2024-03-16,"Queens","ILI ED visits",717,2405464
+"2402",2024-03-23,"Queens","ILI ED visits",710,2405464
+"2403",2024-03-30,"Queens","ILI ED visits",740,2405464
+"2404",2024-04-06,"Queens","ILI ED visits",673,2405464
+"2405",2024-04-13,"Queens","ILI ED visits",617,2405464
+"2406",2024-04-20,"Queens","ILI ED visits",601,2405464
+"2407",2024-04-27,"Queens","ILI ED visits",559,2405464
+"2408",2024-05-04,"Queens","ILI ED visits",465,2405464
+"2409",2024-05-11,"Queens","ILI ED visits",396,2405464
+"2410",2024-05-18,"Queens","ILI ED visits",465,2405464
+"2411",2024-05-25,"Queens","ILI ED visits",562,2405464
+"2412",2024-06-01,"Queens","ILI ED visits",511,2405464
+"2413",2024-06-08,"Queens","ILI ED visits",458,2405464
+"2414",2024-06-15,"Queens","ILI ED visits",473,2405464
+"2415",2024-06-22,"Queens","ILI ED visits",471,2405464
+"2416",2024-06-29,"Queens","ILI ED visits",506,2405464
+"2417",2024-07-06,"Queens","ILI ED visits",396,2405464
+"2418",2024-07-13,"Queens","ILI ED visits",398,2405464
+"2419",2024-07-20,"Queens","ILI ED visits",400,2405464
+"2420",2024-07-27,"Queens","ILI ED visits",422,2405464
+"2421",2024-08-03,"Queens","ILI ED visits",359,2405464
+"2422",2024-08-10,"Queens","ILI ED visits",331,2405464
+"2423",2024-08-17,"Queens","ILI ED visits",346,2405464
+"2424",2024-08-24,"Queens","ILI ED visits",361,2405464
+"2425",2024-08-31,"Queens","ILI ED visits",339,2405464
+"2426",2024-09-07,"Queens","ILI ED visits",359,2405464
+"2427",2024-09-14,"Queens","ILI ED visits",415,2405464
+"2428",2024-09-21,"Queens","ILI ED visits",532,2405464
+"2429",2024-09-28,"Queens","ILI ED visits",555,2405464
+"2430",2024-10-05,"Queens","ILI ED visits",531,2405464
+"2431",2024-10-12,"Queens","ILI ED visits",549,2405464
+"2432",2024-10-19,"Queens","ILI ED visits",550,2405464
+"2433",2024-10-26,"Queens","ILI ED visits",680,2405464
+"2434",2024-11-02,"Queens","ILI ED visits",618,2405464
+"2435",2024-11-09,"Queens","ILI ED visits",644,2405464
+"2436",2024-11-16,"Queens","ILI ED visits",658,2405464
+"2437",2024-11-23,"Queens","ILI ED visits",704,2405464
+"2438",2024-11-30,"Queens","ILI ED visits",777,2405464
+"2439",2024-12-21,"Queens","ILI ED visits",1103,2405464
+"2440",2016-01-02,"Staten Island","ILI ED visits",28,495747
+"2441",2016-01-09,"Staten Island","ILI ED visits",103,495747
+"2442",2016-01-16,"Staten Island","ILI ED visits",78,495747
+"2443",2016-01-23,"Staten Island","ILI ED visits",66,495747
+"2444",2016-01-30,"Staten Island","ILI ED visits",91,495747
+"2445",2016-02-06,"Staten Island","ILI ED visits",101,495747
+"2446",2016-02-13,"Staten Island","ILI ED visits",114,495747
+"2447",2016-02-20,"Staten Island","ILI ED visits",119,495747
+"2448",2016-02-27,"Staten Island","ILI ED visits",132,495747
+"2449",2016-03-05,"Staten Island","ILI ED visits",108,495747
+"2450",2016-03-12,"Staten Island","ILI ED visits",143,495747
+"2451",2016-03-19,"Staten Island","ILI ED visits",112,495747
+"2452",2016-03-26,"Staten Island","ILI ED visits",116,495747
+"2453",2016-04-02,"Staten Island","ILI ED visits",118,495747
+"2454",2016-04-09,"Staten Island","ILI ED visits",102,495747
+"2455",2016-04-16,"Staten Island","ILI ED visits",111,495747
+"2456",2016-04-23,"Staten Island","ILI ED visits",104,495747
+"2457",2016-04-30,"Staten Island","ILI ED visits",65,495747
+"2458",2016-05-07,"Staten Island","ILI ED visits",60,495747
+"2459",2016-05-14,"Staten Island","ILI ED visits",61,495747
+"2460",2016-05-21,"Staten Island","ILI ED visits",59,495747
+"2461",2016-05-28,"Staten Island","ILI ED visits",49,495747
+"2462",2016-06-04,"Staten Island","ILI ED visits",64,495747
+"2463",2016-06-11,"Staten Island","ILI ED visits",50,495747
+"2464",2016-06-18,"Staten Island","ILI ED visits",37,495747
+"2465",2016-06-25,"Staten Island","ILI ED visits",50,495747
+"2466",2016-07-02,"Staten Island","ILI ED visits",48,495747
+"2467",2016-07-09,"Staten Island","ILI ED visits",34,495747
+"2468",2016-07-16,"Staten Island","ILI ED visits",42,495747
+"2469",2016-07-23,"Staten Island","ILI ED visits",24,495747
+"2470",2016-07-30,"Staten Island","ILI ED visits",32,495747
+"2471",2016-08-06,"Staten Island","ILI ED visits",32,495747
+"2472",2016-08-13,"Staten Island","ILI ED visits",31,495747
+"2473",2016-08-20,"Staten Island","ILI ED visits",24,495747
+"2474",2016-08-27,"Staten Island","ILI ED visits",40,495747
+"2475",2016-09-03,"Staten Island","ILI ED visits",33,495747
+"2476",2016-09-10,"Staten Island","ILI ED visits",30,495747
+"2477",2016-09-17,"Staten Island","ILI ED visits",34,495747
+"2478",2016-09-24,"Staten Island","ILI ED visits",45,495747
+"2479",2016-10-01,"Staten Island","ILI ED visits",47,495747
+"2480",2016-10-08,"Staten Island","ILI ED visits",46,495747
+"2481",2016-10-15,"Staten Island","ILI ED visits",44,495747
+"2482",2016-10-22,"Staten Island","ILI ED visits",44,495747
+"2483",2016-10-29,"Staten Island","ILI ED visits",31,495747
+"2484",2016-11-05,"Staten Island","ILI ED visits",65,495747
+"2485",2016-11-12,"Staten Island","ILI ED visits",56,495747
+"2486",2016-11-19,"Staten Island","ILI ED visits",57,495747
+"2487",2016-11-26,"Staten Island","ILI ED visits",54,495747
+"2488",2016-12-03,"Staten Island","ILI ED visits",65,495747
+"2489",2016-12-10,"Staten Island","ILI ED visits",80,495747
+"2490",2016-12-17,"Staten Island","ILI ED visits",88,495747
+"2491",2016-12-24,"Staten Island","ILI ED visits",133,495747
+"2492",2016-12-31,"Staten Island","ILI ED visits",197,495747
+"2493",2017-01-07,"Staten Island","ILI ED visits",140,495747
+"2494",2017-01-14,"Staten Island","ILI ED visits",136,495747
+"2495",2017-01-21,"Staten Island","ILI ED visits",134,495747
+"2496",2017-01-28,"Staten Island","ILI ED visits",107,495747
+"2497",2017-02-04,"Staten Island","ILI ED visits",90,495747
+"2498",2017-02-11,"Staten Island","ILI ED visits",86,495747
+"2499",2017-02-18,"Staten Island","ILI ED visits",91,495747
+"2500",2017-02-25,"Staten Island","ILI ED visits",87,495747
+"2501",2017-03-04,"Staten Island","ILI ED visits",69,495747
+"2502",2017-03-11,"Staten Island","ILI ED visits",55,495747
+"2503",2017-03-18,"Staten Island","ILI ED visits",65,495747
+"2504",2017-03-25,"Staten Island","ILI ED visits",67,495747
+"2505",2017-04-01,"Staten Island","ILI ED visits",93,495747
+"2506",2017-04-08,"Staten Island","ILI ED visits",78,495747
+"2507",2017-04-15,"Staten Island","ILI ED visits",86,495747
+"2508",2017-04-22,"Staten Island","ILI ED visits",57,495747
+"2509",2017-04-29,"Staten Island","ILI ED visits",54,495747
+"2510",2017-05-06,"Staten Island","ILI ED visits",34,495747
+"2511",2017-05-13,"Staten Island","ILI ED visits",42,495747
+"2512",2017-05-20,"Staten Island","ILI ED visits",49,495747
+"2513",2017-05-27,"Staten Island","ILI ED visits",41,495747
+"2514",2017-06-03,"Staten Island","ILI ED visits",46,495747
+"2515",2017-06-10,"Staten Island","ILI ED visits",33,495747
+"2516",2017-06-17,"Staten Island","ILI ED visits",41,495747
+"2517",2017-06-24,"Staten Island","ILI ED visits",25,495747
+"2518",2017-07-01,"Staten Island","ILI ED visits",29,495747
+"2519",2017-07-08,"Staten Island","ILI ED visits",28,495747
+"2520",2017-07-15,"Staten Island","ILI ED visits",29,495747
+"2521",2017-07-22,"Staten Island","ILI ED visits",27,495747
+"2522",2017-07-29,"Staten Island","ILI ED visits",25,495747
+"2523",2017-08-05,"Staten Island","ILI ED visits",31,495747
+"2524",2017-08-12,"Staten Island","ILI ED visits",22,495747
+"2525",2017-08-19,"Staten Island","ILI ED visits",22,495747
+"2526",2017-08-26,"Staten Island","ILI ED visits",30,495747
+"2527",2017-09-02,"Staten Island","ILI ED visits",32,495747
+"2528",2017-09-09,"Staten Island","ILI ED visits",26,495747
+"2529",2017-09-16,"Staten Island","ILI ED visits",26,495747
+"2530",2017-09-23,"Staten Island","ILI ED visits",41,495747
+"2531",2017-09-30,"Staten Island","ILI ED visits",35,495747
+"2532",2017-10-07,"Staten Island","ILI ED visits",28,495747
+"2533",2017-10-14,"Staten Island","ILI ED visits",49,495747
+"2534",2017-10-21,"Staten Island","ILI ED visits",55,495747
+"2535",2017-10-28,"Staten Island","ILI ED visits",47,495747
+"2536",2017-11-04,"Staten Island","ILI ED visits",32,495747
+"2537",2017-11-11,"Staten Island","ILI ED visits",31,495747
+"2538",2017-11-18,"Staten Island","ILI ED visits",53,495747
+"2539",2017-11-25,"Staten Island","ILI ED visits",62,495747
+"2540",2017-12-02,"Staten Island","ILI ED visits",74,495747
+"2541",2017-12-09,"Staten Island","ILI ED visits",70,495747
+"2542",2017-12-16,"Staten Island","ILI ED visits",87,495747
+"2543",2017-12-23,"Staten Island","ILI ED visits",90,495747
+"2544",2017-12-30,"Staten Island","ILI ED visits",128,495747
+"2545",2018-01-06,"Staten Island","ILI ED visits",120,495747
+"2546",2018-01-13,"Staten Island","ILI ED visits",183,495747
+"2547",2018-01-20,"Staten Island","ILI ED visits",220,495747
+"2548",2018-01-27,"Staten Island","ILI ED visits",271,495747
+"2549",2018-02-03,"Staten Island","ILI ED visits",288,495747
+"2550",2018-02-10,"Staten Island","ILI ED visits",356,495747
+"2551",2018-02-17,"Staten Island","ILI ED visits",315,495747
+"2552",2018-02-24,"Staten Island","ILI ED visits",202,495747
+"2553",2018-03-03,"Staten Island","ILI ED visits",95,495747
+"2554",2018-03-10,"Staten Island","ILI ED visits",66,495747
+"2555",2018-03-17,"Staten Island","ILI ED visits",55,495747
+"2556",2018-03-24,"Staten Island","ILI ED visits",53,495747
+"2557",2018-03-31,"Staten Island","ILI ED visits",40,495747
+"2558",2018-04-07,"Staten Island","ILI ED visits",42,495747
+"2559",2018-04-14,"Staten Island","ILI ED visits",43,495747
+"2560",2018-04-21,"Staten Island","ILI ED visits",36,495747
+"2561",2018-04-28,"Staten Island","ILI ED visits",36,495747
+"2562",2018-05-05,"Staten Island","ILI ED visits",27,495747
+"2563",2018-05-12,"Staten Island","ILI ED visits",32,495747
+"2564",2018-05-19,"Staten Island","ILI ED visits",27,495747
+"2565",2018-05-26,"Staten Island","ILI ED visits",20,495747
+"2566",2018-06-02,"Staten Island","ILI ED visits",24,495747
+"2567",2018-06-09,"Staten Island","ILI ED visits",23,495747
+"2568",2018-06-16,"Staten Island","ILI ED visits",27,495747
+"2569",2018-06-23,"Staten Island","ILI ED visits",24,495747
+"2570",2018-06-30,"Staten Island","ILI ED visits",24,495747
+"2571",2018-07-07,"Staten Island","ILI ED visits",20,495747
+"2572",2018-07-14,"Staten Island","ILI ED visits",19,495747
+"2573",2018-07-21,"Staten Island","ILI ED visits",10,495747
+"2574",2018-07-28,"Staten Island","ILI ED visits",14,495747
+"2575",2018-08-04,"Staten Island","ILI ED visits",16,495747
+"2576",2018-08-11,"Staten Island","ILI ED visits",14,495747
+"2577",2018-08-18,"Staten Island","ILI ED visits",19,495747
+"2578",2018-08-25,"Staten Island","ILI ED visits",22,495747
+"2579",2018-09-01,"Staten Island","ILI ED visits",16,495747
+"2580",2018-09-08,"Staten Island","ILI ED visits",15,495747
+"2581",2018-09-15,"Staten Island","ILI ED visits",17,495747
+"2582",2018-09-22,"Staten Island","ILI ED visits",34,495747
+"2583",2018-09-29,"Staten Island","ILI ED visits",39,495747
+"2584",2018-10-06,"Staten Island","ILI ED visits",56,495747
+"2585",2018-10-13,"Staten Island","ILI ED visits",39,495747
+"2586",2018-10-20,"Staten Island","ILI ED visits",56,495747
+"2587",2018-10-27,"Staten Island","ILI ED visits",53,495747
+"2588",2018-11-03,"Staten Island","ILI ED visits",36,495747
+"2589",2018-11-10,"Staten Island","ILI ED visits",42,495747
+"2590",2018-11-17,"Staten Island","ILI ED visits",37,495747
+"2591",2018-11-24,"Staten Island","ILI ED visits",42,495747
+"2592",2018-12-01,"Staten Island","ILI ED visits",62,495747
+"2593",2018-12-08,"Staten Island","ILI ED visits",76,495747
+"2594",2018-12-15,"Staten Island","ILI ED visits",80,495747
+"2595",2018-12-22,"Staten Island","ILI ED visits",109,495747
+"2596",2018-12-29,"Staten Island","ILI ED visits",143,495747
+"2597",2019-01-05,"Staten Island","ILI ED visits",122,495747
+"2598",2019-01-12,"Staten Island","ILI ED visits",82,495747
+"2599",2019-01-19,"Staten Island","ILI ED visits",99,495747
+"2600",2019-01-26,"Staten Island","ILI ED visits",92,495747
+"2601",2019-02-02,"Staten Island","ILI ED visits",104,495747
+"2602",2019-02-09,"Staten Island","ILI ED visits",129,495747
+"2603",2019-02-16,"Staten Island","ILI ED visits",127,495747
+"2604",2019-02-23,"Staten Island","ILI ED visits",103,495747
+"2605",2019-03-02,"Staten Island","ILI ED visits",83,495747
+"2606",2019-03-09,"Staten Island","ILI ED visits",71,495747
+"2607",2019-03-16,"Staten Island","ILI ED visits",73,495747
+"2608",2019-03-23,"Staten Island","ILI ED visits",65,495747
+"2609",2019-03-30,"Staten Island","ILI ED visits",67,495747
+"2610",2019-04-06,"Staten Island","ILI ED visits",76,495747
+"2611",2019-04-13,"Staten Island","ILI ED visits",50,495747
+"2612",2019-04-20,"Staten Island","ILI ED visits",51,495747
+"2613",2019-04-27,"Staten Island","ILI ED visits",38,495747
+"2614",2019-05-04,"Staten Island","ILI ED visits",41,495747
+"2615",2019-05-11,"Staten Island","ILI ED visits",46,495747
+"2616",2019-05-18,"Staten Island","ILI ED visits",37,495747
+"2617",2019-05-25,"Staten Island","ILI ED visits",46,495747
+"2618",2019-06-01,"Staten Island","ILI ED visits",40,495747
+"2619",2019-06-08,"Staten Island","ILI ED visits",34,495747
+"2620",2019-06-15,"Staten Island","ILI ED visits",37,495747
+"2621",2019-06-22,"Staten Island","ILI ED visits",31,495747
+"2622",2019-06-29,"Staten Island","ILI ED visits",27,495747
+"2623",2019-07-06,"Staten Island","ILI ED visits",26,495747
+"2624",2019-07-13,"Staten Island","ILI ED visits",22,495747
+"2625",2019-07-20,"Staten Island","ILI ED visits",18,495747
+"2626",2019-07-27,"Staten Island","ILI ED visits",17,495747
+"2627",2019-08-03,"Staten Island","ILI ED visits",5,495747
+"2628",2019-08-10,"Staten Island","ILI ED visits",8,495747
+"2629",2019-08-17,"Staten Island","ILI ED visits",27,495747
+"2630",2019-08-24,"Staten Island","ILI ED visits",21,495747
+"2631",2019-08-31,"Staten Island","ILI ED visits",23,495747
+"2632",2019-09-07,"Staten Island","ILI ED visits",19,495747
+"2633",2019-09-14,"Staten Island","ILI ED visits",28,495747
+"2634",2019-09-21,"Staten Island","ILI ED visits",32,495747
+"2635",2019-09-28,"Staten Island","ILI ED visits",36,495747
+"2636",2019-10-05,"Staten Island","ILI ED visits",24,495747
+"2637",2019-10-12,"Staten Island","ILI ED visits",33,495747
+"2638",2019-10-19,"Staten Island","ILI ED visits",35,495747
+"2639",2019-10-26,"Staten Island","ILI ED visits",39,495747
+"2640",2019-11-02,"Staten Island","ILI ED visits",30,495747
+"2641",2019-11-09,"Staten Island","ILI ED visits",52,495747
+"2642",2019-11-16,"Staten Island","ILI ED visits",39,495747
+"2643",2019-11-23,"Staten Island","ILI ED visits",42,495747
+"2644",2019-11-30,"Staten Island","ILI ED visits",55,495747
+"2645",2019-12-07,"Staten Island","ILI ED visits",95,495747
+"2646",2019-12-14,"Staten Island","ILI ED visits",93,495747
+"2647",2019-12-21,"Staten Island","ILI ED visits",131,495747
+"2648",2019-12-28,"Staten Island","ILI ED visits",166,495747
+"2649",2020-01-04,"Staten Island","ILI ED visits",249,495747
+"2650",2020-01-11,"Staten Island","ILI ED visits",161,495747
+"2651",2020-01-18,"Staten Island","ILI ED visits",200,495747
+"2652",2020-01-25,"Staten Island","ILI ED visits",224,495747
+"2653",2020-02-01,"Staten Island","ILI ED visits",231,495747
+"2654",2020-02-08,"Staten Island","ILI ED visits",208,495747
+"2655",2020-02-15,"Staten Island","ILI ED visits",170,495747
+"2656",2020-02-22,"Staten Island","ILI ED visits",111,495747
+"2657",2020-02-29,"Staten Island","ILI ED visits",104,495747
+"2658",2020-03-07,"Staten Island","ILI ED visits",136,495747
+"2659",2020-03-14,"Staten Island","ILI ED visits",243,495747
+"2660",2020-03-21,"Staten Island","ILI ED visits",314,495747
+"2661",2020-03-28,"Staten Island","ILI ED visits",329,495747
+"2662",2020-04-04,"Staten Island","ILI ED visits",285,495747
+"2663",2020-04-11,"Staten Island","ILI ED visits",153,495747
+"2664",2020-04-18,"Staten Island","ILI ED visits",74,495747
+"2665",2020-04-25,"Staten Island","ILI ED visits",38,495747
+"2666",2020-05-02,"Staten Island","ILI ED visits",23,495747
+"2667",2020-05-09,"Staten Island","ILI ED visits",26,495747
+"2668",2020-05-16,"Staten Island","ILI ED visits",10,495747
+"2669",2020-05-23,"Staten Island","ILI ED visits",12,495747
+"2670",2020-05-30,"Staten Island","ILI ED visits",6,495747
+"2671",2020-06-06,"Staten Island","ILI ED visits",7,495747
+"2672",2020-06-13,"Staten Island","ILI ED visits",4,495747
+"2673",2020-06-20,"Staten Island","ILI ED visits",2,495747
+"2674",2020-06-27,"Staten Island","ILI ED visits",9,495747
+"2675",2020-07-04,"Staten Island","ILI ED visits",5,495747
+"2676",2020-07-11,"Staten Island","ILI ED visits",9,495747
+"2677",2020-07-18,"Staten Island","ILI ED visits",9,495747
+"2678",2020-07-25,"Staten Island","ILI ED visits",11,495747
+"2679",2020-08-01,"Staten Island","ILI ED visits",10,495747
+"2680",2020-08-08,"Staten Island","ILI ED visits",14,495747
+"2681",2020-08-15,"Staten Island","ILI ED visits",11,495747
+"2682",2020-08-22,"Staten Island","ILI ED visits",12,495747
+"2683",2020-08-29,"Staten Island","ILI ED visits",16,495747
+"2684",2020-09-05,"Staten Island","ILI ED visits",8,495747
+"2685",2020-09-12,"Staten Island","ILI ED visits",12,495747
+"2686",2020-09-19,"Staten Island","ILI ED visits",8,495747
+"2687",2020-09-26,"Staten Island","ILI ED visits",15,495747
+"2688",2020-10-03,"Staten Island","ILI ED visits",15,495747
+"2689",2020-10-10,"Staten Island","ILI ED visits",13,495747
+"2690",2020-10-17,"Staten Island","ILI ED visits",16,495747
+"2691",2020-10-24,"Staten Island","ILI ED visits",12,495747
+"2692",2020-10-31,"Staten Island","ILI ED visits",12,495747
+"2693",2020-11-07,"Staten Island","ILI ED visits",16,495747
+"2694",2020-11-14,"Staten Island","ILI ED visits",24,495747
+"2695",2020-11-21,"Staten Island","ILI ED visits",18,495747
+"2696",2020-11-28,"Staten Island","ILI ED visits",24,495747
+"2697",2020-12-05,"Staten Island","ILI ED visits",21,495747
+"2698",2020-12-12,"Staten Island","ILI ED visits",22,495747
+"2699",2020-12-19,"Staten Island","ILI ED visits",23,495747
+"2700",2020-12-26,"Staten Island","ILI ED visits",15,495747
+"2701",2021-01-02,"Staten Island","ILI ED visits",18,495747
+"2702",2021-01-09,"Staten Island","ILI ED visits",19,495747
+"2703",2021-01-16,"Staten Island","ILI ED visits",18,495747
+"2704",2021-01-23,"Staten Island","ILI ED visits",14,495747
+"2705",2021-01-30,"Staten Island","ILI ED visits",11,495747
+"2706",2021-02-06,"Staten Island","ILI ED visits",14,495747
+"2707",2021-02-13,"Staten Island","ILI ED visits",14,495747
+"2708",2021-02-20,"Staten Island","ILI ED visits",8,495747
+"2709",2021-02-27,"Staten Island","ILI ED visits",10,495747
+"2710",2021-03-06,"Staten Island","ILI ED visits",17,495747
+"2711",2021-03-13,"Staten Island","ILI ED visits",21,495747
+"2712",2021-03-20,"Staten Island","ILI ED visits",24,495747
+"2713",2021-03-27,"Staten Island","ILI ED visits",22,495747
+"2714",2021-04-03,"Staten Island","ILI ED visits",17,495747
+"2715",2021-04-10,"Staten Island","ILI ED visits",14,495747
+"2716",2021-04-17,"Staten Island","ILI ED visits",23,495747
+"2717",2021-04-24,"Staten Island","ILI ED visits",15,495747
+"2718",2021-05-01,"Staten Island","ILI ED visits",5,495747
+"2719",2021-05-08,"Staten Island","ILI ED visits",12,495747
+"2720",2021-05-15,"Staten Island","ILI ED visits",12,495747
+"2721",2021-05-22,"Staten Island","ILI ED visits",10,495747
+"2722",2021-05-29,"Staten Island","ILI ED visits",11,495747
+"2723",2021-06-05,"Staten Island","ILI ED visits",15,495747
+"2724",2021-06-12,"Staten Island","ILI ED visits",19,495747
+"2725",2021-06-19,"Staten Island","ILI ED visits",15,495747
+"2726",2021-06-26,"Staten Island","ILI ED visits",16,495747
+"2727",2021-07-03,"Staten Island","ILI ED visits",20,495747
+"2728",2021-07-10,"Staten Island","ILI ED visits",23,495747
+"2729",2021-07-17,"Staten Island","ILI ED visits",15,495747
+"2730",2021-07-24,"Staten Island","ILI ED visits",20,495747
+"2731",2021-07-31,"Staten Island","ILI ED visits",31,495747
+"2732",2021-08-07,"Staten Island","ILI ED visits",30,495747
+"2733",2021-08-14,"Staten Island","ILI ED visits",31,495747
+"2734",2021-08-21,"Staten Island","ILI ED visits",26,495747
+"2735",2021-08-28,"Staten Island","ILI ED visits",26,495747
+"2736",2021-09-04,"Staten Island","ILI ED visits",20,495747
+"2737",2021-09-11,"Staten Island","ILI ED visits",23,495747
+"2738",2021-09-18,"Staten Island","ILI ED visits",27,495747
+"2739",2021-09-25,"Staten Island","ILI ED visits",23,495747
+"2740",2021-10-02,"Staten Island","ILI ED visits",25,495747
+"2741",2021-10-09,"Staten Island","ILI ED visits",33,495747
+"2742",2021-10-16,"Staten Island","ILI ED visits",22,495747
+"2743",2021-10-23,"Staten Island","ILI ED visits",38,495747
+"2744",2021-10-30,"Staten Island","ILI ED visits",27,495747
+"2745",2021-11-06,"Staten Island","ILI ED visits",37,495747
+"2746",2021-11-13,"Staten Island","ILI ED visits",31,495747
+"2747",2021-11-20,"Staten Island","ILI ED visits",17,495747
+"2748",2021-11-27,"Staten Island","ILI ED visits",35,495747
+"2749",2021-12-04,"Staten Island","ILI ED visits",35,495747
+"2750",2021-12-11,"Staten Island","ILI ED visits",43,495747
+"2751",2021-12-18,"Staten Island","ILI ED visits",65,495747
+"2752",2021-12-25,"Staten Island","ILI ED visits",141,495747
+"2753",2022-01-01,"Staten Island","ILI ED visits",188,495747
+"2754",2022-01-08,"Staten Island","ILI ED visits",99,495747
+"2755",2022-01-15,"Staten Island","ILI ED visits",51,495747
+"2756",2022-01-22,"Staten Island","ILI ED visits",24,495747
+"2757",2022-01-29,"Staten Island","ILI ED visits",13,495747
+"2758",2022-02-05,"Staten Island","ILI ED visits",14,495747
+"2759",2022-02-12,"Staten Island","ILI ED visits",19,495747
+"2760",2022-02-19,"Staten Island","ILI ED visits",12,495747
+"2761",2022-02-26,"Staten Island","ILI ED visits",12,495747
+"2762",2022-03-05,"Staten Island","ILI ED visits",16,495747
+"2763",2022-03-12,"Staten Island","ILI ED visits",20,495747
+"2764",2022-03-19,"Staten Island","ILI ED visits",20,495747
+"2765",2022-03-26,"Staten Island","ILI ED visits",26,495747
+"2766",2022-04-02,"Staten Island","ILI ED visits",31,495747
+"2767",2022-04-09,"Staten Island","ILI ED visits",58,495747
+"2768",2022-04-16,"Staten Island","ILI ED visits",55,495747
+"2769",2022-04-23,"Staten Island","ILI ED visits",51,495747
+"2770",2022-04-30,"Staten Island","ILI ED visits",58,495747
+"2771",2022-05-07,"Staten Island","ILI ED visits",32,495747
+"2772",2022-05-14,"Staten Island","ILI ED visits",46,495747
+"2773",2022-05-21,"Staten Island","ILI ED visits",65,495747
+"2774",2022-05-28,"Staten Island","ILI ED visits",58,495747
+"2775",2022-06-04,"Staten Island","ILI ED visits",43,495747
+"2776",2022-06-11,"Staten Island","ILI ED visits",48,495747
+"2777",2022-06-18,"Staten Island","ILI ED visits",39,495747
+"2778",2022-06-25,"Staten Island","ILI ED visits",45,495747
+"2779",2022-07-02,"Staten Island","ILI ED visits",48,495747
+"2780",2022-07-09,"Staten Island","ILI ED visits",49,495747
+"2781",2022-07-16,"Staten Island","ILI ED visits",31,495747
+"2782",2022-07-23,"Staten Island","ILI ED visits",29,495747
+"2783",2022-07-30,"Staten Island","ILI ED visits",36,495747
+"2784",2022-08-06,"Staten Island","ILI ED visits",34,495747
+"2785",2022-08-13,"Staten Island","ILI ED visits",28,495747
+"2786",2022-08-20,"Staten Island","ILI ED visits",27,495747
+"2787",2022-08-27,"Staten Island","ILI ED visits",23,495747
+"2788",2022-09-03,"Staten Island","ILI ED visits",21,495747
+"2789",2022-09-10,"Staten Island","ILI ED visits",15,495747
+"2790",2022-09-17,"Staten Island","ILI ED visits",38,495747
+"2791",2022-09-24,"Staten Island","ILI ED visits",53,495747
+"2792",2022-10-01,"Staten Island","ILI ED visits",43,495747
+"2793",2022-10-08,"Staten Island","ILI ED visits",60,495747
+"2794",2022-10-15,"Staten Island","ILI ED visits",35,495747
+"2795",2022-10-22,"Staten Island","ILI ED visits",74,495747
+"2796",2022-10-29,"Staten Island","ILI ED visits",71,495747
+"2797",2022-11-05,"Staten Island","ILI ED visits",108,495747
+"2798",2022-11-12,"Staten Island","ILI ED visits",150,495747
+"2799",2022-11-19,"Staten Island","ILI ED visits",140,495747
+"2800",2022-11-26,"Staten Island","ILI ED visits",134,495747
+"2801",2022-12-03,"Staten Island","ILI ED visits",191,495747
+"2802",2022-12-10,"Staten Island","ILI ED visits",182,495747
+"2803",2022-12-17,"Staten Island","ILI ED visits",157,495747
+"2804",2022-12-24,"Staten Island","ILI ED visits",107,495747
+"2805",2022-12-31,"Staten Island","ILI ED visits",126,495747
+"2806",2023-01-07,"Staten Island","ILI ED visits",95,495747
+"2807",2023-01-14,"Staten Island","ILI ED visits",54,495747
+"2808",2023-01-21,"Staten Island","ILI ED visits",48,495747
+"2809",2023-01-28,"Staten Island","ILI ED visits",38,495747
+"2810",2023-02-04,"Staten Island","ILI ED visits",50,495747
+"2811",2023-02-11,"Staten Island","ILI ED visits",62,495747
+"2812",2023-02-18,"Staten Island","ILI ED visits",46,495747
+"2813",2023-02-25,"Staten Island","ILI ED visits",49,495747
+"2814",2023-03-04,"Staten Island","ILI ED visits",48,495747
+"2815",2023-03-11,"Staten Island","ILI ED visits",42,495747
+"2816",2023-03-18,"Staten Island","ILI ED visits",51,495747
+"2817",2023-03-25,"Staten Island","ILI ED visits",43,495747
+"2818",2023-04-01,"Staten Island","ILI ED visits",37,495747
+"2819",2023-04-08,"Staten Island","ILI ED visits",50,495747
+"2820",2023-04-15,"Staten Island","ILI ED visits",56,495747
+"2821",2023-04-22,"Staten Island","ILI ED visits",31,495747
+"2822",2023-04-29,"Staten Island","ILI ED visits",36,495747
+"2823",2023-05-06,"Staten Island","ILI ED visits",36,495747
+"2824",2023-05-13,"Staten Island","ILI ED visits",28,495747
+"2825",2023-05-20,"Staten Island","ILI ED visits",35,495747
+"2826",2023-05-27,"Staten Island","ILI ED visits",36,495747
+"2827",2023-06-03,"Staten Island","ILI ED visits",37,495747
+"2828",2023-06-10,"Staten Island","ILI ED visits",27,495747
+"2829",2023-06-17,"Staten Island","ILI ED visits",19,495747
+"2830",2023-06-24,"Staten Island","ILI ED visits",15,495747
+"2831",2023-07-01,"Staten Island","ILI ED visits",25,495747
+"2832",2023-07-08,"Staten Island","ILI ED visits",16,495747
+"2833",2023-07-15,"Staten Island","ILI ED visits",12,495747
+"2834",2023-07-22,"Staten Island","ILI ED visits",17,495747
+"2835",2023-07-29,"Staten Island","ILI ED visits",13,495747
+"2836",2023-08-05,"Staten Island","ILI ED visits",22,495747
+"2837",2023-08-12,"Staten Island","ILI ED visits",17,495747
+"2838",2023-08-19,"Staten Island","ILI ED visits",23,495747
+"2839",2023-08-26,"Staten Island","ILI ED visits",10,495747
+"2840",2023-09-02,"Staten Island","ILI ED visits",21,495747
+"2841",2023-09-09,"Staten Island","ILI ED visits",25,495747
+"2842",2023-09-16,"Staten Island","ILI ED visits",24,495747
+"2843",2023-09-23,"Staten Island","ILI ED visits",36,495747
+"2844",2023-09-30,"Staten Island","ILI ED visits",39,495747
+"2845",2023-10-07,"Staten Island","ILI ED visits",38,495747
+"2846",2023-10-14,"Staten Island","ILI ED visits",47,495747
+"2847",2023-10-21,"Staten Island","ILI ED visits",54,495747
+"2848",2023-10-28,"Staten Island","ILI ED visits",39,495747
+"2849",2023-11-04,"Staten Island","ILI ED visits",52,495747
+"2850",2023-11-11,"Staten Island","ILI ED visits",55,495747
+"2851",2023-11-18,"Staten Island","ILI ED visits",77,495747
+"2852",2023-11-25,"Staten Island","ILI ED visits",65,495747
+"2853",2023-12-02,"Staten Island","ILI ED visits",77,495747
+"2854",2023-12-09,"Staten Island","ILI ED visits",84,495747
+"2855",2023-12-16,"Staten Island","ILI ED visits",77,495747
+"2856",2023-12-23,"Staten Island","ILI ED visits",127,495747
+"2857",2023-12-30,"Staten Island","ILI ED visits",143,495747
+"2858",2024-01-06,"Staten Island","ILI ED visits",130,495747
+"2859",2024-01-13,"Staten Island","ILI ED visits",102,495747
+"2860",2024-01-20,"Staten Island","ILI ED visits",96,495747
+"2861",2024-01-27,"Staten Island","ILI ED visits",85,495747
+"2862",2024-02-03,"Staten Island","ILI ED visits",71,495747
+"2863",2024-02-10,"Staten Island","ILI ED visits",80,495747
+"2864",2024-02-17,"Staten Island","ILI ED visits",99,495747
+"2865",2024-02-24,"Staten Island","ILI ED visits",66,495747
+"2866",2024-03-02,"Staten Island","ILI ED visits",78,495747
+"2867",2024-03-09,"Staten Island","ILI ED visits",58,495747
+"2868",2024-03-16,"Staten Island","ILI ED visits",54,495747
+"2869",2024-03-23,"Staten Island","ILI ED visits",73,495747
+"2870",2024-03-30,"Staten Island","ILI ED visits",55,495747
+"2871",2024-04-06,"Staten Island","ILI ED visits",58,495747
+"2872",2024-04-13,"Staten Island","ILI ED visits",43,495747
+"2873",2024-04-20,"Staten Island","ILI ED visits",52,495747
+"2874",2024-04-27,"Staten Island","ILI ED visits",36,495747
+"2875",2024-05-04,"Staten Island","ILI ED visits",47,495747
+"2876",2024-05-11,"Staten Island","ILI ED visits",28,495747
+"2877",2024-05-18,"Staten Island","ILI ED visits",25,495747
+"2878",2024-05-25,"Staten Island","ILI ED visits",40,495747
+"2879",2024-06-01,"Staten Island","ILI ED visits",40,495747
+"2880",2024-06-08,"Staten Island","ILI ED visits",31,495747
+"2881",2024-06-15,"Staten Island","ILI ED visits",22,495747
+"2882",2024-06-22,"Staten Island","ILI ED visits",29,495747
+"2883",2024-06-29,"Staten Island","ILI ED visits",26,495747
+"2884",2024-07-06,"Staten Island","ILI ED visits",34,495747
+"2885",2024-07-13,"Staten Island","ILI ED visits",23,495747
+"2886",2024-07-20,"Staten Island","ILI ED visits",32,495747
+"2887",2024-07-27,"Staten Island","ILI ED visits",28,495747
+"2888",2024-08-03,"Staten Island","ILI ED visits",24,495747
+"2889",2024-08-10,"Staten Island","ILI ED visits",28,495747
+"2890",2024-08-17,"Staten Island","ILI ED visits",33,495747
+"2891",2024-08-24,"Staten Island","ILI ED visits",30,495747
+"2892",2024-08-31,"Staten Island","ILI ED visits",22,495747
+"2893",2024-09-07,"Staten Island","ILI ED visits",21,495747
+"2894",2024-09-14,"Staten Island","ILI ED visits",38,495747
+"2895",2024-09-21,"Staten Island","ILI ED visits",46,495747
+"2896",2024-09-28,"Staten Island","ILI ED visits",49,495747
+"2897",2024-10-05,"Staten Island","ILI ED visits",38,495747
+"2898",2024-10-12,"Staten Island","ILI ED visits",42,495747
+"2899",2024-10-19,"Staten Island","ILI ED visits",54,495747
+"2900",2024-10-26,"Staten Island","ILI ED visits",44,495747
+"2901",2024-11-02,"Staten Island","ILI ED visits",44,495747
+"2902",2024-11-09,"Staten Island","ILI ED visits",46,495747
+"2903",2024-11-16,"Staten Island","ILI ED visits",57,495747
+"2904",2024-11-23,"Staten Island","ILI ED visits",73,495747
+"2905",2024-11-30,"Staten Island","ILI ED visits",66,495747
+"2906",2024-12-07,"Staten Island","ILI ED visits",89,495747
+"2907",2024-12-14,"Staten Island","ILI ED visits",99,495747
+"2908",2024-12-21,"Staten Island","ILI ED visits",111,495747
+"2909",2024-12-28,"Staten Island","ILI ED visits",190,495747

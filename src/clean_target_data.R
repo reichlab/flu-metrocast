@@ -56,13 +56,7 @@ clean_data <- function(df_daily, as_of){
     time_series <- time_series %>%
       select(-X) %>%
       mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
-
-    # Read existing oracle output data
-    oracle_output <- read.csv("target-data/oracle-output.csv")
-    oracle_output <- oracle_output %>%
-      select(-X) %>%
-      mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
-  }
+    }
 
   # Clean the newly downloaded data
   df <- df_daily %>%
@@ -101,33 +95,24 @@ clean_data <- function(df_daily, as_of){
     new_time_series <- df_weekly
   }
 
+  for_oracle <- new_time_series %>%
+    group_by(location, target_end_date) %>%
+    filter(as_of_date == max(as_of_date)) %>% # filtering with recent as_of_date
+    ungroup()
 
 
-  # Prepare the new oracle output data
-  df_oracle <- df_weekly %>%
+  oracle_output <- for_oracle %>%
     select(-as_of_date) %>%
     mutate(target = "ILI ED visits") %>%
     rename(oracle_value = observation) %>%
     select(target_end_date, location, target, oracle_value, population)
 
-
-  # Merge new and existing oracle output and keep the maximum oracle_value for duplicates
-  if(as_of > "2025-01-03" ){
-    new_oracle_output <- bind_rows(df_oracle, oracle_output) %>%
-      group_by(target_end_date, location, target, population) %>%  # Group by overlapping columns
-      filter(oracle_value == max(oracle_value)) %>%    # Keep rows with the max oracle_value
-      ungroup()
-  }else{
-    new_oracle_output <- df_oracle
-  }
-
-
   # Write the updated time-series data back to the file
   write.csv(new_time_series, "target-data/time-series.csv")
   # Write the updated oracle output data back to the file
-  write.csv(new_oracle_output, "target-data/oracle-output.csv")
+  write.csv(oracle_output, "target-data/oracle-output.csv")
 
-  return(new_oracle_output)
+  return(oracle_output)
 }
 
 
@@ -135,26 +120,3 @@ df_daily <- read.csv("raw-data/NYC_ED_daily_asof_01-03-2025.csv")
 df1 <- clean_data(df_daily, as_of = as.Date("2025-01-03"))
 df_daily1 <- read.csv("raw-data/NYC_ED_daily_asof_01-21-2025.csv")
 df2 <- clean_data(df_daily1, as_of = as.Date("2025-01-21"))
-
-df <- read.csv("target-data/oracle-output.csv")
-
-
-df_weekly1 %>%
-  #filter(target_end_date <= max(df_weekly$target_end_date)) %>%
-  ggplot(aes(target_end_date, observation)) +
-  geom_line() +
-  facet_wrap(~location, scales = "free_y")
-
-df_weekly %>%
-  filter(target_end_date %in% unique(df_weekly1$target_end_date)) %>%
-  ggplot(aes(target_end_date, observation)) +
-  geom_line() +
-  facet_wrap(~location, scales = "free_y")
-
-df <- read.csv("target-data/oracle-output.csv")
-df %>%
-  filter(target_end_date >'2024-07-01') %>%
-  ggplot(aes(as.Date(target_end_date), oracle_value)) +
-  geom_line() +
-  facet_wrap(~location, scales = "free_y")
-

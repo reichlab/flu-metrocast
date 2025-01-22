@@ -14,48 +14,93 @@ library(tidycensus)
 library(here)
 
 
+NYC_borough_pop <- get_decennial(
+  geography = "county",
+  variables = "P1_001N",  # Total population
+  state = "NY",
+  county = c("Bronx", "Kings", "New York", "Queens", "Richmond"),  # NYC counties
+  year = 2020
+)
+
+NYC_pop <- NYC_borough_pop %>%
+  mutate(
+    location = case_when(
+      NAME == "New York County, New York" ~ "Manhattan",
+      NAME == "Richmond County, New York" ~ "Staten Island",
+      NAME == "Bronx County, New York" ~ "Bronx",
+      NAME == "Kings County, New York" ~ "Brooklyn",
+      NAME == "Queens County, New York" ~ "Queens",
+      TRUE ~ NA_character_  # Catch unexpected cases
+    )
+  ) %>%
+  rename(population = value) %>%
+  select(location, population)
+
+# Add a new row for "Citywide"
+NYC_pop <- NYC_pop %>%
+  mutate(population = as.numeric(population)) %>%  # Ensure the population column is numeric
+  bind_rows(
+    tibble(
+      location = "NYC",
+      population = sum(as.numeric(NYC_pop$population), na.rm = TRUE)  # Sum all borough populations
+    )
+  )
+
+
+
+
 clean_data <- function(df_daily, as_of){
   # Read existing time-series data
-  time_series <- read.csv("target-data/time-series.csv")
-  time_series <- time_series %>%
-    select(-X) %>%
-    mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
+  if(as_of > "2025-01-03" ){
+    time_series <- read.csv("target-data/time-series.csv")
+    time_series <- time_series %>%
+      select(-X) %>%
+      mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
 
-  # Read existing oracle output data
-  oracle_output <- read.csv("target-data/oracle-output.csv")
-  oracle_output <- oracle_output %>%
-    select(-X) %>%
-    mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
-
+    # Read existing oracle output data
+    oracle_output <- read.csv("target-data/oracle-output.csv")
+    oracle_output <- oracle_output %>%
+      select(-X) %>%
+      mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
+  }
 
   # Clean the newly downloaded data
   df <- df_daily %>%
+    filter(Dim2Value == "All age groups",
+           Dim1Value != "Unknown") %>%
     mutate(
       as_of_date = as_of,    # Add the 'as_of' date to track data version
       Date = as.Date(Date, format = "%m/%d/%y"),
       WeekStart = as.Date(cut(Date, breaks = "week", start.on.monday = FALSE)),  # Calculate the week start (Sunday)
       target_end_date = WeekStart + 6,   # Calculate the corresponding target end date (Saturday)
+      location = ifelse(Dim1Value == "Citywide", "NYC", Dim1Value),
       #Week = week(WeekStart),
       #Year = year(WeekStart),
       X = as.numeric(gsub(",", "", X))
     ) %>%
-    filter(Dim2Value == "All age groups",
-           WeekStart >= '2024-09-29') %>%   ##
-    select(-Ind1Name, -Dim1Name, -Dim2Name, -Select.Metric, -Dim2Value) %>%
+
+    {if (as_of > "2025-01-03") filter(., WeekStart >= '2024-09-29') else .} %>%
+    select(-Ind1Name, -Dim1Name, -Dim1Value, -Dim2Name, -Select.Metric, -Dim2Value, -Dim1Value, - Date) %>%
     rename(
-      location = Dim1Value,
       observation = X
-    )
+    ) %>%
+    select(as_of_date, WeekStart, target_end_date, location, observation)
 
 
   # Aggregate the data to weekly summaries
   df_weekly <- df %>% group_by(as_of_date, location, WeekStart, target_end_date) %>%
     mutate(observation = as.numeric(observation)) %>%
     summarise(observation = sum(observation, na.rm = TRUE), .groups = "drop") %>%
-    select(-WeekStart)
+    select(-WeekStart) %>%
+    left_join(NYC_pop, by = "location")
 
   # Combine new weekly data with the existing time series
-  new_time_series <- rbind(df_weekly, time_series)
+  if(as_of > "2025-01-03" ){
+    new_time_series <- rbind(df_weekly, time_series)
+  }else{
+    new_time_series <- df_weekly
+  }
+
 
 
   # Prepare the new oracle output data
@@ -63,14 +108,18 @@ clean_data <- function(df_daily, as_of){
     select(-as_of_date) %>%
     mutate(target = "ILI ED Visits") %>%
     rename(oracle_value = observation) %>%
-    select(target_end_date, location, target, oracle_value)
+    select(target_end_date, location, target, oracle_value, population)
 
 
   # Merge new and existing oracle output and keep the maximum oracle_value for duplicates
-  new_oracle_output <- bind_rows(df_oracle, oracle_output) %>%
-    group_by(target_end_date, location, target) %>%  # Group by overlapping columns
-    filter(oracle_value == max(oracle_value)) %>%    # Keep rows with the max oracle_value
-    ungroup()
+  if(as_of > "2025-01-03" ){
+    new_oracle_output <- bind_rows(df_oracle, oracle_output) %>%
+      group_by(target_end_date, location, target, population) %>%  # Group by overlapping columns
+      filter(oracle_value == max(oracle_value)) %>%    # Keep rows with the max oracle_value
+      ungroup()
+  }else{
+    new_oracle_output <- df_oracle
+  }
 
 
   # Write the updated time-series data back to the file

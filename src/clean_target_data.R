@@ -86,7 +86,8 @@ clean_data <- function(df_daily, as_of){
     mutate(observation = as.numeric(observation)) %>%
     summarise(observation = sum(observation, na.rm = TRUE), .groups = "drop") %>%
     select(-WeekStart) %>%
-    left_join(NYC_pop, by = "location")
+    left_join(NYC_pop, by = "location") %>%
+    arrange(target_end_date)
 
   # Combine new weekly data with the existing time series
   if(as_of > "2025-01-03" ){
@@ -105,6 +106,7 @@ clean_data <- function(df_daily, as_of){
     select(-as_of_date) %>%
     mutate(target = "ILI ED visits") %>%
     rename(oracle_value = observation) %>%
+    arrange(target_end_date) %>%
     select(target_end_date, location, target, oracle_value, population)
 
   # Write the updated time-series data back to the file
@@ -120,3 +122,26 @@ df_daily <- read.csv("raw-data/NYC_ED_daily_asof_01-03-2025.csv")
 df1 <- clean_data(df_daily, as_of = as.Date("2025-01-03"))
 df_daily1 <- read.csv("raw-data/NYC_ED_daily_asof_01-21-2025.csv")
 df2 <- clean_data(df_daily1, as_of = as.Date("2025-01-21"))
+
+df <- read.csv("target-data/oracle-output.csv")
+
+
+df_weekly1 %>%
+  #filter(target_end_date <= max(df_weekly$target_end_date)) %>%
+  ggplot(aes(target_end_date, observation)) +
+  geom_line() +
+  facet_wrap(~location, scales = "free_y")
+
+df_weekly %>%
+  filter(target_end_date %in% unique(df_weekly1$target_end_date)) %>%
+  ggplot(aes(target_end_date, observation)) +
+  geom_line() +
+  facet_wrap(~location, scales = "free_y")
+
+df <- read.csv("target-data/oracle-output.csv")
+df %>%
+  filter(target_end_date >'2024-07-01') %>%
+  ggplot(aes(as.Date(target_end_date), oracle_value)) +
+  geom_line() +
+  facet_wrap(~location, scales = "free_y")
+

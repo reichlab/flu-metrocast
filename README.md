@@ -25,3 +25,5 @@ If you have questions about this target, please reach out to [Dongah Kim](mailto
 ## Acknowledgments
 
 This repository follows the guidelines and standards outlined by the [hubverse](%5Burl%5D(https://hubverse.io/en/latest/)), which provides a set of data formats and open source tools for modeling hubs.
+
+New York City Department of Health and Mental Hygiene. EpiQuery - Syndromic Surveillance Data. Initial access on 2025-01-21, and weekly thereafter. https://nyc.gov/health/epiquery

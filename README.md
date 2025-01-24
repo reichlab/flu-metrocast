@@ -2,7 +2,7 @@
 
 The Flu MetroCast Hub is a modeling hub with the goal of collecting city- and county-level forecasts of influenza activity. The hub is led by the epiENGAGE team from UT-Austin and UMass-Amherst, as a part of the CDC Insight Net program. Anyone interested in using these data for additional research or publications is requested to contact [Dongah Kim](mailto:donga0223@gmail.com) for information regarding attribution of the source forecasts.
 
-The Flu MetroCast Hub makes public forecasts for New York City (NYC) and is open to adding forecasts for other jurisdictions with near real-time public-facing data. For New York City, the influenza-related data are daily Emergency Department (ED) visits due to influenza-like illness (ILI), which includes ED chief complaint mention of flu, fever, and sore throat. Other data sources, whewe available, could be modeled as well, such as the percentage of outpatient visits with a primary complaint of ILI or count of all hospitalizations due to influenza.
+The Flu MetroCast Hub makes public forecasts for New York City (NYC) and is open to adding forecasts for other jurisdictions with near real-time public-facing data. For New York City, the influenza-related data are daily Emergency Department (ED) visits due to influenza-like illness (ILI), which includes ED chief complaint mention of flu, fever, and sore throat. Other data sources, where available, could be modeled as well, such as the percentage of outpatient visits with a primary complaint of ILI or count of all hospitalizations due to influenza.
 
 ## City and county level forecasts
 

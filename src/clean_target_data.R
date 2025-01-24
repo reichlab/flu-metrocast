@@ -14,7 +14,7 @@ library(tidycensus)
 library(here)
 
 
-clean_data <- function(df_daily, as_of, population, pop){
+clean_data <- function(df_daily, as_of){
   # Read existing time-series data
   if(as_of > "2025-01-03" ){
     time_series <- read.csv("target-data/time-series.csv")
@@ -50,7 +50,6 @@ clean_data <- function(df_daily, as_of, population, pop){
     mutate(observation = as.numeric(observation)) %>%
     summarise(observation = sum(observation, na.rm = TRUE), .groups = "drop") %>%
     select(-WeekStart) %>%
-    left_join(pop, by = "location") %>%
     arrange(target_end_date)
 
   # Combine new weekly data with the existing time series
@@ -71,7 +70,7 @@ clean_data <- function(df_daily, as_of, population, pop){
     mutate(target = "ILI ED visits") %>%
     rename(oracle_value = observation) %>%
     arrange(target_end_date) %>%
-    select(target_end_date, location, target, oracle_value, population)
+    select(target_end_date, location, target, oracle_value)
 
   # Write the updated time-series data back to the file
   write.csv(new_time_series, "target-data/time-series.csv", row.names = FALSE)
@@ -81,9 +80,8 @@ clean_data <- function(df_daily, as_of, population, pop){
   return(oracle_output)
 }
 
-nyc_population <- read.csv("auxiliary-data/nyc_population.csv")
 
 df_daily <- read.csv("raw-data/NYC_ED_daily_asof_01-03-2025.csv")
-df1 <- clean_data(df_daily, as_of = as.Date("2025-01-03"), pop = nyc_population)
+df1 <- clean_data(df_daily, as_of = as.Date("2025-01-03"))
 df_daily1 <- read.csv("raw-data/NYC_ED_daily_asof_01-21-2025.csv")
-df2 <- clean_data(df_daily1, as_of = as.Date("2025-01-21"), pop = nyc_population)
+df2 <- clean_data(df_daily1, as_of = as.Date("2025-01-21"))

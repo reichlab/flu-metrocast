@@ -1,4 +1,4 @@
-#So far, we haven’t found a direct link for downloading the data.
+#There is no direct link for downloading these data.
 #You need to visit the website
 #https://a816-health.nyc.gov/hdi/epiquery/visualizations?PageType=ps&PopulationSource=Syndromic
 #and manually download the data with the following settings:
@@ -14,47 +14,11 @@ library(tidycensus)
 library(here)
 
 
-NYC_borough_pop <- get_decennial(
-  geography = "county",
-  variables = "P1_001N",  # Total population
-  state = "NY",
-  county = c("Bronx", "Kings", "New York", "Queens", "Richmond"),  # NYC counties
-  year = 2020
-)
-
-NYC_pop <- NYC_borough_pop %>%
-  mutate(
-    location = case_when(
-      NAME == "New York County, New York" ~ "Manhattan",
-      NAME == "Richmond County, New York" ~ "Staten Island",
-      NAME == "Bronx County, New York" ~ "Bronx",
-      NAME == "Kings County, New York" ~ "Brooklyn",
-      NAME == "Queens County, New York" ~ "Queens",
-      TRUE ~ NA_character_  # Catch unexpected cases
-    )
-  ) %>%
-  rename(population = value) %>%
-  select(location, population)
-
-# Add a new row for "Citywide"
-NYC_pop <- NYC_pop %>%
-  mutate(population = as.numeric(population)) %>%  # Ensure the population column is numeric
-  bind_rows(
-    tibble(
-      location = "NYC",
-      population = sum(as.numeric(NYC_pop$population), na.rm = TRUE)  # Sum all borough populations
-    )
-  )
-
-
-
-
 clean_data <- function(df_daily, as_of){
   # Read existing time-series data
   if(as_of > "2025-01-03" ){
     time_series <- read.csv("target-data/time-series.csv")
     time_series <- time_series %>%
-      select(-X) %>%
       mutate(target_end_date = as.Date(target_end_date)) # Convert date column to Date type
     }
 
@@ -86,7 +50,7 @@ clean_data <- function(df_daily, as_of){
     mutate(observation = as.numeric(observation)) %>%
     summarise(observation = sum(observation, na.rm = TRUE), .groups = "drop") %>%
     select(-WeekStart) %>%
-    left_join(NYC_pop, by = "location")
+    arrange(target_end_date)
 
   # Combine new weekly data with the existing time series
   if(as_of > "2025-01-03" ){
@@ -105,12 +69,13 @@ clean_data <- function(df_daily, as_of){
     select(-as_of_date) %>%
     mutate(target = "ILI ED visits") %>%
     rename(oracle_value = observation) %>%
-    select(target_end_date, location, target, oracle_value, population)
+    arrange(target_end_date) %>%
+    select(target_end_date, location, target, oracle_value)
 
   # Write the updated time-series data back to the file
-  write.csv(new_time_series, "target-data/time-series.csv")
+  write.csv(new_time_series, "target-data/time-series.csv", row.names = FALSE)
   # Write the updated oracle output data back to the file
-  write.csv(oracle_output, "target-data/oracle-output.csv")
+  write.csv(oracle_output, "target-data/oracle-output.csv", row.names = FALSE)
 
   return(oracle_output)
 }

@@ -7,7 +7,7 @@ nyc_population <- get_acs(
   variables = "B01003_001", # Total population variable
   state = "NY",
   year = 2023, # Adjust the year as needed
-  survey = "acs5"
+  survey = "acs1"
 ) %>%
   filter(NAME %in% c("Bronx County, New York",
                      "Kings County, New York",

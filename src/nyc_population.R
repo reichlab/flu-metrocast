@@ -1,7 +1,9 @@
 library(tidycensus)
 library(dplyr)
 
-# Get population data for NYC boroughs (ACS 5-year estimates)
+# Get population data for NYC boroughs (ACS 1-year estimates)
+# Source: U.S. Census Bureau, Population Estimates Program (Vintage 2023)
+
 nyc_population <- get_acs(
   geography = "county",
   variables = "B01003_001", # Total population variable

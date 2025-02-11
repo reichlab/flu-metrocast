@@ -1,0 +1,217 @@
+"reference_date","location","horizon","target","target_end_date","output_type","output_type_id","value"
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.025,814.975
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.05,867
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.1,927
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.25,1030
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.5,1168
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.75,1320
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.9,1470.2
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.95,1571.05
+2025-02-15,"Bronx",0,"ILI ED visits",2025-02-15,"quantile",0.975,1662.025
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.025,898.975
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.05,953
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.1,1016
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.25,1135
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.5,1283
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.75,1455
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.9,1628.1
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.95,1743.05
+2025-02-15,"Brooklyn",0,"ILI ED visits",2025-02-15,"quantile",0.975,1860
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.025,476
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.05,503.95
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.1,537
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.25,605
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.5,687.5
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.75,783
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.9,871
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.95,940
+2025-02-15,"Manhattan",0,"ILI ED visits",2025-02-15,"quantile",0.975,996.025
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.025,3469.9
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.05,3619.95
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.1,3860.9
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.25,4319
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.5,4896.5
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.75,5542.25
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.9,6176.1
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.95,6580.05
+2025-02-15,"NYC",0,"ILI ED visits",2025-02-15,"quantile",0.975,7008.1
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.025,996.975
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.05,1063.95
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.1,1137
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.25,1277.75
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.5,1446
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.75,1632.25
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.9,1830.1
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.95,1952.1
+2025-02-15,"Queens",0,"ILI ED visits",2025-02-15,"quantile",0.975,2052
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.025,92
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.05,100
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.1,107
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.25,122
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.5,139
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.75,160
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.9,180
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.95,192
+2025-02-15,"Staten Island",0,"ILI ED visits",2025-02-15,"quantile",0.975,205
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.025,669.975
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.05,713
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.1,779
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.25,890
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.5,1030
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.75,1198
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.9,1364.2
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.95,1487
+2025-02-15,"Bronx",1,"ILI ED visits",2025-02-22,"quantile",0.975,1602.025
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.025,742
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.05,793
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.1,859.9
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.25,976
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.5,1138
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.75,1327
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.9,1518
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.95,1643.05
+2025-02-15,"Brooklyn",1,"ILI ED visits",2025-02-22,"quantile",0.975,1773.025
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.025,396
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.05,425
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.1,458.9
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.25,525
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.5,608
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.75,710
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.9,814
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.95,885
+2025-02-15,"Manhattan",1,"ILI ED visits",2025-02-22,"quantile",0.975,949
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.025,2834
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.05,3038
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.1,3260
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.25,3742
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.5,4334
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.75,5050
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.9,5808.1
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.95,6218.2
+2025-02-15,"NYC",1,"ILI ED visits",2025-02-22,"quantile",0.975,6618.025
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.025,830.975
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.05,889
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.1,961
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.25,1100
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.5,1269.5
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.75,1480.25
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.9,1696
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.95,1831.05
+2025-02-15,"Queens",1,"ILI ED visits",2025-02-22,"quantile",0.975,1963
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.025,77
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.05,83
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.1,91
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.25,105
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.5,123
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.75,145
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.9,167
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.95,181
+2025-02-15,"Staten Island",1,"ILI ED visits",2025-02-22,"quantile",0.975,195.025
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.025,562
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.05,605
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.1,657
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.25,767
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.5,913
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.75,1082.25
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.9,1265.1
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.95,1391.05
+2025-02-15,"Bronx",2,"ILI ED visits",2025-03-01,"quantile",0.975,1504
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.025,614.975
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.05,663
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.1,722
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.25,842
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.5,1000
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.75,1186
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.9,1383.1
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.95,1518
+2025-02-15,"Brooklyn",2,"ILI ED visits",2025-03-01,"quantile",0.975,1639.025
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.025,329
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.05,356
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.1,388
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.25,453
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.5,536
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.75,641
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.9,744
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.95,826
+2025-02-15,"Manhattan",2,"ILI ED visits",2025-03-01,"quantile",0.975,887
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.025,2354.975
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.05,2556.95
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.1,2780
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.25,3234
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.5,3833.5
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.75,4537
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.9,5286.2
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.95,5799.4
+2025-02-15,"NYC",2,"ILI ED visits",2025-03-01,"quantile",0.975,6376.1
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.025,696.975
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.05,747.95
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.1,816.9
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.25,949
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.5,1119
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.75,1330
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.9,1567
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.95,1712.05
+2025-02-15,"Queens",2,"ILI ED visits",2025-03-01,"quantile",0.975,1846.05
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.025,64
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.05,70
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.1,77
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.25,91
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.5,108
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.75,129
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.9,152
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.95,167
+2025-02-15,"Staten Island",2,"ILI ED visits",2025-03-01,"quantile",0.975,182
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.025,477.975
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.05,525
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.1,580
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.25,684
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.5,827
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.75,997
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.9,1179
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.95,1309.05
+2025-02-15,"Bronx",3,"ILI ED visits",2025-03-08,"quantile",0.975,1445
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.025,524
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.05,575
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.1,642
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.25,757
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.5,914
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.75,1098
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.9,1291.1
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.95,1438.1
+2025-02-15,"Brooklyn",3,"ILI ED visits",2025-03-08,"quantile",0.975,1566.025
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.025,278
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.05,305
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.1,341
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.25,401
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.5,485.5
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.75,583
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.9,697
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.95,782
+2025-02-15,"Manhattan",3,"ILI ED visits",2025-03-08,"quantile",0.975,847
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.025,2016.975
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.05,2255.95
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.1,2478
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.25,2879.75
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.5,3462
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.75,4188.5
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.9,4998.4
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.95,5485.55
+2025-02-15,"NYC",3,"ILI ED visits",2025-03-08,"quantile",0.975,6043.05
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.025,600.975
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.05,651
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.1,716
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.25,848
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.5,1016
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.75,1231
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.9,1452
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.95,1604
+2025-02-15,"Queens",3,"ILI ED visits",2025-03-08,"quantile",0.975,1740.025
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.025,54
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.05,59
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.1,66
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.25,80
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.5,98
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.75,120
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.9,142
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.95,159
+2025-02-15,"Staten Island",3,"ILI ED visits",2025-03-08,"quantile",0.975,173

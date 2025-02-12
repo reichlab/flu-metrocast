@@ -1,7 +1,8 @@
-team_name: epiENGAGE
-team_abbr: epiENGAGE
-model_name: Copycat
-model_abbr: Copycat
+team_name: "epiENGAGE"
+team_abbr: "epiENGAGE"
+model_name: "Copycat"
+model_abbr: "Copycat"
+model_version: "1.0"
 model_contributors: [
   {
     "name": "Spencer J. Fox",
@@ -11,12 +12,10 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
-designated_model: true
-data_inputs: Available time-series
-methods: A pattern matching model that matches growth rate trends to historic growth rate curves.
-methods_long: Matches seasonal growth rate trends against historic growth rate curves to identify the closest matches. Makes forecasts based on nearest neighbor trajectories.
-website_url: https://thefoxlab.wordpress.com/
-ensemble_of_models: false
+team_funding: "CSTE/CDC award NU38OT000297"
+methods: "A pattern matching model that matches growth rate trends to historic growth rate curves."
+methods_url: "https://thefoxlab.wordpress.com/"
+data_sources: "ILI NYC ED Visits, we exclude one season (20/21) and partial from the 19/20 season (removing data after March 2020)"
 ensemble_of_hub_models: false
-team_funding: CSTE/CDC award NU38OT000297 
-
+repo_url: "https://github.com/sjfox/copycat"
+citation: ""

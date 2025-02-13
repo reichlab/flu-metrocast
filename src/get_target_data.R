@@ -70,9 +70,17 @@ TX_nssp_flu_ED_pct_weekly_ts <- function(myfips, as_of=NULL){
   }
   nssp_ts <- nssp %>%
     mutate(as_of_date = as_of,
-           location = gsub(" County", "", county),
+           County = gsub(" County", "", county),
            target_end_date = as.Date(time_value) + 6,
            observation = value) %>%
+    mutate(location = case_when(
+      County == "Bexar"  ~ "San Antonio",  # Example mapping
+      County == "Dallas" ~ "Dallas",
+      County == "El Paso" ~ "El Paso",
+      County == "Harris"  ~ "Houston",
+      County == "Travis"  ~ "Austin",
+      TRUE ~ County
+    )) %>%
     select(as_of_date, location, target_end_date, observation)
   
   return(nssp_ts)
@@ -201,11 +209,12 @@ myfips <- fips_codes %>%
   mutate(geo_value = paste(state_code, county_code, sep = ""))
 
 
-flu_ED_pct_ts <- TX_nssp_flu_ED_pct_weekly_ts(myfips = myfips)
+flu_ED_pct_ts <- TX_nssp_flu_ED_pct_weekly_ts(myfips = myfips, as_of = "2025-02-12")
 write.csv(flu_ED_pct_ts, "target-data/time-series-flu-ed-visits-pct.csv", row.names = FALSE)
 
 
 
 
-create_oracle_and_ts_add_flu(as_of = as.Date(today()))
+create_oracle_and_ts_add_flu(as_of = "2025-02-12")
 
+#as.Date(today())

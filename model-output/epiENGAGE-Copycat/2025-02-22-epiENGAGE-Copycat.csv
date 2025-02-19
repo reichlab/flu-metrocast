@@ -1,0 +1,271 @@
+reference_date,target,horizon,target_end_date,location,output_type,output_type_id,value
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.025,883
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.05,912
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.1,938
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.25,986
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.5,1043
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.75,1093
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.9,1144
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.95,1176
+2025-02-22,ILI ED visits,0,2025-02-22,Bronx,quantile,0.975,1207
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.025,718
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.05,747
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.1,780
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.25,851
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.5,943
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.75,1016
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.9,1088
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.95,1135
+2025-02-22,ILI ED visits,1,2025-03-01,Bronx,quantile,0.975,1173
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.025,529
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.05,584
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.1,626
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.25,744
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.5,852
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.75,951
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.9,1030
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.95,1087
+2025-02-22,ILI ED visits,2,2025-03-08,Bronx,quantile,0.975,1124
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.025,403
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.05,448
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.1,499
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.25,675
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.5,796
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.75,899
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.9,981
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.95,1044
+2025-02-22,ILI ED visits,3,2025-03-15,Bronx,quantile,0.975,1115
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.025,308
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.05,348
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.1,397
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.25,635
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.5,766
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.75,862
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.9,946
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.95,1015
+2025-02-22,ILI ED visits,4,2025-03-22,Bronx,quantile,0.975,1095
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.025,1013
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.05,1052
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.1,1076
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.25,1127
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.5,1184
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.75,1244
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.9,1291
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.95,1327
+2025-02-22,ILI ED visits,0,2025-02-22,Brooklyn,quantile,0.975,1363
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.025,831
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.05,871
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.1,901
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.25,972
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.5,1062
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.75,1155
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.9,1238
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.95,1289
+2025-02-22,ILI ED visits,1,2025-03-01,Brooklyn,quantile,0.975,1338
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.025,649
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.05,686
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.1,731
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.25,835
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.5,970
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.75,1081
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.9,1194
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.95,1248
+2025-02-22,ILI ED visits,2,2025-03-08,Brooklyn,quantile,0.975,1306
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.025,503
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.05,532
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.1,572
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.25,721
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.5,900
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.75,1030
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.9,1136
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.95,1215
+2025-02-22,ILI ED visits,3,2025-03-15,Brooklyn,quantile,0.975,1278
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.025,392
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.05,413
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.1,456
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.25,664
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.5,860
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.75,984
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.9,1108
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.95,1173
+2025-02-22,ILI ED visits,4,2025-03-22,Brooklyn,quantile,0.975,1234
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.025,498
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.05,515
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.1,534
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.25,561
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.5,596
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.75,628
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.9,662
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.95,678
+2025-02-22,ILI ED visits,0,2025-02-22,Manhattan,quantile,0.975,702
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.025,427
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.05,444
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.1,468
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.25,506
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.5,551
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.75,597
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.9,637
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.95,672
+2025-02-22,ILI ED visits,1,2025-03-01,Manhattan,quantile,0.975,707
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.025,366
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.05,386
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.1,415
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.25,463
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.5,514
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.75,559
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.9,617
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.95,653
+2025-02-22,ILI ED visits,2,2025-03-08,Manhattan,quantile,0.975,682
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.025,332
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.05,357
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.1,386
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.25,426
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.5,478
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.75,535
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.9,588
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.95,624
+2025-02-22,ILI ED visits,3,2025-03-15,Manhattan,quantile,0.975,657
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.025,314
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.05,330
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.1,364
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.25,405
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.5,461
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.75,511
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.9,570
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.95,614
+2025-02-22,ILI ED visits,4,2025-03-22,Manhattan,quantile,0.975,656
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.025,3533
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.05,3646
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.1,3733
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.25,3887
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.5,4069
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.75,4256
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.9,4418
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.95,4527
+2025-02-22,ILI ED visits,0,2025-02-22,NYC,quantile,0.975,4717
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.025,2936
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.05,3009
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.1,3127
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.25,3331
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.5,3662
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.75,3971
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.9,4231
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.95,4368
+2025-02-22,ILI ED visits,1,2025-03-01,NYC,quantile,0.975,4557
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.025,2285
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.05,2379
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.1,2511
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.25,2813
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.5,3338
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.75,3708
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.9,4014
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.95,4221
+2025-02-22,ILI ED visits,2,2025-03-08,NYC,quantile,0.975,4438
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.025,1750
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.05,1830
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.1,1966
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.25,2492
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.5,3112
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.75,3508
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.9,3852
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.95,4099
+2025-02-22,ILI ED visits,3,2025-03-15,NYC,quantile,0.975,4245
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.025,1356
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.05,1439
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.1,1557
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.25,2330
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.5,2974
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.75,3374
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.9,3761
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.95,4010
+2025-02-22,ILI ED visits,4,2025-03-22,NYC,quantile,0.975,4211
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.025,875
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.05,894
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.1,918
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.25,968
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.5,1018
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.75,1067
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.9,1115
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.95,1147
+2025-02-22,ILI ED visits,0,2025-02-22,Queens,quantile,0.975,1179
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.025,723
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.05,744
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.1,776
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.25,842
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.5,913
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.75,994
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.9,1063
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.95,1097
+2025-02-22,ILI ED visits,1,2025-03-01,Queens,quantile,0.975,1144
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.025,562
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.05,600
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.1,633
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.25,715
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.5,827
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.75,925
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.9,1008
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.95,1067
+2025-02-22,ILI ED visits,2,2025-03-08,Queens,quantile,0.975,1126
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.025,437
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.05,465
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.1,500
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.25,628
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.5,768
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.75,870
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.9,970
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.95,1035
+2025-02-22,ILI ED visits,3,2025-03-15,Queens,quantile,0.975,1080
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.025,354
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.05,374
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.1,400
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.25,580
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.5,733
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.75,843
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.9,942
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.95,1004
+2025-02-22,ILI ED visits,4,2025-03-22,Queens,quantile,0.975,1080
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.025,70
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.05,74
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.1,78
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.25,86
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.5,94
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.75,103
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.9,112
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.95,116
+2025-02-22,ILI ED visits,0,2025-02-22,Staten Island,quantile,0.975,120
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.025,52
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.05,59
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.1,65
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.25,75
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.5,84
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.75,94
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.9,104
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.95,111
+2025-02-22,ILI ED visits,1,2025-03-01,Staten Island,quantile,0.975,117
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.025,41
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.05,46
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.1,55
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.25,68
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.5,78
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.75,89
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.9,99
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.95,105
+2025-02-22,ILI ED visits,2,2025-03-08,Staten Island,quantile,0.975,113
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.025,32
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.05,39
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.1,50
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.25,63
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.5,75
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.75,87
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.9,98
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.95,108
+2025-02-22,ILI ED visits,3,2025-03-15,Staten Island,quantile,0.975,115
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.025,27
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.05,34
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.1,46
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.25,62
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.5,74
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.75,88
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.9,100
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.95,108
+2025-02-22,ILI ED visits,4,2025-03-22,Staten Island,quantile,0.975,113

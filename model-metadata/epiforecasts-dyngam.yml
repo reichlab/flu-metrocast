@@ -1,0 +1,21 @@
+team_name: "epiforecasts"
+team_abbr: "epiforecasts"
+model_name: "dyngam"
+model_abbr: "dyngam"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Kaitlyn E. Johnson",
+    "affiliation": "London School of Hygiene and Tropical Medicine",
+    "email": "kaitlyn.johnson@lshtm.ac.uk",
+    "orcid": "0000-0001-8011-0012"
+  }
+]
+license: "CC-BY-4.0"
+team_funding: ""
+methods: "A Bayesian hierarchical GAM with a univariate AR(1) process"
+methods_url: "https://github.com/kaitejohnson/cityforecasts/blob/main/README.md"
+data_sources: "ILI NYC ED Visits, we exclude Feb 2020 to March 2022, flu ED visits pct for TX"
+ensemble_of_hub_models: false
+repo_url: "https://github.com/kaitejohnson/cityforecasts/"
+citation: ""

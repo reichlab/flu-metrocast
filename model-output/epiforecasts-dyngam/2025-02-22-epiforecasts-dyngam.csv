@@ -269,183 +269,183 @@
 "2025-02-22","Staten Island",4,"ILI ED visits","2025-03-22","quantile",0.9,107
 "2025-02-22","Staten Island",4,"ILI ED visits","2025-03-22","quantile",0.95,121.05
 "2025-02-22","Staten Island",4,"ILI ED visits","2025-03-22","quantile",0.975,132.025
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.025,2.5501715
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.05,2.9122875
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.1,3.3827
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.25,4.1976525
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.5,5.33121
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.75,6.7403775
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.9,8.428344
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.95,9.278558
-"2025-02-22","Austin",0,"flu ED visits pct","2025-02-22","quantile",0.975,10.0310025
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.025,2.75871325
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.05,3.1886885
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.1,3.63041
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.25,4.634675
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.5,5.93675
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.75,7.643195
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.9,9.363401
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.95,10.59947
-"2025-02-22","Dallas",0,"flu ED visits pct","2025-02-22","quantile",0.975,11.7520925
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.025,1.483614
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.05,1.786929
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.1,2.067406
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.25,2.7368025
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.5,3.638045
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.75,4.7125625
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.9,5.972674
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.95,7.060329
-"2025-02-22","El Paso",0,"flu ED visits pct","2025-02-22","quantile",0.975,7.92769475
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.025,1.77079275
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.05,1.988412
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.1,2.264586
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.25,2.7657675
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.5,3.44394
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.75,4.289745
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.9,5.212423
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.95,5.885591
-"2025-02-22","Houston",0,"flu ED visits pct","2025-02-22","quantile",0.975,6.50740625
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.025,2.666439
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.05,3.0052515
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.1,3.470665
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.25,4.43717
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.5,5.69564
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.75,7.363495
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.9,9.335914
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.95,10.50945
-"2025-02-22","San Antonio",0,"flu ED visits pct","2025-02-22","quantile",0.975,11.8079575
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.025,1.95217975
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.05,2.179046
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.1,2.587797
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.25,3.4425425
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.5,4.57787
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.75,6.099935
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.9,7.667472
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.95,9.17043
-"2025-02-22","Austin",1,"flu ED visits pct","2025-03-01","quantile",0.975,10.3889075
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.025,1.843843
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.05,2.196871
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.1,2.709991
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.25,3.6145375
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.5,4.89881
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.75,6.4904975
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.9,8.354398
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.95,9.8369355
-"2025-02-22","Dallas",1,"flu ED visits pct","2025-03-01","quantile",0.975,11.5995075
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.025,1.07120225
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.05,1.250046
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.1,1.520307
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.25,2.1561825
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.5,2.95065
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.75,4.06753
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.9,5.330561
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.95,6.29502
-"2025-02-22","El Paso",1,"flu ED visits pct","2025-03-01","quantile",0.975,7.38843625
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.025,1.3182375
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.05,1.478614
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.1,1.772193
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.25,2.25063
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.5,2.946205
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.75,3.8266675
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.9,4.876044
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.95,5.594818
-"2025-02-22","Houston",1,"flu ED visits pct","2025-03-01","quantile",0.975,6.29353949999999
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.025,1.8953975
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.05,2.2118745
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.1,2.619078
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.25,3.569135
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.5,4.82751
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.75,6.6189775
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.9,8.526259
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.95,10.137155
-"2025-02-22","San Antonio",1,"flu ED visits pct","2025-03-01","quantile",0.975,11.4914825
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.025,1.3837605
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.05,1.645785
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.1,2.007228
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.25,2.747305
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.5,3.855005
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.75,5.3740375
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.9,7.241379
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.95,8.503806
-"2025-02-22","Austin",2,"flu ED visits pct","2025-03-08","quantile",0.975,10.037855
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.025,1.37323725
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.05,1.646941
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.1,2.061578
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.25,2.8441625
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.5,3.90352
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.75,5.554035
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.9,7.77295
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.95,9.122423
-"2025-02-22","Dallas",2,"flu ED visits pct","2025-03-08","quantile",0.975,10.630945
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.025,0.744009825
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.05,0.9166655
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.1,1.135412
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.25,1.652405
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.5,2.44398
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.75,3.40488
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.9,4.705719
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.95,5.659102
-"2025-02-22","El Paso",2,"flu ED visits pct","2025-03-08","quantile",0.975,6.89812375
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.025,1.0085845
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.05,1.1659865
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.1,1.404568
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.25,1.837075
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.5,2.509235
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.75,3.4092475
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.9,4.507226
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.95,5.2730635
-"2025-02-22","Houston",2,"flu ED visits pct","2025-03-08","quantile",0.975,6.06514874999999
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.025,1.404636
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.05,1.701587
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.1,2.076573
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.25,2.8658025
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.5,4.02407
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.75,5.7190225
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.9,8.105948
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.95,9.8662345
-"2025-02-22","San Antonio",2,"flu ED visits pct","2025-03-08","quantile",0.975,11.3924849999999
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.025,1.050277
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.05,1.2607685
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.1,1.590611
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.25,2.3035425
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.5,3.331775
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.75,4.777985
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.9,6.494158
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.95,7.853718
-"2025-02-22","Austin",3,"flu ED visits pct","2025-03-15","quantile",0.975,9.10713575
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.025,0.99885165
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.05,1.204697
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.1,1.502242
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.25,2.1996575
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.5,3.279175
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.75,4.834945
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.9,6.781924
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.95,8.3593985
-"2025-02-22","Dallas",3,"flu ED visits pct","2025-03-15","quantile",0.975,10.45495
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.025,0.567804275
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.05,0.67871745
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.1,0.858474
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.25,1.2912225
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.5,1.986045
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.75,2.968675
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.9,4.152451
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.95,5.137197
-"2025-02-22","El Paso",3,"flu ED visits pct","2025-03-15","quantile",0.975,6.23199924999999
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.025,0.75780815
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.05,0.920154
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.1,1.130769
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.25,1.5732425
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.5,2.18724
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.75,3.0337175
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.9,4.14523
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.95,5.0890635
-"2025-02-22","Houston",3,"flu ED visits pct","2025-03-15","quantile",0.975,5.86429775
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.025,1.0603115
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.05,1.29034
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.1,1.556065
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.25,2.26823
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.5,3.38085
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.75,5.045845
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.9,7.273003
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.95,9.1440845
-"2025-02-22","San Antonio",3,"flu ED visits pct","2025-03-15","quantile",0.975,11.034345
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.025,2.5501715
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.05,2.9122875
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.1,3.3827
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.25,4.1976525
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.5,5.33121
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.75,6.7403775
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.9,8.428344
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.95,9.278558
+"2025-02-22","Austin",0,"Flu ED visits pct","2025-02-22","quantile",0.975,10.0310025
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.025,2.75871325
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.05,3.1886885
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.1,3.63041
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.25,4.634675
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.5,5.93675
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.75,7.643195
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.9,9.363401
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.95,10.59947
+"2025-02-22","Dallas",0,"Flu ED visits pct","2025-02-22","quantile",0.975,11.7520925
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.025,1.483614
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.05,1.786929
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.1,2.067406
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.25,2.7368025
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.5,3.638045
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.75,4.7125625
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.9,5.972674
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.95,7.060329
+"2025-02-22","El Paso",0,"Flu ED visits pct","2025-02-22","quantile",0.975,7.92769475
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.025,1.77079275
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.05,1.988412
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.1,2.264586
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.25,2.7657675
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.5,3.44394
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.75,4.289745
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.9,5.212423
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.95,5.885591
+"2025-02-22","Houston",0,"Flu ED visits pct","2025-02-22","quantile",0.975,6.50740625
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.025,2.666439
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.05,3.0052515
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.1,3.470665
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.25,4.43717
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.5,5.69564
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.75,7.363495
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.9,9.335914
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.95,10.50945
+"2025-02-22","San Antonio",0,"Flu ED visits pct","2025-02-22","quantile",0.975,11.8079575
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.95217975
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.05,2.179046
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.587797
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.25,3.4425425
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.5,4.57787
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.75,6.099935
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.9,7.667472
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.95,9.17043
+"2025-02-22","Austin",1,"Flu ED visits pct","2025-03-01","quantile",0.975,10.3889075
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.843843
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.05,2.196871
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.709991
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.25,3.6145375
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.5,4.89881
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.75,6.4904975
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.9,8.354398
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.95,9.8369355
+"2025-02-22","Dallas",1,"Flu ED visits pct","2025-03-01","quantile",0.975,11.5995075
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.07120225
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.05,1.250046
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.1,1.520307
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.25,2.1561825
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.5,2.95065
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.75,4.06753
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.9,5.330561
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.95,6.29502
+"2025-02-22","El Paso",1,"Flu ED visits pct","2025-03-01","quantile",0.975,7.38843625
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.3182375
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.05,1.478614
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.1,1.772193
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.25,2.25063
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.5,2.946205
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.75,3.8266675
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.9,4.876044
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.95,5.594818
+"2025-02-22","Houston",1,"Flu ED visits pct","2025-03-01","quantile",0.975,6.29353949999999
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.8953975
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.05,2.2118745
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.619078
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.25,3.569135
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.5,4.82751
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.75,6.6189775
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.9,8.526259
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.95,10.137155
+"2025-02-22","San Antonio",1,"Flu ED visits pct","2025-03-01","quantile",0.975,11.4914825
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.025,1.3837605
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.05,1.645785
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.1,2.007228
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.25,2.747305
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.5,3.855005
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.75,5.3740375
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.9,7.241379
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.95,8.503806
+"2025-02-22","Austin",2,"Flu ED visits pct","2025-03-08","quantile",0.975,10.037855
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.025,1.37323725
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.05,1.646941
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.1,2.061578
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.25,2.8441625
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.5,3.90352
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.75,5.554035
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.9,7.77295
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.95,9.122423
+"2025-02-22","Dallas",2,"Flu ED visits pct","2025-03-08","quantile",0.975,10.630945
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.025,0.744009825
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.05,0.9166655
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.1,1.135412
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.25,1.652405
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.5,2.44398
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.75,3.40488
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.9,4.705719
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.95,5.659102
+"2025-02-22","El Paso",2,"Flu ED visits pct","2025-03-08","quantile",0.975,6.89812375
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.025,1.0085845
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.05,1.1659865
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.1,1.404568
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.25,1.837075
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.5,2.509235
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.75,3.4092475
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.9,4.507226
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.95,5.2730635
+"2025-02-22","Houston",2,"Flu ED visits pct","2025-03-08","quantile",0.975,6.06514874999999
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.025,1.404636
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.05,1.701587
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.1,2.076573
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.25,2.8658025
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.5,4.02407
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.75,5.7190225
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.9,8.105948
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.95,9.8662345
+"2025-02-22","San Antonio",2,"Flu ED visits pct","2025-03-08","quantile",0.975,11.3924849999999
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.025,1.050277
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.05,1.2607685
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.1,1.590611
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.25,2.3035425
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.5,3.331775
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.75,4.777985
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.9,6.494158
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.95,7.853718
+"2025-02-22","Austin",3,"Flu ED visits pct","2025-03-15","quantile",0.975,9.10713575
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.025,0.99885165
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.05,1.204697
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.1,1.502242
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.25,2.1996575
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.5,3.279175
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.75,4.834945
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.9,6.781924
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.95,8.3593985
+"2025-02-22","Dallas",3,"Flu ED visits pct","2025-03-15","quantile",0.975,10.45495
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.025,0.567804275
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.05,0.67871745
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.1,0.858474
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.25,1.2912225
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.5,1.986045
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.75,2.968675
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.9,4.152451
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.95,5.137197
+"2025-02-22","El Paso",3,"Flu ED visits pct","2025-03-15","quantile",0.975,6.23199924999999
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.025,0.75780815
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.05,0.920154
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.1,1.130769
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.25,1.5732425
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.5,2.18724
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.75,3.0337175
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.9,4.14523
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.95,5.0890635
+"2025-02-22","Houston",3,"Flu ED visits pct","2025-03-15","quantile",0.975,5.86429775
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.025,1.0603115
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.05,1.29034
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.1,1.556065
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.25,2.26823
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.5,3.38085
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.75,5.045845
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.9,7.273003
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.95,9.1440845
+"2025-02-22","San Antonio",3,"Flu ED visits pct","2025-03-15","quantile",0.975,11.034345

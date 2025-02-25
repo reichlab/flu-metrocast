@@ -142,12 +142,12 @@ This is the date from which all forecasts should be considered. This date is the
 Values in the `target` column must be a character (string) and be one of
 the following specific targets:
 
--   *`[insert target] `* 
--   *`[insert target] `*
+-   *`ILI ED visits `* 
+-   *`Flu ED visits pct `*
 
 
 ### `horizon`
-Values in the `horizon` column indicate the number of *[insert temporal period]*  between the `reference_date` and the `target_end_date`.  This should be a number between *[insert range of horizons]* , where for example a `horizon` of 0 indicates that the prediction is a nowcast for the *[insert temporal period]* of submission and a `horizon` of 1 indicates that the prediction is a forecast for the *[insert temporal period]* after submission. 
+Values in the `horizon` column indicate the number of weeks  between the `reference_date` and the `target_end_date`. For ILI ED visits should be a number between 0 and 4 and for Flu ED visits pct should be a number between -1 and 3, where for example a `horizon` of 0 indicates that the prediction is a nowcast for the week of submission and a `horizon` of 1 indicates that the prediction is a forecast for the weekafter submission. 
 
 ### `target_end_date`
 
@@ -155,32 +155,28 @@ Values in the `target_end_date` column must be a date in the format
 
     YYYY-MM-DD
     
-This is the last date of the forecast target's *[insert temporal period]*. This will be the date of the Saturday at the end of the forecasted *[insert temporal period]* Within each row of the submission file, the `target_end_date` should be equal to the `reference_date` + `horizon`* (*[# days in temporal period]* days).
+This is the last date of the forecast target's week. This will be the date of the Saturday at the end of the forecasted week. Within each row of the submission file, the `target_end_date` should be equal to the `reference_date` + `horizon`* (7 days).
 
 
 ### `location`
 
 Values in the `location` column must be one of the "locations" in
-this *[insert name of location information file]* (*[insert url for location information file]* ) which
-includes *[describe what location information files included]* 
+this [NYC population] ([https://github.com/reichlab/flu-metrocast/blob/main/auxiliary-data/nyc_population.csv] ) which
+includes five boroughs, as well as NYC (sum of five boroughs).  
 
 ### `output_type`
 
-<mark style="background-color: #FFE331">**Modify depending on which type of output_type you are collecting.**</mark>
 
-Values in the `output_type` column are either
+Values in the `output_type` column are 
 
--   "quantile" or
--   "pmf".
+-   "quantile" 
 
-This value indicates whether that row corresponds to a quantile forecast for *[insert target]* or the probability mass function (pmf) of a categorical forecast for *[insert target]*. 
+This value indicates whether that row corresponds to a quantile forecast for ILI ED visits or Flu ED visits pct. Quantile forecasts are used in visualizations and to construct the primary flu-metrocast ensemble.
 
 ### `output_type_id`
 Values in the `output_type_id` column specify identifying information for the output type.
 
 #### quantile output
-<mark style="background-color: #FFE331">**Modify depending on which type of output_type you are collecting.**</mark>
-
 When the predictions are quantiles, values in the `output_type_id` column are a quantile probability level in the format
 
     0.###
@@ -188,27 +184,27 @@ When the predictions are quantiles, values in the `output_type_id` column are a 
  This value indicates the quantile probability level for for the
 `value` in this row.
 
-Teams must provide the following *[insert # quantiles]* quantiles:
+Teams must provide the following 9 quantiles:
 
-*[insert quantiles]*
+0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975
 
-R: *[insert r code for defining quantiles]*
-Python: *[insert Python code for defining quantiles]*
-
-#### pmf output
-<mark style="background-color: #FFE331">**Modify depending on which type of output_type you are collecting.**</mark>
-
- *[Describe pmf output]*
+R: c(0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975)
+Python: [0.025, 0.05, 0.10, 0.25, 0.50, 0.75, 0.90, 0.95, 0.975]
 
 
 ### `value`
-<mark style="background-color: #FFE331">**Modify depending on which type of output_type you are collecting.**</mark>
 
-Values in the `value` column are non-negative numbers indicating the "quantile" or "pmf" prediction for this row. For a "quantile" prediction, `value` is the inverse of the cumulative distribution function (CDF) for the target, location, and quantile associated with that row. For example, the 2.5 and 97.5 quantiles for a given target and location should capture 95% of the predicted values and correspond to the central 95% Prediction Interval. 
+Values in the `value` column are non-negative numbers indicating the "quantile" prediction for this row. For a "quantile" prediction, `value` is the inverse of the cumulative distribution function (CDF) for the target, location, and quantile associated with that row. For example, the 2.5 and 97.5 quantiles for a given target and location should capture 95% of the predicted values and correspond to the central 95% Prediction Interval. 
 
 ### Example tables
 
- *[Insert example tables]*
+| reference_date | horizon|  target_end_date | target EW dates covered
+|------------------------|------------------------|------------------------|------------------------|
+|2025-01-25 | -1 | 2025-01-18 | 2025-01-12 to 2025-01-18 | 
+|2025-01-25 | 0  | 2025-01-25 | 2025-01-19 to 2025-01-25 | 
+|2025-01-25 | 1  | 2025-02-01 | 2025-01-26 to 2025-02-01 | 
+|2025-01-25 | 2  | 2025-02-08 | 2025-02-02 to 2025-02-08 | 
+|2025-01-25 | 3  | 2025-02-15 | 2025-02-09 to 2025-02-15 | 
 
 ## Forecast validation 
 
@@ -238,7 +234,7 @@ Every  *[day and time]*, we will generate a  *[hub name]* ensemble  *[Insert tar
 
 ## Policy on late or updated submissions 
 
-In order to ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by *[day and time]* each week. We do not accept late forecasts.
+In order to ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by 9PM ET on Tuesdays each week. We do not accept late forecasts.
 
 ## Evaluation criteria
 Forecasts will be evaluated using a variety of metrics, including *[describe how they will be evaluated]*

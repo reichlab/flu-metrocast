@@ -21,6 +21,7 @@ new_ts <- function(df){
   as_of_list <- df %>%
     select(as_of) %>%
     distinct()
+  
   for(i in 1:length(as_of_list$as_of)){
     assign(paste0("df-", as_of_list$as_of[i]), df %>% filter(as_of == as_of_list$as_of[i]))
   }
@@ -30,7 +31,7 @@ new_ts <- function(df){
       assign(paste0("df-new-", as_of_list$as_of[i]), get(paste0("df-", as_of_list$as_of[i])))
     }else{
       assign(paste0("df-new-", as_of_list$as_of[i]), 
-             `df-2025-01-03` %>%
+             get(paste0("df-", min(as_of_list$as_of))) %>%
                filter(target_end_date < '2024-10-05') %>%
                mutate(as_of = as_of_list$as_of[i]) %>%
                bind_rows(get(paste0("df-", as_of_list$as_of[i]))))
@@ -48,7 +49,16 @@ new_ts <- function(df){
 }
 
 NYC_ts_new <- new_ts(NYC_ts_tmp)
- 
+NYC_ts_new |> 
+  group_by(as_of, target, location) |> 
+  summarize(n=n()) |> 
+  View()
+
+
+
+NYC_ts_new %>%
+  filter(location == "Bronx", target_end_date == "2025-01-04")
+  
 
 TX_ts <- read.csv("target-data/time-series-flu-ed-visits-pct.csv")
 TX_ts_tmp <- TX_ts %>%
@@ -58,12 +68,23 @@ TX_ts_tmp <- TX_ts %>%
 
 TX_ts_new <- new_ts(TX_ts_tmp)
 
+TX_ts_new |> 
+  group_by(as_of, target, location) |> 
+  summarize(n=n()) |> 
+  View()
+
+
+TX_ts_new %>%
+  filter(location == "Austin", target_end_date == "2025-02-01")
+
 combine_ts <- NYC_ts_new %>%
   bind_rows(TX_ts_new) %>%
   arrange(as_of, target_end_date)
 write.csv(combine_ts, "target-data/time-series.csv", row.names = FALSE)
 
 
+combine_ts %>%
+  filter(location == "Austin", target_end_date == "2025-02-01")
 
 
 ts_to_oracle <- function(df_ts, as_of){

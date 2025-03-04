@@ -31,7 +31,7 @@ model_contributors: [
   },
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 team_funding: ""
 methods: "A Gradient Boosting of Quantile Regression (GBQR) model for city level flu forecasts. A machine learning method that combines gradient boosting and quantile regression to predict conditional quantiles, providing insights into uncertainty and variability in predictions."
 methods_url: "https://github.com/donga0223/City-Level-Forecasting/tree/main/GBQR"

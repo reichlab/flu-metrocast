@@ -29,7 +29,7 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 team_funding: ""
 methods: "A spatial time-series model that uses the R-INLA package for estimating forecast posterior distributions."
 methods_url: "https://github.com/donga0223/City-Level-Forecasting/tree/main/INLA"

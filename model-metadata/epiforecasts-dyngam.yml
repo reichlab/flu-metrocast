@@ -12,7 +12,7 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 team_funding: ""
 methods: "A Bayesian hierarchical GAM with a univariate AR(1) process"
 methods_url: "https://github.com/epiforecasts/cityforecasts/blob/main/README.md"

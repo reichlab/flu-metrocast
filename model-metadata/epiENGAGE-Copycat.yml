@@ -12,6 +12,7 @@ model_contributors: [
   }
 ]
 license: "CC-BY-4.0"
+designated_model: true
 team_funding: "CSTE/CDC award NU38OT000297"
 methods: "A pattern matching model that matches growth rate trends to historic growth rate curves."
 methods_url: "https://thefoxlab.wordpress.com/"

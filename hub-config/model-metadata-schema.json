@@ -69,6 +69,10 @@
                 "OGL-3.0"
             ]
         },
+        "designated_model": {
+            "description": "Team-specified indicator for whether the model should be eligible for inclusion in a Hub ensemble and public visualization. A team may designate up to two models.",
+            "type": "boolean"
+        },
         "citation": {
             "description": "One or more citations for this model",
             "type": "string",
@@ -110,6 +114,7 @@
         "model_abbr",
         "model_contributors",
         "license",
+        "designated_model",
         "methods",
         "data_sources"
     ]

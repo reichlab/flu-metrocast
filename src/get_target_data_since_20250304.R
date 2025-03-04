@@ -8,6 +8,7 @@
 #date_range = between 2024-09-29 and the most recent date.
 
 
+
 library(dplyr)
 library(ISOweek)
 library(tidycensus)
@@ -120,9 +121,9 @@ add_previous_season <- function(df_weekly, as_of = NULL){
   print(dim(ts))
   new_ts <- ts %>%
     bind_rows(df_weekly) %>%
-    arrange(as_of, target, target_end_date) %>% 
     mutate(as_of = as.character(as_of),
-           target_end_date = as.character(target_end_date))
+           target_end_date = as.character(target_end_date)) %>%
+    arrange(as_of, target_end_date)
   print(dim(new_ts))
   return(new_ts)
 }

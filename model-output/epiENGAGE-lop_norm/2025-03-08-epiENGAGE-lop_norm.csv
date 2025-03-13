@@ -1,0 +1,541 @@
+"model_id","reference_date","location","horizon","target","target_end_date","output_type","output_type_id","value"
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.65084777196314
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.05,1.86943805159511
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.15975607419337
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.25,2.68241501702525
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.5,3.12591440926445
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.75,3.53225498166146
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.9,4.24762088961641
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.95,4.76514428734424
+"linear-pool-normal","2025-03-08","Austin",-1,"Flu ED visits pct","2025-03-01","quantile",0.975,5.33784136841468
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.025,0.797120375660233
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.05,1.1422727885787
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.1,1.49303874757265
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.25,2.1267156899783
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.5,2.65133381422272
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.75,3.2954160367862
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.9,4.24601254204001
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.95,5.13220860234518
+"linear-pool-normal","2025-03-08","Austin",0,"Flu ED visits pct","2025-03-08","quantile",0.975,6.21060869562395
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.05,0.55320327685367
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.1,0.979858721942271
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.25,1.59852580121314
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.5,2.1873576376941
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.75,2.86022201126556
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.9,4.05594594095683
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.95,4.72459268291189
+"linear-pool-normal","2025-03-08","Austin",1,"Flu ED visits pct","2025-03-15","quantile",0.975,5.35289467122856
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.05,0.447383493210679
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.1,0.803141715308291
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.25,1.36986513272803
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.5,1.98183773132031
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.75,2.49653033226643
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.9,3.51465214225776
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.95,4.12632702878772
+"linear-pool-normal","2025-03-08","Austin",2,"Flu ED visits pct","2025-03-22","quantile",0.975,4.90413520611767
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.05,0
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.1,0.199565331120411
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.25,0.931478369618396
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.5,1.81790568162647
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.75,2.20192023846121
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.9,3.48770845782826
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.95,4.07545968595155
+"linear-pool-normal","2025-03-08","Austin",3,"Flu ED visits pct","2025-03-29","quantile",0.975,4.74637541731152
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.05,0
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.1,0
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.25,0.535332908363649
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.5,1.15485420267301
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.75,1.96534841031139
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.9,2.92194848166797
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.95,3.70078084522259
+"linear-pool-normal","2025-03-08","Austin",4,"Flu ED visits pct","2025-04-05","quantile",0.975,4.64936062976563
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.025,495.102220991758
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.05,523.269751272119
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.1,559.052573201013
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.25,621.256138072858
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.5,661.808772708434
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.75,723.227263898425
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.9,799.199393777673
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.95,858.637492935972
+"linear-pool-normal","2025-03-08","Bronx",0,"ILI ED visits","2025-03-08","quantile",0.975,919.341367362987
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.025,418.096095386971
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.05,444.592252703409
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.1,484.89057669002
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.25,567.590288062985
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.5,609.968040596753
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.75,692.941479313738
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.9,783.128348843365
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.95,860.051341906193
+"linear-pool-normal","2025-03-08","Bronx",1,"ILI ED visits","2025-03-15","quantile",0.975,922.089661810404
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.025,341.624066613671
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.05,376.049922821306
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.1,436.259950450011
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.25,529.040821400672
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.5,579.087123036627
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.75,668.021027209795
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.9,775.931434808452
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.95,857.702790480623
+"linear-pool-normal","2025-03-08","Bronx",2,"ILI ED visits","2025-03-22","quantile",0.975,929.94486824265
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.025,287.798254096959
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.05,334.810118309495
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.1,405.132127533151
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.25,503.692157815538
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.5,559.303183167549
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.75,649.831936032848
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.9,766.229518191936
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.95,851.146906505622
+"linear-pool-normal","2025-03-08","Bronx",3,"ILI ED visits","2025-03-29","quantile",0.975,930.841640726558
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.025,243.713762065002
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.05,285.079379336885
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.1,372.367441169186
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.25,490.002990131927
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.5,528.254256452305
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.75,610.549816832123
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.9,724.447067808735
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.95,798.35545975642
+"linear-pool-normal","2025-03-08","Bronx",4,"ILI ED visits","2025-04-05","quantile",0.975,884.633988647315
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.025,579.919918219104
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.05,618.681962252644
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.1,663.610875529845
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.25,733.353616104938
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.5,794.944209439777
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.75,857.932481106837
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.9,936.85447283959
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.95,998.349841558181
+"linear-pool-normal","2025-03-08","Brooklyn",0,"ILI ED visits","2025-03-08","quantile",0.975,1054.07377472522
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.025,485.682959182235
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.05,519.45572378907
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.1,562.564924911628
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.25,661.061253528316
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.5,743.899431958106
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.75,811.979363871511
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.9,910.597900809809
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.95,990.414401762394
+"linear-pool-normal","2025-03-08","Brooklyn",1,"ILI ED visits","2025-03-15","quantile",0.975,1070.14466455839
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.025,397.069597590664
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.05,431.059249109062
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.1,486.540797246122
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.25,612.636428103824
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.5,711.086054472548
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.75,781.533154892121
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.9,900.623484896525
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.95,989.830090973827
+"linear-pool-normal","2025-03-08","Brooklyn",2,"ILI ED visits","2025-03-22","quantile",0.975,1085.11308639539
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.025,331.140073712505
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.05,371.394382585139
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.1,436.843964064477
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.25,574.514816065246
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.5,676.532560086282
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.75,760.790124509139
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.9,888.872637429126
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.95,981.165138682248
+"linear-pool-normal","2025-03-08","Brooklyn",3,"ILI ED visits","2025-03-29","quantile",0.975,1079.2932914474
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.025,286.375009048106
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.05,321.51161437332
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.1,382.189482029171
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.25,563.070804281461
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.5,634.71743396913
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.75,734.680162183512
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.9,868.08081800947
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.95,970.373651160446
+"linear-pool-normal","2025-03-08","Brooklyn",4,"ILI ED visits","2025-04-05","quantile",0.975,1072.45049220349
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.91670033432756
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.05,2.15617949969008
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.46819140575582
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.25,3.03472246534612
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.5,3.6212997909996
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.75,4.07917341951067
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.9,4.88787787978287
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.95,5.41451850802989
+"linear-pool-normal","2025-03-08","Dallas",-1,"Flu ED visits pct","2025-03-01","quantile",0.975,5.98383825177466
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.025,0.8388570671278
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.05,1.23342749420994
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.1,1.64044746639424
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.25,2.30221173302834
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.5,3.02845309248282
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.75,3.69483095827189
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.9,5.06084330368529
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.95,5.81547397897548
+"linear-pool-normal","2025-03-08","Dallas",0,"Flu ED visits pct","2025-03-08","quantile",0.975,6.61471816281127
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.05,0.566142577827821
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.1,1.04811807257995
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.25,1.69370324663146
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.5,2.47177470247406
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.75,3.08063576383026
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.9,4.41656697429215
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.95,5.6088641392901
+"linear-pool-normal","2025-03-08","Dallas",1,"Flu ED visits pct","2025-03-15","quantile",0.975,6.06398596550738
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.05,0.46568950350488
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.1,0.844143616186564
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.25,1.42676784608007
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.5,1.98876798033923
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.75,2.67326475782974
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.9,3.87201873737773
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.95,4.97317415445509
+"linear-pool-normal","2025-03-08","Dallas",2,"Flu ED visits pct","2025-03-22","quantile",0.975,5.92790036532284
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.05,0.24174939340182
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.1,0.618569798504742
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.25,1.26508038136359
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.5,1.8361626234957
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.75,2.50724214835536
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.9,3.62056542883723
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.95,4.43497037382115
+"linear-pool-normal","2025-03-08","Dallas",3,"Flu ED visits pct","2025-03-29","quantile",0.975,5.34434050932771
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.05,0
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.1,0
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.25,0.505243487204188
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.5,1.13256820397964
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.75,2.32759575688679
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.9,3.68158743004204
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.95,4.49459681515031
+"linear-pool-normal","2025-03-08","Dallas",4,"Flu ED visits pct","2025-04-05","quantile",0.975,5.49345108188047
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.83399022285256
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.05,2.05124269327692
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.33318745945139
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.25,2.90299951305591
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.5,3.34857254560681
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.75,3.74738523712244
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.9,4.61869788669244
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.95,5.19211117008123
+"linear-pool-normal","2025-03-08","El Paso",-1,"Flu ED visits pct","2025-03-01","quantile",0.975,5.78163690927464
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.025,0.851983828491144
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.05,1.26622901291105
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.1,1.61541211447838
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.25,2.30153471151597
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.5,2.78982235056435
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.75,3.61163463138126
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.9,4.95570296057871
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.95,5.74876795816426
+"linear-pool-normal","2025-03-08","El Paso",0,"Flu ED visits pct","2025-03-08","quantile",0.975,6.48805806698242
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.025,0
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.05,0.57477868656055
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.1,1.07650952986327
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.25,1.76106703241227
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.5,2.36953014209475
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.75,3.1396199366029
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.9,4.39556741765724
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.95,5.12706825558046
+"linear-pool-normal","2025-03-08","El Paso",1,"Flu ED visits pct","2025-03-15","quantile",0.975,6.08052967972474
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.025,0
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.05,0.521439963356356
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.1,0.912153249637251
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.25,1.55403989923322
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.5,2.03471026364518
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.75,2.74178953743756
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.9,3.93232460679933
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.95,5.04144066646623
+"linear-pool-normal","2025-03-08","El Paso",2,"Flu ED visits pct","2025-03-22","quantile",0.975,5.99022840852908
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.025,0
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.05,0
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.1,0.213133205102244
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.25,1.17803794977406
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.5,1.80801967214287
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.75,2.48138637862962
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.9,3.86710978465858
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.95,4.64333759684458
+"linear-pool-normal","2025-03-08","El Paso",3,"Flu ED visits pct","2025-03-29","quantile",0.975,5.64572931330786
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.025,0
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.05,0
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.1,0
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.25,0.674799154985983
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.5,1.48331557024975
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.75,2.83284278682394
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.9,4.05975787476094
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.95,5.07605506290173
+"linear-pool-normal","2025-03-08","El Paso",4,"Flu ED visits pct","2025-04-05","quantile",0.975,6.07780115097718
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.6217269543818
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.05,1.81255783831233
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.02679257462575
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.25,2.42179619102276
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.5,2.88880385229836
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.75,3.11122589305352
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.9,3.725581330607
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.95,4.09229023467532
+"linear-pool-normal","2025-03-08","Houston",-1,"Flu ED visits pct","2025-03-01","quantile",0.975,4.40821282211697
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.025,0.000565558265020445
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.05,0.646817875925856
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.1,1.23399672612912
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.25,1.87009429369266
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.5,2.28472635164776
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.75,2.99018428082637
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.9,3.91430679781363
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.95,4.57370292455921
+"linear-pool-normal","2025-03-08","Houston",0,"Flu ED visits pct","2025-03-08","quantile",0.975,5.16313448779887
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.025,0.000407813006133357
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.05,0.581564527418246
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.1,0.96359218495149
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.25,1.49819875396607
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.5,1.96095501832316
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.75,2.46719322924869
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.9,3.36249783190021
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.95,4.19915203773839
+"linear-pool-normal","2025-03-08","Houston",1,"Flu ED visits pct","2025-03-15","quantile",0.975,5
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.05,0
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.1,0.586826296046951
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.25,1.21859259788239
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.5,1.75481545817297
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.75,2.28083132731089
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.9,3.23810555948279
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.95,3.83270435327439
+"linear-pool-normal","2025-03-08","Houston",2,"Flu ED visits pct","2025-03-22","quantile",0.975,4.52280470915867
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.05,0
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.1,0.196520347965204
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.25,0.938768036495483
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.5,1.48744606862277
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.75,1.75533774874944
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.9,2.81466974907851
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.95,3.74304657878455
+"linear-pool-normal","2025-03-08","Houston",3,"Flu ED visits pct","2025-03-29","quantile",0.975,4.63596756719822
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.025,0
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.05,0
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.1,0
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.25,0.555451777676414
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.5,1.0839400923672
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.75,1.80106208595364
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.9,2.67108241252157
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.95,3.34518644139196
+"linear-pool-normal","2025-03-08","Houston",4,"Flu ED visits pct","2025-04-05","quantile",0.975,4.19375321557699
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.025,302.53599525507
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.05,325.056804267631
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.1,350.857811129822
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.25,389.673063469109
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.5,417.798185660505
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.75,457.929927075756
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.9,501.157140801634
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.95,531.003431786903
+"linear-pool-normal","2025-03-08","Manhattan",0,"ILI ED visits","2025-03-08","quantile",0.975,560.194810303398
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.025,269.081395090287
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.05,290.840693074741
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.1,317.409158957823
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.25,364.823164215665
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.5,384.435483231675
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.75,436.770042697235
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.9,492.253390653454
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.95,530.970657820069
+"linear-pool-normal","2025-03-08","Manhattan",1,"ILI ED visits","2025-03-15","quantile",0.975,570.574654295232
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.025,241.324758063988
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.05,263.208654961517
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.1,291.811677919423
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.25,343.598311039307
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.5,371.332327569858
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.75,423.298725282763
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.9,484.327672539225
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.95,528.652229625456
+"linear-pool-normal","2025-03-08","Manhattan",2,"ILI ED visits","2025-03-22","quantile",0.975,571.857370626726
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.025,221.228443344006
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.05,243.524996793397
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.1,272.817766696212
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.25,324.720103000902
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.5,352.207093315006
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.75,411.074654784001
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.9,479.115732223426
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.95,521.277495254089
+"linear-pool-normal","2025-03-08","Manhattan",3,"ILI ED visits","2025-03-29","quantile",0.975,568.442096735668
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.025,216.049152811803
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.05,242.119149448304
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.1,274.606011178182
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.25,319.467405004916
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.5,340.825355905302
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.75,398.549199697931
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.9,468.955217680961
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.95,515.23175682189
+"linear-pool-normal","2025-03-08","Manhattan",4,"ILI ED visits","2025-04-05","quantile",0.975,561.175278225476
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.025,2227.94330107558
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.05,2337.76859772852
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.1,2466.62522869581
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.25,2661.80357474641
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.5,2774.7197143356
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.75,2984.63927779031
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.9,3203.82422321479
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.95,3391.3514010729
+"linear-pool-normal","2025-03-08","NYC",0,"ILI ED visits","2025-03-08","quantile",0.975,3571.38319216523
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.025,1788.8745238936
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.05,1945.71707006344
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.1,2159.03293905342
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.25,2452.30166149618
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.5,2593.06963136805
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.75,2832.84244449274
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.9,3127.27925299422
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.95,3362.42049862267
+"linear-pool-normal","2025-03-08","NYC",1,"ILI ED visits","2025-03-15","quantile",0.975,3597.82961994711
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.025,1448.35635371605
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.05,1684.82848087968
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.1,1959.41942344896
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.25,2303.7647153743
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.5,2523.26560711354
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.75,2732.99309191553
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.9,3072.09055765082
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.95,3345.53040247622
+"linear-pool-normal","2025-03-08","NYC",2,"ILI ED visits","2025-03-22","quantile",0.975,3603.7982484929
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.025,1194.59644695436
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.05,1475.18509129668
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.1,1819.18550464811
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.25,2197.5801207763
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.5,2388.48425016105
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.75,2666.9751249577
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.9,3035.51905030018
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.95,3320.03486994659
+"linear-pool-normal","2025-03-08","NYC",3,"ILI ED visits","2025-03-29","quantile",0.975,3584.4181286249
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.025,1010.52001450214
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.05,1186.01764314124
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.1,1727.8174148611
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.25,2140.57903415252
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.5,2291.07747557834
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.75,2534.43827118337
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.9,2853.51428280827
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.95,3079.16105909213
+"linear-pool-normal","2025-03-08","NYC",4,"ILI ED visits","2025-04-05","quantile",0.975,3258.99256734744
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.025,554.374335732415
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.05,579.448631270261
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.1,612.144906215062
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.25,673.426549404569
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.5,727.273272936477
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.75,801.185151835962
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.9,931.776882108218
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.95,1027.66453293591
+"linear-pool-normal","2025-03-08","Queens",0,"ILI ED visits","2025-03-08","quantile",0.975,1114.35971638712
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.025,452.63775539051
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.05,483.530755682243
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.1,536.005075555755
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.25,621.819454341126
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.5,682.960528454122
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.75,763.480820280334
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.9,905.258607241396
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.95,1012.86458237085
+"linear-pool-normal","2025-03-08","Queens",1,"ILI ED visits","2025-03-15","quantile",0.975,1109.17283240008
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.025,363.912686336417
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.05,408.14309554983
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.1,486.07501750099
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.25,583.94690251876
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.5,653.19481358705
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.75,743.723963789743
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.9,889.480925311705
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.95,998.878032779455
+"linear-pool-normal","2025-03-08","Queens",2,"ILI ED visits","2025-03-22","quantile",0.975,1098.87007107351
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.025,307.808667155877
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.05,360.148092752664
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.1,445.838207044677
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.25,553.733772908415
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.5,630.773614841357
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.75,729.109300197253
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.9,883.887665235863
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.95,999.921889906647
+"linear-pool-normal","2025-03-08","Queens",3,"ILI ED visits","2025-03-29","quantile",0.975,1111.06044596417
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.025,262.317805161789
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.05,297.456208676915
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.1,395.413362693293
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.25,516.530798518245
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.5,595.424470815287
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.75,672.720817941249
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.9,782.794742415915
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.95,870.240440478072
+"linear-pool-normal","2025-03-08","Queens",4,"ILI ED visits","2025-04-05","quantile",0.975,959.458940977858
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.025,1.79490256548026
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.05,2.01275981872798
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.1,2.29245668440403
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.25,2.81779554590913
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.5,3.17561929381241
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.75,3.66346265279402
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.9,4.53902148788489
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.95,5.06181446612699
+"linear-pool-normal","2025-03-08","San Antonio",-1,"Flu ED visits pct","2025-03-01","quantile",0.975,5.62834671171976
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.025,0.840042731865868
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.05,1.19806993791016
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.1,1.5222270049082
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.25,2.10153507343625
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.5,2.61993087887711
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.75,3.39063786275149
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.9,4.81397017712978
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.95,5.61596975279235
+"linear-pool-normal","2025-03-08","San Antonio",0,"Flu ED visits pct","2025-03-08","quantile",0.975,6.28601554258989
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.025,0
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.05,0.545144630940483
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.1,0.958996890800658
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.25,1.61870549083524
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.5,2.06409648286641
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.75,3.05969322816157
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.9,4.14069294446587
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.95,4.84586653042204
+"linear-pool-normal","2025-03-08","San Antonio",1,"Flu ED visits pct","2025-03-15","quantile",0.975,5.64137170985755
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.025,0
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.05,0.432592780287193
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.1,0.736480172981663
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.25,1.27790270172678
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.5,1.69447861321659
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.75,2.40277967661745
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.9,3.60015811128854
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.95,4.54882236229948
+"linear-pool-normal","2025-03-08","San Antonio",2,"Flu ED visits pct","2025-03-22","quantile",0.975,5.00701299732202
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.025,0
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.05,0
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.1,0.191185173661044
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.25,0.795187094089557
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.5,1.44701076816932
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.75,1.91792038426303
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.9,3.40576781934687
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.95,4.03422156345259
+"linear-pool-normal","2025-03-08","San Antonio",3,"Flu ED visits pct","2025-03-29","quantile",0.975,4.76901778957699
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.025,0
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.05,0
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.1,0
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.25,0.419463337159024
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.5,0.937873907991148
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.75,1.70898680954243
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.9,2.95081850074421
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.95,4.11011156027254
+"linear-pool-normal","2025-03-08","San Antonio",4,"Flu ED visits pct","2025-04-05","quantile",0.975,5.01944863594823
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.025,52.9094203302663
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.05,57.673540271368
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.1,62.6003877206822
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.25,71.6777513400888
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.5,79.4131343536831
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.75,90.763115123619
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.9,101.085413663033
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.95,109.002642918485
+"linear-pool-normal","2025-03-08","Staten Island",0,"ILI ED visits","2025-03-08","quantile",0.975,117.192052468135
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.025,46.4947541731878
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.05,51.043003009823
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.1,56.8590977603072
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.25,67.029228086956
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.5,74.2430966716828
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.75,87.0941020989894
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.9,99.4057988673278
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.95,108.789247740153
+"linear-pool-normal","2025-03-08","Staten Island",1,"ILI ED visits","2025-03-15","quantile",0.975,117.420748013171
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.025,41.418967299477
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.05,45.805822709375
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.1,52.213673153125
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.25,63.5685257881526
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.5,71.005453392768
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.75,84.9281207696194
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.9,99.3470191278935
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.95,109.986285031257
+"linear-pool-normal","2025-03-08","Staten Island",2,"ILI ED visits","2025-03-22","quantile",0.975,120.151527388441
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.025,37.8536585035087
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.05,42.742137452268
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.1,49.5236786617166
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.25,61.2277485901299
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.5,69.5593283731047
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.75,84.0026311301314
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.9,99.8562234682748
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.95,111.145575970936
+"linear-pool-normal","2025-03-08","Staten Island",3,"ILI ED visits","2025-03-29","quantile",0.975,122.981332593102
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.025,36.2770807917319
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.05,41.6509084082577
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.1,48.3718628230526
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.25,59.7250270467371
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.5,66.8035673249947
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.75,81.8557860175699
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.9,97.4534826015212
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.95,108.971479705347
+"linear-pool-normal","2025-03-08","Staten Island",4,"ILI ED visits","2025-04-05","quantile",0.975,123.569121385246

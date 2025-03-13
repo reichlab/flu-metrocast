@@ -10,27 +10,17 @@ model_contributors: [
     "email": "dongah.kim@austin.utexas.edu"
   },
   {
-    "name": "Li Shandross",
-    "affiliation": "University of Massachusetts Amherst",
-    "email": "lshandross@umass.edu"
-  },
-    {
-    "name": "Evan Ray",
-    "affiliation": "University of Massachusetts Amherst",
-    "email": "elray@umass.edu"
-  },
-  {
     "name": "Nick G. Reich",
     "affiliation": "Department of Biostatistics and Epidemiology, University of Massachussetts Amherst",
     "email": "nick@umass.edu"
   },
 ]
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 team_funding: ""
 methods: "Linear opinion pool based ensemble of quantile forecasts submissions. The Hubverse package hubEnsembles is used to generate the FluSight-lop_norm forecast. A linear opinion pool of quantile outputs is used for all eligible quantile-based forecasts."
 methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
 data_sources: "ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020), Flu TX ED visits pct from CDC"
 ensemble_of_hub_models: true
-repo_url: "https://github.com/donga0223/City-Level-Forecasting"
+repo_url: "https://github.com/reichlab/flu-metrocast"
 citation: ""

@@ -18,7 +18,7 @@ model_contributors: [
 license: "CC-BY-4.0"
 designated_model: true
 team_funding: ""
-methods: "Generate an equally weighted mean ensemble. The Hubverse package hubEnsembles is used to generate the FluSight-lop_norm forecast. A linear opinion pool of quantile outputs is used for all eligible quantile-based forecasts."
+methods: "An equally weighted mean ensemble that takes the mean at each quantile level of all eligible forecasts."
 methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
 data_sources: "ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020), Flu TX ED visits pct from CDC"
 ensemble_of_hub_models: true

@@ -1,0 +1,26 @@
+team_name: "epiENGAGE"
+team_abbr: "epiENGAGE"
+model_name: "Baseline models reported ILI ED visits or Flu ED visits pct"
+model_abbr: "baseline"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Dongah Kim",
+    "affiliation": "Department of Integrative Biology, University of Texas Austin",
+    "email": "dongah.kim@austin.utexas.edu"
+  },
+  {
+    "name": "Nick G. Reich",
+    "affiliation": "Department of Biostatistics and Epidemiology, University of Massachussetts Amherst",
+    "email": "nick@umass.edu"
+  },
+]
+license: "CC-BY-4.0"
+designated_model: true
+team_funding: ""
+methods: "Simple time-series baseline model predicting forward the most recent week of reported ILI ED visits or Flu ED visits pct. The covidModels quantile_baseline function used to generate the quantile baseline forecast."
+methods_url: "https://github.com/reichlab/covidModels/blob/master/R-package/R/quantile_baseline.R"
+data_sources: "ILI NYC ED Visits, Flu TX ED visits pct from CDC"
+ensemble_of_hub_models: false
+repo_url: "https://github.com/reichlab/flu-metrocast"
+citation: ""

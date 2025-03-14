@@ -8,42 +8,42 @@
 2025-03-08,"Austin",-1,"Flu ED visits pct",2025-03-01,"quantile",0.9,3.899
 2025-03-08,"Austin",-1,"Flu ED visits pct",2025-03-01,"quantile",0.95,4.4515
 2025-03-08,"Austin",-1,"Flu ED visits pct",2025-03-01,"quantile",0.975,4.885
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.8761498998999
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.6712972972973
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,2.22643043043043
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,2.94541291291291
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.763080330330331
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.54195795795796
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,2.12928228228228
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,2.96954204204204
 2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.5,3.29
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.6118043043043
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.38393193193194
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,4.85427177177177
-2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.01898348348346
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0.371573323323323
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,1.2984994994995
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.94836536536537
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.77626876876877
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.64373123123123
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.32747447447448
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,4.9587052052052
+2025-03-08,"Austin",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,5.83972397397396
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0.353134384384385
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,0.818178178178178
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.78445345345345
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.74002002002002
 2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.5,3.29
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,3.86623873873874
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,4.70520620620621
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,5.5297037037037
-2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,6.34424124124124
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0.925273773773774
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.69424724724725
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.57352102102102
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,3.81
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,4.67047747747748
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,5.44200750750751
+2025-03-08,"Austin",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,6.27998723723724
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0.0516614114114115
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0.526044044044044
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.46422522522523
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.58947697697698
 2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.5,3.29
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,3.96722472472472
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,4.94223623623624
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.06637387387387
-2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,6.80711186186186
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,3.99108108108108
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,4.91604004004004
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,5.871506006006
+2025-03-08,"Austin",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,6.39913088088088
 2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.025,0
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,0.441793793793796
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,1.3275965965966
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.48887887887888
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,0.359881881881882
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,1.34047247247247
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.41207207207207
 2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.5,3.29
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.13956206206206
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,5.26819019019019
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.1851076076076
-2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,6.9910558058058
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.12337587587588
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,5.16112712712713
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.0858023023023
+2025-03-08,"Austin",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,6.87080405405406
 2025-03-08,"Bronx",0,"ILI ED visits",2025-03-08,"quantile",0.025,458.001426426426
 2025-03-08,"Bronx",0,"ILI ED visits",2025-03-08,"quantile",0.05,574.984184184184
 2025-03-08,"Bronx",0,"ILI ED visits",2025-03-08,"quantile",0.1,655.536036036036
@@ -53,42 +53,42 @@
 2025-03-08,"Bronx",0,"ILI ED visits",2025-03-08,"quantile",0.9,832.463963963964
 2025-03-08,"Bronx",0,"ILI ED visits",2025-03-08,"quantile",0.95,913.015815815816
 2025-03-08,"Bronx",0,"ILI ED visits",2025-03-08,"quantile",0.975,1029.99857357357
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.025,336.965540540541
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.05,449.754804804805
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.1,575.397197197197
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.25,680.859359359359
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.025,345.983108108108
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.05,434.511511511511
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.1,574.756156156156
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.25,679.61036036036
 2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.5,744
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.75,805.096096096096
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.9,910.307707707708
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.95,1020.38853853854
-2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.975,1162.7784034034
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.025,222.861736736737
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.05,365.867217217217
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.1,505.337437437437
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.25,658.063063063063
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.75,804.818318318318
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.9,904.757057057057
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.95,1028.08968968969
+2025-03-08,"Bronx",1,"ILI ED visits",2025-03-15,"quantile",0.975,1125.5265015015
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.025,258.768343343343
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.05,384.563813813814
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.1,510.238438438438
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.25,650.734484484484
 2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.5,744
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.75,838
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.9,964.716816816817
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.95,1112.12882882883
-2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.975,1234.66581581581
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.025,191.485560560561
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.05,343.827927927928
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.1,454.385785785786
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.25,637.852602602602
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.75,833.36036036036
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.9,972.811711711711
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.95,1073.73388388388
+2025-03-08,"Bronx",2,"ILI ED visits",2025-03-22,"quantile",0.975,1245.56606606607
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.025,173.029104104104
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.05,337.078428428428
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.1,452.992792792793
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.25,624.402652652653
 2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.5,744
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.75,862.485985985986
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.9,1041.65865865866
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.95,1180.88683683684
-2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.975,1336.7512012012
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.025,110.253003003003
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.05,278.971071071071
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.1,422.396496496496
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.25,606.930680680681
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.75,859.623873873874
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.9,1018.51711711712
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.95,1146.50495495495
+2025-03-08,"Bronx",3,"ILI ED visits",2025-03-29,"quantile",0.975,1270.41926926927
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.025,114.595645645645
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.05,286.637787787788
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.1,410.826026026026
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.25,599.798298298298
 2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.5,744
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.75,886.123623623623
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.9,1074.9044044044
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.95,1242.06561561562
-2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.975,1355.68738738739
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.75,890.864364364364
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.9,1066.96326326326
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.95,1191.89029029029
+2025-03-08,"Bronx",4,"ILI ED visits",2025-04-05,"quantile",0.975,1331.60182682683
 2025-03-08,"Brooklyn",0,"ILI ED visits",2025-03-08,"quantile",0.025,607.872147147147
 2025-03-08,"Brooklyn",0,"ILI ED visits",2025-03-08,"quantile",0.05,709.757907907908
 2025-03-08,"Brooklyn",0,"ILI ED visits",2025-03-08,"quantile",0.1,808
@@ -98,42 +98,42 @@
 2025-03-08,"Brooklyn",0,"ILI ED visits",2025-03-08,"quantile",0.9,1012
 2025-03-08,"Brooklyn",0,"ILI ED visits",2025-03-08,"quantile",0.95,1110.24209209209
 2025-03-08,"Brooklyn",0,"ILI ED visits",2025-03-08,"quantile",0.975,1212.12785285285
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.025,461.128403403403
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.05,591.918868868869
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.1,719.652352352352
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.25,838.77977977978
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.025,458.712362362362
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.05,592.67037037037
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.1,726.124424424424
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.25,840.793793793794
 2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.5,910
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.75,981.034784784785
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.9,1108.27197197197
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.95,1220.05530530531
-2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.975,1385.42302302302
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.025,388.967317317317
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.05,505.496046046046
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.1,666.513313313313
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.25,809.280780780781
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.75,982.227977977978
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.9,1103.48258258258
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.95,1229.46551551552
+2025-03-08,"Brooklyn",1,"ILI ED visits",2025-03-15,"quantile",0.975,1342.70275275275
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.025,325.060710710711
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.05,523.772672672673
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.1,664.191091091091
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.25,819.223473473473
 2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.5,910
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.75,1012.76301301301
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.9,1172.33763763764
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.95,1312.10560560561
-2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.975,1454.74847347348
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.025,315.555305305305
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.05,472.555705705706
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.1,614.662862862863
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.25,794.25
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.75,1014.91441441441
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.9,1172.53863863864
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.95,1292.73668668669
+2025-03-08,"Brooklyn",2,"ILI ED visits",2025-03-22,"quantile",0.975,1418.13113113113
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.025,269.300425425425
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.05,449.578078078078
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.1,587.555355355356
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.25,791.13963963964
 2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.5,910
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.75,1048.36361361361
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.9,1239.94224224224
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.95,1374.01021021021
-2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.975,1569.6281031031
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.025,233.489164164164
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.05,407.318468468468
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.1,556.965065065065
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.25,763.16966966967
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.75,1039.78203203203
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.9,1195.95665665666
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.95,1352.95800800801
+2025-03-08,"Brooklyn",3,"ILI ED visits",2025-03-29,"quantile",0.975,1482.1303053053
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.025,206.217192192192
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.05,398.775825825826
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.1,536.877877877878
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.25,763.829079079079
 2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.5,910
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.75,1074.47772772773
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.9,1292.68768768769
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.95,1431.07507507508
-2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.975,1639.21278778779
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.75,1065.97822822823
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.9,1266.9036036036
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.95,1420.19944944945
+2025-03-08,"Brooklyn",4,"ILI ED visits",2025-04-05,"quantile",0.975,1613.58043043043
 2025-03-08,"Dallas",-1,"Flu ED visits pct",2025-03-01,"quantile",0.025,0.861
 2025-03-08,"Dallas",-1,"Flu ED visits pct",2025-03-01,"quantile",0.05,1.712
 2025-03-08,"Dallas",-1,"Flu ED visits pct",2025-03-01,"quantile",0.1,2.412
@@ -143,42 +143,42 @@
 2025-03-08,"Dallas",-1,"Flu ED visits pct",2025-03-01,"quantile",0.9,4.328
 2025-03-08,"Dallas",-1,"Flu ED visits pct",2025-03-01,"quantile",0.95,5.028
 2025-03-08,"Dallas",-1,"Flu ED visits pct",2025-03-01,"quantile",0.975,5.879
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.25078953953954
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,0.895038038038038
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,1.89808408408408
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,3.0025975975976
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.362703453453454
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,0.913584584584585
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,1.86885885885886
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,3.0175
 2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.5,3.37
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.7213963963964
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.97797797797798
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,5.75316016016016
-2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.30944444444445
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.7111986986987
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.9824964964965
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,5.89179029029029
+2025-03-08,"Dallas",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.40334534534535
 2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,0.586073573573574
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.50806406406406
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.60497997997998
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,0.458858358358357
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.34266366366366
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.63142892892893
 2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.5,3.37
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,4.13906906906907
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,5.33698398398398
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,6.24574424424424
-2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,6.88344394394394
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,4.09534534534535
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,5.40894894894895
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,6.26168168168169
+2025-03-08,"Dallas",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,7.00187062062062
 2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0.411246246246249
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.26391991991992
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.37685935935936
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0.263769269269269
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,0.970885885885886
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.41463213213213
 2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.5,3.37
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,4.34446946946947
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,5.77597997997998
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.57258958958959
-2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,7.569748998999
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,4.36006006006006
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,5.74946846846847
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.47112562562562
+2025-03-08,"Dallas",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,7.52692642642643
 2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.025,0
 2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,0
-2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,0.848058058058058
-2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.22371871871872
+2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,0.81278978978979
+2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.29034284284284
 2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.5,3.37
-2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.55325825825826
-2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,6.0995095095095
-2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.9752012012012
-2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,7.73287037037037
+2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.5699049049049
+2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,6.0216956956957
+2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.78195095095095
+2025-03-08,"Dallas",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,7.84740665665666
 2025-03-08,"El Paso",-1,"Flu ED visits pct",2025-03-01,"quantile",0.025,1.47275
 2025-03-08,"El Paso",-1,"Flu ED visits pct",2025-03-01,"quantile",0.05,2.331
 2025-03-08,"El Paso",-1,"Flu ED visits pct",2025-03-01,"quantile",0.1,2.95975675675676
@@ -188,42 +188,42 @@
 2025-03-08,"El Paso",-1,"Flu ED visits pct",2025-03-01,"quantile",0.9,4.18024324324324
 2025-03-08,"El Paso",-1,"Flu ED visits pct",2025-03-01,"quantile",0.95,4.809
 2025-03-08,"El Paso",-1,"Flu ED visits pct",2025-03-01,"quantile",0.975,5.66725
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.789817567567567
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.50723773773774
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,2.35840940940941
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,3.21675925925926
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.683855605605605
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.71612862862863
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,2.28996496496496
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,3.20025525525525
 2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.5,3.57
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.91523023023023
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.77757157157157
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,5.56351551551551
-2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.38281256256256
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0.0793180680680687
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,0.97457857857858
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.97814514514515
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,3.05153403403404
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.93
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.79397397397397
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,5.64686636636637
+2025-03-08,"El Paso",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.45383008008007
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0.0431051051051055
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,1.09061961961962
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.95925125125125
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,3.00185685685686
 2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.5,3.57
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,4.09905155155155
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,5.18598698698699
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,6.14760860860861
-2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,7.14821396396396
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,4.15361111111111
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,5.22436836836837
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,6.11663413413413
+2025-03-08,"El Paso",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,7.06180455455456
 2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0.616265265265266
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.62265365365365
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.85747747747748
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0.752213713713715
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.64375075075075
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.8286011011011
 2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.5,3.57
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,4.35200950950951
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,5.5102952952953
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.41997997997998
-2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,7.77829404404405
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,4.34217467467468
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,5.5766946946947
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.6698973973974
+2025-03-08,"El Paso",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,7.44067342342343
 2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.025,0
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,0.21263913913914
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,1.21936636636637
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.71911411411411
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,0.273920420420422
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,1.26796696696697
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.68165665665666
 2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.5,3.57
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.43906906906907
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,5.72788688688689
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.73695645645646
-2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,7.98408383383383
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.55543043043043
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,6.11293193193193
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,7.06036236236236
+2025-03-08,"El Paso",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,7.90829854854855
 2025-03-08,"Houston",-1,"Flu ED visits pct",2025-03-01,"quantile",0.025,1.9665
 2025-03-08,"Houston",-1,"Flu ED visits pct",2025-03-01,"quantile",0.05,2.14
 2025-03-08,"Houston",-1,"Flu ED visits pct",2025-03-01,"quantile",0.1,2.6404954954955
@@ -233,42 +233,42 @@
 2025-03-08,"Houston",-1,"Flu ED visits pct",2025-03-01,"quantile",0.9,3.8995045045045
 2025-03-08,"Houston",-1,"Flu ED visits pct",2025-03-01,"quantile",0.95,4.4
 2025-03-08,"Houston",-1,"Flu ED visits pct",2025-03-01,"quantile",0.975,4.5735
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,1.43072872872873
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.82726476476476
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,2.14984684684685
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,2.97787287287287
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,1.35978578578579
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.85782032032032
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,2.1982002002002
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,2.94222972972973
 2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.5,3.27
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.59930930930931
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.34494294294294
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,4.67079029029029
-2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,5.03180455455456
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,1.01118643643644
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,1.44676576576577
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.96043243243243
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.73725475475475
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.561001001001
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.35878978978979
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,4.72085235235235
+2025-03-08,"Houston",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,5.10669169169169
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0.976107357357358
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,1.50957157157157
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.98395295295295
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.71780780780781
 2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.5,3.27
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,3.83531531531532
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,4.53065365365365
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,5.06789089089089
-2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,5.4680528028028
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0.855077327327327
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,1.32926176176176
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.74362862862863
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.623003003003
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,3.76468718718719
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,4.50526126126126
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,4.92756506506506
+2025-03-08,"Houston",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,5.41403803803804
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0.756237737737738
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,1.18767317317317
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,1.83398398398398
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.56650900900901
 2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.5,3.27
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,3.94717717717718
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,4.76594594594595
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,5.24414264264264
-2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,5.84395920920921
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.025,0.650057307307308
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,1.1498983983984
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,1.6525035035035
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.47218968968969
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,3.97026776776777
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,4.75136236236236
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,5.29392792792793
+2025-03-08,"Houston",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,5.79360085085086
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.025,0.554428928928929
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,1.14658208208208
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,1.66055055055055
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.47919169169169
 2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.5,3.27
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.05768518518519
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,4.95672672672673
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,5.6418073073073
-2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,6.23483683683683
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.05834584584585
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,4.98831531531532
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,5.49021521521521
+2025-03-08,"Houston",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,6.05908533533533
 2025-03-08,"Manhattan",0,"ILI ED visits",2025-03-08,"quantile",0.025,327.504279279279
 2025-03-08,"Manhattan",0,"ILI ED visits",2025-03-08,"quantile",0.05,380.742092092092
 2025-03-08,"Manhattan",0,"ILI ED visits",2025-03-08,"quantile",0.1,417.536036036036
@@ -278,42 +278,42 @@
 2025-03-08,"Manhattan",0,"ILI ED visits",2025-03-08,"quantile",0.9,530.463963963964
 2025-03-08,"Manhattan",0,"ILI ED visits",2025-03-08,"quantile",0.95,567.257907907908
 2025-03-08,"Manhattan",0,"ILI ED visits",2025-03-08,"quantile",0.975,620.495720720721
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.025,269.141991991992
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.05,329.690540540541
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.1,370.94974974975
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.25,433
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.025,253.834784784785
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.05,328.63023023023
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.1,379.202702702703
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.25,437
 2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.5,474
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.75,514
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.9,574.119219219219
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.95,630.453103103103
-2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.975,706.662012012012
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.025,197.094419419419
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.05,288.678378378378
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.1,340.984884884885
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.25,413.557807807808
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.75,515
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.9,569.1
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.95,627.278178178178
+2025-03-08,"Manhattan",1,"ILI ED visits",2025-03-15,"quantile",0.975,681.810585585585
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.025,210.907007007007
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.05,265.832032032032
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.1,350.667667667668
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.25,422.405905905906
 2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.5,474
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.75,526.87987987988
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.9,598.295495495496
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.95,677.33973973974
-2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.975,746.4256006006
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.025,142.91468968969
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.05,241.122772772773
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.1,319.316316316316
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.25,402.432682682683
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.75,529.454704704705
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.9,600.558158158158
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.95,661.119369369369
+2025-03-08,"Manhattan",2,"ILI ED visits",2025-03-22,"quantile",0.975,753.865015015015
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.025,163.549674674675
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.05,242.993893893894
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.1,319.423323323323
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.25,406
 2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.5,474
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.75,537.446946946947
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.9,621.967867867868
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.95,710.416266266267
-2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.975,770.639064064064
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.025,155.48536036036
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.05,224.99009009009
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.1,290.65975975976
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.25,391.063813813813
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.75,544.219469469469
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.9,627.852252252252
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.95,692.288188188188
+2025-03-08,"Manhattan",3,"ILI ED visits",2025-03-29,"quantile",0.975,793.871021021022
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.025,121.510835835836
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.05,226.591991991992
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.1,296.249149149149
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.25,399.871621621622
 2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.5,474
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.75,554.533533533533
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.9,650.304504504504
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.95,740.747397397397
-2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.975,805.913063063064
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.75,555.074074074074
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.9,657.557157157157
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.95,720.716266266266
+2025-03-08,"Manhattan",4,"ILI ED visits",2025-04-05,"quantile",0.975,825.699274274273
 2025-03-08,"NYC",0,"ILI ED visits",2025-03-08,"quantile",0.025,1969.39069069069
 2025-03-08,"NYC",0,"ILI ED visits",2025-03-08,"quantile",0.05,2444.67882882883
 2025-03-08,"NYC",0,"ILI ED visits",2025-03-08,"quantile",0.1,2768.42792792793
@@ -323,42 +323,42 @@
 2025-03-08,"NYC",0,"ILI ED visits",2025-03-08,"quantile",0.9,3455.57207207207
 2025-03-08,"NYC",0,"ILI ED visits",2025-03-08,"quantile",0.95,3779.32117117117
 2025-03-08,"NYC",0,"ILI ED visits",2025-03-08,"quantile",0.975,4254.60930930931
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.025,1473.38073073073
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.05,1885.2962962963
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.1,2418.92402402402
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.25,2886.03853853854
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.025,1450.19379379379
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.05,2027.62602602603
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.1,2438.74994994995
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.25,2910.28253253253
 2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.5,3112
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.75,3362.47922922923
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.9,3771.43393393393
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.95,4274.63098098098
-2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.975,4704.52582582583
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.025,1096.99454454455
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.05,1615.98553553554
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.1,2144.09329329329
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.25,2780.56956956957
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.75,3349.90265265265
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.9,3735.30950950951
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.95,4223.01881881882
+2025-03-08,"NYC",1,"ILI ED visits",2025-03-15,"quantile",0.975,4722.65317817818
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.025,828.154954954955
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.05,1603.31346346346
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.1,2197.76256256256
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.25,2786.4512012012
 2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.5,3112
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.75,3470.18418418418
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.9,4048.17567567568
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.95,4557.21391391391
-2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.975,4975.85513013013
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.025,744.405430430431
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.05,1328.11641641641
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.1,1873.87947947948
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.25,2652.81431431431
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.75,3414.80930930931
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.9,4045.89199199199
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.95,4560.2994994995
+2025-03-08,"NYC",2,"ILI ED visits",2025-03-22,"quantile",0.975,5097.80127627627
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.025,757.885960960961
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.05,1376.97352352352
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.1,1994.06256256256
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.25,2716.57757757758
 2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.5,3112
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.75,3536.01876876877
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.9,4214.0044044044
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.95,4721.74109109109
-2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.975,5341.71561561561
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.025,479.660185185186
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.05,1127.14254254254
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.1,1693.52672672673
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.25,2557.01751751752
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.75,3538.12412412412
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.9,4196.59749749749
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.95,4765.43238238239
+2025-03-08,"NYC",3,"ILI ED visits",2025-03-29,"quantile",0.975,5321.81476476474
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.025,488.532607607608
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.05,1188.68763763764
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.1,1799.13963963964
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.25,2625.47072072072
 2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.5,3112
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.75,3636.83958958959
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.9,4401.30830830831
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.95,5051.39434434434
-2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.975,5709.21881881882
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.75,3581.47197197197
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.9,4391.6041041041
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.95,5001.51516516516
+2025-03-08,"NYC",4,"ILI ED visits",2025-04-05,"quantile",0.975,5462.58811311311
 2025-03-08,"Queens",0,"ILI ED visits",2025-03-08,"quantile",0.025,441.387837837838
 2025-03-08,"Queens",0,"ILI ED visits",2025-03-08,"quantile",0.05,597.063263263263
 2025-03-08,"Queens",0,"ILI ED visits",2025-03-08,"quantile",0.1,675.144144144144
@@ -368,42 +368,42 @@
 2025-03-08,"Queens",0,"ILI ED visits",2025-03-08,"quantile",0.9,890.855855855856
 2025-03-08,"Queens",0,"ILI ED visits",2025-03-08,"quantile",0.95,968.936736736737
 2025-03-08,"Queens",0,"ILI ED visits",2025-03-08,"quantile",0.975,1124.61216216216
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.025,328.672397397397
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.05,444.68963963964
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.1,591.132232232232
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.25,713.953203203203
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.025,339.431456456456
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.05,474.243693693694
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.1,583.945645645646
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.25,705.93968968969
 2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.5,783
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.75,846
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.9,970.985285285285
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.95,1114.1024024024
-2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.975,1233.40510510511
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.025,174.672022022022
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.05,362.063113113113
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.1,506.987687687688
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.25,679.859109109109
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.75,857.25
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.9,976.707207207207
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.95,1121.67207207207
+2025-03-08,"Queens",1,"ILI ED visits",2025-03-15,"quantile",0.975,1284.14041541542
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.025,184.182732732733
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.05,352.834834834835
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.1,522.968568568569
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.25,684.551301301301
 2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.5,783
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.75,892.047047047047
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.9,1008.8996996997
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.95,1199.49654654655
-2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.975,1406.14339339339
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.025,106.733033033033
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.05,305.78968968969
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.1,468.089189189189
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.25,649.058808808809
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.75,886.442442442443
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.9,1026.7035035035
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.95,1205.63133133133
+2025-03-08,"Queens",2,"ILI ED visits",2025-03-22,"quantile",0.975,1381.28065565566
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.025,117.747897897898
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.05,314.585885885886
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.1,468.362362362362
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.25,651.155155155155
 2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.5,783
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.75,916.775525525525
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.9,1112.57767767768
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.95,1291.42297297297
-2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.975,1491.2206956957
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.025,4.7743493493494
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.05,246.169119119119
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.1,409.114914914915
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.25,627.861111111111
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.75,925.936686686687
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.9,1109.42392392392
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.95,1296.41226226226
+2025-03-08,"Queens",3,"ILI ED visits",2025-03-29,"quantile",0.975,1485.37397397401
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.025,27.6175925925926
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.05,248.104704704705
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.1,397.469269269269
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.25,618.269269269269
 2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.5,783
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.75,922.36036036036
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.9,1168.6017017017
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.95,1375.44134134134
-2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.975,1603.23871371371
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.75,950.384634634634
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.9,1169.92332332332
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.95,1337.29404404404
+2025-03-08,"Queens",4,"ILI ED visits",2025-04-05,"quantile",0.975,1515.75873373373
 2025-03-08,"San Antonio",-1,"Flu ED visits pct",2025-03-01,"quantile",0.025,0.846
 2025-03-08,"San Antonio",-1,"Flu ED visits pct",2025-03-01,"quantile",0.05,1.6975
 2025-03-08,"San Antonio",-1,"Flu ED visits pct",2025-03-01,"quantile",0.1,2.33973873873874
@@ -413,42 +413,42 @@
 2025-03-08,"San Antonio",-1,"Flu ED visits pct",2025-03-01,"quantile",0.9,4.04026126126126
 2025-03-08,"San Antonio",-1,"Flu ED visits pct",2025-03-01,"quantile",0.95,4.6825
 2025-03-08,"San Antonio",-1,"Flu ED visits pct",2025-03-01,"quantile",0.975,5.534
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.367745495495496
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,1.02389389389389
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,1.70885585585586
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,2.83238988988989
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.025,0.264913413413413
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.05,0.896019519519518
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.1,1.70258158158158
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.25,2.87279029029029
 2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.5,3.19
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.51263513513514
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.83345945945946
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,5.49128828828829
-2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.03088613613613
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.75,3.51596846846847
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.9,4.6337957957958
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.95,5.36949749749749
+2025-03-08,"San Antonio",0,"Flu ED visits pct",2025-03-08,"quantile",0.975,6.13371896896897
 2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.025,0
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,0.531476976976978
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.32900700700701
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.50071321321321
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.05,0.432735735735737
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.1,1.27255655655656
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.25,2.45406656656657
 2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.5,3.19
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,3.96943443443443
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,5.10277277277277
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,5.69920870870871
-2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,6.43303328328328
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.75,3.96910910910911
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.9,5.10934734734735
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.95,5.8331946946947
+2025-03-08,"San Antonio",1,"Flu ED visits pct",2025-03-15,"quantile",0.975,6.54831806806807
 2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.025,0
 2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.05,0
-2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,0.883804804804803
-2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.28857857857858
+2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.1,0.870915915915915
+2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.25,2.15613613613613
 2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.5,3.19
-2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,4.17821321321321
-2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,5.33045145145145
-2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.48496346346346
-2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,6.95381331331331
+2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.75,4.17186686686687
+2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.9,5.56203403403403
+2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.95,6.26147697697698
+2025-03-08,"San Antonio",2,"Flu ED visits pct",2025-03-22,"quantile",0.975,6.72153778778778
 2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.025,0
 2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.05,0
-2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,0.607135135135135
-2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,2.09217967967968
+2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.1,0.648400400400401
+2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.25,1.95249249249249
 2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.5,3.19
-2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.36542042042042
-2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,5.71558058058058
-2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.57833333333333
-2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,7.09907407407407
+2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.75,4.34109359359359
+2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.9,5.79027027027027
+2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.95,6.62378578578578
+2025-03-08,"San Antonio",3,"Flu ED visits pct",2025-03-29,"quantile",0.975,7.38467142142142
 2025-03-08,"Staten Island",0,"ILI ED visits",2025-03-08,"quantile",0.025,41.7514264264264
 2025-03-08,"Staten Island",0,"ILI ED visits",2025-03-08,"quantile",0.05,55.9920920920921
 2025-03-08,"Staten Island",0,"ILI ED visits",2025-03-08,"quantile",0.1,69.963963963964
@@ -458,84 +458,39 @@
 2025-03-08,"Staten Island",0,"ILI ED visits",2025-03-08,"quantile",0.9,104.036036036036
 2025-03-08,"Staten Island",0,"ILI ED visits",2025-03-08,"quantile",0.95,118.007907907908
 2025-03-08,"Staten Island",0,"ILI ED visits",2025-03-08,"quantile",0.975,132.248573573574
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.025,18.4448198198198
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.05,38.7007007007007
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.1,54.9797797797798
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.25,74.1246246246246
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.025,25.143018018018
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.05,40.1287787787788
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.1,55
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.25,74
 2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.5,87
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.75,100.129129129129
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.9,119.011411411411
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.95,134.439139139139
-2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.975,153.748223223223
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.025,6.22059559559561
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.05,25.4334334334334
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.1,45.3116116116116
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.25,68.0775775775776
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.75,100
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.9,117.44004004004
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.95,134.158408408408
+2025-03-08,"Staten Island",1,"ILI ED visits",2025-03-15,"quantile",0.975,151.220595595596
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.025,3.95467967967968
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.05,25.9295295295295
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.1,48
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.25,69
 2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.5,87
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.75,104.077577577578
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.9,124.271171171171
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.95,146.69964964965
-2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.975,169.14049049049
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.75,106
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.9,126.464864864865
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.95,150.857357357357
+2025-03-08,"Staten Island",2,"ILI ED visits",2025-03-22,"quantile",0.975,169.729504504504
 2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.025,0
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.05,15.4742242242242
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.1,36.9341341341341
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.25,63.7522522522523
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.05,16.5982482482483
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.1,39.426026026026
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.25,66.2512512512513
 2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.5,87
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.75,108.156906906907
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.9,133
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.95,161.676576576577
-2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.975,182.10472972973
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.75,109.251251251251
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.9,134.505005005005
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.95,160.116966966967
+2025-03-08,"Staten Island",3,"ILI ED visits",2025-03-29,"quantile",0.975,175.255980980981
 2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.025,0
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.05,2.19409409409413
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.1,33.0811811811812
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.25,61.1346346346347
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.05,7.45865865865865
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.1,28.9077077077077
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.25,62
 2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.5,87
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.75,112.134634634635
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.9,140.274474474475
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.95,167.352502502503
-2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.975,192.620695695696
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.025,55.6235735735736
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.05,78.7579079079079
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.1,93
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.25,105
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.5,114
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.75,123
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.9,135
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.95,149.242092092092
-2025-03-08,"Unknown",0,"ILI ED visits",2025-03-08,"quantile",0.975,172.376426426426
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.025,18.0127627627627
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.05,49.3931931931932
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.1,78
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.25,98
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.5,114
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.75,128
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.9,150.042242242242
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.95,176.096096096096
-2025-03-08,"Unknown",1,"ILI ED visits",2025-03-15,"quantile",0.975,205.349549549549
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.025,0
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.05,33.0290790790791
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.1,63.0072072072072
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.25,94
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.5,114
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.75,136
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.9,161.021521521522
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.95,193.375675675676
-2025-03-08,"Unknown",2,"ILI ED visits",2025-03-22,"quantile",0.975,235.227502502502
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.025,0
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.05,18.3715715715716
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.1,49.5186186186186
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.25,91.0640640640641
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.5,114
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.75,140.737987987988
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.9,176.709109109108
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.95,212.62962962963
-2025-03-08,"Unknown",3,"ILI ED visits",2025-03-29,"quantile",0.975,245.605980980981
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.025,0
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.05,10.9656156156156
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.1,43.4277277277277
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.25,85.9654654654655
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.5,114
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.75,144.405405405405
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.9,187.720820820821
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.95,230.892992992993
-2025-03-08,"Unknown",4,"ILI ED visits",2025-04-05,"quantile",0.975,253.756531531532
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.75,112.047297297297
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.9,144.092292292292
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.95,162.303503503503
+2025-03-08,"Staten Island",4,"ILI ED visits",2025-04-05,"quantile",0.975,188.230455455455

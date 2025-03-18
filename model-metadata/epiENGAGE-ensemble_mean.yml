@@ -1,0 +1,26 @@
+team_name: "epiENGAGE"
+team_abbr: "epiENGAGE"
+model_name: "Ensemble models using flu-metrocast forecast submissions"
+model_abbr: "ensemble_mean"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Dongah Kim",
+    "affiliation": "Department of Integrative Biology, University of Texas Austin",
+    "email": "dongah.kim@austin.utexas.edu"
+  },
+  {
+    "name": "Nick G. Reich",
+    "affiliation": "Department of Biostatistics and Epidemiology, University of Massachussetts Amherst",
+    "email": "nick@umass.edu"
+  },
+]
+license: "CC-BY-4.0"
+designated_model: true
+team_funding: ""
+methods: "An equally weighted mean ensemble that takes the mean at each quantile level of all eligible forecasts."
+methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
+data_sources: "ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020), Flu TX ED visits pct from CDC"
+ensemble_of_hub_models: true
+repo_url: "https://github.com/reichlab/flu-metrocast"
+citation: ""

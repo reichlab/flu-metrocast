@@ -10,7 +10,7 @@
         "host": "github",
         "owner": "reichlab",
         "name": "flu-metrocast"
-    }
+    },
     "file_format": ["csv"],
     "timezone": "US/Eastern",
     "cloud": {

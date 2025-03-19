@@ -74,7 +74,7 @@
                     },
                     "target_metadata": [
                         {
-                            "target_id": "ili-ed-visits",
+                            "target_id": "ILI ED visits",
                             "target_name": "ED visits due to ILI",
                             "target_units": "count",
                             "target_keys": {
@@ -156,7 +156,7 @@
                     },
                     "target_metadata": [
                         {
-                            "target_id": "flu-ed-visits-pct",
+                            "target_id": "Flu ED visits pct",
                             "target_name": "Percentage of ED visits due to influenza",
                             "target_units": "percentage",
                             "target_keys": {

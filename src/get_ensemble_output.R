@@ -6,7 +6,7 @@ library(dplyr)
 library(purrr)
 library(here)
 
-hub_path <- here("..", "flu-metrocast")
+hub_path <- here("flu-metrocast")
 hub_con <- connect_hub(hub_path)
 
 model_names <- hub_con %>%

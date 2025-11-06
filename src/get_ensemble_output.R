@@ -7,7 +7,7 @@ library(purrr)
 here::i_am("src/get_ensemble_output.R")
 library(here)
 
-hub_path <- here("..", "flu-metrocast")
+hub_path <- here()
 hub_con <- connect_hub(hub_path)
 
 model_names <- hub_con %>%
@@ -18,7 +18,7 @@ model_names <- hub_con %>%
 model_names
 
 ## specify the reference_date to generate the ensemble model for
-reference_date = "2025-04-12"
+reference_date = "2025-03-15"
 
 required_horizons <- tibble::tibble(
   target = c("ILI ED visits", "Flu ED visits pct"),

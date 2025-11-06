@@ -4,9 +4,10 @@ library(hubEnsembles)
 library(hubData)
 library(dplyr)
 library(purrr)
+here::i_am("src/get_ensemble_output.R")
 library(here)
 
-hub_path <- here("flu-metrocast")
+hub_path <- here("..", "flu-metrocast")
 hub_con <- connect_hub(hub_path)
 
 model_names <- hub_con %>%

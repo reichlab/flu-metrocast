@@ -4,3 +4,8 @@
 .Ruserdata
 
 *.DS_Store
+*.swp
+*.swo
+.Rapp.history
+*.Rhistory
+.Rproj.user/

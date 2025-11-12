@@ -1,5 +1,5 @@
 {
-    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v6.0.0/tasks-schema.json",
     "rounds": [
         {
             "round_id_from_variable": true,
@@ -46,7 +46,6 @@
                                 "2025-04-26", "2025-05-03", "2025-05-10", "2025-05-17",
                                 "2025-05-24", "2025-05-31", "2025-06-07", "2025-06-14",
                                 "2025-06-21", "2025-06-28"
-
                             ]
                         }
                     },

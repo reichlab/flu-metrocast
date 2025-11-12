@@ -167,6 +167,232 @@
                             "time_unit": "week"
                         }
                     ]
+                },
+                {
+                    "task_ids": {
+                        "reference_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-11-22", "2025-11-29", "2025-12-06", "2025-12-13",
+                                "2025-12-20", "2025-12-27", "2026-01-03", "2026-01-10",
+                                "2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07",
+                                "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07",
+                                "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04",
+                                "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02",
+                                "2026-05-09", "2026-05-16", "2026-05-23", "2026-05-30"
+                            ]
+                        },
+                        "target": {
+                            "required": null,
+                            "optional": ["ILI ED visits pct"]
+                        },
+                        "horizon": {
+                            "required": null,
+                            "optional": [0, 1, 2, 3, 4]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                              "nyc",
+                              "bronx",
+                              "brooklyn",
+                              "manhattan",
+                              "queens",
+                              "staten-island"
+                              ]
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-11-22", "2025-11-29", "2025-12-06", "2025-12-13",
+                                "2025-12-20", "2025-12-27", "2026-01-03", "2026-01-10",
+                                "2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07",
+                                "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07",
+                                "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04",
+                                "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02",
+                                "2026-05-09", "2026-05-16", "2026-05-23", "2026-05-30",
+                                "2026-06-06", "2026-06-13", "2026-06-20", "2026-06-27"
+                            ]
+                        }
+                    },
+                    "output_type": {
+                        "quantile": {
+                            "is_required": true,
+                            "output_type_id": {
+                                "required": [
+                                    0.025,
+                                    0.05,
+                                    0.1,
+                                    0.25,
+                                    0.5,
+                                    0.75,
+                                    0.9,
+                                    0.95,
+                                    0.975
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0,
+                                "maximum" : 100
+                            }
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "ILI ED visits pct",
+                            "target_name": "Percentage of ED visits due to ILI",
+                            "target_units": "percentage",
+                            "target_keys": {
+                                "target": "ILI ED visits pct"
+                            },
+                            "target_type": "continuous",
+                            "description": "This target represents the percentage of ED visits due to ILI in the week ending on the date [horizon] weeks after the reference_date, on the target_end_date.",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
+                },
+                {
+                    "task_ids": {
+                        "reference_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-11-22", "2025-11-29", "2025-12-06", "2025-12-13",
+                                "2025-12-20", "2025-12-27", "2026-01-03", "2026-01-10",
+                                "2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07",
+                                "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07",
+                                "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04",
+                                "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02",
+                                "2026-05-09", "2026-05-16", "2026-05-23", "2026-05-30"
+                            ]
+                        },
+                        "target": {
+                            "required": null,
+                            "optional": ["Flu ED visits pct"]
+                        },
+                        "horizon": {
+                            "required": null,
+                            "optional": [-1, 0, 1, 2, 3, 4]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                              "denver",
+                              "mesa",
+                              "colorado-springs",
+                              "weld",
+                              "boulder",
+                              "larimer",
+                              "colorado",
+                              "savannah",
+                              "floyd",
+                              "hall",
+                              "marietta",
+                              "macon",
+                              "henry",
+                              "cherokee",
+                              "athens",
+                              "south-augusta",
+                              "columbus",
+                              "la-grange",
+                              "georgia",
+                              "indianapolis",
+                              "indiana",
+                              "bangor",
+                              "portland",
+                              "maine",
+                              "baltimore",
+                              "frederick",
+                              "montgomery",
+                              "harford",
+                              "maryland",
+                              "worcester",
+                              "pittsfield",
+                              "boston",
+                              "springfield",
+                              "new-bedford",
+                              "lynn",
+                              "massachusetts",
+                              "st-paul",
+                              "duluth",
+                              "minneapolis",
+                              "st-cloud",
+                              "rochester",
+                              "minnesota",
+                              "columbia",
+                              "greenville",
+                              "florence",
+                              "charleston",
+                              "rock-hill",
+                              "horry",
+                              "south-carolina",
+                              "houston",
+                              "san-antonio",
+                              "beaumont",
+                              "el-paso",
+                              "austin",
+                              "dallas",
+                              "texas",
+                              "provo",
+                              "salt-lake-city",
+                              "ogden",
+                              "utah",
+                              "roanoke",
+                              "virginia"
+                              ]
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2025-11-22", "2025-11-29", "2025-12-06", "2025-12-13",
+                                "2025-12-20", "2025-12-27", "2026-01-03", "2026-01-10",
+                                "2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07",
+                                "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07",
+                                "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04",
+                                "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02",
+                                "2026-05-09", "2026-05-16", "2026-05-23", "2026-05-30",
+                                "2026-06-06", "2026-06-13", "2026-06-20", "2026-06-27"
+                            ]
+                        }
+                    },
+                    "output_type": {
+                        "quantile": {
+                            "is_required": true,
+                            "output_type_id": {
+                                "required": [
+                                    0.025,
+                                    0.05,
+                                    0.1,
+                                    0.25,
+                                    0.5,
+                                    0.75,
+                                    0.9,
+                                    0.95,
+                                    0.975
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0,
+                                "maximum" : 100
+                            }
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "Flu ED visits pct",
+                            "target_name": "Percentage of ED visits due to influenza",
+                            "target_units": "percentage",
+                            "target_keys": {
+                                "target": "Flu ED visits pct"
+                            },
+                            "target_type": "continuous",
+                            "description": "This target represents the percentage of ED visits due to flu in the week ending on the date [horizon] weeks after the reference_date, on the target_end_date.",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
                 }
             ],
             "submissions_due": {

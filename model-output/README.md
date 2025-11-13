@@ -1,3 +1,27 @@
+# Model Output Directory 
+
+## Table of Contents
+
+- [Forecast Formatting](#forecast-formatting)
+  - [Subdirectory](#subdirectory)
+  - [Metadata](#metadata)
+  - [License](#license)
+  - [Forecasts](#forecasts)
+  - [Forecast File Format](#forecast-file-format)
+    - [reference_date](#reference_date)
+    - [target](#target)
+    - [horizon](#horizon)
+    - [target_end_date](#target_end_date)
+    - [location](#location)
+    - [locations.csv](#locationscsv)
+    - [output_type](#output_type)
+    - [output_type_id](#output_type_id)
+    - [value](#value)
+  - [Forecast Submission and Validation](#forecast-submission-and-validation)
+    - [Pull Request Forecast Validation](#pull-request-forecast-validation)
+    - [Local Forecast Validation](#local-forecast-validation)
+
+
 # Forecast Formatting
 
 Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the `model-output` subdirectory of a hub.  
@@ -251,6 +275,7 @@ If the file passes all validation checks, the function will return the following
 > ✓ All validation checks have been successful.
 
 If test failures or execution errors are detected, the function throws an error and prints the messages of checks affected. 
+
 
 
 

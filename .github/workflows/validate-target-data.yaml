@@ -1,20 +1,25 @@
-name: Hub Submission Validation (R)
+name: Hub Target Data Validation (R)
 
 on:
   workflow_dispatch:
   pull_request:
     branches: main
     paths:
-      - 'model-output/**'
-      - 'model-metadata/*'
-      - '!**README**'
+      - 'target-data/time-series.*'
+      - 'target-data/time-series/**'
+      - 'target-data/oracle-output.*'
+      - 'target-data/oracle-output/**'
+      - '!**/README'
+      - '!**/README.*'
+      - '!**/readme'
+      - '!**/readme.*'
 
 permissions:
   contents: read
   pull-requests: read
 
 jobs:
-  validate-submission:
+  validate-target-data:
     runs-on: ubuntu-22.04
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -38,15 +43,14 @@ jobs:
             any::hubValidations
             any::sessioninfo
 
-      - name: Run validations
+      - name: Run target data validations
         env:
           PR_NUMBER: ${{ github.event.number }}
         run: |
           library("hubValidations")
-          v <- hubValidations::validate_pr(
+          v <- hubValidations::validate_target_pr(
               gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
-              pr_number = Sys.getenv("PR_NUMBER"),
-              skip_submit_window_check = FALSE
+              pr_number = Sys.getenv("PR_NUMBER")
           )
           hubValidations::check_for_errors(v, verbose = TRUE)
         shell: Rscript {0}

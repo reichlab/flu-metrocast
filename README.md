@@ -92,7 +92,7 @@ Please see the [`target-data` README](/target-data#readme) for more information 
 
 ## Forecast formatting
 
-Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. For each model, teams must submit one model metadata file to the [model-metadata subdirectory](/model-metadata). Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. Please see the ['model-output' README](/model-output#readme) for detailed instructions on formatting and submission requirements. 
+Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. Please see the [`model-output` README](/model-output#readme) for detailed instructions on formatting and submission requirements. 
 
 ## Forecast submission and validation
 

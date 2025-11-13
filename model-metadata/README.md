@@ -88,11 +88,11 @@ A boolean value (`true` or `false`) that indicates whether a model is an ensembl
 
 A boolean value (`true` or `false`) that indicates whether a model is an ensemble specifically of other models submited to the FluSight forecasting hub.
 
-## Optional
-
 ### local_fit_jointly
 A boolean (either TRUE or FALSE) where TRUE indicates that that the local jurisdictions (e.g. the HSAs within a state) were fit jointly and FALSE indicates that each unique location was fit independently. 
 This variable will be used to group models when evaluating their performance. 
+
+## Optional
 
 ### model_version
 An identifier of the version of the model
@@ -150,4 +150,5 @@ If all is well, you should see output similar to the following:
 If there are any errors, you will see a message describing the problem.
 
 <mark style="background-color: #FFE331">**As an example, here is a link to the [Flusight-Forecast_Hub model-metadata README](https://github.com/cdcepi/FluSight-forecast-hub/blob/master/model-metadata/README.md).**</mark>
+
 

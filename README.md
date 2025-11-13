@@ -125,7 +125,7 @@ Please see the [`model-output` README](/model-output#readme) for detailed instru
 
 ## Forecast submission and validation
 
-To ensure proper data formatting, pull requests for new data in model-output/ will be automatically run. Optionally, you may also run these validations locally. Please see the ['model-output' README](/model-output) for detailed instructions on formatting and submission requirements. 
+To ensure proper data formatting, pull requests for new data in `model-output/` will be automatically run. Optionally, you may also run these validations locally. Please see the [`model-output` README](/model-output) for detailed instructions on formatting and submission requirements. 
 
 ---
 

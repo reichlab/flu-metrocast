@@ -1,242 +1,290 @@
-# Model outputs folder
+# Model Output Directory 
 
-<mark style="background-color: #FFE331">**Below is a template of the README.md file for the model-ouput folder of your hub. Italics in brackets are placeholders for information about your hub. **</mark>
+## Table of Contents
 
-This folder contains a set of subdirectories, one for each model, that contains submitted model output files for that model. The structure of these directories and their contents follows [the model output guidelines in our documentation](https://hubverse.io/en/latest/user-guide/model-output.html). Documentation for hub submissions specifically is provided below. 
+- [Forecast Formatting](#forecast-formatting)
+  - [Subdirectory](#subdirectory)
+  - [Metadata](#metadata)
+  - [License](#license)
+  - [Forecasts](#forecasts)
+  - [Forecast File Format](#forecast-file-format)
+    - [reference_date](#reference_date)
+    - [target](#target)
+    - [horizon](#horizon)
+    - [target_end_date](#target_end_date)
+    - [location](#location)
+    - [locations.csv](#locationscsv)
+    - [output_type](#output_type)
+    - [output_type_id](#output_type_id)
+    - [value](#value)
+  - [Forecast Submission and Validation](#forecast-submission-and-validation)
+    - [Pull Request Forecast Validation](#pull-request-forecast-validation)
+    - [Local Forecast Validation](#local-forecast-validation)
 
-# Data submission instructions
 
-All forecasts should be submitted directly to the [model-output/](./)
-folder. Data in this directory should be added to the repository through
-a pull request so that automatic data validation checks are run.
+# Forecast Formatting
 
-These instructions provide detail about the [data
-format](#Data-formatting) as well as [validation](#Forecast-validation) that
-you can do prior to this pull request. In addition, we describe
-[metadata](https://github.com/hubverse-org/hubTemplate/blob/master/model-metadata/README.md)
-that each model should provide in the model-metadata folder.
+Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the `model-output` subdirectory of a hub.  
 
-*Table of Contents*
+For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata).
 
--   [What is a forecast](#What-is-a-forecast)
--   [Target data](#Target-data)
--   [Data formatting](#Data-formatting)
--   [Forecast file format](#Forecast-file-format)
--   [Forecast data validation](#Forecast-validation)
--   [Weekly ensemble build](#Weekly-ensemble-build)
--   [Policy on late submissions](#policy-on-late-or-updated-submissions)
+Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools.  
 
-## What is a forecast 
+All submissions must pass automated validation before being accepted.
 
-Models are asked to make specific quantitative forecasts about data that
-will be observed in the future. These forecasts are interpreted as
-"unconditional" predictions about the future. That is, they are not
-predictions only for a limited set of possible future scenarios in which
-a certain set of conditions (e.g. vaccination uptake is strong, or new
-social-distancing mandates are put in place) hold about the future --
-rather, they should characterize uncertainty across all reasonable
-future scenarios. In practice, all forecasting models make some
-assumptions about how current trends in data may change and impact the
-forecasted outcome; some teams select a "most likely" scenario or
-combine predictions across multiple scenarios that may occur. Forecasts
-submitted to this repository will be evaluated against observed data.
+The following sections provide detailed instructions on formatting and submission requirements.
 
-We note that other modeling efforts, such as the [Influenza Scenario
-Modeling Hub](https://fluscenariomodelinghub.org/), have been
-launched to collect and aggregate model outputs from "scenario
-projection" models. These models create longer-term projections under a
-specific set of assumptions about how the main drivers of the pandemic
-(such as non-pharmaceutical intervention compliance, or vaccination
-uptake) may change over time.
+---
 
-## Target Data 
+## Subdirectory
 
-*[insert description target data]* 
+All predictions should be submitted directly to the `model-output/` folder in the Flu MetroCast hub repository. Each team/model that submits forecasts will have a unique subdirectory within the `model-output/` directory.
 
+Each subdirectory must be named:
+* team-model
 
-## Data formatting 
+where:
+- `team` is the team name, and  
+- `model` is the name of your model.
 
-The automatic checks in place for forecast files submitted to this
-repository validates both the filename and file contents to ensure the
-file can be used in the visualization and ensemble forecasting.
+Within each subdirectory, the only contents should be submitted forecast files.
 
-### Subdirectory
+---
 
-Each model that submits forecasts for this project will have a unique subdirectory within the [model-output/](model-output/) directory in this GitHub repository where forecasts will be submitted. Each subdirectory must be named
+## Metadata
 
-    team-model
+Each submission team should have an associated metadata file in **YAML** format.  
+The file should be submitted with the first projection in the [`model-metadata/` folder](/model-metadata), in a file named:
+* team-model.yaml
 
-where
 
--   `team` is the team name and
--   `model` is the name of your model.
+The structure of the metadata file is documented in the [`model-metadata/` README](/model-metadata).
 
-Both team and model should be less than 15 characters and not include
-hyphens or other special characters, with the exception of "\_".
+---
 
-The combination of `team` and `model` should be unique from any other model in the project.
+## License
 
+If you are not using one of the [standard licenses](https://github.com/reichlab/covid19-forecast-hub/blob/master/code/validation/accepted-licenses.csv), please contact the hub organizers to request an exception.
 
-### Metadata
+---
 
-The metadata file will be saved within the model-metdata directory in the Hub's GitHub repository, and should have the following naming convention:
+## Forecasts
 
+Each forecast file should follow the name format:
+* YYYY-MM-DD-team-model.csv or .parquet
 
-      team-model.yml
+where:
+- YYYY — 4-digit year  
+- MM — 2-digit month  
+- DD — 2-digit day  
+- team — team name  
+- model — model name  
 
-Details on the content and formatting of metadata files are provided in the [model-metadata README](https://github.com/hubverse-org/hubTemplate/blob/master/model-metadata/README.md).
+The date YYYY-MM-DD is the **`reference_date`**, which is the **Saturday after the Forecast Due Date**.
 
+---
 
+## Forecast File Format
 
+The output file must contain the following eight columns (in any order):
 
-### Forecasts
+* `reference_date`
+* `target` 
+* `horizon` 
+* `target_end_date` 
+* `location` 
+* `output_type` 
+* `output_type_id` 
+* `value` 
 
-Each forecast file should have the following
-format
+No additional columns are allowed.  
 
-    YYYY-MM-DD-team-model.csv
+The value in each row of the file is a prediction at one quantile level (the level specified in the `output_type_id` field) for a particular combination of `horizon`, `location`, and `target_end_date`.
 
-where
+---
 
--   `YYYY` is the 4 digit year,
--   `MM` is the 2 digit month,
--   `DD` is the 2 digit day,
--   `team` is the team name, and
--   `model` is the name of your model.
+### reference_date
 
-The date YYYY-MM-DD is the [`reference_date`](#reference_date). This should be the Saturday following the submission date.
+Values in the `reference_date` column must be a date in the ISO format:
 
-The `team` and `model` in this file must match the `team` and `model` in
-the directory this file is in. Both `team` and `model` should be less
-than 15 characters, alpha-numeric and underscores only, with no spaces
-or hyphens. 
+* YYYY-MM-DD
 
-## Forecast file format 
+This is the date from which all forecasts should be considered. This date is the **Saturday following the Forecast Due Date**, corresponding to the last day of the EW when submissions are made. The `reference_date` should be the same as the date in the filename but is included here to facilitate validation and analysis.
 
-The file must be a comma-separated value (csv) file with the following
-columns (in any order):
+---
 
--   `reference_date`
--   `target`
--   `horizon`
--   `target_end_date`
--   `location`
--   `output_type`
--   `output_type_id`
--   `value`
+### target
 
-No additional columns are allowed.
+Values in the `target` column must be a character (string). Currently, we only accept the following targets:
 
-The value in each row of the file is a quantile for a particular combination of location, date, and horizon. 
+- `Flu ED visits pct`
+- `ILI ED visits pct` *(NYC only)*
 
-### `reference_date` 
+---
 
-Values in the `reference_date` column must be a date in the ISO format
+### horizon
 
-    YYYY-MM-DD
+Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, this should be a number **between -1 and 3**.
 
-This is the date from which all forecasts should be considered. This date is the Saturday following the submission Due Date, corresponding to the last day of the epiweek when submissions are made. The `reference_date` should be the same as the date in the filename but is included here to facilitate validation and analysis. 
+| Horizon | Description |
+|----------|-------------|
+| -1 | Week before the current week |
+| 0 | Current week |
+| 1 | First week after Forecast Due Date |
+| 2 | Second week after Forecast Due Date |
+| 3 | Third week after Forecast Due Date |
 
-### `target`
+---
 
-Values in the `target` column must be a character (string) and be one of
-the following specific targets:
+**Table showing horizons relative to the Forecast Due Date**
 
--   *`ILI ED visits `* 
--   *`Flu ED visits pct `*
+| Horizon | Sun | Mon | Tues | Wed | Thurs | Fri | Sat |
+|---------|-----|-----|------|-----|-------|-----|-----|
+| -1      |     |     |      |     |       |     | NSSP and NYC data available for EW ending today<br>`target_end_date` for horizon -1 |
+| 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) for prior EW ending 4 days ago (Saturday)<br>NYC data has daily update<br>Forecast Due Date (8 PM ET) |     |     | `reference_date`<br>`target_end_date` for horizon 0 |
+| 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
+| 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
+| 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |
 
 
-### `horizon`
-Values in the `horizon` column indicate the number of weeks  between the `reference_date` and the `target_end_date`. For ILI ED visits should be a number between 0 and 4 and for Flu ED visits pct should be a number between -1 and 3, where for example a `horizon` of 0 indicates that the prediction is a nowcast for the week of submission and a `horizon` of 1 indicates that the prediction is a forecast for the weekafter submission. 
+---
 
-### `target_end_date`
+### target_end_date
 
-Values in the `target_end_date` column must be a date in the format
+Values in the `target_end_date` column must be in the format:
 
-    YYYY-MM-DD
-    
-This is the last date of the forecast target's week. This will be the date of the Saturday at the end of the forecasted week. Within each row of the submission file, the `target_end_date` should be equal to the `reference_date` + `horizon`* (7 days).
+* YYYY-MM-DD
 
+This is the last date of the forecast target's week. This will be **the date of the Saturday at the end of the forecasted week**. As a reminder, the `target_end_date` is the end date of the week during which influenza activity is reported. Within each row of the submission file, the `target_end_date` should be equal to the `reference_date` + horizon*(7 days). 
 
-### `location`
 
-Values in the `location` column must be one of the "locations" in
-this [NYC population] ([https://github.com/reichlab/flu-metrocast/blob/main/auxiliary-data/nyc_population.csv] ) which
-includes five boroughs, as well as NYC (sum of five boroughs).  
+---
 
-### `output_type`
+### location
 
+Values in the `location` column must correspond to a name from the `location` column in the [locations.csv file within the auxiliary-data directory of the Hub repository](/auxiliary-data/locations.csv). 
 
-Values in the `output_type` column are 
+The location value should be written in all lowercase, with no spaces. Hyphens should be used in place of spaces. With the exception of hyphens, no other punctuation should be used. 
 
--   "quantile" 
+For local jurisdictions, the value is the name of a representative city or county.
+* e.g., new-bedford, st-cloud
 
-This value indicates whether that row corresponds to a quantile forecast for ILI ED visits or Flu ED visits pct. Quantile forecasts are used in visualizations and to construct the primary flu-metrocast ensemble.
+For aggregate jurisdictions, the location name is either the full state name or NYC. 
+* e.g., south-carolina, nyc
 
-### `output_type_id`
-Values in the `output_type_id` column specify identifying information for the output type.
+---
 
-#### quantile output
-When the predictions are quantiles, values in the `output_type_id` column are a quantile probability level in the format
+### locations.csv 
 
-    0.###
+The Flu MetroCast Hub uses the `location` field (column 1, below) in the [locations.csv file](/auxiliary-data/locations.csv) as a key, meaning each location as represented in column 1 must serve as a unique identifier. The value in the location column is a representative city or county of an HSA that typically includes multiple counties. The counties included for each location are listed in the `hsa_counties` column (last column). 
 
- This value indicates the quantile probability level for for the
-`value` in this row.
+For NSSP data, each HSA has a single unique ID called hsa_nci_id. In the MetroCast Hub metadata, this same value appears as `original_location_code` (column 2). For NYC boroughs, this unique ID is derived from the fips code for the borough, not an hsa_nci_id.  The `location_type` column (column 7) denotes the geographic entity of the location (currently either hsa_nci_id or fips). 
 
-Teams must provide the following 9 quantiles:
+For state-level locations, there is no numeric hsa_nci_id. In NSSP data, state values are uniquely identified by the geography field, which corresponds to the `state` field (column 3).
 
-0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975
+Therefore, to create a consistent one-to-one mapping between NSSP data and Flu MetroCast Hub data, we use the following two fields to match locations between the NSSP data and the data stored by the MetroCast Hub:
+* {geography, hsa_nci_id} in the NSSP data
+* {state, original_location_code} in the MetroCast data
 
-R: c(0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975)
-Python: [0.025, 0.05, 0.10, 0.25, 0.50, 0.75, 0.90, 0.95, 0.975]
+This combination ensures that both HSA-level and state-level locations can be matched uniquely across the two datasets.
+The `location_name` column (column 5)  provides a more formal representation of the location, which will be used for dashboard visualization. 
 
+The `population` column lists the population of the forecast location (e.g., the population of the HSA for local jurisdictions using NSSP data) according to [5 year (2019-2023) census average estimates](https://www.census.gov/data/developers/data-sets/acs-5year.html?utm_source=chatgpt.com). 
 
-### `value`
 
-Values in the `value` column are non-negative numbers indicating the "quantile" prediction for this row. For a "quantile" prediction, `value` is the inverse of the cumulative distribution function (CDF) for the target, location, and quantile associated with that row. For example, the 2.5 and 97.5 quantiles for a given target and location should capture 95% of the predicted values and correspond to the central 95% Prediction Interval. 
+**Sample of locations.csv file**. The `location` column uniquely identifies every location. The `original_location_code` and `state` columns map to the `hsa_nci_id` and `geography` columns in the raw NSSP data. 
 
-### Example tables
+| location | original_location_code | state | state_abb | location_name | population | location_type | hsa_counties |
+|-----------|------------------------|--------|------------|----------------|-------------|----------------|---------------|
+| denver | 688 | Colorado | CO | Denver, CO | 2,948,626 | hsa_nci_id | Adams, Arapahoe, Clear Creek, Denver, Douglas, etc. |
+| colorado | All | Colorado | CO | Colorado | 5,810,774 | hsa_nci_id | — |
+| staten-island | 36085 | New York | NY | Staten Island, NY | 492,734 | fips | Richmond |
+| nyc | 94 | New York | NY | NYC | 8,516,202 | hsa_nci_id | Bronx, Kings, New York, Queens, Richmond |
 
-| reference_date | horizon|  target_end_date | target EW dates covered
-|------------------------|------------------------|------------------------|------------------------|
-|2025-01-25 | -1 | 2025-01-18 | 2025-01-12 to 2025-01-18 | 
-|2025-01-25 | 0  | 2025-01-25 | 2025-01-19 to 2025-01-25 | 
-|2025-01-25 | 1  | 2025-02-01 | 2025-01-26 to 2025-02-01 | 
-|2025-01-25 | 2  | 2025-02-08 | 2025-02-02 to 2025-02-08 | 
-|2025-01-25 | 3  | 2025-02-15 | 2025-02-09 to 2025-02-15 | 
+---
 
-## Forecast validation 
+### output_type
 
-To ensure proper data formatting, pull requests for new data in
-`model-output/` will be automatically run. Optionally, you may also run these validations locally.
+The value in the `output_type` column should be “quantile”, to reflect a set of quantile values of percentage of ED visits due to influenza or ILI (latter for NYC only). 
 
-### Pull request forecast validation
+---
 
-When a pull request is submitted, the data are validated through [Github
-Actions](https://docs.github.com/en/actions) which runs the tests
-present in [the hubValidations
-package](https://github.com/hubverse-org/hubValidations). The
-intent for these tests are to validate the requirements above. Please
-[let us know]( *[Insert url to your hub's issues]*) if you are facing issues while running the tests.
+### output_type_id
 
-### Local forecast validation
+Values in the `output_type_id` are a quantile. This value indicates the quantile for the value in this row.
 
-Optionally, you may validate a forecast file locally before submitting it to the hub in a pull request. Note that this is not required, since the validations will also run on the pull request. To run the validations locally, follow these steps:
+Teams should provide the following **9 quantiles**:
 
- *[Add description for local forecast validation]*
+* 0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975
 
 
-## Weekly ensemble build 
+---
 
-Every  *[day and time]*, we will generate a  *[hub name]* ensemble  *[Insert target]* using valid forecast submissions in the current week by the *[day and time]* deadline. Some or all participant forecasts may be combined into an ensemble forecast to be published in real-time along with the participant forecasts. In addition, some or all forecasts may be displayed alongside the output of a baseline model for comparison.
+### value
 
+Values in the `value` column are non-negative numbers indicating the quantile prediction for that row.
 
-## Policy on late or updated submissions 
+---
 
-In order to ensure that forecasting is done in real-time, all forecasts are required to be submitted to this repository by 9PM ET on Tuesdays each week. We do not accept late forecasts.
+## Forecast Submission and Validation
 
-## Evaluation criteria
-Forecasts will be evaluated using a variety of metrics, including *[describe how they will be evaluated]*
+### Pull Request Forecast Validation
 
-<mark style="background-color: #FFE331">**As an example, here is a link to the [Flusight-Forecast_Hub model-output README](https://github.com/cdcepi/FluSight-forecast-hub/blob/master/model-output/README.md).**</mark>
+When a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) is submitted, the data are validated via [GitHub Actions](https://docs.github.com/en/actions) using the [`hubValidations` package](https://github.com/hubverse-org/hubValidations).  
+All tests are designed to confirm compliance with the above requirements.  
+
+You may also optionally run validations locally.
+
+---
+
+### Local Forecast Validation
+
+To validate locally:
+
+1) [Create a fork of the Flu-MetroCast repository and then clone the fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) to your computer.
+2) Create a draft of the model submission file for your model and place it in the `model-output/<your model id>` folder of this clone.
+3) Install the hubValidations package for R by running the following command from within an R session:
+
+```
+remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
+```
+
+4) Validate your draft forecast submission file by running the following command in an R session:
+```
+`library(hubValidations)
+hubValidations::validate_submission(
+hub_path = "<path to your clone of the hub repository>",
+file_path = "<path to your file, relative to the model-output folder>"`
+```
+For example, if your working directory is the root of the hub repository, you can use a command similar to the following:
+```
+library(hubValidations)
+hubValidations::validate_submission(
+    hub_path=".",
+    file_path="epiENGAGE-GBQR/2025-05-24-epiENGAGE-GBQR.csv")
+```
+
+The function returns the output of each validation check.
+If all is well, all checks should either be prefixed with a ✓ indicating success or ℹ indicating a check was skipped.
+
+If there are any failed checks or execution errors, the check's output will be prefixed with a ✖ or ! and include a message describing the problem.
+
+To get an overall assessment of whether the file has passed validation checks, you can pass the output of validate_submission() to check_for_errors()
+
+If the file passes all validation checks, the function will return the following output:
+> ✓ All validation checks have been successful.
+
+If test failures or execution errors are detected, the function throws an error and prints the messages of checks affected. 
+
+
+
+
+
+
+
+
+
+
+
+
+

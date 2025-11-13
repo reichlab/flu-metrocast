@@ -34,7 +34,7 @@ All forecasts and observed target data will be publicly available in the Flu Met
 
 The following guidelines provide detailed instructions for participating teams on submission deadlines, forecast targets, data sources, and standardized formatting, submission, and validation procedures. 
 
-Anyone interested in using these data for additional research or publications should contact us at [epiengage@austin.utexas.edu](epiengage@austin.utexas.edu) for information on proper attribution of the source forecasts.
+Anyone interested in using these data for additional research or publications should contact us at [epiengage@austin.utexas.edu](mailto:epiengage@austin.utexas.edu) for information on proper attribution of the source forecasts.
 
 ---
 

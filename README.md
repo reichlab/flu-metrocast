@@ -2,12 +2,13 @@
 Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc.gov/insight-net/php/about/index.html) Center for Implementation within the U.S. Centers for Disease Control and Prevention (CDC)’s Center for Forecasting and Outbreak Analytics (CFA)
 
 
-*Table of Contents*
+**Table of Contents**
 
 -   [Executive summary](#executive-summary)
--   [Dates](#dates)
--   [Prediction targets](#prediction-targets)
--   [Model output data storage](#model-output-data-storage)
+-   [Metro-level Forecasts of Influenza During the 2025-2026 Season](#metro-level-forecasts-of-influenza-during-the-2025-2026-season)
+    -   [Dates](#dates)
+    -   [Prediction targets](#prediction-targets)
+    -   [Model output data storage](#model-output-data-storage)
 -   [Target data](#target-data)
 -   [Forecast formatting](#forecast-formatting)
 -   [Forecast submission and validation](#forecast-submission-and-validation)
@@ -87,6 +88,10 @@ Model output must follow a tabular representation where each row represents a si
 ## Target data
 
 Target data are the “ground truth” observed data being modeled as the prediction target. You can find the raw and target data in the [`raw-data`](/raw-data) and [`target-data`](/target-data) folders of the MetroCast GitHub repository. Raw data represent ground truth data in its raw or native form. Target data are specially formatted raw data that can be used for visualization or evaluation purposes. 
+
+The target data for forecasts of locations with NSSP data are based on the weekly percentage of total ED visits associated with influenza, available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://data.cdc.gov/Public-Health-Surveillance/NSSP-Emergency-Department-Visit-Trajectories-by-St/rdmq-nq56/about_data).  The target data for NYC forecasts are based on the weekly percentage of total ED visits associated with influenza-like illness, available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/).
+
+Time-series target data for the most recent complete epidemiological week (EW) (i.e., Sunday through Saturday of the previous week) will be updated by midday Wednesday for both NSSP and NYC data. Target data for NYC will be aggregated to the weekly timescale by EW. Since NYC data updates daily, more recent data for NYC are available for the current incomplete EW that modelers can access on their own and use in their model. 
 
 Please see the [`target-data` README](/target-data#readme) for more information on target data formats. 
 

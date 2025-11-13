@@ -8,6 +8,8 @@ Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc
 -   [Metro-level Forecasts of Influenza During the 2025-2026 Season](#metro-level-forecasts-of-influenza-during-the-2025-2026-season)
     -   [Dates](#dates)
     -   [Prediction targets](#prediction-targets)
+        -   [Jurisdictions using NSSP HSA-Level data](#jurisdictions-using-nssp-hsa-level-data)
+        -   [New York City (NYC) forecasts](#new-york-city-nyc-forecasts)
     -   [Model output data storage](#model-output-data-storage)
 -   [Target data](#target-data)
 -   [Forecast formatting](#forecast-formatting)
@@ -34,6 +36,8 @@ The following guidelines provide detailed instructions for participating teams o
 
 Anyone interested in using these data for additional research or publications should contact us at [epiengage@austin.utexas.edu](epiengage@austin.utexas.edu) for information on proper attribution of the source forecasts.
 
+---
+
 ## Metro-level Forecasts of Influenza During the 2025-2026 Season
 ### Dates
 The initial Flu MetroCast Hub submission will be due on **Wednesday, November 19, 2025**, with subsequent weekly submissions until May 20, 2026. 
@@ -44,10 +48,14 @@ Participating teams must submit weekly forecasts **by 8 PM Eastern Time each Wed
 
 Each weekly submission file must include the `reference date`––defined as the **Saturday following the Forecast Due Date**––in its filename, following the format: YYYY-MM-DD-team-model.csv, where YYYY-MM-DD indicates the reference date. 
 
+---
+
 ### Prediction targets
 From November through May, participating teams will submit weekly probabilistic (quantile) forecasts of the percentage of ED visits due to influenza. 
 
 The Hub will primarily collect forecasts at the city-, county-, or metro-level (typically corresponding to HSAs) and, for validation, will also collect predictions for the corresponding state-level forecasts. 
+
+---
 
 #### Jurisdictions using NSSP HSA-Level data
 At launch, this group includes all locations except New York City. For these jurisdictions, teams should submit:
@@ -59,13 +67,15 @@ Forecasts should cover horizons –1 to +3 weeks, defined as follows:
 * Horizon = -1: the previous epidemiological week (Sunday-Saturday) before the Forecast Due Date. 
 * Horizon = 0: the current epidemiological week encompassing the Sunday prior to the Forecast Due Date through the upcoming Saturday. 
 
-For more information on forecast horizons, see the horizon subsection.
+For more information on forecast horizons, see the [horizon subsection in the `model-output` README](/model-output#horizon).
 
 **Target name, horizon, and aggregate jurisdiction for NSSP HSA-level forecasts.** The target refers to the percentage of ED visits in a given week due to influenza.
 
 | Target name       | Horizon       | Aggregate jurisdiction                                                                                                  |
 |--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|
 | Flu ED visits pct  | -1 to +3 weeks | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Texas, Utah, Virginia |
+
+---
 
 #### New York City (NYC) forecasts
 For New York City, the Hub will collect:
@@ -80,10 +90,14 @@ Forecasts for NYC should also cover horizons -1 to +3 weeks.
 |--------------------|---------------|-------------------------|
 | ILI ED visits pct  | -1 to +3 weeks | New York City           |
 
+---
+
 ### Model output data storage
 The Flu MetroCast Hub will store a live dataset in this dedicated GitHub repository, following [Hubverse file-based data storage standards](https://docs.hubverse.io/en/latest/user-guide/hub-structure.html). The repository will contain separate directories for model output and model metadata submissions from modeling teams.
 
 Model output must follow a tabular representation where each row represents a single prediction and each column provides additional information about the prediction (see the Forecast File Format section). Model output may be submitted as CSV or Parquet files. 
+
+---
 
 ## Target data
 
@@ -95,13 +109,19 @@ Time-series target data for the most recent complete epidemiological week (EW) (
 
 Please see the [`target-data` README](/target-data#readme) for more information on target data formats. 
 
+---
+
 ## Forecast formatting
 
 Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. Please see the [`model-output` README](/model-output#readme) for detailed instructions on formatting and submission requirements. 
 
+---
+
 ## Forecast submission and validation
 
 To ensure proper data formatting, pull requests for new data in model-output/ will be automatically run. Optionally, you may also run these validations locally. Please see the ['model-output' README](/model-output) for detailed instructions on formatting and submission requirements. 
+
+---
 
 ## Evaluation criteria
 
@@ -113,6 +133,8 @@ We will compare local- and state-level forecasts to determine where local foreca
 
 3) **Which forecasting models perform best, and why?**
 We will identify the models that perform most reliably for each location and evaluate how performance varies across jurisdictions and spatial scales. We will also assess which modeling approaches perform best overall and explore factors that may explain differences in performance.
+
+---
 
 ## Publication of forecasts
 

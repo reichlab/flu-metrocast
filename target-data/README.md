@@ -20,7 +20,7 @@ Time-series target data for the most recent complete epidemiological week (EW) (
 
 ## Target data format
 
-The following sections discuss the target data formats available in the `target-data` directory of the Flu MetroCast Hub ([time-series.csv](#time-series), [oracle-output.csv](#oracle-ouptut), and [latest-data.csv](#latest-data)). Please note the [latest-data format](#latest-data), which is presented last, may be the most relevant for modelers. 
+The following sections discuss the target data formats available in the `target-data` directory of the Flu MetroCast Hub ([time-series.csv](#time-series), [oracle-output.csv](#oracle-output), and [latest-data.csv](#latest-data)). Please note the [latest-data format](#latest-data), which is presented last, may be the most relevant for modelers. 
 
 ---
 

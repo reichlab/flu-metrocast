@@ -88,11 +88,11 @@ Model output must follow a tabular representation where each row represents a si
 
 Target data are the “ground truth” observed data being modeled as the prediction target. You can find the raw and target data in the [`raw-data`](/raw-data) and [`target-data`](/target-data) folders of the MetroCast GitHub repository. Raw data represent ground truth data in its raw or native form. Target data are specially formatted raw data that can be used for visualization or evaluation purposes. 
 
-Please see the [`target-data` README](/target-data) for more information on target data formats. 
+Please see the [`target-data` README](/target-data#readme) for more information on target data formats. 
 
 ## Forecast formatting
 
-Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. For each model, teams must submit one model metadata file to the [model-metadata subdirectory](/model-metadata). Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. Please see the ['model-output' README](/model-output) for detailed instructions on formatting and submission requirements. 
+Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. For each model, teams must submit one model metadata file to the [model-metadata subdirectory](/model-metadata). Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. Please see the ['model-output' README](/model-output#readme) for detailed instructions on formatting and submission requirements. 
 
 ## Forecast submission and validation
 

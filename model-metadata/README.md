@@ -150,4 +150,3 @@ If all is well, you should see output similar to the following:
 If there are any errors, you will see a message describing the problem.
 
 <mark style="background-color: #FFE331">**As an example, here is a link to the [Flusight-Forecast_Hub model-metadata README](https://github.com/cdcepi/FluSight-forecast-hub/blob/master/model-metadata/README.md).**</mark>
-

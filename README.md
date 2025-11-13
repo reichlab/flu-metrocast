@@ -4,15 +4,15 @@ Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc
 
 *Table of Contents*
 
--   [Executive summary](##Executive-summary)
--   [Dates](###Dates)
--   [Prediction targets](###Prediction-targets)
--   [Model output data storage](###Model-output-data-storage)
--   [Target data](###Target-data)
--   [Forecast formatting](##Forecast-formatting)
--   [Forecast submission and validation](##Forecast-submission-and-validation)
--   [Evaluation criteria](##Evaluation-criteria)
--   [Publication of forecasts](##Publication-of-forecasts)
+-   [Executive summary](#executive-summary)
+-   [Dates](#dates)
+-   [Prediction targets](#prediction-targets)
+-   [Model output data storage](#model-output-data-storage)
+-   [Target data](#target-data)
+-   [Forecast formatting](#forecast-formatting)
+-   [Forecast submission and validation](#forecast-submission-and-validation)
+-   [Evaluation criteria](#evaluation-criteria)
+-   [Publication of forecasts](#publication-of-forecasts)
 
 ## Executive summary
 

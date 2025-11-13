@@ -1,3 +1,41 @@
+# Flu MetroCast Hub 2025-2026 Guidelines
+Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc.gov/insight-net/php/about/index.html) Center for Implementation within the U.S. Centers for Disease Control and Prevention (CDC)’s Center for Forecasting and Outbreak Analytics (CFA)
+
+
+*Table of Contents*
+
+-   [Executive Summary](#Executive Summary)
+-   [Dates](#Dates)
+-   [Prediction Targets](##Prediction Targets)
+-   [Model Output Data Storage](#Forecast-file-format)
+-   [Target Data](##Target Data)
+-   [Forecast Formatting](##Forecast Formatting)
+-   [Forecast submission and Validation](##Forecast Submission and Validation)
+-   [Evaluation Criteria](##Evaluation Criteria)
+-   [Publication of Forecasts](##Publication of Forecasts)
+
+## Executive Summary
+
+The Flu MetroCast Hub is a collaborative modeling project that collects and shares weekly probabilistic forecasts of influenza activity at the metropolitan level in the United States. This modeling hub is led by the epiENGAGE team at the University of Texas at Austin and the University of Massachusetts Amherst.
+
+Accurate predictions of key public health surveillance indicators––such as the percentage of emergency department (ED) visits due to influenza or influenza-like illness (ILI)––can shed light on seasonal trends, disease severity, and healthcare system strain. While many U.S. infectious disease forecasting hubs provide state- or national-level forecasts, the Flu MetroCast Hub fills an important gap by aggregating and evaluating forecasts at the sub-state level. 
+
+Metro-level forecasting provides several key benefits:
+* Reveals local patterns that state-level forecasts can miss, leading to more accurate and timely decisions.
+* Builds modeling capacity and data infrastructure that strengthen readiness for future outbreak.
+* Generates insights that are accessible and actionable for public health officials, healthcare systems, and community leaders.
+
+From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from -1 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC––will use publicly-available data from the CDC’s National Syndromic Surveillance Program (NSSP). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data.  
+
+All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a public-facing interactive dashboard. Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A pre-registered evaluation will be conducted at the end of the season.
+
+The following guidelines provide detailed instructions for participating teams on submission deadlines, forecast targets, data sources, and standardized formatting, submission, and validation procedures. 
+
+Anyone interested in using these data for additional research or publications should contact us at epiengage@austin.utexas.edu for information on proper attribution of the source forecasts.
+
+
+
+
 # Flu MetroCast Hub
 
 The Flu MetroCast Hub is a modeling hub with the goal of collecting city- and county-level forecasts of influenza activity. The hub is led by the epiENGAGE team from UT-Austin and UMass-Amherst, as a part of the CDC Insight Net program. Anyone interested in using these data for additional research or publications is requested to contact [Dongah Kim](mailto:donga0223@gmail.com) for information regarding attribution of the source forecasts.

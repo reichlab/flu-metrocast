@@ -24,6 +24,10 @@
             "pattern": "^[a-zA-Z0-9_+]+$",
             "maxLength": 16
         },
+        "local_fit_jointly": {
+            "description": "Indicator that local jurisdictions were fit jointly",
+            "type": "boolean"
+        },
         "model_version": {
             "description": "Identifier of the version of the model",
             "type": "string"
@@ -116,6 +120,7 @@
         "license",
         "designated_model",
         "methods",
-        "data_sources"
+        "data_sources",
+        "local_fit_jointly"
     ]
 }

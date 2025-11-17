@@ -83,7 +83,7 @@ For New York City, the Hub will collect:
 
 Forecasts for NYC should also cover horizons -1 to +3 weeks. 
 
-**Target name, horizon, and aggregate jurisdiction for NYC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza-like illness.
+**Target name and horizon for NYC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza-like illness.
 
 | Target name       | Horizon       | 
 |--------------------|---------------|

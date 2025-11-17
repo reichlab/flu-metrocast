@@ -198,7 +198,6 @@ The `population` column lists the population of the forecast location (e.g., the
 |-----------|------------------------|--------|------------|----------------|-------------|----------------|---------------|
 | denver | 688 | Colorado | CO | Denver, CO | 2,948,626 | hsa_nci_id | Adams, Arapahoe, Clear Creek, Denver, Douglas, etc. |
 | colorado | All | Colorado | CO | Colorado | 5,810,774 | hsa_nci_id | — |
-| staten-island | 36085 | New York | NY | Staten Island, NY | 492,734 | fips | Richmond |
 | nyc | 94 | New York | NY | NYC | 8,516,202 | hsa_nci_id | Bronx, Kings, New York, Queens, Richmond |
 
 ---
@@ -275,6 +274,7 @@ If the file passes all validation checks, the function will return the following
 > ✓ All validation checks have been successful.
 
 If test failures or execution errors are detected, the function throws an error and prints the messages of checks affected. 
+
 
 
 

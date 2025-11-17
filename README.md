@@ -79,16 +79,15 @@ For more information on forecast horizons, see the [horizon subsection in the `m
 
 #### New York City (NYC) forecasts
 For New York City, the Hub will collect:
-* Weekly quantile forecasts of the percentage of ED visits due to influenza-like illness at the borough level (Bronx, Brooklyn, Queens, Manhattan, Staten Island), and
 * Weekly quantile forecasts of the percentage of ED visits due to influenza-like illness at the citywide (NYC) level.
 
 Forecasts for NYC should also cover horizons -1 to +3 weeks. 
 
 **Target name, horizon, and aggregate jurisdiction for NYC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza-like illness.
 
-| Target name       | Horizon       | Aggregate jurisdiction |
-|--------------------|---------------|-------------------------|
-| ILI ED visits pct  | -1 to +3 weeks | New York City           |
+| Target name       | Horizon       | 
+|--------------------|---------------|
+| ILI ED visits pct  | -1 to +3 weeks | 
 
 ---
 
@@ -105,7 +104,7 @@ Target data are the “ground truth” observed data being modeled as the predic
 
 The target data for forecasts of locations with NSSP data are based on the weekly percentage of total ED visits associated with influenza, available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data).  The target data for NYC forecasts are based on the weekly percentage of total ED visits associated with influenza-like illness, available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/).
 
-Time-series target data for the most recent complete epidemiological week (EW) (i.e., Sunday through Saturday of the previous week) will be updated by midday Wednesday for both NSSP and NYC data. Target data for NYC will be aggregated to the weekly timescale by EW. Since NYC data updates daily, more recent data for NYC are available for the current incomplete EW that modelers can access on their own and use in their model. 
+Time-series target data for the most recent complete epidemiological week (EW) (i.e., Sunday through Saturday of the previous week) will be updated by midday Wednesday for both NSSP and NYC data. Target data for NYC will be downloaded. Since NYC data updates daily, more recent data for NYC are available for the current incomplete EW that modelers can access on their own and use in their model. 
 
 Please see the [`target-data` README](/target-data#readme) for more information on target data formats. 
 

@@ -5,6 +5,7 @@ library(dplyr)
 library(tidyr)
 library(purrr)
 library(lubridate)
+library(readr)
 
 #' @title NC_clean
 #' @description
@@ -96,3 +97,38 @@ NC_clean <- function() {
 #     y = "Observation (%)"
 #   ) +
 #   theme_minimal()
+
+
+merge_and_write_csv <- function(data, file) {
+  locations <- unique(data$location)
+  original_data <- read_csv(file) %>%
+    filter(!location %in% locations)
+  new_data <- bind_rows(data, original_data) %>%
+    arrange(across(!any_of(c("oracle_value", "observation"))))
+  write_csv(new_data, file)
+}
+
+
+nc_time_series <- NC_clean() %>%
+  mutate(as_of_date = as.Date(as_of_date)) %>%
+  mutate(target = "Flu ED visits pct") %>%
+  rename(as_of = as_of_date) %>%
+  relocate(as_of, location, target, target_end_date, observation)
+
+nc_latest_data <- nc_time_series %>%
+  group_by(location, target, target_end_date) %>%
+  filter(as_of == max(as_of)) %>%
+  slice(1L) %>%
+  ungroup() %>%
+  rename(oracle_value = observation) %>%
+  select(-as_of) %>%
+  relocate(target_end_date, location, target, oracle_value)
+
+nc_oracle_output <- nc_latest_data %>%
+  filter(target_end_date >= as.Date("2025-08-01")) %>%
+  relocate(target_end_date, location, target, oracle_value)
+
+
+merge_and_write_csv(nc_time_series, "target-data/time-series.csv")
+merge_and_write_csv(nc_latest_data, "target-data/latest-data.csv")
+merge_and_write_csv(nc_oracle_output, "target-data/oracle-output.csv")

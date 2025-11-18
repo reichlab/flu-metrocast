@@ -30,7 +30,7 @@ Metro-level forecasting provides several key benefits:
 
 From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from -1 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/).  
 
-All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A pre-registered evaluation will be conducted at the end of the season.
+All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A [pre-registered evaluation](https://osf.io/rc9dt/overview) will be conducted at the end of the season.
 
 The following guidelines provide detailed instructions for participating teams on submission deadlines, forecast targets, data sources, and standardized formatting, submission, and validation procedures. 
 
@@ -132,7 +132,7 @@ To ensure proper data formatting, pull requests for new data in `model-output/` 
 
 Forecasts will be evaluated using a variety of metrics, including weighted interval score (WIS) and its components and prediction interval coverage. Evaluation will use official data reported by the CDC and New York Department of Health and Mental Hygiene. 
 
-Our evaluation plan focuses on two main questions:
+Our [evaluation plan](https://osf.io/rc9dt/overview) focuses on two main questions:
 1) **When and where do local forecasts provide the greatest benefit?**
 We will compare local- and state-level forecasts to determine where local forecasts yield more accurate predictions of community-level influenza trends. We will also examine whether their utility is associated with jurisdictional characteristics such as population density, geographic size, and the number or distribution of population centers.
 

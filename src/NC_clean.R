@@ -125,7 +125,7 @@ nc_latest_data <- nc_time_series %>%
   relocate(target_end_date, location, target, oracle_value)
 
 nc_oracle_output <- nc_latest_data %>%
-  filter(target_end_date >= as.Date("2025-08-01")) %>%
+  filter(target_end_date >= as.Date("2025-11-22")) %>%
   relocate(target_end_date, location, target, oracle_value)
 
 

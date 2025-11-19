@@ -101,15 +101,17 @@ NC_clean <- function() {
 
 merge_and_write_csv <- function(data, file) {
   locations <- unique(data$location)
-  original_data <- read_csv(file) %>%
-    filter(!location %in% locations)
-  new_data <- bind_rows(original_data, data)
+  if (file.exists(file)) {
+    original_data <- read_csv(file) %>%
+      filter(!location %in% locations)
+    data <- bind_rows(original_data, data)
+  }
   write.table(
-    new_data,
+    data,
     file = file,
     sep = ",",
     row.names = FALSE,
-    quote = which(names(new_data) %in% c("location", "target"))
+    quote = which(names(data) %in% c("location", "target"))
   )
 }
 

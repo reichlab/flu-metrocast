@@ -33,7 +33,7 @@ designated_model: true
 team_funding: ""
 methods: "A spatial time-series model that uses the R-INLA package for estimating forecast posterior distributions."
 methods_url: "https://github.com/donga0223/City-Level-Forecasting/tree/main/INLA"
-data_sources: "ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020)"
+data_sources: "Using latest_data.csv from MetroCast Hub. ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020)"
 ensemble_of_hub_models: false
 repo_url: "https://github.com/donga0223/City-Level-Forecasting/tree/main/INLA"
 citation: ""

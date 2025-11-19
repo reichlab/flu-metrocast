@@ -118,6 +118,17 @@ nc_time_series <- NC_clean() %>%
   mutate(as_of_date = as.Date(as_of_date)) %>%
   mutate(target = "Flu ED visits pct") %>%
   rename(as_of = as_of_date) %>%
+  mutate(location = case_match(
+    location,
+    "nenc" ~ "Northeastern, NC",
+    "senc" ~ "Southeastern, NC",
+    "fay-area" ~ "Fayetteville Area, NC",
+    "rtp-area" ~ "Research Triangle Park Area, NC",
+    "triad-area" ~ "Triad Area, NC",
+    "wnc" ~ "Western, NC",
+    "clt-area" ~ "Charolette Area, NC",
+    .default = location
+  )) %>%
   relocate(as_of, location, target, target_end_date, observation)
 
 nc_latest_data <- nc_time_series %>%
@@ -133,6 +144,8 @@ nc_oracle_output <- nc_latest_data %>%
   filter(target_end_date >= as.Date("2025-11-22")) %>%
   relocate(target_end_date, location, target, oracle_value)
 
+nc_time_series <- nc_time_series %>%
+  filter(target_end_date >= as.Date("2025-08-01"))
 
 merge_and_write_csv(nc_time_series, "target-data/time-series.csv")
 merge_and_write_csv(nc_latest_data, "target-data/latest-data.csv")

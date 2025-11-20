@@ -1,6 +1,7 @@
 # ------------------------------------
 #           North Carolina (NC)
 # ------------------------------------
+library(magrittr)
 library(dplyr)
 library(tidyr)
 library(purrr)
@@ -98,7 +99,6 @@ NC_clean <- function() {
 #   ) +
 #   theme_minimal()
 
-
 merge_and_write_csv <- function(data, file) {
   locations <- unique(data$location)
   if (file.exists(file)) {
@@ -127,17 +127,22 @@ nc_latest_data <- nc_time_series %>%
   filter(as_of == max(as_of)) %>%
   slice(1L) %>%
   ungroup() %>%
-  rename(oracle_value = observation) %>%
   select(-as_of) %>%
-  relocate(target_end_date, location, target, oracle_value)
+  relocate(target_end_date, location, target, observation)
 
 nc_oracle_output <- nc_latest_data %>%
   filter(target_end_date >= as.Date("2025-11-22")) %>%
-  relocate(target_end_date, location, target, oracle_value)
+  relocate(target_end_date, location, target, observation)
 
 nc_time_series <- nc_time_series %>%
   filter(target_end_date >= as.Date("2025-08-01"))
 
-merge_and_write_csv(nc_time_series, "target-data/time-series.csv")
-merge_and_write_csv(nc_latest_data, "target-data/latest-data.csv")
-merge_and_write_csv(nc_oracle_output, "target-data/oracle-output.csv")
+if (nrow(nc_time_series)) {
+  merge_and_write_csv(nc_time_series, "target-data/time-series.csv")
+}
+if (nrow(nc_latest_data)) {
+  merge_and_write_csv(nc_latest_data, "target-data/latest-data.csv")
+}
+if (nrow(nc_oracle_output)) {
+  merge_and_write_csv(nc_oracle_output, "target-data/oracle-output.csv")
+}

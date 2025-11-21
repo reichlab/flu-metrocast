@@ -20,7 +20,8 @@ designated_model: true
 team_funding: ""
 methods: "An equally weighted mean ensemble that takes the mean at each quantile level of all eligible forecasts."
 methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
-data_sources: "ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020), Flu TX ED visits pct from CDC"
+data_sources: "Using latest_data.csv from MetroCast Hub.  ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020)"
 ensemble_of_hub_models: true
 repo_url: "https://github.com/reichlab/flu-metrocast"
+local_fit_jointly: true
 citation: ""

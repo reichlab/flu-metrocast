@@ -96,7 +96,17 @@ Forecasts for NYC should also cover horizons -1 to +3 weeks.
 For North Carolina, the Hub will collect:
 * Weekly quantile forecasts of the percentage of ED visits due to influenza at a regional level.
 
-Regions are comprised of various combinations of counties based on geographic locations. Seven regions in total have been predetermined for influenza surveillance.
+NC monitors sub-state influenza trends by geographic regions comprised of adjacent counties. Seven regions in total have been predetermined for ongoing influenza surveillance. Current influenza trends and a map of the regions can be found on the [NC DPH Respiratory Virus Surveillance Dashboard](https://covid19.ncdhhs.gov/dashboard/respiratory-virus-surveillance). A table of the regions with their corresponding counties can be found below: 
+
+| Region Name               | Aggregate Counties                                                                                                      |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Northeastern, NC          | Beaufort, Bertie, Camden, Chowan, Craven, Currituck, Dare, Edgecombe, Gates, Greene, Halifax, Hertford, Hyde, Jones, Lenoir, Martin, Nash, Northampton, Pamlico, Pasquotank, Perquimans, Pitt, Tyrrell, Washington, Wilson |
+| Southeastern, NC          | Brunswick, Carteret, Columbus, Duplin, New Hanover, Onslow, Pender |
+| Fayetteville Area, NC     | Bladen, Cumberland, Harnett, Hoke, Johnston, Lee, Moore, Richmond, Robeson, Sampson, Scotland, Wayne |
+| Research Triangle Park Area, NC     | Alamance, Chatham, Durham, Franklin, Granville, Orange, Person, Vance, Wake, Warren |
+| Triad Area, NC            | Alleghany, Ashe, Caswell, Davidson, Davie, Forsyth, Guilford, Montgomery, Randolph, Rockingham, Stokes, Surry, Watauga, Wilkes, Yadkin |
+| Western, NC               | Avery, Buncombe, Burke, Caldwell, Cherokee, Clay, Graham, Haywood, Henderson, Jackson, Macon, Madison, McDowell, Mitchell, Polk, Rutherford, Swain, Transylvania, Yancey |
+| Charlotte Area, NC        | Alexander, Anson, Cabarrus, Catawba, Cleveland, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Stanly, Union |
 
 Forecasts for NC should also cover horizons -1 to +3 weeks. 
 

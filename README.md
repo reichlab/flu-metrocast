@@ -91,6 +91,22 @@ Forecasts for NYC should also cover horizons -1 to +3 weeks.
 
 ---
 
+#### North Carolina (NC) forecasts
+For North Carolina, the Hub will collect:
+* Weekly quantile forecasts of the percentage of ED visits due to influenza at a regional level.
+
+Regions are comprised of various combinations of counties based on geographic locations. Seven regions in total have been predetermined for influenza surveillance.
+
+Forecasts for NC should also cover horizons -1 to +3 weeks. 
+
+**Target name and horizon for NC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza.
+
+| Target name       | Horizon       | 
+|--------------------|---------------|
+| Flu ED visits pct  | -1 to +3 weeks | 
+
+---
+
 ### Model output data storage
 The Flu MetroCast Hub will store a live dataset in this dedicated GitHub repository, following [Hubverse file-based data storage standards](https://docs.hubverse.io/en/latest/user-guide/hub-structure.html). The repository will contain separate directories for model output and model metadata submissions from modeling teams.
 

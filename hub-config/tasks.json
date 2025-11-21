@@ -346,7 +346,15 @@
                               "ogden",
                               "utah",
                               "roanoke",
-                              "virginia"
+                              "virginia",
+                              "nenc",
+                              "senc",
+                              "fay-area",
+                              "rtp-area",
+                              "triad-area",
+                              "wnc",
+                              "clt-area",
+                              "north-carolina"
                               ]
                         },
                         "target_end_date": {

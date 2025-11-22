@@ -10,19 +10,19 @@ library(here)
 hub_path <- here()
 hub_con <- connect_hub(hub_path)
 
+## specify the reference_date to generate the ensemble model for
+reference_date = "2025-11-22"
 model_names <- hub_con %>%
+  filter(reference_date == ref_date) %>%
   select(model_id) %>%
   distinct() %>%
   collect()
 
 model_names
 
-## specify the reference_date to generate the ensemble model for
-reference_date = "2025-03-15"
-
 required_horizons <- tibble::tibble(
-  target = c("ILI ED visits", "Flu ED visits pct"),
-  required = list(c(0, 1, 2, 3), c(-1, 0, 1, 2))
+  target = c("ILI ED visits pct", "Flu ED visits pct"),
+  required = list(c(0, 1, 2, 3), c(0, 1, 2, 3))
 )
 
 

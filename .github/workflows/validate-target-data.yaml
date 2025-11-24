@@ -43,14 +43,14 @@ jobs:
             any::hubValidations
             any::sessioninfo
 
-     # - name: Run target data validations
-     #   env:
-     #     PR_NUMBER: ${{ github.event.number }}
-     #   run: |
-     #     library("hubValidations")
-     #     v <- hubValidations::validate_target_pr(
-     #         gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
-     #         pr_number = Sys.getenv("PR_NUMBER")
-     #     )
-     #     hubValidations::check_for_errors(v, verbose = TRUE)
-     #   shell: Rscript {0}
+      - name: Run target data validations
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          library("hubValidations")
+          v <- hubValidations::validate_target_pr(
+              gh_repo = Sys.getenv("GITHUB_REPOSITORY"),
+              pr_number = Sys.getenv("PR_NUMBER")
+          )
+          hubValidations::check_for_errors(v, verbose = TRUE)
+        shell: Rscript {0}

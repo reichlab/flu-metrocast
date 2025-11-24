@@ -13,10 +13,11 @@ model_contributors: [
 ]
 license: "CC-BY-4.0"
 designated_model: true
-team_funding: ""
+team_funding: "CDC Grant NU38FT00008"
 methods: "A Bayesian hierarchical GAM with a univariate AR(1) process"
 methods_url: "https://github.com/epiforecasts/cityforecasts/blob/main/README.md"
-data_sources: "ILI NYC ED Visits, we exclude Feb 2020 to March 2022, flu ED visits pct for TX"
+data_sources: "Using latest_data.csv from MetroCast Hub. For ILI NYC ED visits, we exclude Feb 2020 to March 2022"
 ensemble_of_hub_models: false
 repo_url: "https://github.com/epiforecasts/cityforecasts/"
+local_fit_jointly: true
 citation: ""

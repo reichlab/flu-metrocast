@@ -20,7 +20,8 @@ designated_model: true
 team_funding: ""
 methods: "Linear pool (a.k.a. distributional mixture) ensemble of quantile forecast submissions. We use the default settings of the hubEnsembles::linear_pool() function. Before building this ensemble, the quantiles are interpolated into a continuous cumulative distribution function for each forecast. These are combined using a linear pool, and then quasi-random samples are drawn from the resulting ensemble mixture and quantiles are inferred from those empirical samples."
 methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
-data_sources: "ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020), Flu TX ED visits pct from CDC"
+data_sources: "Using latest_data.csv from MetroCast Hub.  ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020)"
 ensemble_of_hub_models: true
 repo_url: "https://github.com/reichlab/flu-metrocast"
+local_fit_jointly: false
 citation: ""

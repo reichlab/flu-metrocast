@@ -1,6 +1,4 @@
-# ------------------------------------
-#           North Carolina (NC)
-# ------------------------------------
+# This script cleans and processes the NC specific target data.
 library(magrittr)
 library(dplyr)
 library(tidyr)
@@ -31,7 +29,7 @@ library(readr)
 NC_clean <- function() {
   NC_raw <- list.files(
     path = "raw-data",
-    pattern = "NC_DETECT_Respiratory_Regional_Influenza_only\\.csv$",
+    pattern = "NC_DETECT_Respiratory.*\\.csv$",
     full.names = TRUE
   ) |>
     (\(x) tibble(file = x))() |>
@@ -43,7 +41,7 @@ NC_clean <- function() {
     mutate(data = map(file, read.csv)) |>
     select(-file) |>
     unnest(data) |>
-    select(-X)
+    select(-starts_with("X", ignore.case = FALSE))
 
   NC_clean <-
     NC_raw |>
@@ -52,19 +50,24 @@ NC_clean <- function() {
         gsub("%", "", Percentage.Of.Total.ED.Visits)
       ),
       observation = if_else(
-        as_of_date == "2025-10-04",
+        as_of_date == "2025-10-08",
         Percentage.Of.Total.ED.Visits,
         value
+      ),
+      target = if_else(
+        is.na(Percentage.Of.Total.ED.Visits),
+        signal,
+        "pct_ed_visits_influenza"
       ),
       time_value = lubridate::mdy(time_value),
       Week.Ending.Date = lubridate::mdy(Week.Ending.Date),
       target_end_date = if_else(
-        as_of_date == "2025-10-04",
+        as_of_date == "2025-10-08",
         Week.Ending.Date,
         time_value
       ),
       location = if_else(
-        as_of_date == "2025-10-04",
+        as_of_date == "2025-10-08",
         Region,
         region
       ) |>
@@ -76,21 +79,90 @@ NC_clean <- function() {
     select(
       as_of_date,
       location,
+      target,
       target_end_date,
       observation
     ) |>
+    mutate(as_of = lubridate::ymd(as_of_date)) |>
+    select(!as_of_date) |>
     arrange(target_end_date)
 
   stopifnot(
-    all(colSums(is.na(NC_clean)) == 0),
-    all(NC_clean$observation >= 0 & NC_clean$observation <= 100)
+    !anyNA(NC_clean),
+    all(NC_clean$observation >= 0 & NC_clean$observation <= 100),
+    setequal(unique(NC_clean$target), "pct_ed_visits_influenza")
   )
 
   return(NC_clean)
 }
 
+#' @title
+#' Merge and write target CSV files.
+#'
+#' @description
+#' Helper function to write data to the 'target-data/' directory files.
+#'
+#' @param data A formated tibble corresponding to the "new" data.
+#' @param file The filename to write the `data` to.
+#' @param mode Either 'append' or 'override' indicating the write mode. If
+#' 'append' then the `data` is just appended to `file`. If 'override' then the
+#' locations from `data` found in `file` are removed from `file` and then `data`
+#' is appended to `file`.
+#'
+#' @returns
+#' `NULL`
+merge_and_write_csv <- function(data, file, mode) {
+  # Check that `mode` is either 'append' or 'override'
+  if (!mode %in% c("append", "override")) {
+    stop(
+      "Write mode '",
+      mode,
+      "' is not supported, please use 'append' or 'override'."
+    )
+  }
+  # If file already exists have to consider the mode
+  if (file.exists(file)) {
+    original_data <- read_csv(file)
+    if (mode == "override") {
+      # In 'override' mode delete all data corresponding to the locations for
+      # which we have data for and reappend to the original data.
+      data <- bind_rows(
+        original_data %>% filter(!location %in% unique(data$location)),
+        data
+      )
+    } else {
+      # In 'append' mode remove any data which is already present in the
+      # original
+      data <- anti_join(
+        data,
+        original_data,
+        by = setdiff(
+          union(colnames(data), colnames(original_data)),
+          "observation"
+        )
+      )
+    }
+  }
+  if (nrow(data)) {
+    # If `data` has rows then write it.
+    write.table(
+      data,
+      file = file,
+      append = (mode == "append" && file.exists(file)),
+      sep = ",",
+      row.names = FALSE,
+      col.names = (mode == "override" || !file.exists(file)),
+      quote = which(names(data) %in% c("location", "target"))
+    )
+  }
+}
+
+# # Optional plot for debugging purposes
 # library(ggplot2)
-# ggplot(NC_clean(), aes(x = target_end_date, y = observation, color = location)) +
+# ggplot(
+#   NC_clean(),
+#   aes(x = target_end_date, y = observation, color = location)
+# ) +
 #   geom_line() +
 #   labs(
 #     title = "NC Influenza Surveillance Data",
@@ -99,29 +171,17 @@ NC_clean <- function() {
 #   ) +
 #   theme_minimal()
 
-merge_and_write_csv <- function(data, file) {
-  locations <- unique(data$location)
-  if (file.exists(file)) {
-    original_data <- read_csv(file) %>%
-      filter(!location %in% locations)
-    data <- bind_rows(original_data, data)
-  }
-  write.table(
-    data,
-    file = file,
-    sep = ",",
-    row.names = FALSE,
-    quote = which(names(data) %in% c("location", "target"))
-  )
-}
-
-
+# 1) We take the return of `NC_clean` and subset it to the as of date minimum
+#    for this season of flu metrocast hub and do some light formatting. Right
+#    now `nc_time_series` contains all 'as_of'/'target_end_date' combos we have.
 nc_time_series <- NC_clean() %>%
-  mutate(as_of_date = as.Date(as_of_date)) %>%
+  filter(as_of >= as.Date("2025-11-19")) %>%
   mutate(target = "Flu ED visits pct") %>%
-  rename(as_of = as_of_date) %>%
   relocate(as_of, location, target, target_end_date, observation)
 
+# 2) Compute `nc_latest_data` from `nc_time_series` by selecting the row with
+#    the greatest 'as_of' date for a given 'location', 'target',
+#    'target_end_date'.
 nc_latest_data <- nc_time_series %>%
   group_by(location, target, target_end_date) %>%
   filter(as_of == max(as_of)) %>%
@@ -130,19 +190,40 @@ nc_latest_data <- nc_time_series %>%
   select(-as_of) %>%
   relocate(target_end_date, location, target, observation)
 
+# 3) Compute `nc_oracle_output` from `nc_latest_data` to subsetting it to this
+#    season of flu metrocast hub.
 nc_oracle_output <- nc_latest_data %>%
   filter(target_end_date >= as.Date("2025-11-22")) %>%
   relocate(target_end_date, location, target, observation)
 
+# 4) Subset `nc_time_series` to data with a 'target_end_date' of 2025-08-02 or
+#    later and the max 'as_of' date.
 nc_time_series <- nc_time_series %>%
-  filter(target_end_date >= as.Date("2025-08-01"))
+  filter(target_end_date >= as.Date("2025-08-02")) %>%
+  filter(as_of == max(nc_time_series$as_of))
 
+# 5) Write the `nc_time_series`, `nc_latest_data`, and `nc_oracle_output`
+#    variables to the "target-data/time-series.csv",
+#    "target-data/latest-data.csv", and "target-data/oracle-output.csv",
+#    respectively. The first is appended and the last two are overridden.
 if (nrow(nc_time_series)) {
-  merge_and_write_csv(nc_time_series, "target-data/time-series.csv")
+  merge_and_write_csv(
+    nc_time_series,
+    "target-data/time-series.csv",
+    "append"
+  )
 }
 if (nrow(nc_latest_data)) {
-  merge_and_write_csv(nc_latest_data, "target-data/latest-data.csv")
+  merge_and_write_csv(
+    nc_latest_data,
+    "target-data/latest-data.csv",
+    "override"
+  )
 }
 if (nrow(nc_oracle_output)) {
-  merge_and_write_csv(nc_oracle_output, "target-data/oracle-output.csv")
+  merge_and_write_csv(
+    nc_oracle_output,
+    "target-data/oracle-output.csv",
+    "override"
+  )
 }

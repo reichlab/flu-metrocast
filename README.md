@@ -10,6 +10,7 @@ Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc
     -   [Prediction targets](#prediction-targets)
         -   [Jurisdictions using NSSP HSA-Level data](#jurisdictions-using-nssp-hsa-level-data)
         -   [New York City (NYC) forecasts](#new-york-city-nyc-forecasts)
+        -   [North Carolina (NC) forecasts](#north-carolina-nc-forecasts)
     -   [Model output data storage](#model-output-data-storage)
 -   [Target data](#target-data)
 -   [Forecast formatting](#forecast-formatting)
@@ -28,7 +29,7 @@ Metro-level forecasting provides several key benefits:
 * Builds modeling capacity and data infrastructure that strengthen readiness for future outbreak.
 * Generates insights that are accessible and actionable for public health officials, healthcare systems, and community leaders.
 
-From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from -1 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/).  
+From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from -1 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
 
 All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A [pre-registered evaluation](https://osf.io/rc9dt/overview) will be conducted at the end of the season.
 
@@ -53,7 +54,7 @@ Each weekly submission file must include the `reference date`––defined as th
 ### Prediction targets
 From November through May, participating teams will submit weekly probabilistic (quantile) forecasts of the percentage of ED visits due to influenza. 
 
-The Hub will primarily collect forecasts at the city-, county-, or metro-level (typically corresponding to HSAs) and, for validation, will also collect predictions for the corresponding state-level forecasts. 
+The Hub will primarily collect forecasts at the city-, county-, region-, or metro-level (typically corresponding to HSAs) and, for validation, will also collect predictions for the corresponding state-level forecasts. 
 
 ---
 
@@ -91,6 +92,33 @@ Forecasts for NYC should also cover horizons -1 to +3 weeks.
 
 ---
 
+#### North Carolina (NC) forecasts
+For North Carolina, the Hub will collect:
+* Weekly quantile forecasts of the percentage of ED visits due to influenza at a regional level.
+* Weekly quantile forecasts of the percentage of ED visits due to influenza at the state level.
+
+NC monitors sub-state influenza trends by geographic regions comprised of adjacent counties. Seven regions in total have been predetermined for ongoing influenza surveillance. Current influenza trends and a map of the regions can be found on the [NC DPH Respiratory Virus Surveillance Dashboard](https://covid19.ncdhhs.gov/dashboard/respiratory-virus-surveillance). A table of the regions with their corresponding counties can be found below: 
+
+| Region Name               | Aggregate Counties                                                                                                      |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Northeastern, NC          | Beaufort, Bertie, Camden, Chowan, Craven, Currituck, Dare, Edgecombe, Gates, Greene, Halifax, Hertford, Hyde, Jones, Lenoir, Martin, Nash, Northampton, Pamlico, Pasquotank, Perquimans, Pitt, Tyrrell, Washington, Wilson |
+| Southeastern, NC          | Brunswick, Carteret, Columbus, Duplin, New Hanover, Onslow, Pender |
+| Fayetteville Area, NC     | Bladen, Cumberland, Harnett, Hoke, Johnston, Lee, Moore, Richmond, Robeson, Sampson, Scotland, Wayne |
+| Research Triangle Park Area, NC     | Alamance, Chatham, Durham, Franklin, Granville, Orange, Person, Vance, Wake, Warren |
+| Triad Area, NC            | Alleghany, Ashe, Caswell, Davidson, Davie, Forsyth, Guilford, Montgomery, Randolph, Rockingham, Stokes, Surry, Watauga, Wilkes, Yadkin |
+| Western, NC               | Avery, Buncombe, Burke, Caldwell, Cherokee, Clay, Graham, Haywood, Henderson, Jackson, Macon, Madison, McDowell, Mitchell, Polk, Rutherford, Swain, Transylvania, Yancey |
+| Charlotte Area, NC        | Alexander, Anson, Cabarrus, Catawba, Cleveland, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Stanly, Union |
+
+Forecasts for NC should also cover horizons -1 to +3 weeks. 
+
+**Target name and horizon for NC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza.
+
+| Target name       | Horizon       | 
+|--------------------|---------------|
+| Flu ED visits pct  | -1 to +3 weeks | 
+
+---
+
 ### Model output data storage
 The Flu MetroCast Hub will store a live dataset in this dedicated GitHub repository, following [Hubverse file-based data storage standards](https://docs.hubverse.io/en/latest/user-guide/hub-structure.html). The repository will contain separate directories for model output and model metadata submissions from modeling teams.
 
@@ -102,9 +130,13 @@ Model output must follow a tabular representation where each row represents a si
 
 Target data are the “ground truth” observed data being modeled as the prediction target. You can find the raw and target data in the [`raw-data`](/raw-data) and [`target-data`](/target-data) folders of the MetroCast GitHub repository. Raw data represent ground truth data in its raw or native form. Target data are specially formatted raw data that can be used for model fitting, visualization, or evaluation purposes. 
 
-The target data for forecasts of locations with NSSP data are based on the weekly percentage of total ED visits associated with influenza, available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data).  The target data for NYC forecasts are based on the weekly percentage of total ED visits associated with influenza-like illness, available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/).
+The target data for forecasts of locations with NSSP data are based on the weekly percentage of total ED visits associated with influenza, available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data).  
 
-Time-series target data for the most recent complete epidemiological week (EW) (i.e., Sunday through Saturday of the previous week) will be updated by midday Wednesday for both NSSP and NYC data. Since NYC data updates daily, more recent data for NYC are available for the current incomplete EW that modelers can access on their own and use in their model. 
+The target data for NYC forecasts are based on the weekly percentage of total ED visits associated with influenza-like illness, available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). 
+
+The target data for North Carolina (NC) forecasts are based on the weekly percentage of total ED visits associated with influenza, and provided by The North Carolina Disease Event Tracking and Epidemiologic Collection Tool (NC DETECT) is North Carolina’s statewide syndromic surveillance system. NC DETECT was created by the [North Carolina Division of Public Health (NC DPH)](https://publichealth.nc.gov/index.htm) in 2004 in collaboration with the Carolina Center for Health Informatics (CCHI) in the UNC Department of Emergency Medicine to address the need for early event detection and timely public health surveillance in North Carolina using a variety of secondary data sources.  
+
+Time-series target data for the most recent complete epidemiological week (EW) (i.e., Sunday through Saturday of the previous week) will be updated by midday Wednesday for NSSP, NYC, and NC data. Since NYC data updates daily, more recent data for NYC are available for the current incomplete EW that modelers can access on their own and use in their model. NC data are only updated on a weekly basis.
 
 Please see the [`target-data` README](/target-data#readme) for more information on target data formats. 
 

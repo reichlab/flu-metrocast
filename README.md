@@ -95,6 +95,7 @@ Forecasts for NYC should also cover horizons -1 to +3 weeks.
 #### North Carolina (NC) forecasts
 For North Carolina, the Hub will collect:
 * Weekly quantile forecasts of the percentage of ED visits due to influenza at a regional level.
+* Weekly quantile forecasts of the percentage of ED visits due to influenza at the state level.
 
 NC monitors sub-state influenza trends by geographic regions comprised of adjacent counties. Seven regions in total have been predetermined for ongoing influenza surveillance. Current influenza trends and a map of the regions can be found on the [NC DPH Respiratory Virus Surveillance Dashboard](https://covid19.ncdhhs.gov/dashboard/respiratory-virus-surveillance). A table of the regions with their corresponding counties can be found below: 
 

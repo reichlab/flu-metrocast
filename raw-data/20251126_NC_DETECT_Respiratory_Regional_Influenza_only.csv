@@ -1,0 +1,377 @@
+geo_value,signal,time_value,value,region
+1 NENC,pct_ed_visits_influenza,1/4/25,4.43,1 NENC
+1 NENC,pct_ed_visits_influenza,1/11/25,4.94,1 NENC
+1 NENC,pct_ed_visits_influenza,1/18/25,8.06,1 NENC
+1 NENC,pct_ed_visits_influenza,1/25/25,13.15,1 NENC
+1 NENC,pct_ed_visits_influenza,2/1/25,13.26,1 NENC
+1 NENC,pct_ed_visits_influenza,2/8/25,13.26,1 NENC
+1 NENC,pct_ed_visits_influenza,2/15/25,10.31,1 NENC
+1 NENC,pct_ed_visits_influenza,2/22/25,6.54,1 NENC
+1 NENC,pct_ed_visits_influenza,3/1/25,4.32,1 NENC
+1 NENC,pct_ed_visits_influenza,3/8/25,3.54,1 NENC
+1 NENC,pct_ed_visits_influenza,3/15/25,2.5,1 NENC
+1 NENC,pct_ed_visits_influenza,3/22/25,1.76,1 NENC
+1 NENC,pct_ed_visits_influenza,3/29/25,1.03,1 NENC
+1 NENC,pct_ed_visits_influenza,4/5/25,0.68,1 NENC
+1 NENC,pct_ed_visits_influenza,4/12/25,0.4,1 NENC
+1 NENC,pct_ed_visits_influenza,4/19/25,0.42,1 NENC
+1 NENC,pct_ed_visits_influenza,4/26/25,0.32,1 NENC
+1 NENC,pct_ed_visits_influenza,5/3/25,0.2,1 NENC
+1 NENC,pct_ed_visits_influenza,5/10/25,0.3,1 NENC
+1 NENC,pct_ed_visits_influenza,5/17/25,0.27,1 NENC
+1 NENC,pct_ed_visits_influenza,5/24/25,0.27,1 NENC
+1 NENC,pct_ed_visits_influenza,5/31/25,0.19,1 NENC
+1 NENC,pct_ed_visits_influenza,6/7/25,0.18,1 NENC
+1 NENC,pct_ed_visits_influenza,6/14/25,0.19,1 NENC
+1 NENC,pct_ed_visits_influenza,6/21/25,0.16,1 NENC
+1 NENC,pct_ed_visits_influenza,6/28/25,0.13,1 NENC
+1 NENC,pct_ed_visits_influenza,7/5/25,0.11,1 NENC
+1 NENC,pct_ed_visits_influenza,7/12/25,0.07,1 NENC
+1 NENC,pct_ed_visits_influenza,7/19/25,0.08,1 NENC
+1 NENC,pct_ed_visits_influenza,7/26/25,0.11,1 NENC
+1 NENC,pct_ed_visits_influenza,8/2/25,0.09,1 NENC
+1 NENC,pct_ed_visits_influenza,8/9/25,0.1,1 NENC
+1 NENC,pct_ed_visits_influenza,8/16/25,0.05,1 NENC
+1 NENC,pct_ed_visits_influenza,8/23/25,0.07,1 NENC
+1 NENC,pct_ed_visits_influenza,8/30/25,0.06,1 NENC
+1 NENC,pct_ed_visits_influenza,9/6/25,0.15,1 NENC
+1 NENC,pct_ed_visits_influenza,9/13/25,0.2,1 NENC
+1 NENC,pct_ed_visits_influenza,9/20/25,0.09,1 NENC
+1 NENC,pct_ed_visits_influenza,9/27/25,0.11,1 NENC
+1 NENC,pct_ed_visits_influenza,10/4/25,0.07,1 NENC
+1 NENC,pct_ed_visits_influenza,10/11/25,0.11,1 NENC
+1 NENC,pct_ed_visits_influenza,10/18/25,0.1,1 NENC
+1 NENC,pct_ed_visits_influenza,10/25/25,0.2,1 NENC
+1 NENC,pct_ed_visits_influenza,11/1/25,0.16,1 NENC
+1 NENC,pct_ed_visits_influenza,11/8/25,0.25,1 NENC
+1 NENC,pct_ed_visits_influenza,11/15/25,0.8,1 NENC
+1 NENC,pct_ed_visits_influenza,11/22/25,1.49,1 NENC
+2 SENC,pct_ed_visits_influenza,1/4/25,4,2 SENC
+2 SENC,pct_ed_visits_influenza,1/11/25,4.22,2 SENC
+2 SENC,pct_ed_visits_influenza,1/18/25,6.15,2 SENC
+2 SENC,pct_ed_visits_influenza,1/25/25,9.43,2 SENC
+2 SENC,pct_ed_visits_influenza,2/1/25,9.02,2 SENC
+2 SENC,pct_ed_visits_influenza,2/8/25,8.5,2 SENC
+2 SENC,pct_ed_visits_influenza,2/15/25,6.32,2 SENC
+2 SENC,pct_ed_visits_influenza,2/22/25,5.24,2 SENC
+2 SENC,pct_ed_visits_influenza,3/1/25,4.64,2 SENC
+2 SENC,pct_ed_visits_influenza,3/8/25,3.94,2 SENC
+2 SENC,pct_ed_visits_influenza,3/15/25,3.22,2 SENC
+2 SENC,pct_ed_visits_influenza,3/22/25,2.36,2 SENC
+2 SENC,pct_ed_visits_influenza,3/29/25,1.38,2 SENC
+2 SENC,pct_ed_visits_influenza,4/5/25,0.78,2 SENC
+2 SENC,pct_ed_visits_influenza,4/12/25,0.36,2 SENC
+2 SENC,pct_ed_visits_influenza,4/19/25,0.31,2 SENC
+2 SENC,pct_ed_visits_influenza,4/26/25,0.28,2 SENC
+2 SENC,pct_ed_visits_influenza,5/3/25,0.23,2 SENC
+2 SENC,pct_ed_visits_influenza,5/10/25,0.15,2 SENC
+2 SENC,pct_ed_visits_influenza,5/17/25,0.19,2 SENC
+2 SENC,pct_ed_visits_influenza,5/24/25,0.09,2 SENC
+2 SENC,pct_ed_visits_influenza,5/31/25,0.15,2 SENC
+2 SENC,pct_ed_visits_influenza,6/7/25,0.15,2 SENC
+2 SENC,pct_ed_visits_influenza,6/14/25,0.24,2 SENC
+2 SENC,pct_ed_visits_influenza,6/21/25,0.1,2 SENC
+2 SENC,pct_ed_visits_influenza,6/28/25,0.06,2 SENC
+2 SENC,pct_ed_visits_influenza,7/5/25,0.03,2 SENC
+2 SENC,pct_ed_visits_influenza,7/12/25,0.03,2 SENC
+2 SENC,pct_ed_visits_influenza,7/19/25,0.06,2 SENC
+2 SENC,pct_ed_visits_influenza,7/26/25,0.03,2 SENC
+2 SENC,pct_ed_visits_influenza,8/2/25,0.1,2 SENC
+2 SENC,pct_ed_visits_influenza,8/9/25,0.03,2 SENC
+2 SENC,pct_ed_visits_influenza,8/16/25,0.04,2 SENC
+2 SENC,pct_ed_visits_influenza,8/23/25,0.04,2 SENC
+2 SENC,pct_ed_visits_influenza,8/30/25,0.1,2 SENC
+2 SENC,pct_ed_visits_influenza,9/6/25,0.12,2 SENC
+2 SENC,pct_ed_visits_influenza,9/13/25,0.1,2 SENC
+2 SENC,pct_ed_visits_influenza,9/20/25,0.08,2 SENC
+2 SENC,pct_ed_visits_influenza,9/27/25,0.08,2 SENC
+2 SENC,pct_ed_visits_influenza,10/4/25,0.07,2 SENC
+2 SENC,pct_ed_visits_influenza,10/11/25,0.1,2 SENC
+2 SENC,pct_ed_visits_influenza,10/18/25,0.07,2 SENC
+2 SENC,pct_ed_visits_influenza,10/25/25,0.11,2 SENC
+2 SENC,pct_ed_visits_influenza,11/1/25,0.12,2 SENC
+2 SENC,pct_ed_visits_influenza,11/8/25,0.22,2 SENC
+2 SENC,pct_ed_visits_influenza,11/15/25,0.12,2 SENC
+2 SENC,pct_ed_visits_influenza,11/22/25,0.5,2 SENC
+3 FAY AREA,pct_ed_visits_influenza,1/4/25,8.3,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,1/11/25,7.21,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,1/18/25,10.35,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,1/25/25,14.98,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,2/1/25,14.31,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,2/8/25,13.69,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,2/15/25,9.41,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,2/22/25,6.72,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,3/1/25,4.68,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,3/8/25,4.24,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,3/15/25,3.87,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,3/22/25,3.16,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,3/29/25,2.18,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,4/5/25,1.72,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,4/12/25,1.42,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,4/19/25,1.27,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,4/26/25,1.09,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,5/3/25,1.17,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,5/10/25,0.81,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,5/17/25,0.68,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,5/24/25,1.12,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,5/31/25,0.89,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,6/7/25,0.93,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,6/14/25,0.82,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,6/21/25,0.62,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,6/28/25,0.65,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,7/5/25,0.54,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,7/12/25,0.63,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,7/19/25,0.5,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,7/26/25,0.53,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,8/2/25,0.7,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,8/9/25,0.81,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,8/16/25,0.79,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,8/23/25,0.9,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,8/30/25,1.19,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,9/6/25,1.9,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,9/13/25,2.18,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,9/20/25,1.54,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,9/27/25,1.37,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,10/4/25,1.07,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,10/11/25,0.97,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,10/18/25,0.95,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,10/25/25,1.41,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,11/1/25,1.26,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,11/8/25,1.39,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,11/15/25,1.5,3 FAY AREA
+3 FAY AREA,pct_ed_visits_influenza,11/22/25,1.45,3 FAY AREA
+4 RTP AREA,pct_ed_visits_influenza,1/4/25,4.24,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,1/11/25,4.23,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,1/18/25,5.7,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,1/25/25,8.94,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,2/1/25,8.93,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,2/8/25,9.19,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,2/15/25,7.36,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,2/22/25,5.86,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,3/1/25,3.87,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,3/8/25,3.69,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,3/15/25,2.7,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,3/22/25,2,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,3/29/25,1.57,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,4/5/25,1.24,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,4/12/25,0.77,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,4/19/25,0.47,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,4/26/25,0.38,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,5/3/25,0.2,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,5/10/25,0.3,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,5/17/25,0.25,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,5/24/25,0.25,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,5/31/25,0.24,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,6/7/25,0.25,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,6/14/25,0.18,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,6/21/25,0.19,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,6/28/25,0.15,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,7/5/25,0.16,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,7/12/25,0.15,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,7/19/25,0.21,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,7/26/25,0.16,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,8/2/25,0.09,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,8/9/25,0.12,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,8/16/25,0.1,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,8/23/25,0.13,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,8/30/25,0.1,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,9/6/25,0.16,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,9/13/25,0.14,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,9/20/25,0.2,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,9/27/25,0.23,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,10/4/25,0.25,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,10/11/25,0.25,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,10/18/25,0.24,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,10/25/25,0.34,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,11/1/25,0.29,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,11/8/25,0.47,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,11/15/25,0.7,4 RTP AREA
+4 RTP AREA,pct_ed_visits_influenza,11/22/25,1.11,4 RTP AREA
+5 TRIAD AREA,pct_ed_visits_influenza,1/4/25,4.61,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,1/11/25,4.27,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,1/18/25,6.02,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,1/25/25,9.03,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,2/1/25,13.1,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,2/8/25,15.52,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,2/15/25,12.75,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,2/22/25,9.29,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,3/1/25,6.2,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,3/8/25,5.71,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,3/15/25,4.34,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,3/22/25,3.04,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,3/29/25,1.75,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,4/5/25,1.23,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,4/12/25,0.82,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,4/19/25,0.64,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,4/26/25,0.35,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,5/3/25,0.45,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,5/10/25,0.39,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,5/17/25,0.31,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,5/24/25,0.26,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,5/31/25,0.23,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,6/7/25,0.25,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,6/14/25,0.21,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,6/21/25,0.18,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,6/28/25,0.16,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,7/5/25,0.16,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,7/12/25,0.22,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,7/19/25,0.18,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,7/26/25,0.16,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,8/2/25,0.2,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,8/9/25,0.22,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,8/16/25,0.31,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,8/23/25,0.3,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,8/30/25,0.33,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,9/6/25,0.65,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,9/13/25,0.5,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,9/20/25,0.54,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,9/27/25,0.32,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,10/4/25,0.42,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,10/11/25,0.38,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,10/18/25,0.35,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,10/25/25,0.32,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,11/1/25,0.52,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,11/8/25,0.57,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,11/15/25,0.81,5 TRIAD AREA
+5 TRIAD AREA,pct_ed_visits_influenza,11/22/25,1.17,5 TRIAD AREA
+6 WNC,pct_ed_visits_influenza,1/4/25,4.13,6 WNC
+6 WNC,pct_ed_visits_influenza,1/11/25,4.72,6 WNC
+6 WNC,pct_ed_visits_influenza,1/18/25,4.79,6 WNC
+6 WNC,pct_ed_visits_influenza,1/25/25,6.14,6 WNC
+6 WNC,pct_ed_visits_influenza,2/1/25,9.48,6 WNC
+6 WNC,pct_ed_visits_influenza,2/8/25,9.59,6 WNC
+6 WNC,pct_ed_visits_influenza,2/15/25,7.33,6 WNC
+6 WNC,pct_ed_visits_influenza,2/22/25,5.28,6 WNC
+6 WNC,pct_ed_visits_influenza,3/1/25,4.82,6 WNC
+6 WNC,pct_ed_visits_influenza,3/8/25,4.38,6 WNC
+6 WNC,pct_ed_visits_influenza,3/15/25,4.06,6 WNC
+6 WNC,pct_ed_visits_influenza,3/22/25,3,6 WNC
+6 WNC,pct_ed_visits_influenza,3/29/25,2.02,6 WNC
+6 WNC,pct_ed_visits_influenza,4/5/25,1.6,6 WNC
+6 WNC,pct_ed_visits_influenza,4/12/25,0.82,6 WNC
+6 WNC,pct_ed_visits_influenza,4/19/25,0.61,6 WNC
+6 WNC,pct_ed_visits_influenza,4/26/25,0.5,6 WNC
+6 WNC,pct_ed_visits_influenza,5/3/25,0.45,6 WNC
+6 WNC,pct_ed_visits_influenza,5/10/25,0.32,6 WNC
+6 WNC,pct_ed_visits_influenza,5/17/25,0.38,6 WNC
+6 WNC,pct_ed_visits_influenza,5/24/25,0.31,6 WNC
+6 WNC,pct_ed_visits_influenza,5/31/25,0.25,6 WNC
+6 WNC,pct_ed_visits_influenza,6/7/25,0.19,6 WNC
+6 WNC,pct_ed_visits_influenza,6/14/25,0.18,6 WNC
+6 WNC,pct_ed_visits_influenza,6/21/25,0.27,6 WNC
+6 WNC,pct_ed_visits_influenza,6/28/25,0.18,6 WNC
+6 WNC,pct_ed_visits_influenza,7/5/25,0.1,6 WNC
+6 WNC,pct_ed_visits_influenza,7/12/25,0.12,6 WNC
+6 WNC,pct_ed_visits_influenza,7/19/25,0.12,6 WNC
+6 WNC,pct_ed_visits_influenza,7/26/25,0.16,6 WNC
+6 WNC,pct_ed_visits_influenza,8/2/25,0.11,6 WNC
+6 WNC,pct_ed_visits_influenza,8/9/25,0.11,6 WNC
+6 WNC,pct_ed_visits_influenza,8/16/25,0.15,6 WNC
+6 WNC,pct_ed_visits_influenza,8/23/25,0.19,6 WNC
+6 WNC,pct_ed_visits_influenza,8/30/25,0.26,6 WNC
+6 WNC,pct_ed_visits_influenza,9/6/25,0.21,6 WNC
+6 WNC,pct_ed_visits_influenza,9/13/25,0.29,6 WNC
+6 WNC,pct_ed_visits_influenza,9/20/25,0.4,6 WNC
+6 WNC,pct_ed_visits_influenza,9/27/25,0.36,6 WNC
+6 WNC,pct_ed_visits_influenza,10/4/25,0.26,6 WNC
+6 WNC,pct_ed_visits_influenza,10/11/25,0.1,6 WNC
+6 WNC,pct_ed_visits_influenza,10/18/25,0.23,6 WNC
+6 WNC,pct_ed_visits_influenza,10/25/25,0.14,6 WNC
+6 WNC,pct_ed_visits_influenza,11/1/25,0.17,6 WNC
+6 WNC,pct_ed_visits_influenza,11/8/25,0.41,6 WNC
+6 WNC,pct_ed_visits_influenza,11/15/25,0.4,6 WNC
+6 WNC,pct_ed_visits_influenza,11/22/25,0.44,6 WNC
+7 CLT AREA,pct_ed_visits_influenza,1/4/25,8.05,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,1/11/25,7.57,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,1/18/25,10.21,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,1/25/25,13.47,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,2/1/25,16.99,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,2/8/25,17.17,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,2/15/25,11.8,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,2/22/25,8.81,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,3/1/25,7.06,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,3/8/25,5.93,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,3/15/25,4.86,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,3/22/25,3.25,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,3/29/25,2.81,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,4/5/25,2.16,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,4/12/25,1.62,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,4/19/25,1.53,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,4/26/25,1.32,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,5/3/25,1.03,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,5/10/25,1.15,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,5/17/25,1.14,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,5/24/25,1.09,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,5/31/25,1.09,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,6/7/25,1.02,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,6/14/25,0.94,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,6/21/25,0.78,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,6/28/25,0.67,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,7/5/25,0.76,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,7/12/25,0.61,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,7/19/25,0.69,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,7/26/25,0.75,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,8/2/25,0.64,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,8/9/25,1.04,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,8/16/25,1.07,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,8/23/25,1.53,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,8/30/25,1.84,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,9/6/25,2.24,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,9/13/25,2.33,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,9/20/25,1.6,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,9/27/25,1.56,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,10/4/25,1.42,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,10/11/25,1.31,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,10/18/25,1.4,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,10/25/25,1.44,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,11/1/25,1.51,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,11/8/25,2.02,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,11/15/25,2.27,7 CLT AREA
+7 CLT AREA,pct_ed_visits_influenza,11/22/25,2.79,7 CLT AREA
+north-carolina,pct_ed_visits_influenza,1/4/25,5.86,north-carolina
+north-carolina,pct_ed_visits_influenza,1/11/25,5.66,north-carolina
+north-carolina,pct_ed_visits_influenza,1/18/25,7.81,north-carolina
+north-carolina,pct_ed_visits_influenza,1/25/25,11.26,north-carolina
+north-carolina,pct_ed_visits_influenza,2/1/25,13.03,north-carolina
+north-carolina,pct_ed_visits_influenza,2/8/25,13.41,north-carolina
+north-carolina,pct_ed_visits_influenza,2/15/25,9.91,north-carolina
+north-carolina,pct_ed_visits_influenza,2/22/25,7.27,north-carolina
+north-carolina,pct_ed_visits_influenza,3/1/25,5.37,north-carolina
+north-carolina,pct_ed_visits_influenza,3/8/25,4.74,north-carolina
+north-carolina,pct_ed_visits_influenza,3/15/25,3.83,north-carolina
+north-carolina,pct_ed_visits_influenza,3/22/25,2.75,north-carolina
+north-carolina,pct_ed_visits_influenza,3/29/25,1.97,north-carolina
+north-carolina,pct_ed_visits_influenza,4/5/25,1.48,north-carolina
+north-carolina,pct_ed_visits_influenza,4/12/25,1.02,north-carolina
+north-carolina,pct_ed_visits_influenza,4/19/25,0.87,north-carolina
+north-carolina,pct_ed_visits_influenza,4/26/25,0.71,north-carolina
+north-carolina,pct_ed_visits_influenza,5/3/25,0.61,north-carolina
+north-carolina,pct_ed_visits_influenza,5/10/25,0.59,north-carolina
+north-carolina,pct_ed_visits_influenza,5/17/25,0.55,north-carolina
+north-carolina,pct_ed_visits_influenza,5/24/25,0.58,north-carolina
+north-carolina,pct_ed_visits_influenza,5/31/25,0.53,north-carolina
+north-carolina,pct_ed_visits_influenza,6/7/25,0.52,north-carolina
+north-carolina,pct_ed_visits_influenza,6/14/25,0.47,north-carolina
+north-carolina,pct_ed_visits_influenza,6/21/25,0.39,north-carolina
+north-carolina,pct_ed_visits_influenza,6/28/25,0.34,north-carolina
+north-carolina,pct_ed_visits_influenza,7/5/25,0.34,north-carolina
+north-carolina,pct_ed_visits_influenza,7/12/25,0.32,north-carolina
+north-carolina,pct_ed_visits_influenza,7/19/25,0.33,north-carolina
+north-carolina,pct_ed_visits_influenza,7/26/25,0.34,north-carolina
+north-carolina,pct_ed_visits_influenza,8/2/25,0.33,north-carolina
+north-carolina,pct_ed_visits_influenza,8/9/25,0.45,north-carolina
+north-carolina,pct_ed_visits_influenza,8/16/25,0.47,north-carolina
+north-carolina,pct_ed_visits_influenza,8/23/25,0.61,north-carolina
+north-carolina,pct_ed_visits_influenza,8/30/25,0.75,north-carolina
+north-carolina,pct_ed_visits_influenza,9/6/25,1.01,north-carolina
+north-carolina,pct_ed_visits_influenza,9/13/25,1.06,north-carolina
+north-carolina,pct_ed_visits_influenza,9/20/25,0.8,north-carolina
+north-carolina,pct_ed_visits_influenza,9/27/25,0.73,north-carolina
+north-carolina,pct_ed_visits_influenza,10/4/25,0.65,north-carolina
+north-carolina,pct_ed_visits_influenza,10/11/25,0.6,north-carolina
+north-carolina,pct_ed_visits_influenza,10/18/25,0.62,north-carolina
+north-carolina,pct_ed_visits_influenza,10/25/25,0.72,north-carolina
+north-carolina,pct_ed_visits_influenza,11/1/25,0.73,north-carolina
+north-carolina,pct_ed_visits_influenza,11/8/25,0.96,north-carolina
+north-carolina,pct_ed_visits_influenza,11/15/25,1.17,north-carolina
+north-carolina,pct_ed_visits_influenza,11/22/25,1.52,north-carolina

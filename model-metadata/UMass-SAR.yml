@@ -46,4 +46,3 @@ methods_long: "
   "
 ensemble_of_hub_models: false
 repo_url: "https://github.com/reichlab/sarix"
-designated_model: true

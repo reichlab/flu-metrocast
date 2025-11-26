@@ -1,21 +1,5 @@
 ﻿Ind1Name,Dim1Name,Dim1Value,Dim2Name,Dim2Value,Date ,Select Metric,
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk12,Average Ratio,0.0089
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk13,Average Ratio,0.0077
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk14,Average Ratio,0.0075
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk15,Average Ratio,0.0073
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk16,Average Ratio,0.006
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk17,Average Ratio,0.0054
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk18,Average Ratio,0.005
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk19,Average Ratio,0.0051
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk20,Average Ratio,0.0059
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk21,Average Ratio,0.0057
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk22,Average Ratio,0.0054
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk23,Average Ratio,0.0055
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk24,Average Ratio,0.0053
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk25,Average Ratio,0.0053
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk26,Average Ratio,0.0051
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk27,Average Ratio,0.0047
-Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk28,Average Ratio,0.0046
+Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk28,Average Ratio,0.0045
 Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk29,Average Ratio,0.0039
 Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk30,Average Ratio,0.0041
 Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk31,Average Ratio,0.0033
@@ -36,23 +20,7 @@ Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk45,Av
 Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk46,Average Ratio,0.0062
 Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk47,Average Ratio,0.0091
 Influenza-like illness (ILI),Borough,Bronx,Age Group,All age groups,2025 wk48,Average Ratio,0.0132
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.0382
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.0321
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.0297
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.0312
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.0286
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.0269
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.0262
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.03
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.0339
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.0291
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.0312
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.0297
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.0322
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.0336
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.031
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0279
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0289
+Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0292
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0256
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.0229
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0163
@@ -73,23 +41,7 @@ Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk45,Av
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.0341
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.0364
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.0441
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0221
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.0192
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.0209
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0204
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0142
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0094
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0096
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.0122
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0155
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.0133
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.0103
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0119
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0137
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0144
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.0136
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.014
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0133
+Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0134
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0109
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0096
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.0089
@@ -110,23 +62,7 @@ Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk45,A
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.0164
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.0283
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.0352
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0054
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.0043
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0045
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0044
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.0038
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.0036
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0026
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.0027
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0026
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0024
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.002
+Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0021
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0017
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.0026
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk31,Average Ratio,0.0022
@@ -147,23 +83,7 @@ Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk45,
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.003
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.0045
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.007
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.002
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.0018
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.0019
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0019
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0009
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0011
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0014
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0011
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.0015
-Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0014
+Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0011
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.0011
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.0006
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk31,Average Ratio,0.0009
@@ -184,23 +104,7 @@ Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk45,Av
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk46,Average Ratio,0.0012
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk47,Average Ratio,0.002
 Influenza-like illness (ILI),Borough,Bronx,Age Group,Ages 65+ years,2025 wk48,Average Ratio,0.0027
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk12,Average Ratio,0.0101
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk13,Average Ratio,0.0093
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk14,Average Ratio,0.0087
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk15,Average Ratio,0.007
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk16,Average Ratio,0.0073
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk17,Average Ratio,0.0063
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk18,Average Ratio,0.0066
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk19,Average Ratio,0.0056
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk20,Average Ratio,0.006
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk21,Average Ratio,0.0064
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk22,Average Ratio,0.0058
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk23,Average Ratio,0.0056
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk24,Average Ratio,0.0054
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk25,Average Ratio,0.005
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk26,Average Ratio,0.0046
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk27,Average Ratio,0.0043
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk28,Average Ratio,0.0041
+Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk28,Average Ratio,0.0042
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk29,Average Ratio,0.004
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk30,Average Ratio,0.0041
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk31,Average Ratio,0.0039
@@ -221,23 +125,7 @@ Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk45
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk46,Average Ratio,0.0083
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk47,Average Ratio,0.0112
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,All age groups,2025 wk48,Average Ratio,0.0154
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.0372
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.0348
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.0369
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.03
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.0338
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.028
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.0278
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.0275
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.0272
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.0292
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.0326
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.0285
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.0271
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.0218
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.029
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0247
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0224
+Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0228
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0232
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.0213
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0192
@@ -258,23 +146,7 @@ Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk45
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.042
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.0452
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.0546
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0242
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.022
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.0192
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0157
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0168
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0124
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0143
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.013
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0146
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.0165
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.0107
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0106
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0106
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0118
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.0093
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.0099
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0082
+Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0084
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0083
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0128
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.0103
@@ -295,23 +167,7 @@ Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk4
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.0221
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.0321
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.0524
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0064
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.0057
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0056
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0044
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.0045
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.0043
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.004
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0034
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0039
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.0034
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.0034
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0034
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0024
+Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0026
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0024
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.0022
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk31,Average Ratio,0.0025
@@ -332,23 +188,7 @@ Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.0042
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.0058
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.006
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.0039
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0035
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.0025
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0032
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0015
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0027
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0024
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.0014
-Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0018
+Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0017
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.001
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.0012
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk31,Average Ratio,0.0015
@@ -369,23 +209,7 @@ Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk45
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk46,Average Ratio,0.0025
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk47,Average Ratio,0.003
 Influenza-like illness (ILI),Borough,Brooklyn,Age Group,Ages 65+ years,2025 wk48,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk12,Average Ratio,0.0046
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk13,Average Ratio,0.0044
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk14,Average Ratio,0.0044
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk15,Average Ratio,0.0044
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk16,Average Ratio,0.0036
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk17,Average Ratio,0.0035
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk18,Average Ratio,0.0034
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk19,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk20,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk21,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk22,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk23,Average Ratio,0.0027
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk24,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk25,Average Ratio,0.0029
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk26,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk27,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk28,Average Ratio,0.0021
+Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk28,Average Ratio,0.0022
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk29,Average Ratio,0.002
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk30,Average Ratio,0.0021
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk31,Average Ratio,0.0023
@@ -406,23 +230,7 @@ Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk4
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk46,Average Ratio,0.0035
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk47,Average Ratio,0.0047
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,All age groups,2025 wk48,Average Ratio,0.0073
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.0144
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.0121
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.0125
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.0144
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.0147
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.0138
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.0162
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.0127
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.0159
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.0159
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.0118
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.0134
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.016
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.0132
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.0118
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0123
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0108
+Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0111
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0097
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.0093
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0108
@@ -443,23 +251,7 @@ Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk4
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.0156
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.0186
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.0179
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0125
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.0123
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.0111
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0102
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0088
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0066
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0062
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.0074
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0071
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.0065
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.0072
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0061
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0072
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0071
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.0041
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.0045
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0051
+Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0058
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0043
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0044
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.005
@@ -480,23 +272,7 @@ Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.008
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.0105
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.0249
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0029
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.003
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0031
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.0026
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.002
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0019
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.0017
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.0014
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0017
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0014
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0012
+Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0013
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0012
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.0015
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk31,Average Ratio,0.0014
@@ -517,23 +293,7 @@ Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 w
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.0021
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.003
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.0039
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.002
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.002
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.0011
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0015
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0014
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0015
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0011
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.001
+Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0011
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.0011
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.001
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk31,Average Ratio,0.0015
@@ -554,23 +314,7 @@ Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk4
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk46,Average Ratio,0.0012
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk47,Average Ratio,0.0013
 Influenza-like illness (ILI),Borough,Manhattan,Age Group,Ages 65+ years,2025 wk48,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk12,Average Ratio,0.0093
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk13,Average Ratio,0.0085
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk14,Average Ratio,0.0079
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk15,Average Ratio,0.0073
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk16,Average Ratio,0.0071
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk17,Average Ratio,0.0065
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk18,Average Ratio,0.0051
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk19,Average Ratio,0.0048
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk20,Average Ratio,0.0062
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk21,Average Ratio,0.0063
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk22,Average Ratio,0.006
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk23,Average Ratio,0.0054
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk24,Average Ratio,0.0053
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk25,Average Ratio,0.0049
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk26,Average Ratio,0.0049
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk27,Average Ratio,0.0047
-Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk28,Average Ratio,0.0041
+Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk28,Average Ratio,0.0042
 Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk29,Average Ratio,0.0037
 Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk30,Average Ratio,0.0044
 Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk31,Average Ratio,0.0036
@@ -591,23 +335,7 @@ Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk45,A
 Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk46,Average Ratio,0.0077
 Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk47,Average Ratio,0.0096
 Influenza-like illness (ILI),Borough,Queens,Age Group,All age groups,2025 wk48,Average Ratio,0.0182
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.0347
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.0339
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.0337
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.0324
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.0334
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.0308
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.0235
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.0228
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.0373
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.0327
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.0301
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.029
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.0308
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.0278
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.0282
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0261
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0268
+Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0285
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0247
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.0246
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0236
@@ -628,23 +356,7 @@ Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk45,A
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.039
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.0407
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.0672
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0264
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.0215
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.0197
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0188
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0185
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0135
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0108
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.0116
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0148
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.016
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.014
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0122
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0123
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0126
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.0125
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.0108
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.007
+Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0073
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0081
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0119
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.0091
@@ -665,23 +377,7 @@ Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk45,
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.0223
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.0303
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.0609
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0054
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.0051
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0045
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0043
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.0043
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.004
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.0029
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0026
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0034
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.0032
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.003
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0025
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0023
+Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0024
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0019
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.0024
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk31,Average Ratio,0.002
@@ -702,23 +398,7 @@ Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk45
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.0035
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.0042
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.0063
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.0029
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0018
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0024
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0022
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0013
+Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0014
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.0009
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.0009
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk31,Average Ratio,0.0008
@@ -739,22 +419,6 @@ Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk45,A
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk46,Average Ratio,0.0024
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk47,Average Ratio,0.0026
 Influenza-like illness (ILI),Borough,Queens,Age Group,Ages 65+ years,2025 wk48,Average Ratio,0.0033
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk12,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk13,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk14,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk15,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk16,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk17,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk18,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk19,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk20,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk21,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk22,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk23,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk24,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk25,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk26,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk27,Average Ratio,0.0004
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk28,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk29,Average Ratio,0.0002
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk30,Average Ratio,0.0002
@@ -776,23 +440,7 @@ Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk46,Average Ratio,0.0009
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk47,Average Ratio,0.0012
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,All age groups,2025 wk48,Average Ratio,0.0018
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.0019
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.0019
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.0015
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.0011
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.0009
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.0028
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.0017
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.0019
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.0009
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.002
+Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0016
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0004
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.001
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0004
@@ -813,23 +461,7 @@ Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.0037
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.0031
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.0042
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0017
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0002
+Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.0004
@@ -850,22 +482,6 @@ Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,202
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.0021
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.0036
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.0052
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0002
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0002
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.0002
@@ -887,22 +503,6 @@ Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,20
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.0006
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0001
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.0001
@@ -924,22 +524,6 @@ Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk46,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk47,Average Ratio,0.001
 Influenza-like illness (ILI),Borough,Staten Island,Age Group,Ages 65+ years,2025 wk48,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk12,Average Ratio,0.0009
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk13,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk14,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk15,Average Ratio,0.0009
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk16,Average Ratio,0.0011
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk17,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk18,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk19,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk20,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk21,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk22,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk23,Average Ratio,0.0009
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk24,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk25,Average Ratio,0.0008
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk26,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk27,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk28,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk29,Average Ratio,0.0007
 Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk30,Average Ratio,0.0004
@@ -961,23 +545,7 @@ Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk45,
 Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk46,Average Ratio,0.0009
 Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk47,Average Ratio,0.001
 Influenza-like illness (ILI),Borough,Unknown,Age Group,All age groups,2025 wk48,Average Ratio,0.0016
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.0032
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.0042
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.0041
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.0049
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.0024
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.0039
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.002
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.0023
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.0037
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.0036
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.0024
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0025
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0022
+Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0016
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0032
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.0027
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0019
@@ -998,23 +566,7 @@ Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk45,
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.004
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.0037
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.0074
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0017
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.0018
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.0025
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0017
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0038
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.0014
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0012
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0021
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.001
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.0013
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0007
+Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0008
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0014
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0014
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.0007
@@ -1035,22 +587,6 @@ Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk45
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.0017
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.0027
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.0043
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.0006
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.0007
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.0002
@@ -1072,23 +608,7 @@ Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk4
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.0005
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.0006
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.0005
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.0001
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0002
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0004
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.0003
-Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0003
+Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0004
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.0002
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk31,Average Ratio,0.0001
@@ -1109,23 +629,7 @@ Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk45,
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk46,Average Ratio,0.0003
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk47,Average Ratio,0.0001
 Influenza-like illness (ILI),Borough,Unknown,Age Group,Ages 65+ years,2025 wk48,Average Ratio,0.0005
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk12,Average Ratio,0.0346
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk13,Average Ratio,0.0316
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk14,Average Ratio,0.0304
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk15,Average Ratio,0.0276
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk16,Average Ratio,0.0257
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk17,Average Ratio,0.0231
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk18,Average Ratio,0.021
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk19,Average Ratio,0.0193
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk20,Average Ratio,0.0222
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk21,Average Ratio,0.0228
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk22,Average Ratio,0.0212
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk23,Average Ratio,0.0206
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk24,Average Ratio,0.0201
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk25,Average Ratio,0.0191
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk26,Average Ratio,0.0178
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk27,Average Ratio,0.0168
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk28,Average Ratio,0.0156
+Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk28,Average Ratio,0.0159
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk29,Average Ratio,0.0145
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk30,Average Ratio,0.0154
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk31,Average Ratio,0.0138
@@ -1146,23 +650,7 @@ Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk4
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk46,Average Ratio,0.0275
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk47,Average Ratio,0.0368
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,All age groups,2025 wk48,Average Ratio,0.0576
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk12,Average Ratio,0.1281
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk13,Average Ratio,0.1181
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk14,Average Ratio,0.1188
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk15,Average Ratio,0.1136
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk16,Average Ratio,0.1156
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk17,Average Ratio,0.1053
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk18,Average Ratio,0.097
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk19,Average Ratio,0.0981
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk20,Average Ratio,0.1169
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk21,Average Ratio,0.1121
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk22,Average Ratio,0.1114
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk23,Average Ratio,0.1062
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk24,Average Ratio,0.1089
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk25,Average Ratio,0.101
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk26,Average Ratio,0.1041
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk27,Average Ratio,0.0943
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0931
+Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk28,Average Ratio,0.0948
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk29,Average Ratio,0.0869
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk30,Average Ratio,0.0818
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk31,Average Ratio,0.0722
@@ -1183,23 +671,7 @@ Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk4
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk46,Average Ratio,0.1384
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk47,Average Ratio,0.1477
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 0-4 years,2025 wk48,Average Ratio,0.1954
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk12,Average Ratio,0.0886
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk13,Average Ratio,0.0784
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk14,Average Ratio,0.0743
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk15,Average Ratio,0.0685
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk16,Average Ratio,0.0628
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk17,Average Ratio,0.0437
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk18,Average Ratio,0.0417
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk19,Average Ratio,0.0461
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk20,Average Ratio,0.0535
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk21,Average Ratio,0.0536
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk22,Average Ratio,0.0441
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk23,Average Ratio,0.0443
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk24,Average Ratio,0.0456
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk25,Average Ratio,0.0484
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk26,Average Ratio,0.0409
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk27,Average Ratio,0.0413
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0344
+Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk28,Average Ratio,0.0358
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk29,Average Ratio,0.0336
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk30,Average Ratio,0.0406
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk31,Average Ratio,0.0343
@@ -1220,23 +692,7 @@ Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk46,Average Ratio,0.0727
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk47,Average Ratio,0.1075
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 5-17 years,2025 wk48,Average Ratio,0.1828
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk12,Average Ratio,0.0215
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk13,Average Ratio,0.0195
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk14,Average Ratio,0.0191
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk15,Average Ratio,0.0172
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk16,Average Ratio,0.016
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk17,Average Ratio,0.0157
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk18,Average Ratio,0.0129
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk19,Average Ratio,0.0109
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk20,Average Ratio,0.0114
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk21,Average Ratio,0.0134
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk22,Average Ratio,0.012
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk23,Average Ratio,0.0119
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk24,Average Ratio,0.0114
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk25,Average Ratio,0.01
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk26,Average Ratio,0.0092
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk27,Average Ratio,0.0089
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0084
+Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk28,Average Ratio,0.0089
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk29,Average Ratio,0.0077
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk30,Average Ratio,0.009
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk31,Average Ratio,0.0088
@@ -1257,23 +713,7 @@ Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 w
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk46,Average Ratio,0.0138
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk47,Average Ratio,0.0186
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 18-64 years,2025 wk48,Average Ratio,0.0249
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk12,Average Ratio,0.0118
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk13,Average Ratio,0.0102
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk14,Average Ratio,0.0098
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk15,Average Ratio,0.0097
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk16,Average Ratio,0.0105
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk17,Average Ratio,0.0083
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk18,Average Ratio,0.0076
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk19,Average Ratio,0.0059
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk20,Average Ratio,0.0074
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk21,Average Ratio,0.0064
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk22,Average Ratio,0.0071
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk23,Average Ratio,0.0085
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk24,Average Ratio,0.0065
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk25,Average Ratio,0.0082
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk26,Average Ratio,0.0059
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk27,Average Ratio,0.0058
-Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0059
+Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk28,Average Ratio,0.0058
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk29,Average Ratio,0.0046
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk30,Average Ratio,0.004
 Influenza-like illness (ILI),Citywide,Citywide,Age Group,Ages 65+ years,2025 wk31,Average Ratio,0.0049

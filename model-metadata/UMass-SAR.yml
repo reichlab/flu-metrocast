@@ -31,18 +31,6 @@ methods: "
   An AR(6) model with Fourier regression terms to model seasonality. The models
   are fit jointly to all locations with shared fourier and AR parameters."
 data_sources: "Weekly percent flu ED visits from NSSP."
-methods_long: "
-  This is an AR(6) model fit jointly to all locations using Bayesian methods.
-  Prior to model estimation, we perform the following two data transformations:
-   1. Take the fourth root.
-   2. Scale and center, dividing by the 95th percentile of all weekly values for
-      the given location and subsequently subtracting the mean.
-  Predictions on the transformed scale are converted back to predictions on the
-  original scale by inverting these transformations.
-  We incorporate annual seasonal patterns using Fourier harmonics with K=2,
-  which adds sine and cosine terms for the first two harmonics of the annual
-  cycle (period of 365.25 days). Fourier coefficients and AR parameters are 
-  shared across all locations, while variance parameters separate. 
-  "
 ensemble_of_hub_models: false
 repo_url: "https://github.com/reichlab/sarix"
+local_fit_jointly: true

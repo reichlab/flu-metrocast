@@ -1,5 +1,4 @@
 "target_end_date","location","target","observation"
-2025-11-22,"nyc","ILI ED visits pct",3.68
 2025-11-22,"clt-area","Flu ED visits pct",2.79
 2025-11-22,"fay-area","Flu ED visits pct",1.45
 2025-11-22,"nenc","Flu ED visits pct",1.49
@@ -8,3 +7,4 @@
 2025-11-22,"senc","Flu ED visits pct",0.5
 2025-11-22,"triad-area","Flu ED visits pct",1.17
 2025-11-22,"wnc","Flu ED visits pct",0.44
+2025-11-22,"nyc","ILI ED visits pct",3.68

@@ -1,0 +1,8 @@
+default:
+    validate_model_data:
+      horizon_timediff:
+        fn: "opt_check_tbl_horizon_timediff"
+        pkg: "hubValidations"
+        args:
+          t0_colname: "reference_date"
+          t1_colname: "target_end_date"

@@ -126,9 +126,10 @@ merge_and_write_csv <- function(data, file, mode) {
     if (mode == "override") {
       # In 'override' mode delete all data corresponding to the locations for
       # which we have data for and reappend to the original data.
-      data <- bind_rows(
-        original_data %>% filter(!location %in% unique(data$location)),
-        data
+      data <- rows_upsert(
+        original_data,
+        data,
+        by = setdiff(colnames(data), "observation")
       )
     } else {
       # In 'append' mode remove any data which is already present in the

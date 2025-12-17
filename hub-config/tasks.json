@@ -198,8 +198,8 @@
                             "optional": ["ILI ED visits pct"]
                         },
                         "horizon": {
-                            "required": null,
-                            "optional": [-1, 0, 1, 2, 3]
+                            "required": [0, 1, 2, 3],
+                            "optional": null
                         },
                         "location": {
                             "required": null,
@@ -279,8 +279,8 @@
                             "optional": ["Flu ED visits pct"]
                         },
                         "horizon": {
-                            "required": null,
-                            "optional": [-1, 0, 1, 2, 3]
+                            "required": [0, 1, 2, 3],
+                            "optional": null
                         },
                         "location": {
                             "required": null,
@@ -414,7 +414,7 @@
             "submissions_due": {
                 "relative_to": "reference_date",
                 "start": -6,
-                "end": -1
+                "end": 1
             }
         }
     ],

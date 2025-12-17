@@ -18,5 +18,6 @@ methods: "A pattern matching model that matches growth rate trends to historic g
 methods_url: "https://thefoxlab.wordpress.com/"
 data_sources: "ILI NYC ED Visits, we exclude one season (20/21) and partial from the 19/20 season (removing data after March 2020)"
 ensemble_of_hub_models: false
+local_fit_jointly: FALSE
 repo_url: "https://github.com/sjfox/copycat"
 citation: ""

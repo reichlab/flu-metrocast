@@ -1,0 +1,36 @@
+team_name: "UMass Amherst"
+team_abbr: "UMass"
+model_name: "alloy"
+model_abbr: "alloy"
+model_version: "1.0:"
+model_contributors: [
+  {
+    name: "Nicholas Reich",
+    affiliation: "UMass Amherst",
+    email: "nick@umass.edu",
+  }
+]
+license: "CC-BY-4.0"
+designated_model: true
+data_sources: >
+  MetroCast Hub target data (NSSP ED surveillance), 
+  CDC ILINet outpatient surveillance data, 
+  CDC FluSurv-NET hospitalization data, 
+  NHSN hospital flu admissions data, 
+  NSSP ED visits data (non-MetroCast Hub locations)
+methods: >
+  A gradient boosting quantile regression (GBQR) model using MetroCast Hub target data as the primary source with 
+  supplementary training from other available influenza surveillance data sources: 
+  ILINet outpatient surveillance, FluSurv-NET hospitalization data, 
+  NHSN hospital admissions, and NSSP ED visits (including locations not included in the MetroCast Hub). 
+  The model uses bagging with 100 bootstrap samples (70% of seasons per bag). 
+  Features include Taylor coefficients for trend/curvature estimation, rolling means, lagged values, 
+  and one-hot encodings of source, aggregation level, and location. 
+  A fourth-root power transform is applied to stabilize variance, with per-location scale and center normalization. 
+  Predictions are made jointly across all locations with quantile non-crossing correction applied post-prediction.
+  Predictions do not treat the sub-state units as part of the larger state. While the model is fit "jointly", each
+  location is treated as exchangeable.
+repo_url: "https://github.com/nickreich/metrocast-sandbox-2025-2026"
+ensemble_of_hub_models: false
+local_fit_jointly: false
+

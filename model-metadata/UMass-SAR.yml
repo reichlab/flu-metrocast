@@ -1,0 +1,36 @@
+team_name: "UMass-Amherst"
+team_abbr: "UMass"
+model_name: "seasonal ARIMA model"
+model_abbr: "SAR"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Evan Ray",
+    "affiliation": "UMass Amherst",
+    "email": "elray@umass.edu"
+  },
+  {
+    "name": "Nick Reich",
+    "affiliation": "UMass Amherst",
+    "email": "nick@umass.edu"
+  },
+  {
+    "name": "Li Shandross",
+    "affiliation": "UMass Amherst",
+    "email": "lshandross@umass.edu"
+  },
+  {
+    "name": "Claude",
+    "affiliation": "Anthropic",
+    "email": "noreply@anthropic.com"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: true
+methods: "
+  An AR(6) model with Fourier regression terms to model seasonality. The models
+  are fit jointly to all locations with shared fourier and AR parameters."
+data_sources: "Weekly percent flu ED visits from NSSP."
+ensemble_of_hub_models: false
+repo_url: "https://github.com/reichlab/sarix"
+local_fit_jointly: true

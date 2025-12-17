@@ -1,13 +1,13 @@
-team_name: "epiENGAGE"
-team_abbr: "epiENGAGE"
+team_name: "NAU"
+team_abbr: "NAU"
 model_name: "Copycat"
 model_abbr: "Copycat"
 model_version: "1.0"
 model_contributors: [
   {
     "name": "Spencer J. Fox",
-    "affiliation": "University of Georgia",
-    "email": "sjfox@uga.edu",
+    "affiliation": "Northern Arizona University",
+    "email": "spencer.fox@nau.edu",
     "orcid": "0000-0003-1969-3778"
   }
 ]

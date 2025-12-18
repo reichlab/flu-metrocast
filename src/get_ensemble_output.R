@@ -6,12 +6,16 @@ library(dplyr)
 library(purrr)
 here::i_am("src/get_ensemble_output.R")
 library(here)
+library(lubridate)
 
 hub_path <- here()
 hub_con <- connect_hub(hub_path)
 
 ## specify the reference_date to generate the ensemble model for
-reference_date = "2025-11-22"
+forecast_date <- as.Date(today())
+ref_date = forecast_date + (6 - as.integer(format(forecast_date, "%u"))) %% 7
+ref_date
+
 model_names <- hub_con %>%
   filter(reference_date == ref_date) %>%
   select(model_id) %>%
@@ -25,7 +29,7 @@ required_horizons <- tibble::tibble(
   required = list(c(0, 1, 2, 3), c(0, 1, 2, 3))
 )
 
-
+reference_date = ref_date
 # Identify valid models to include in the ensemble
 valid_models <- hub_con %>%
   filter(

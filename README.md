@@ -64,6 +64,7 @@ At launch, this group includes all locations except New York City. For these jur
 * Weekly quantile forecasts of the percentage of ED visits due to influenza at the state level.
   
 A full list of local and state jurisdictions to be forecasted can be found in the [locations.csv file in the Hub repository](/auxiliary-data/locations.csv). We expect that additional jurisdictions may be added to this list based on data availability and interest as the season progresses. 
+
 Forecasts should cover horizons 0 to +3 weeks, defined as follows:
 * Horizon = 0: the current epidemiological week encompassing the Sunday prior to the Forecast Due Date through the upcoming Saturday. 
 
@@ -81,7 +82,7 @@ For more information on forecast horizons, see the [horizon subsection in the `m
 For New York City, the Hub will collect:
 * Weekly quantile forecasts of the percentage of ED visits due to influenza-like illness at the citywide (NYC) level.
 
-Forecasts for NYC should also cover horizons -1 to +3 weeks. 
+Forecasts for NYC should also cover horizons 0 to +3 weeks. 
 
 **Target name and horizon for NYC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza-like illness.
 
@@ -108,7 +109,7 @@ NC monitors sub-state influenza trends by geographic regions comprised of adjace
 | Western, NC               | Avery, Buncombe, Burke, Caldwell, Cherokee, Clay, Graham, Haywood, Henderson, Jackson, Macon, Madison, McDowell, Mitchell, Polk, Rutherford, Swain, Transylvania, Yancey |
 | Charlotte Area, NC        | Alexander, Anson, Cabarrus, Catawba, Cleveland, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Stanly, Union |
 
-Forecasts for NC should also cover horizons -1 to +3 weeks. 
+Forecasts for NC should also cover horizons 0 to +3 weeks. 
 
 **Target name and horizon for NC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza.
 

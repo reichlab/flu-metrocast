@@ -124,11 +124,10 @@ Values in the `target` column must be a character (string). Currently, we only a
 
 ### horizon
 
-Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, this should be a number **between -1 and 3**.
+Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, this should be a number **between 0 and 3**.
 
 | Horizon | Description |
 |----------|-------------|
-| -1 | Week before the current week |
 | 0 | Current week |
 | 1 | First week after Forecast Due Date |
 | 2 | Second week after Forecast Due Date |
@@ -140,7 +139,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 
 | Horizon | Sun | Mon | Tues | Wed | Thurs | Fri | Sat |
 |---------|-----|-----|------|-----|-------|-----|-----|
-| -1      |     |     |      |     |       |     | NSSP and NYC data available for EW ending today<br>`target_end_date` for horizon -1 |
+| -1      |     |     |      |     |       |     | NSSP and NYC data available for EW ending today<br> |
 | 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) for prior EW ending 4 days ago (Saturday)<br>NYC data has daily update<br>Forecast Due Date (8 PM ET) |     |     | `reference_date`<br>`target_end_date` for horizon 0 |
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
@@ -274,6 +273,7 @@ If the file passes all validation checks, the function will return the following
 > ✓ All validation checks have been successful.
 
 If test failures or execution errors are detected, the function throws an error and prints the messages of checks affected. 
+
 
 
 

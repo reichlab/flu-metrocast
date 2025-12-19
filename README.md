@@ -29,7 +29,7 @@ Metro-level forecasting provides several key benefits:
 * Builds modeling capacity and data infrastructure that strengthen readiness for future outbreak.
 * Generates insights that are accessible and actionable for public health officials, healthcare systems, and community leaders.
 
-From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from -1 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
+From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from 0 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
 
 All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A [pre-registered evaluation](https://osf.io/rc9dt/overview) will be conducted at the end of the season.
 
@@ -64,8 +64,8 @@ At launch, this group includes all locations except New York City. For these jur
 * Weekly quantile forecasts of the percentage of ED visits due to influenza at the state level.
   
 A full list of local and state jurisdictions to be forecasted can be found in the [locations.csv file in the Hub repository](/auxiliary-data/locations.csv). We expect that additional jurisdictions may be added to this list based on data availability and interest as the season progresses. 
-Forecasts should cover horizons –1 to +3 weeks, defined as follows:
-* Horizon = -1: the previous epidemiological week (Sunday-Saturday) before the Forecast Due Date. 
+
+Forecasts should cover horizons 0 to +3 weeks, defined as follows:
 * Horizon = 0: the current epidemiological week encompassing the Sunday prior to the Forecast Due Date through the upcoming Saturday. 
 
 For more information on forecast horizons, see the [horizon subsection in the `model-output` README](/model-output#horizon).
@@ -74,7 +74,7 @@ For more information on forecast horizons, see the [horizon subsection in the `m
 
 | Target name       | Horizon       | Aggregate jurisdiction                                                                                                  |
 |--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|
-| Flu ED visits pct  | -1 to +3 weeks | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Texas, Utah, Virginia |
+| Flu ED visits pct  | 0 to +3 weeks | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Texas, Utah, Virginia |
 
 ---
 
@@ -82,13 +82,13 @@ For more information on forecast horizons, see the [horizon subsection in the `m
 For New York City, the Hub will collect:
 * Weekly quantile forecasts of the percentage of ED visits due to influenza-like illness at the citywide (NYC) level.
 
-Forecasts for NYC should also cover horizons -1 to +3 weeks. 
+Forecasts for NYC should also cover horizons 0 to +3 weeks. 
 
 **Target name and horizon for NYC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza-like illness.
 
 | Target name       | Horizon       | 
 |--------------------|---------------|
-| ILI ED visits pct  | -1 to +3 weeks | 
+| ILI ED visits pct  | 0 to +3 weeks | 
 
 ---
 
@@ -109,13 +109,13 @@ NC monitors sub-state influenza trends by geographic regions comprised of adjace
 | Western, NC               | Avery, Buncombe, Burke, Caldwell, Cherokee, Clay, Graham, Haywood, Henderson, Jackson, Macon, Madison, McDowell, Mitchell, Polk, Rutherford, Swain, Transylvania, Yancey |
 | Charlotte Area, NC        | Alexander, Anson, Cabarrus, Catawba, Cleveland, Gaston, Iredell, Lincoln, Mecklenburg, Rowan, Stanly, Union |
 
-Forecasts for NC should also cover horizons -1 to +3 weeks. 
+Forecasts for NC should also cover horizons 0 to +3 weeks. 
 
 **Target name and horizon for NC forecasts.** The target refers to the percentage of ED visits in a given week due to influenza.
 
 | Target name       | Horizon       | 
 |--------------------|---------------|
-| Flu ED visits pct  | -1 to +3 weeks | 
+| Flu ED visits pct  | 0 to +3 weeks | 
 
 ---
 

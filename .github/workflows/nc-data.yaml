@@ -6,6 +6,8 @@ name: 'NC Data'
       - main
     paths:
       - 'raw-data/*NC_DETECT*.csv'
+  schedule:
+    - cron: '30 4 * * 3'
   workflow_dispatch:
 
 permissions:
@@ -14,7 +16,7 @@ permissions:
 jobs:
   update:
     name: 'update'
-    if: "${{ github.repository == 'ACCIDDA/flu-metrocast-nc' }}"
+    if: "${{ github.repository == 'ACCIDDA/flu-metrocast-nc' && github.event_name != 'schedule' }}"
     runs-on: ubuntu-latest
     steps:
       - name: 'set date'
@@ -81,6 +83,29 @@ jobs:
             --base "main" \
             --title "Update NC target data for $DATE" \
             --body "Automated update of NC target data for $DATE. cc: @CyGei, @Mmietchen, @TimothyWillard."
+        env:
+          DATE: "${{ env.DATE }}"
+          GH_TOKEN: "${{ secrets.FLU_METROCAST_NC }}"
+  sync:
+    name: 'sync'
+    if: "${{ github.repository == 'ACCIDDA/flu-metrocast-nc' && github.event_name == 'schedule' }}"
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'set date'
+        id: 'date'
+        run: |
+          echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
+      - name: 'checkout repository'
+        uses: 'actions/checkout@v6'
+        with:
+          ref: 'main'
+          fetch-depth: 0
+      - name: 'sync fork'
+        run: |
+          gh repo sync \
+            --branch "main" \
+            --source "reichlab/flu-metrocast" \
+            "ACCIDDA/flu-metrocast-nc"
         env:
           DATE: "${{ env.DATE }}"
           GH_TOKEN: "${{ secrets.FLU_METROCAST_NC }}"

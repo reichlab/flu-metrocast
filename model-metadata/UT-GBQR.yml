@@ -1,0 +1,42 @@
+team_name: "UT"
+team_abbr: "UT"
+model_name: "Gradient Boosting of Quantile Regression"
+model_abbr: "GBQR"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Dongah Kim",
+    "affiliation": "Department of Integrative Biology, University of Texas Austin",
+    "email": "dongah.kim@austin.utexas.edu"
+  },
+  {
+    "name": "Remy Pasco",
+    "affiliation": "Department of Mathematics and Statistics, University of Massachussetts Amherst",
+    "email": "pasco@austin.utexas.edu"
+  },
+  {
+    "name": "Lauren Ancel Meyers",
+    "affiliation": "Department of Integrative Biology, University of Texas Austin",
+    "email": "laurenmeyers@austin.utexas.edu"
+  },
+  {
+    "name": "Nick G. Reich",
+    "affiliation": "Department of Biostatistics and Epidemiology, University of Massachussetts Amherst",
+    "email": "nick@umass.edu"
+  },
+  {
+    "name": "Evan Ray",
+    "affiliation": "UMass Amherst",
+    "email": "elray@umass.edu"
+  },
+]
+license: "CC-BY-4.0"
+designated_model: true
+team_funding: ""
+methods: "A Gradient Boosting of Quantile Regression (GBQR) model for city level flu forecasts. A machine learning method that combines gradient boosting and quantile regression to predict conditional quantiles, providing insights into uncertainty and variability in predictions."
+methods_url: "https://github.com/donga0223/City-Level-Forecasting/tree/main/GBQR"
+data_sources: "Using latest_data.csv from MetroCast Hub.  ILI NYC ED Visits, we exclude two seasons (20/21 and 21/22) and partial from the 19/20 season (removing data after March 2020)"
+ensemble_of_hub_models: false
+repo_url: "https://github.com/donga0223/City-Level-Forecasting/tree/main/GBQR"
+local_fit_jointly: true
+citation: "Ray, Evan L and Wang, Yijin and Wolfinger, Russell D and Reich, Nicholas G. Flusion: Integrating multiple data sources for accurate influenza predictions. Epidemics. 2025. https://www.sciencedirect.com/science/article/pii/S1755436524000719"

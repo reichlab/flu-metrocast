@@ -299,7 +299,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.025,0
 2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.05,0
 2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.1,0
-2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.25,0.12048356738253335
+2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.25,0.12048356738253337
 2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.5,0.3106121034394852
 2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.75,0.5012916617907024
 2025-05-03,Flu ED visits pct,2,2025-05-17,San Antonio,quantile,0.9,0.6721660793822227
@@ -316,7 +316,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,3,2025-05-24,San Antonio,quantile,0.975,0.8403325075383057
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.025,0
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.05,0
-2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.1,0.006190421272082478
+2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.1,0.00619042127208247
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.25,0.1734153129066593
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.5,0.35541070018313015
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Dallas,quantile,0.75,0.5050619585186306
@@ -353,7 +353,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.025,0
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.05,0
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.1,0
-2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.25,0.029241075815906792
+2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.25,0.02924107581590679
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.5,0.21206391342461484
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.75,0.42970005447352666
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.9,0.6163974435051892
@@ -361,9 +361,9 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,3,2025-05-24,Dallas,quantile,0.975,0.8045284066756737
 2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.025,0.7309089858341106
 2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.05,0.8425031396384538
-2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.1,0.9007786423524193
+2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.1,0.9007786423524192
 2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.25,1.06839818555228
-2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.5,1.2409929870637735
+2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.5,1.2409929870637737
 2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.75,1.438628965094841
 2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.9,1.6007584750310808
 2025-05-03,Flu ED visits pct,-1,2025-04-26,El Paso,quantile,0.95,1.694098233893457
@@ -374,25 +374,25 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.25,0.9918223660469114
 2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.5,1.1670253125268262
 2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.75,1.3679503892128433
-2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.9,1.5386973216533755
+2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.9,1.5386973216533757
 2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.95,1.668369540147261
-2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.975,1.7533259218958077
+2025-05-03,Flu ED visits pct,0,2025-05-03,El Paso,quantile,0.975,1.7533259218958075
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.025,0.535537105917417
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.05,0.660410165580406
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.1,0.7580942801112176
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.25,0.9240172844288244
-2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.5,1.1314782467775641
+2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.5,1.131478246777564
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.75,1.3300854686846415
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.9,1.5167776571309424
-2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.95,1.6388481077372081
+2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.95,1.638848107737208
 2025-05-03,Flu ED visits pct,1,2025-05-10,El Paso,quantile,0.975,1.7528432887017322
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.025,0.40592102636368094
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.05,0.5254575889076994
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.1,0.6568162978265595
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.25,0.8517804490315055
-2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.5,1.0788376894571345
+2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.5,1.0788376894571343
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.75,1.3100854098946924
-2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.9,1.4910657676045467
+2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.9,1.491065767604547
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.95,1.609668467365928
 2025-05-03,Flu ED visits pct,2,2025-05-17,El Paso,quantile,0.975,1.6991243562925704
 2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.025,0.3756018439218214
@@ -400,11 +400,11 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.1,0.5868692675542542
 2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.25,0.8024759395646632
 2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.5,1.0543792445411788
-2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.75,1.2605712845095103
+2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.75,1.2605712845095105
 2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.9,1.4496851343046524
 2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.95,1.5870553295312513
-2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.975,1.7065309666725135
-2025-05-03,Flu ED visits pct,-1,2025-04-26,Houston,quantile,0.025,0.21827133838245893
+2025-05-03,Flu ED visits pct,3,2025-05-24,El Paso,quantile,0.975,1.7065309666725137
+2025-05-03,Flu ED visits pct,-1,2025-04-26,Houston,quantile,0.025,0.2182713383824589
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Houston,quantile,0.05,0.30742716592527763
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Houston,quantile,0.1,0.3775319352017271
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Houston,quantile,0.25,0.5379328106757217
@@ -421,18 +421,18 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,0,2025-05-03,Houston,quantile,0.75,0.8469322299405194
 2025-05-03,Flu ED visits pct,0,2025-05-03,Houston,quantile,0.9,0.9900999566421322
 2025-05-03,Flu ED visits pct,0,2025-05-03,Houston,quantile,0.95,1.112888009104697
-2025-05-03,Flu ED visits pct,0,2025-05-03,Houston,quantile,0.975,1.1941498656487801
+2025-05-03,Flu ED visits pct,0,2025-05-03,Houston,quantile,0.975,1.19414986564878
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.025,0.06608503437168448
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.05,0.1550515030662582
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.1,0.269090282336158
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.25,0.4527045523980406
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.5,0.6243673658375893
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.75,0.8024302866406968
-2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.9,0.9814819395005543
+2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.9,0.9814819395005544
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.95,1.0721521814619033
 2025-05-03,Flu ED visits pct,1,2025-05-10,Houston,quantile,0.975,1.1881632432226945
-2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.025,0.041006756991422345
-2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.05,0.11115403270107735
+2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.025,0.04100675699142234
+2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.05,0.11115403270107736
 2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.1,0.19979776864291957
 2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.25,0.3817257330651366
 2025-05-03,Flu ED visits pct,2,2025-05-17,Houston,quantile,0.5,0.5717391745662891
@@ -453,7 +453,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.05,0.01347696230755074
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.1,0.1275054432534381
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.25,0.2781803556573037
-2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.5,0.46967966472462164
+2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.5,0.4696796647246216
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.75,0.6583373415485428
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.9,0.8144664694843717
 2025-05-03,Flu ED visits pct,-1,2025-04-26,Austin,quantile,0.95,0.8918989324749024
@@ -475,12 +475,12 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,1,2025-05-10,Austin,quantile,0.75,0.5614254158252993
 2025-05-03,Flu ED visits pct,1,2025-05-10,Austin,quantile,0.9,0.7332308738647776
 2025-05-03,Flu ED visits pct,1,2025-05-10,Austin,quantile,0.95,0.8121550120735604
-2025-05-03,Flu ED visits pct,1,2025-05-10,Austin,quantile,0.975,0.9112938694412527
+2025-05-03,Flu ED visits pct,1,2025-05-10,Austin,quantile,0.975,0.9112938694412528
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.025,0
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.05,0
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.1,0.01745750769427333
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.25,0.1886377975741188
-2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.5,0.36035715452770756
+2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.5,0.3603571545277075
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.75,0.551754262575587
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.9,0.7115915591088802
 2025-05-03,Flu ED visits pct,2,2025-05-17,Austin,quantile,0.95,0.8203705679844999
@@ -493,4 +493,4 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2025-05-03,Flu ED visits pct,3,2025-05-24,Austin,quantile,0.75,0.5304397179195489
 2025-05-03,Flu ED visits pct,3,2025-05-24,Austin,quantile,0.9,0.7096359220238816
 2025-05-03,Flu ED visits pct,3,2025-05-24,Austin,quantile,0.95,0.8375911608684762
-2025-05-03,Flu ED visits pct,3,2025-05-24,Austin,quantile,0.975,0.9136984086033515
+2025-05-03,Flu ED visits pct,3,2025-05-24,Austin,quantile,0.975,0.9136984086033516

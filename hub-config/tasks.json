@@ -354,7 +354,13 @@
                               "triad-area",
                               "wnc",
                               "clt-area",
-                              "north-carolina"
+                              "north-carolina",
+                              "portland-or",
+                              "salem",
+                              "deschutes",
+                              "eugene",
+                              "medford",
+                              "oregon"
                               ]
                         },
                         "target_end_date": {

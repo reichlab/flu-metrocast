@@ -172,10 +172,23 @@ merge_and_write_csv <- function(data, file, mode) {
 #   ) +
 #   theme_minimal()
 
-# 1) We take the return of `NC_clean` and subset it to the as of date minimum
+# 0) From the `NC_clean` function we interpolate forward the last observation by
+#    location, target, and target_end_date. This allows us to have observations
+#    prior to 2025 present in our full dataset despite the fact tha NC detect
+#    only provided them for a short period of time. We can assume that those old
+#    observations do not change.
+nc_clean <- NC_clean() %>%
+  complete(nesting(location, target, target_end_date), as_of) %>%
+  filter(target_end_date <= as_of) %>%
+  group_by(location, target, target_end_date) %>%
+  arrange(as_of, .by_group = TRUE) %>%
+  fill(observation, .direction = "down") %>%
+  ungroup()
+
+# 1) We take the return of interpolation and subset it to the as of date minimum
 #    for this season of flu metrocast hub and do some light formatting. Right
 #    now `nc_time_series` contains all 'as_of'/'target_end_date' combos we have.
-nc_time_series <- NC_clean() %>%
+nc_time_series <- nc_clean %>%
   filter(as_of >= as.Date("2025-11-19")) %>%
   mutate(target = "Flu ED visits pct") %>%
   relocate(as_of, location, target, target_end_date, observation)
@@ -199,9 +212,13 @@ nc_oracle_output <- nc_latest_data %>%
 
 # 4) Subset `nc_time_series` to data with a 'target_end_date' of 2025-08-02 or
 #    later and the max 'as_of' date.
+time_series_as_of_filter_date <- as.Date(Sys.getenv(
+  x = "AS_OF_FILTER_DATE",
+  unset = as.character(max(nc_time_series$as_of))
+))
 nc_time_series <- nc_time_series %>%
-  filter(target_end_date >= as.Date("2025-08-02")) %>%
-  filter(as_of == max(nc_time_series$as_of))
+  filter(target_end_date >= as.Date("2024-08-02")) %>%
+  filter(as_of == time_series_as_of_filter_date)
 
 # 5) Write the `nc_time_series`, `nc_latest_data`, and `nc_oracle_output`
 #    variables to the "target-data/time-series.csv",

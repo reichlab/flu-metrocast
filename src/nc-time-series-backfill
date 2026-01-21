@@ -1,0 +1,42 @@
+#!/bin/bash
+set -e
+
+# Global variables
+NC_LOCATIONS=("clt-area" "nenc" "rtp-area" "triad-area" "wnc" "north-carolina" "fay-area" "senc")
+REFERENCE_DATE="2025-11-19"
+END_DATE="2026-01-14"
+TIME_SERIES_FILE="target-data/time-series.csv"
+
+# Build grep pattern for NC locations
+PATTERN=""
+for loc in "${NC_LOCATIONS[@]}"; do
+  if [ -z "$PATTERN" ]; then
+    PATTERN="\"${loc}\""
+  else
+    PATTERN="${PATTERN}|\"${loc}\""
+  fi
+done
+
+# Remove NC-specific rows (keep header and non-NC rows)
+head -n 1 "${TIME_SERIES_FILE}" > "${TIME_SERIES_FILE}.tmp"
+tail -n +2 "${TIME_SERIES_FILE}" | grep -Ev "${PATTERN}" >> "${TIME_SERIES_FILE}.tmp" || true
+mv "${TIME_SERIES_FILE}.tmp" "${TIME_SERIES_FILE}"
+
+# Convert dates to epoch seconds for comparison
+ref_epoch=$(date -j -f "%Y-%m-%d" "${REFERENCE_DATE}" "+%s")
+end_epoch=$(date -j -f "%Y-%m-%d" "${END_DATE}" "+%s")
+
+# Generate Wednesdays
+WEDNESDAYS=()
+current_epoch=$ref_epoch
+while [ $current_epoch -le $end_epoch ]; do
+  current_date=$(date -j -r "${current_epoch}" "+%Y-%m-%d")
+  WEDNESDAYS+=("${current_date}")
+  current_epoch=$((current_epoch + 604800))
+done
+
+# Step 3: Loop through each Wednesday and run NC_clean.R
+for i in "${!WEDNESDAYS[@]}"; do
+  wednesday="${WEDNESDAYS[$i]}"
+  env AS_OF_FILTER_DATE="${wednesday}" Rscript src/NC_clean.R
+done

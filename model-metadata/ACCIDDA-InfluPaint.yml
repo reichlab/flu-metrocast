@@ -16,7 +16,7 @@ model_contributors:
       "email": "jlessler@unc.edu",
     },
   ]
-website_url: "https://github.com/ACCIDDA/influpaint"
+methods_url: "https://github.com/ACCIDDA/influpaint"
 repo_url: "https://github.com/ACCIDDA/influpaint"
 license: "CC-BY_SA-4.0"
 designated_model: true

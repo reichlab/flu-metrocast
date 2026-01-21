@@ -67,7 +67,7 @@ including private vaccine production (which would be excluded by the "cc-by-nc-4
 
 A team-specified boolean indicator (`true` or `false`) for whether the model should be considered eligible for inclusion in a Hub ensemble and public visualization. A team may specify up to two models as a designated_model for inclusion. Models which have a designated_model value of 'False' will still be included in internal forecasting hub evaluations.
 
-### data_inputs
+### data_sources
 
 List or description of the data sources used to inform the model. Particularly those used beyond the target data of confirmed influenza hospital admissions.
 
@@ -75,18 +75,6 @@ List or description of the data sources used to inform the model. Particularly t
 
 A brief description of your forecasting methodology that is less than 200 
 characters.
-
-### methods_long
-
-A full description of the methods used by this model. Among other details, this should include whether spatial correlation is considered and how the model accounts for uncertainty. If the model is modified, this field can also be used to provide the date of the modification and a description of the change.
-
-### ensemble_of_models
-
-A boolean value (`true` or `false`) that indicates whether a model is an ensemble of any separate component models.
-
-### ensemble_of_hub_models
-
-A boolean value (`true` or `false`) that indicates whether a model is an ensemble specifically of other models submited to the FluSight forecasting hub.
 
 ### local_fit_jointly
 A boolean (either TRUE or FALSE) where TRUE indicates that that the local jurisdictions (e.g. the HSAs within a state) were fit jointly and FALSE indicates that each unique location was fit independently. 
@@ -114,6 +102,18 @@ One or more citations to manuscripts or preprints with additional model details.
 ### team_funding 
 
 Any information about funding source(s) for the team or members of the team that would be natural to include on any resulting FluSight publications. For example, "National Institutes of General Medical Sciences (R01GM123456). The content is solely the responsibility of the authors and does not necessarily represent the official views of NIGMS."
+
+### methods_long
+
+A full description of the methods used by this model. Among other details, this should include whether spatial correlation is considered and how the model accounts for uncertainty. If the model is modified, this field can also be used to provide the date of the modification and a description of the change.
+
+### ensemble_of_models
+
+A boolean value (`true` or `false`) that indicates whether a model is an ensemble of any separate component models.
+
+### ensemble_of_hub_models
+
+A boolean value (`true` or `false`) that indicates whether a model is an ensemble specifically of other models submited to the FluSight forecasting hub.
 
 # Data validation
 

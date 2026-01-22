@@ -1,0 +1,50 @@
+team_name: "MOBS Lab at Northeastern University"
+team_abbr: "MOBS"
+model_name: "Epydemix Flu Forecasting Model"
+model_abbr: "EpyStrain_Flu"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Alessandro Vespignani",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "alexves@gmail.com"
+  },
+  {
+    "name": "Nicolò Gozzi",
+    "affiliation": "ISI Foundation",
+    "email": "nicolo.gozzi@isi.it"
+  },
+  {
+    "name": "Jessica T. Davis",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "jes.davis@northeastern.edu"
+  },
+  {
+    "name": "Clara Bay",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "bay.c@northeastern.edu"
+  },
+  {
+    "name": "Remy LeWinter",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "lewinter.r@northeastern.edu"
+  },
+  {
+    "name": "Minami Ueda",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "ueda.m@northeastern.edu"
+  },
+  {
+    "name": "Nima Moghaddas",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "moghaddas.n@northeastern.edu"
+  },
+]
+license: "CC-BY_SA-4.0"
+designated_model: true
+citation: "https://doi.org/10.1371/journal.pcbi.1013735"
+team_funding: "We acknowledge support from CDC-RFA-FT-23-0069 from the CDC's Center for Forecasting and Outbreak Analytics."
+data_sources: "Using latest_data.csv from MetroCast Hub."
+methods: "The Epydemix framework integrates demographic data with synthetic, high-resolution contact matrices that represent daily mixing across households, schools, workplaces, and community settings at a state-specific level. The infection dynamics are simulated using an age-structured SLIR-like model which is extended to include asymptomatic transmission and hospitalization. The model incorporates vaccination, school calendars that modulate the school contact matrix, seasonal variation in transmissibility, and residual immunity. Model parameters are calibrated to ED visits using approximate Bayesian computation."
+ensemble_of_hub_models: false
+local_fit_jointly: false

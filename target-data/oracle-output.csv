@@ -1,4 +1,4 @@
-"target_end_date","location","target","observation"
+"target_end_date","location","target","oracle_value"
 2025-11-22,"nyc","ILI ED visits pct",3.69
 2025-11-29,"nyc","ILI ED visits pct",5.68
 2025-11-22,"denver","Flu ED visits pct",2

@@ -23,6 +23,5 @@ designated_model: true
 team_funding: "J.L. and J.C.L. disclose support from the National Institutes of Health (NIH 5R01AI102939) and the Insight Net cooperative agreement CDC-RFA-FT-23-0069 from the CDC’s Center for Forecasting and Outbreak Analytics."
 methods: "A generative denoising diffusion probabilistic model of Influenza dynamics generates synthetic epidemic trajectories, conditioned on past ground-truth data using an inpainting algorithm. This is a fine-tuned version of the influpaint Flusight model, specifically for the Metrocast regions."
 data_sources: "inference on the target data only, but the machine learning model trained on Fluview, FlepiMoP, and SMH projections for the US Flu Scenario modeling hub, then the model is fine-tuned on the Metrocast data."
-methods_long: ""
 ensemble_of_hub_models: false
 local_fit_jointly: true

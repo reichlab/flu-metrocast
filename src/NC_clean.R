@@ -113,6 +113,7 @@ NC_clean <- function() {
 #' `NULL`
 merge_and_write_csv <- function(data, file, mode) {
   # Check that `mode` is either 'append' or 'override'
+  obs_col <- if (file == "target-data/oracle-output.csv") "oracle_value" else "observation"
   if (!mode %in% c("append", "override")) {
     stop(
       "Write mode '",
@@ -129,7 +130,7 @@ merge_and_write_csv <- function(data, file, mode) {
       data <- rows_upsert(
         original_data,
         data,
-        by = setdiff(colnames(data), "observation")
+        by = setdiff(colnames(data), obs_col)
       )
     } else {
       # In 'append' mode remove any data which is already present in the
@@ -139,7 +140,7 @@ merge_and_write_csv <- function(data, file, mode) {
         original_data,
         by = setdiff(
           union(colnames(data), colnames(original_data)),
-          "observation"
+          obs_col
         )
       )
     }
@@ -208,7 +209,8 @@ nc_latest_data <- nc_time_series %>%
 #    season of flu metrocast hub.
 nc_oracle_output <- nc_latest_data %>%
   filter(target_end_date >= as.Date("2025-11-22")) %>%
-  relocate(target_end_date, location, target, observation)
+  rename(oracle_value = observation) %>%
+  relocate(target_end_date, location, target, oracle_value)
 
 # 4) Subset `nc_time_series` to data with a 'target_end_date' of 2025-08-02 or
 #    later and the max 'as_of' date.

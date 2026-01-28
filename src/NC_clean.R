@@ -113,7 +113,11 @@ NC_clean <- function() {
 #' `NULL`
 merge_and_write_csv <- function(data, file, mode) {
   # Check that `mode` is either 'append' or 'override'
-  obs_col <- if (file == "target-data/oracle-output.csv") "oracle_value" else "observation"
+  obs_col <- if (file == "target-data/oracle-output.csv") {
+    "oracle_value"
+  } else {
+    "observation"
+  }
   if (!mode %in% c("append", "override")) {
     stop(
       "Write mode '",

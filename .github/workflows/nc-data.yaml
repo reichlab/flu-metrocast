@@ -77,15 +77,112 @@ jobs:
       - name: 'create pull request'
         if: "${{ env.CHANGES == 'true' }}"
         run: |
-          gh pr create \
+          PULL_REQUEST_LINK=$(gh pr create \
             --repo "reichlab/flu-metrocast" \
             --head "ACCIDDA:main" \
             --base "main" \
             --title "Update NC target data for $DATE" \
-            --body "Automated update of NC target data for $DATE. cc: @CyGei, @Mmietchen, @TimothyWillard."
+            --body "Automated update of NC target data for $DATE. cc: @CyGei, @Mmietchen, @TimothyWillard.")
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
         env:
           DATE: "${{ env.DATE }}"
           GH_TOKEN: "${{ secrets.FLU_METROCAST_NC }}"
+      - name: 'success slack alert (no pr)'
+        uses: 'slackapi/slack-github-action@v2.1'
+        if: "${{ success() && env.CHANGES == 'false' }}"
+        with:
+          webhook: "${{ secrets.NC_METROCAST_WEBHOOK_URL }}"
+          webhook-type: 'incoming-webhook'
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_check_mark: *NC Data Update Succeeded*"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "_No changes detected, no pull request created._"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to successful action run ${{ github.run_id }}.>"
+                  }
+                }
+              ]
+            }
+      - name: 'success slack alert (pr created)'
+        uses: 'slackapi/slack-github-action@v2.1'
+        if: "${{ success() && env.CHANGES == 'true' }}"
+        with:
+          webhook: "${{ secrets.NC_METROCAST_WEBHOOK_URL }}"
+          webhook-type: 'incoming-webhook'
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_check_mark: *NC Data Update Succeeded*"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ env.PULL_REQUEST_LINK }}|Link to pull request.>"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to successful action run ${{ github.run_id }}.>"
+                  }
+                }
+              ]
+            }
+      - name: 'failure slack alert'
+        uses: 'slackapi/slack-github-action@v2.1'
+        if: '${{ failure() }}'
+        with:
+          webhook: "${{ secrets.NC_METROCAST_WEBHOOK_URL }}"
+          webhook-type: 'incoming-webhook'
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":x: *NC Data Update Failed*"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Please review promptly <!channel>."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to failed action run ${{ github.run_id }}.>"
+                  }
+                }
+              ]
+            }
   sync:
     name: 'sync'
     if: "${{ github.repository == 'ACCIDDA/flu-metrocast-nc' && github.event_name == 'schedule' }}"

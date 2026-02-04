@@ -1,0 +1,27 @@
+team_name: "Atlantic Coast Center for Infectious Disease Dynamics and Analytics"
+team_abbr: "ACCIDDA"
+model_name: "InfluPaint"
+model_abbr: "InfluPaint"
+model_version: "0.5"
+model_contributors:
+  [
+    {
+      "name": "Joseph Lemaitre",
+      "affiliation": "University of North Carolina at Chapel Hill",
+      "email": "jo.lemaitresamra@gmail.com",
+    },
+    {
+      "name": "Justin Lessler",
+      "affiliation": "University of North Carolina at Chapel Hill",
+      "email": "jlessler@unc.edu",
+    },
+  ]
+methods_url: "https://github.com/ACCIDDA/influpaint"
+repo_url: "https://github.com/ACCIDDA/influpaint"
+license: "CC-BY_SA-4.0"
+designated_model: true
+team_funding: "J.L. and J.C.L. disclose support from the National Institutes of Health (NIH 5R01AI102939) and the Insight Net cooperative agreement CDC-RFA-FT-23-0069 from the CDC’s Center for Forecasting and Outbreak Analytics."
+methods: "A generative denoising diffusion probabilistic model of Influenza dynamics generates synthetic epidemic trajectories, conditioned on past ground-truth data using an inpainting algorithm. This is a fine-tuned version of the influpaint Flusight model, specifically for the Metrocast regions."
+data_sources: "inference on the target data only, but the machine learning model trained on Fluview, FlepiMoP, and SMH projections for the US Flu Scenario modeling hub, then the model is fine-tuned on the Metrocast data."
+ensemble_of_hub_models: false
+local_fit_jointly: true

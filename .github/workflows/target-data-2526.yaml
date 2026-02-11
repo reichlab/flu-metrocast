@@ -123,16 +123,21 @@ jobs:
           git commit -m "Weekly target-data update for $DATE"
           git push -u origin "$BRANCH"
           echo "CHANGES=true" >> $GITHUB_ENV
+      
 
       # Create pull request to upstream repository
       - name: 'Create pull request to upstream'
         if: "${{ env.CHANGES == 'true' }}"
         run: |
-          gh pr create \
+          PULL_REQUEST_LINK=$(gh pr create \
             --repo "reichlab/flu-metrocast" \
             --head "donga0223:${BRANCH}" \
             --base "main" \
             --title "Weekly target-data update for $DATE (fork test)" \
-            --body "Automated fork test update of target-data for $DATE."
+            --body "Automated fork test update of target-data for $DATE.")
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
         env:
+          DATE: "${{ env.DATE }}"
+          BRANCH: "${{ env.BRANCH }}"
           GH_TOKEN: "${{ secrets.FLU_METROCAST_PAT }}"
+

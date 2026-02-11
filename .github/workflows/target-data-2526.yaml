@@ -68,6 +68,7 @@ jobs:
             any::purrr
             any::lubridate
             any::readr
+            any::ISOweek
 
       # Freshness gate:
       # Only proceed if max(NSSP_hsa$time_value) == today - 10 days

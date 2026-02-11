@@ -62,13 +62,10 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            any::epidatr
-            any::dplyr
-            any::tidyr
-            any::purrr
-            any::lubridate
             any::readr
-            any::ISOweek
+            any::dplyr
+            any::epidatr
+            any::lubridate
 
       # Freshness gate:
       # Only proceed if max(NSSP_hsa$time_value) == today - 10 days

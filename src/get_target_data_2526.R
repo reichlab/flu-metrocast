@@ -1,16 +1,8 @@
 library(readr)
 library(dplyr)
-library(stringr)
-library(MMWRweek)
-library(ISOweek)
-library(tidycensus)
-library(here)
-
 library(epidatr)
-library(tidyr)
 library(lubridate)
-here::i_am("src/get_target_data.R")
-library(here)
+
 
 ## covert nyc data daily to weekly
 

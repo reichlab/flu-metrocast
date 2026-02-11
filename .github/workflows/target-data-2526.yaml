@@ -40,7 +40,7 @@ jobs:
             --source "reichlab/flu-metrocast" \
             "donga0223/flu-metrocast"
         env:
-          GH_TOKEN: "${{ secrets.FLU_METROCAST_PAT }}"
+          GH_TOKEN: "${{ github.token }}"
 
       # Re-checkout main after syncing
       - name: 'Refresh local main branch'

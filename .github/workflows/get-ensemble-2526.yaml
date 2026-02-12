@@ -1,0 +1,119 @@
+name: "Weekly Ensemble Output (PR) - fork test"
+
+on:
+  workflow_dispatch:
+
+  # Scheduled execution: Every Thursday at 9:00 ET (14:00 UTC during EST)
+  schedule:
+    - cron: "0 14 * * 4"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ensemble:
+    if: ${{ github.repository == 'donga0223/flu-metrocast' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Set date and branch name"
+        run: |
+          echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "BRANCH=automation/ensemble-output-${DATE}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
+
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          ref: "main"
+          fetch-depth: 0
+
+      # Sync fork with upstream to ensure it is up to date
+      - name: "Sync fork with upstream (reichlab/flu-metrocast)"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh repo sync \
+            --branch "main" \
+            --source "reichlab/flu-metrocast" \
+            "donga0223/flu-metrocast"
+
+      - name: "Refresh local main branch"
+        run: |
+          git checkout main
+          git pull origin main
+
+      - name: "Create new branch for update"
+        run: |
+          git checkout -b "$BRANCH"
+
+      - name: "Setup R"
+        uses: r-lib/actions/setup-r@v2
+
+      - name: "Install CRAN deps"
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::purrr
+            any::here
+            any::lubridate
+
+      - name: "Install remotes"
+        run: Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
+
+      - name: "Install hubverse packages from GitHub"
+        env:
+          GITHUB_PAT: ${{ secrets.FLU_METROCAST_PAT }}
+        run: |
+          Rscript -e 'remotes::install_github(c(
+            "hubverse-org/hubData",
+            "hubverse-org/hubUtils",
+            "hubverse-org/hubEnsembles"
+          ), upgrade="never", dependencies=TRUE)'
+
+      - name: "Prepare output folders"
+        run: |
+          mkdir -p model-output/epiENGAGE-lop_norm
+          mkdir -p model-output/epiENGAGE-ensemble_mean
+
+      # Run ensemble output script
+      - name: "Run ensemble output script"
+        run: |
+          Rscript ./src/get_ensemble_2526.R
+
+      - name: "Configure git"
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      # Commit and push generated csv file
+      - name: "Commit and push changes"
+        run: |
+          git add model-output/epiENGAGE-lop_norm model-output/epiENGAGE-ensemble_mean
+          if git diff --cached --quiet; then
+            echo "No changes detected in ensemble outputs. No commit created."
+            echo "CHANGES=false" >> $GITHUB_ENV
+            exit 0
+          fi
+          git commit -m "Weekly ensemble output update for $DATE"
+          git push -u origin "$BRANCH"
+          echo "CHANGES=true" >> $GITHUB_ENV
+
+      - name: "Create pull request to upstream"
+        if: ${{ env.CHANGES == 'true' }}
+        run: |
+          test -n "$GH_TOKEN" || (echo "GH_TOKEN is EMPTY (secret not injected)" && exit 1)
+
+          PULL_REQUEST_LINK=$(gh pr create \
+            --repo "reichlab/flu-metrocast" \
+            --head "donga0223:${BRANCH}" \
+            --base "main" \
+            --title "Weekly ensemble output update for $DATE (fork test)" \
+            --body "Automated fork test update of ensemble outputs for $DATE.")
+          echo "Created PR: $PULL_REQUEST_LINK"
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
+        env:
+          DATE: ${{ env.DATE }}
+          BRANCH: ${{ env.BRANCH }}
+          GH_TOKEN: ${{ secrets.FLU_METROCAST_PAT }}

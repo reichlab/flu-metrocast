@@ -1,0 +1,143 @@
+name: 'Weekly Target Data (PR) - fork test'
+
+on:
+  # Allow manual execution for testing purposes
+  workflow_dispatch:
+
+  # Scheduled execution: Every Wednesday at 12:00 ET (17:00 UTC during EST)
+  schedule:
+    - cron: '0 17 * * 3'
+
+permissions:
+  contents: 'write'          # Required to create branches and push commits
+  pull-requests: 'write'     # Required to open pull requests
+
+jobs:
+  update:
+    # Run only in the fork repository for testing
+    if: "${{ github.repository == 'donga0223/flu-metrocast' }}"
+    runs-on: ubuntu-latest
+
+    steps:
+      # Set reference date and create a unique branch name
+      - name: 'Set date and branch name'
+        run: |
+          echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "BRANCH=automation/target-data-${DATE}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
+
+      # Checkout main branch from the fork
+      - name: 'Checkout repository'
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
+          fetch-depth: 0
+
+      # Sync fork with upstream to ensure it is up to date
+      - name: 'Sync fork with upstream (reichlab/flu-metrocast)'
+        run: |
+          gh repo sync \
+            --branch "main" \
+            --source "reichlab/flu-metrocast" \
+            "donga0223/flu-metrocast"
+        env:
+          GH_TOKEN: "${{ github.token }}"
+
+      # Re-checkout main after syncing
+      - name: 'Refresh local main branch'
+        run: |
+          git checkout main
+          git pull origin main
+
+      # Create a new date-based branch for this update
+      - name: 'Create new branch for update'
+        run: |
+          git checkout -b "$BRANCH"
+
+      # Set up R environment
+      - name: 'Setup R'
+        uses: r-lib/actions/setup-r@v2
+
+      # Install required R packages
+      - name: 'Install R dependencies'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::readr
+            any::dplyr
+            any::epidatr
+            any::lubridate
+
+      # Freshness gate:
+      # Only proceed if max(NSSP_hsa$time_value) == today - 10 days
+      - name: 'Check NSSP data freshness'
+        run: |
+          Rscript -e '
+            epidatr::disable_cache()
+            library(epidatr)
+            NSSP_hsa <- pub_covidcast(
+              source = "beta_nssp_github",
+              signals = "pct_ed_visits_influenza",
+              geo_type = "hsa_nci",
+              time_type = "week"
+            )
+            mx <- max(as.Date(NSSP_hsa$time_value), na.rm = TRUE)
+            expected <- Sys.Date() - 10
+            cat("Max date:", as.character(mx), "\n")
+            cat("Expected:", as.character(expected), "\n")
+            if (is.infinite(mx) || is.na(mx) || mx != expected) {
+              cat("SKIP=true\n", file = Sys.getenv("GITHUB_ENV"), append = TRUE)
+            } else {
+              cat("SKIP=false\n", file = Sys.getenv("GITHUB_ENV"), append = TRUE)
+            }
+          '
+
+      # Stop execution early if freshness condition is not met
+      - name: 'Skip if freshness condition fails'
+        if: "${{ env.SKIP == 'true' }}"
+        run: |
+          echo "NSSP data not sufficiently updated. Skipping update."
+          exit 0
+
+      # Run the target data update script
+      - name: 'Run target data script'
+        if: "${{ env.SKIP != 'true' }}"
+        run: Rscript ./src/get_target_data_2526.R
+
+      # Configure git user for automated commit
+      - name: 'Configure git'
+        if: "${{ env.SKIP != 'true' }}"
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      # Commit and push changes only if target-data was modified
+      - name: 'Commit and push changes'
+        if: "${{ env.SKIP != 'true' }}"
+        run: |
+          git add target-data/
+          if git diff --cached --quiet; then
+            echo "No changes detected in target-data/. No commit created."
+            echo "CHANGES=false" >> $GITHUB_ENV
+            exit 0
+          fi
+          git commit -m "Weekly target-data update for $DATE"
+          git push -u origin "$BRANCH"
+          echo "CHANGES=true" >> $GITHUB_ENV
+      
+
+      # Create pull request to upstream repository
+      - name: 'Create pull request to upstream'
+        if: "${{ env.CHANGES == 'true' }}"
+        run: |
+          PULL_REQUEST_LINK=$(gh pr create \
+            --repo "reichlab/flu-metrocast" \
+            --head "donga0223:${BRANCH}" \
+            --base "main" \
+            --title "Weekly target-data update for $DATE (fork test)" \
+            --body "Automated fork test update of target-data for $DATE.")
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
+        env:
+          DATE: "${{ env.DATE }}"
+          BRANCH: "${{ env.BRANCH }}"
+          GH_TOKEN: "${{ secrets.FLU_METROCAST_PAT }}"
+

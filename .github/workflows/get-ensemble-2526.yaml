@@ -59,16 +59,20 @@ jobs:
             any::here
             any::lubridate
             any::ISOweek
-      - name: "Install hub packages from GitHub"
+
+      - name: "Install pak"
+        run: Rscript -e 'install.packages("pak", repos="https://cloud.r-project.org")'
+
+      - name: "Install hub packages from GitHub via pak"
         env:
           GITHUB_PAT: ${{ secrets.FLU_METROCAST_PAT }}
         run: |
-          Rscript -e 'remotes::install_github(c(
-            "hubverse-org/hubData",
-            "hubverse-org/hubVis",
-            "hubverse-org/hubUtils",
-            "hubverse-org/hubEnsembles"
-          ), upgrade="never")'
+          Rscript -e 'pak::repo_add("https://cloud.r-project.org"); pak::pkg_install(c(
+            "any::hubData",
+            "any::hubVis",
+            "any::hubUtils",
+            "any::hubEnsembles"
+          ))'
 
       - name: "Prepare output folders"
         run: |
@@ -109,6 +113,7 @@ jobs:
             --base "main" \
             --title "Weekly ensemble output update for $DATE (fork test)" \
             --body "Automated fork test update of ensemble outputs for $DATE.")
+          echo "Created PR: $PULL_REQUEST_LINK"
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
         env:
           DATE: ${{ env.DATE }}

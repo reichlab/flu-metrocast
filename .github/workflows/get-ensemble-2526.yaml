@@ -59,10 +59,16 @@ jobs:
             any::here
             any::lubridate
             any::ISOweek
-            any::hubUtils
-            any::hubData
-            any::hubEnsembles
-            any::hubVis
+      - name: "Install hub packages from GitHub"
+        env:
+          GITHUB_PAT: ${{ secrets.FLU_METROCAST_PAT }}
+        run: |
+          Rscript -e 'remotes::install_github(c(
+            "hubverse-org/hubData",
+            "hubverse-org/hubVis",
+            "hubverse-org/hubUtils",
+            "hubverse-org/hubEnsembles"
+          ), upgrade="never")'
 
       - name: "Prepare output folders"
         run: |
@@ -72,7 +78,7 @@ jobs:
       # Run ensemble output script
       - name: "Run ensemble output script"
         run: |
-          Rscript ./src/get_ensemble_output.R
+          Rscript ./src/get_ensemble_2526.R
 
       - name: "Configure git"
         run: |

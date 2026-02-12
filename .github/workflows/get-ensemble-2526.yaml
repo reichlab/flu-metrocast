@@ -58,7 +58,6 @@ jobs:
             any::purrr
             any::here
             any::lubridate
-            any::ISOweek
 
       - name: "Install remotes"
         run: Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
@@ -69,7 +68,6 @@ jobs:
         run: |
           Rscript -e 'remotes::install_github(c(
             "hubverse-org/hubData",
-            "hubverse-org/hubVis",
             "hubverse-org/hubUtils",
             "hubverse-org/hubEnsembles"
           ), upgrade="never", dependencies=TRUE)'

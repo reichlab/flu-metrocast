@@ -62,13 +62,14 @@ jobs:
           GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       - name: 'commit and push changes'
         run: |
-          git add target-data/
+          git add -A
           if git diff --cached --quiet; then
-            echo "No changes in `target-data/`, nothing to commit."
+            echo "No changes to commit."
             echo "CHANGES=false" >> $GITHUB_ENV
             exit 0
           fi
           git commit -m "Update NC target data for $DATE"
+          git pull --rebase origin main
           git push origin main
           echo "CHANGES=true" >> $GITHUB_ENV
         env:

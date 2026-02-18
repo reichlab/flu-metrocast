@@ -1,0 +1,105 @@
+name: 'Weekly Baseline Model'
+
+on:
+  # Allow manual execution for testing purposes
+  workflow_dispatch:
+
+  # Scheduled execution: Every Wednesday at 14:30 ET (19:30 UTC during EST)
+  schedule:
+    - cron: '30 19 * * 3'
+
+permissions:
+  contents: 'write'          # Required to create branches and push commits
+  pull-requests: 'write'     # Required to open pull requests
+
+jobs:
+  update:
+    # Run only in the fork repository for testing
+    if: "${{ github.repository == 'reichlab/flu-metrocast' }}"
+    runs-on: ubuntu-latest
+
+    steps:
+      # Set reference date and create a unique branch name
+      - name: 'Set date and branch name'
+        run: |
+          echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "BRANCH=automation/baseline-${DATE}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
+
+      - name: "Stop schedule after 2026-05-23"
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" > "2026-05-23" ]]; then
+            echo "Schedule expired. Stopping workflow."
+            exit 0
+          fi
+
+      # Checkout main branch from the fork
+      - name: 'Checkout repository'
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
+          fetch-depth: 0
+
+      # Create a new date-based branch for this update
+      - name: 'Create new branch for update'
+        run: |
+          git checkout -b "$BRANCH"
+
+      # Set up R environment
+      - name: 'Setup R'
+        uses: r-lib/actions/setup-r@v2
+
+      # Install required R packages
+      - name: 'Install R dependencies'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::readr
+            any::dplyr
+            any::purrr
+            any::lubridate
+
+      # If your script uses remotes::install_github()
+      - name: 'Install remotes (if needed)'
+        run: Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
+
+      # Run the baseline model script
+      - name: 'Run baseline script'
+        run: Rscript ./src/fit_baseline_2526.R
+
+      # Configure git user for automated commit
+      - name: 'Configure git'
+        if: "${{ env.SKIP != 'true' }}"
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: 'Commit and push changes'
+        run: |
+          git add model-output/epiENGAGE-baseline
+
+          if git diff --cached --quiet; then
+            echo "No changes detected in baseline outputs. No commit created."
+            echo "CHANGES=false" >> $GITHUB_ENV
+            exit 0
+          fi
+
+          git commit -m "Weekly baseline output update for $DATE"
+          git push -u origin "$BRANCH"
+          echo "CHANGES=true" >> $GITHUB_ENV
+      
+
+      # Create pull request within repository
+      - name: 'Create pull request (within repo)'
+        if: ${{ env.CHANGES == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PULL_REQUEST_LINK=$(gh pr create \
+            --repo "reichlab/flu-metrocast" \
+            --head "$BRANCH" \
+            --base "main" \
+            --title "Weekly baseline output update for $DATE (fork test)" \
+            --body "Automated fork test update of baseline outputs for $DATE.")
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV

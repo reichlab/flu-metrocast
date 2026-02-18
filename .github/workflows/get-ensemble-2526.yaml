@@ -1,4 +1,4 @@
-name: "Weekly Ensemble Output (PR) - fork test"
+name: "Weekly Ensemble Output"
 
 on:
   workflow_dispatch:
@@ -13,7 +13,8 @@ permissions:
 
 jobs:
   ensemble:
-    if: ${{ github.repository == 'donga0223/flu-metrocast' }}
+    # Safety check: only run in upstream repo
+    if: ${{ github.repository == 'reichlab/flu-metrocast' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -22,26 +23,20 @@ jobs:
           echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
           echo "BRANCH=automation/ensemble-output-${DATE}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
 
-      - name: "Checkout repository"
+      - name: "Stop schedule after 2026-05-23"
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" > "2026-05-23" ]]; then
+            echo "Schedule expired. Stopping workflow."
+            exit 0
+          fi
+
+      - name: "Checkout repository (main)"
         uses: actions/checkout@v4
         with:
           ref: "main"
           fetch-depth: 0
-
-      # Sync fork with upstream to ensure it is up to date
-      - name: "Sync fork with upstream (reichlab/flu-metrocast)"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh repo sync \
-            --branch "main" \
-            --source "reichlab/flu-metrocast" \
-            "donga0223/flu-metrocast"
-
-      - name: "Refresh local main branch"
-        run: |
-          git checkout main
-          git pull origin main
 
       - name: "Create new branch for update"
         run: |
@@ -64,20 +59,19 @@ jobs:
 
       - name: "Install hubverse packages from GitHub"
         env:
-          GITHUB_PAT: ${{ secrets.FLU_METROCAST_PAT }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          Rscript -e 'remotes::install_github(c(
-            "hubverse-org/hubData",
-            "hubverse-org/hubUtils",
-            "hubverse-org/hubEnsembles"
-          ), upgrade="never", dependencies=TRUE)'
+          Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
+          Rscript -e 'remotes::install_github("hubverse-org/hubUtils", upgrade="never", dependencies=TRUE)'
+          Rscript -e 'remotes::install_github("hubverse-org/hubData", upgrade="never", dependencies=TRUE)'
+          Rscript -e 'remotes::install_github("hubverse-org/hubEnsembles", upgrade="never", dependencies=TRUE)'
+
 
       - name: "Prepare output folders"
         run: |
           mkdir -p model-output/epiENGAGE-lop_norm
           mkdir -p model-output/epiENGAGE-ensemble_mean
 
-      # Run ensemble output script
       - name: "Run ensemble output script"
         run: |
           Rscript ./src/get_ensemble_2526.R
@@ -87,7 +81,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-      # Commit and push generated csv file
       - name: "Commit and push changes"
         run: |
           git add model-output/epiENGAGE-lop_norm model-output/epiENGAGE-ensemble_mean
@@ -100,20 +93,16 @@ jobs:
           git push -u origin "$BRANCH"
           echo "CHANGES=true" >> $GITHUB_ENV
 
-      - name: "Create pull request to upstream"
+      - name: "Create pull request (within repo)"
         if: ${{ env.CHANGES == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          test -n "$GH_TOKEN" || (echo "GH_TOKEN is EMPTY (secret not injected)" && exit 1)
-
           PULL_REQUEST_LINK=$(gh pr create \
             --repo "reichlab/flu-metrocast" \
-            --head "donga0223:${BRANCH}" \
+            --head "$BRANCH" \
             --base "main" \
-            --title "Weekly ensemble output update for $DATE (fork test)" \
-            --body "Automated fork test update of ensemble outputs for $DATE.")
+            --title "Weekly ensemble output update for $DATE" \
+            --body "Automated update of ensemble outputs for $DATE.")
           echo "Created PR: $PULL_REQUEST_LINK"
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
-        env:
-          DATE: ${{ env.DATE }}
-          BRANCH: ${{ env.BRANCH }}
-          GH_TOKEN: ${{ secrets.FLU_METROCAST_PAT }}

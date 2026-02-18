@@ -1,12 +1,12 @@
-name: 'Weekly Target Data (PR) - fork test'
+name: 'Weekly Target Data'
 
 on:
   # Allow manual execution for testing purposes
   workflow_dispatch:
 
-  # Scheduled execution: Every Wednesday at 12:00 ET (17:00 UTC during EST)
+  # Scheduled execution: Every Wednesday at 11:30 ET (16:30 UTC during EST)
   schedule:
-    - cron: '0 17 * * 3'
+    - cron: '30 16 * * 3'
 
 permissions:
   contents: 'write'          # Required to create branches and push commits
@@ -14,8 +14,8 @@ permissions:
 
 jobs:
   update:
-    # Run only in the fork repository for testing
-    if: "${{ github.repository == 'donga0223/flu-metrocast' }}"
+    # Run in the repository
+    if: "${{ github.repository == 'reichlab/flu-metrocast' }}"
     runs-on: ubuntu-latest
 
     steps:
@@ -25,28 +25,21 @@ jobs:
           echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
           echo "BRANCH=automation/target-data-${DATE}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
 
-      # Checkout main branch from the fork
+      - name: "Stop schedule after 2026-05-23"
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" > "2026-05-23" ]]; then
+            echo "Schedule expired. Stopping workflow."
+            exit 0
+          fi
+
+      # Checkout main branch 
       - name: 'Checkout repository'
         uses: actions/checkout@v4
         with:
           ref: 'main'
           fetch-depth: 0
-
-      # Sync fork with upstream to ensure it is up to date
-      - name: 'Sync fork with upstream (reichlab/flu-metrocast)'
-        run: |
-          gh repo sync \
-            --branch "main" \
-            --source "reichlab/flu-metrocast" \
-            "donga0223/flu-metrocast"
-        env:
-          GH_TOKEN: "${{ github.token }}"
-
-      # Re-checkout main after syncing
-      - name: 'Refresh local main branch'
-        run: |
-          git checkout main
-          git pull origin main
 
       # Create a new date-based branch for this update
       - name: 'Create new branch for update'
@@ -90,6 +83,21 @@ jobs:
               cat("SKIP=false\n", file = Sys.getenv("GITHUB_ENV"), append = TRUE)
             }
           '
+      
+      - name: 'Check NYC file availability'
+        run: |
+          FILE="raw-data/NYC_pct_ED_daily_asof_$(date -u +%m-%d-%Y).csv"
+
+          echo "Looking for file: $FILE"
+
+          if [ -f "$FILE" ]; then
+            echo "NYC_FILE_OK=true" >> $GITHUB_ENV
+            echo "File found. Continuing."
+          else
+            echo "NYC_FILE_OK=false" >> $GITHUB_ENV
+            echo "File NOT found. Skipping workflow."
+          fi
+
 
       # Stop execution early if freshness condition is not met
       - name: 'Skip if freshness condition fails'
@@ -125,19 +133,17 @@ jobs:
           echo "CHANGES=true" >> $GITHUB_ENV
       
 
-      # Create pull request to upstream repository
-      - name: 'Create pull request to upstream'
+      # Create pull request within repository
+      - name: 'Create pull request (within repo)'
         if: "${{ env.CHANGES == 'true' }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           PULL_REQUEST_LINK=$(gh pr create \
             --repo "reichlab/flu-metrocast" \
-            --head "donga0223:${BRANCH}" \
+            --head "$BRANCH" \
             --base "main" \
-            --title "Weekly target-data update for $DATE (fork test)" \
-            --body "Automated fork test update of target-data for $DATE.")
+            --title "Weekly target-data update for $DATE" \
+            --body "Automated update of target-data for $DATE.")
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
-        env:
-          DATE: "${{ env.DATE }}"
-          BRANCH: "${{ env.BRANCH }}"
-          GH_TOKEN: "${{ secrets.FLU_METROCAST_PAT }}"
-
+        

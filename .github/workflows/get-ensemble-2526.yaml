@@ -1,6 +1,7 @@
 name: "Weekly Ensemble Output"
 
 on:
+  # Allow manual execution for testing purposes
   workflow_dispatch:
 
   # Scheduled execution: Every Thursday at 9:00 ET (14:00 UTC during EST)

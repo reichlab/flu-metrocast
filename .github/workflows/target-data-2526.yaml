@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   update:
-    # Run only in the fork repository for testing
+    # Run in the repository
     if: "${{ github.repository == 'reichlab/flu-metrocast' }}"
     runs-on: ubuntu-latest
 
@@ -34,7 +34,7 @@ jobs:
             exit 0
           fi
 
-      # Checkout main branch from the fork
+      # Checkout main branch 
       - name: 'Checkout repository'
         uses: actions/checkout@v4
         with:
@@ -143,7 +143,7 @@ jobs:
             --repo "reichlab/flu-metrocast" \
             --head "$BRANCH" \
             --base "main" \
-            --title "Weekly target-data update for $DATE (fork test)" \
-            --body "Automated fork test update of target-data for $DATE.")
+            --title "Weekly target-data update for $DATE" \
+            --body "Automated update of target-data for $DATE.")
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
         

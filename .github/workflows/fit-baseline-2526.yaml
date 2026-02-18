@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   update:
-    # Run only in the fork repository for testing
+    # Run in the repository
     if: "${{ github.repository == 'reichlab/flu-metrocast' }}"
     runs-on: ubuntu-latest
 
@@ -34,7 +34,7 @@ jobs:
             exit 0
           fi
 
-      # Checkout main branch from the fork
+      # Checkout main branch 
       - name: 'Checkout repository'
         uses: actions/checkout@v4
         with:
@@ -91,7 +91,7 @@ jobs:
       
 
       # Create pull request within repository
-      - name: 'Create pull request (within repo)'
+      - name: 'Create pull request'
         if: ${{ env.CHANGES == 'true' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -100,6 +100,6 @@ jobs:
             --repo "reichlab/flu-metrocast" \
             --head "$BRANCH" \
             --base "main" \
-            --title "Weekly baseline output update for $DATE (fork test)" \
-            --body "Automated fork test update of baseline outputs for $DATE.")
+            --title "Weekly baseline output update for $DATE" \
+            --body "Automated update of baseline outputs for $DATE.")
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV

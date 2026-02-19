@@ -48,6 +48,15 @@ jobs:
       - name: "Setup R"
         uses: r-lib/actions/setup-r@v2
 
+      - name: "Cache R packages"
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          # Cache key changes when workflow changes; restore-keys lets it reuse older caches
+          key: ${{ runner.os }}-r-${{ hashFiles('.github/workflows/get-ensemble-2526.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-r-
+
       - name: "Install CRAN deps"
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
@@ -56,15 +65,13 @@ jobs:
             any::purrr
             any::here
             any::lubridate
-
-      - name: "Install remotes"
-        run: Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
+            any::remotes
+          cache-version: 1
 
       - name: "Install hubverse packages from GitHub"
         env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }} #secrets.GH_PAT 
         run: |
-          Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
           Rscript -e 'remotes::install_github("hubverse-org/hubUtils", upgrade="never", dependencies=TRUE)'
           Rscript -e 'remotes::install_github("hubverse-org/hubData", upgrade="never", dependencies=TRUE)'
           Rscript -e 'remotes::install_github("hubverse-org/hubEnsembles", upgrade="never", dependencies=TRUE)'

@@ -3,7 +3,7 @@ library(hubEnsembles)
 library(hubData)
 library(dplyr)
 library(purrr)
-here::i_am("src/get_ensemble_output.R")
+here::i_am("src/get_ensemble_2526.R")
 library(here)
 library(lubridate)
 
@@ -12,7 +12,7 @@ hub_path <- here()
 hub_con <- connect_hub(hub_path)
 
 ## specify the reference_date to generate the ensemble model for
-forecast_date <- as.Date(today())
+forecast_date <- Sys.Date()
 ref_date = forecast_date + (6 - as.integer(format(forecast_date, "%u"))) %% 7
 ref_date
 

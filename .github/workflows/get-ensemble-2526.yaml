@@ -17,6 +17,8 @@ jobs:
     # Safety check: only run in upstream repo
     if: ${{ github.repository == 'reichlab/flu-metrocast' }}
     runs-on: ubuntu-latest
+    env:
+      R_LIBS_USER: ${{ github.workspace }}/.R/library
 
     steps:
       - name: "Set date and branch name"
@@ -66,6 +68,11 @@ jobs:
           Rscript -e 'remotes::install_github("hubverse-org/hubUtils", upgrade="never", dependencies=TRUE)'
           Rscript -e 'remotes::install_github("hubverse-org/hubData", upgrade="never", dependencies=TRUE)'
           Rscript -e 'remotes::install_github("hubverse-org/hubEnsembles", upgrade="never", dependencies=TRUE)'
+      
+      - name: "Check hubverse packages"
+        run: |
+          Rscript -e '.libPaths(); cat("hubUtils:", requireNamespace("hubUtils", quietly=TRUE), "\n")'
+          Rscript -e 'if(!requireNamespace("hubUtils", quietly=TRUE)) quit(status=1)'
 
 
       - name: "Prepare output folders"

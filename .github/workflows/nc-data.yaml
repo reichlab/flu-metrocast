@@ -7,7 +7,7 @@ name: 'NC Data'
     paths:
       - 'raw-data/*NC_DETECT*.csv'
   schedule:
-    - cron: '30 4 * * 3'
+    - cron: '30 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -152,9 +152,9 @@ jobs:
                 }
               ]
             }
-      - name: 'failure slack alert'
+      - name: 'failure slack alert (non-manual trigger)'
         uses: 'slackapi/slack-github-action@v2.1'
-        if: '${{ failure() }}'
+        if: "${{ failure() && github.event_name != 'workflow_dispatch' }}"
         with:
           webhook: "${{ secrets.NC_METROCAST_WEBHOOK_URL }}"
           webhook-type: 'incoming-webhook'
@@ -173,6 +173,38 @@ jobs:
                   "text": {
                     "type": "mrkdwn",
                     "text": "Please review promptly <!channel>."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to failed action run ${{ github.run_id }}.>"
+                  }
+                }
+              ]
+            }
+      - name: 'failure slack alert (manual trigger)'
+        uses: 'slackapi/slack-github-action@v2.1'
+        if: "${{ failure() && github.event_name == 'workflow_dispatch' }}"
+        with:
+          webhook: "${{ secrets.NC_METROCAST_WEBHOOK_URL }}"
+          webhook-type: 'incoming-webhook'
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":x: *NC Data Update Failed*"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Triggered manually, so no @channel mention. Please review when convenient."
                   }
                 },
                 {
@@ -207,3 +239,35 @@ jobs:
         env:
           DATE: "${{ env.DATE }}"
           GH_TOKEN: "${{ secrets.FLU_METROCAST_NC }}"
+      - name: 'failure slack alert'
+        uses: 'slackapi/slack-github-action@v2.1'
+        if: '${{ failure() }}'
+        with:
+          webhook: "${{ secrets.NC_METROCAST_WEBHOOK_URL }}"
+          webhook-type: 'incoming-webhook'
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":x: *NC Data Sync Failed*"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "Please review promptly <!channel>."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to failed action run ${{ github.run_id }}.>"
+                  }
+                }
+              ]
+            }

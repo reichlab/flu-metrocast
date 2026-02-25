@@ -17,6 +17,8 @@ jobs:
     # Safety check: only run in upstream repo
     if: ${{ github.repository == 'reichlab/flu-metrocast' }}
     runs-on: ubuntu-latest
+    env:
+      R_LIBS_USER: ${{ github.workspace }}/.R/library
 
     steps:
       - name: "Set date and branch name"
@@ -45,6 +47,9 @@ jobs:
 
       - name: "Setup R"
         uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
 
       - name: "Install CRAN deps"
         uses: r-lib/actions/setup-r-dependencies@v2
@@ -54,19 +59,18 @@ jobs:
             any::purrr
             any::here
             any::lubridate
+            any::remotes
+            github::hubverse-org/hubUtils
+            github::hubverse-org/hubData
+            github::hubverse-org/hubEnsembles
+          cache-version: 1
 
-      - name: "Install remotes"
-        run: Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
-
-      - name: "Install hubverse packages from GitHub"
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      - name: "Check hubverse packages"
         run: |
-          Rscript -e 'install.packages("remotes", repos="https://cloud.r-project.org")'
-          Rscript -e 'remotes::install_github("hubverse-org/hubUtils", upgrade="never", dependencies=TRUE)'
-          Rscript -e 'remotes::install_github("hubverse-org/hubData", upgrade="never", dependencies=TRUE)'
-          Rscript -e 'remotes::install_github("hubverse-org/hubEnsembles", upgrade="never", dependencies=TRUE)'
-
+          Rscript -e '.libPaths(); sessionInfo()'
+          Rscript -e 'stopifnot(requireNamespace("hubUtils", quietly=TRUE))'
+          Rscript -e 'stopifnot(requireNamespace("hubData", quietly=TRUE))'
+          Rscript -e 'stopifnot(requireNamespace("hubEnsembles", quietly=TRUE))'
 
       - name: "Prepare output folders"
         run: |

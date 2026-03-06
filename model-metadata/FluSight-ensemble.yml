@@ -30,12 +30,9 @@ model_contributors: [
     "email": "xhq2@cdc.gov"
   }
 ]
-website_url: "https://github.com/cdcepi/FluSight-forecast-hub"
+
 license: "CC-BY-4.0"
 designated_model: false
-methods: "Median-based ensemble of quantile forecasts submissions and mean ensemble for categorical rate-trend forecasts."
-data_inputs: "Weekly incident flu hospitalizations from data.cdc.gov Weekly Hospital Respiratory Data (HRD) Metrics by Jurisdiction, National Healthcare Safety Network (NHSN)."
-methods_long: "The Hubverse package hubEnsembles is used to generate the FluSight-ensemble forecast. A median of quantile outputs is used for all eligible quantile-based forecasts submitted to the FluSight-forecasting-hub. The mean is used to ensemble probabilities from eligible categorical rate-trend forecasts."
-ensemble_of_models: true
-ensemble_of_hub_models: true
+methods: "Median-based ensemble of quantile forecasts submissions and mean ensemble for categorical rate-trend forecasts of eligible models submitted to the FluSight-forecast-hub."
+data_sources: "Weekly incident flu hospitalizations from data.cdc.gov Weekly Hospital Respiratory Data (HRD) Metrics by Jurisdiction, National Healthcare Safety Network (NHSN) and any sources used by component models submitted to the FluSight-forecast-hub."
 local_fit_jointly: false

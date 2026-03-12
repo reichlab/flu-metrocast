@@ -32,7 +32,7 @@ model_contributors: [
 ]
 
 license: "CC-BY-4.0"
-designated_model: false
+designated_model: true
 methods: "Median-based ensemble of quantile forecasts submissions and mean ensemble for categorical rate-trend forecasts of eligible models submitted to the FluSight-forecast-hub."
 data_sources: "Weekly incident flu hospitalizations from data.cdc.gov Weekly Hospital Respiratory Data (HRD) Metrics by Jurisdiction, National Healthcare Safety Network (NHSN) and any sources used by component models submitted to the FluSight-forecast-hub."
 local_fit_jointly: false

@@ -34,7 +34,7 @@ reference_date = ref_date
 valid_models <- hub_con %>%
   filter(
     reference_date == .env$reference_date,
-    !(model_id %in% c("epiENGAGE-ensemble_mean", "epiENGAGE-lop_norm"))
+    !(model_id %in% c("epiENGAGE-ensemble_mean", "epiENGAGE-lop_norm", "FluSight-ensemble"))
   ) %>%
   collect_hub() %>%
   group_by(model_id, target, reference_date) %>%

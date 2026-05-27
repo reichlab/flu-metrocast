@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   # Scheduled execution: Every Wednesday at 11:30 ET (16:30 UTC during EST)
-  schedule:
-    - cron: '30 16 * * 3'
+  #schedule:
+  #  - cron: '30 16 * * 3'
 
 permissions:
   contents: 'write'          # Required to create branches and push commits

@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   # Scheduled execution: Every Thursday at 9:00 ET (14:00 UTC during EST)
-  schedule:
-    - cron: "0 14 * * 4"
+  #schedule:
+  #  - cron: "0 14 * * 4"
 
 permissions:
   contents: write
@@ -32,7 +32,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           if [[ "$TODAY" > "2026-05-23" ]]; then
             echo "Schedule expired. Stopping workflow."
-            exit 1
+            exit 0
           fi
 
       - name: "Checkout repository (main)"

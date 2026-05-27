@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   # Scheduled execution: Every Wednesday at 14:30 ET (19:30 UTC during EST)
-  schedule:
-    - cron: '30 19 * * 3'
+  #schedule:
+  #  - cron: '30 19 * * 3'
 
 permissions:
   contents: 'write'          # Required to create branches and push commits
@@ -31,7 +31,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           if [[ "$TODAY" > "2026-05-23" ]]; then
             echo "Schedule expired. Stopping workflow."
-            exit 1
+            exit 0
           fi
 
       # Checkout main branch 

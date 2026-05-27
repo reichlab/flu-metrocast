@@ -32,7 +32,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           if [[ "$TODAY" > "2026-05-23" ]]; then
             echo "Schedule expired. Stopping workflow."
-            exit 0
+            exit 1
           fi
 
       - name: "Checkout repository (main)"

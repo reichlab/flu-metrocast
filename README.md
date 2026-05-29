@@ -29,7 +29,7 @@ Metro-level forecasting provides several key benefits:
 * Builds modeling capacity and data infrastructure that strengthen readiness for future outbreak.
 * Generates insights that are accessible and actionable for public health officials, healthcare systems, and community leaders.
 
-From **November 4, 2026 through May 19, 2027**, participating modeling teams will submit **weekly sample forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from 0 to +3 weeks**. For the 2026-2027 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
+From **November 4, 2026 through May 19, 2027**, participating modeling teams will submit **weekly sample forecasts of the percentage of ED visits due to influenza (or ILI for NYC)**. Starting this season, modeling teams may submit short-term forecasts for horizons 0-3 **and/or** long-term forecasts for all ~30 weeks of the season. For the 2026-2027 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
 
 All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A [pre-registered evaluation](https://osf.io/rc9dt/overview) will be conducted at the end of the season.
 
@@ -41,7 +41,7 @@ Anyone interested in using these data for additional research or publications sh
 
 ## Metro-level Forecasts of Influenza During the 2025-2026 Season
 ### Dates
-The initial Flu MetroCast Hub submission will be due on **Wednesday, November 4, 2026**, with subsequent weekly submissions until May 20, 2026. 
+The initial Flu MetroCast Hub submission will be due on **Wednesday, November 4, 2026**, with subsequent weekly submissions until May 19, 2027. 
 
 Participating teams must submit weekly forecasts **by 8 PM Eastern Time each Wednesday (the Forecast Due Date)** for inclusion in the ensemble model. This deadline aligns with the early Wednesday release of NSSP data on the percentage of ED visits. Any changes to the Forecast Due Date (e.g., due to holidays) will be communicated promptly by the MetroCast organizing team.
 
@@ -50,7 +50,7 @@ Each weekly submission file must include the `reference date`––defined as th
 ---
 
 ### Prediction targets
-From November through May, participating teams will submit weekly probabilistic (quantile) forecasts of the percentage of ED visits due to influenza. 
+From November through May, participating teams will submit sample forecasts of the percentage of ED visits due to influenza. 
 
 The Hub will primarily collect forecasts at the city-, county-, region-, or metro-level (typically corresponding to HSAs) and, for validation, will also collect predictions for the corresponding state-level forecasts. 
 
@@ -58,13 +58,16 @@ The Hub will primarily collect forecasts at the city-, county-, region-, or metr
 
 #### Jurisdictions using NSSP HSA-Level data
 At launch, this group includes all locations except New York City. For these jurisdictions, teams should submit:
-* Weekly quantile forecasts of the percentage of ED visits due to influenza at the HSA level (referred to by a representative city or county name), and
-* Weekly quantile forecasts of the percentage of ED visits due to influenza at the state level.
+* Weekly sample forecasts of the percentage of ED visits due to influenza at the HSA level (referred to by a representative city or county name), and
+* Weekly sample forecasts of the percentage of ED visits due to influenza at the state level.
   
 A full list of local and state jurisdictions to be forecasted can be found in the [locations.csv file in the Hub repository](/auxiliary-data/locations.csv). We expect that additional jurisdictions may be added to this list based on data availability and interest as the season progresses. 
 
-Forecasts should cover horizons 0 to +3 weeks, defined as follows:
-* Horizon = 0: the current epidemiological week encompassing the Sunday prior to the Forecast Due Date through the upcoming Saturday. 
+Modeling teams must submit one or both of the following:
+- Weekly short-term forecasts that cover horizons 0 to +3 weeks, defined as follows:
+- Horizon = 0: the current epidemiological week encompassing the Sunday prior to the Forecast Due Date through the upcoming Saturday.
+
+Teams submitting long-term forecasts must submit forecasts that 
 
 For more information on forecast horizons, see the [horizon subsection in the `model-output` README](/model-output#horizon).
 
@@ -72,7 +75,7 @@ For more information on forecast horizons, see the [horizon subsection in the `m
 
 | Target name       | Horizon       | Aggregate jurisdiction                                                                                                  |
 |--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|
-| Flu ED visits pct  | 0 to +3 weeks | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Texas, Utah, Virginia |
+| Flu ED visits pct  | 0 to +3 weeks OR 0 to +30 weeks | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Texas, Utah, Virginia |
 
 ---
 
@@ -86,7 +89,7 @@ Forecasts for NYC should also cover horizons 0 to +3 weeks.
 
 | Target name       | Horizon       | 
 |--------------------|---------------|
-| ILI ED visits pct  | 0 to +3 weeks | 
+| ILI ED visits pct  | 0 to +3 weeks OR 0 to +30 weeks | 
 
 ---
 
@@ -142,7 +145,7 @@ Please see the [`target-data` README](/target-data#readme) for more information 
 
 ## Forecast formatting
 
-Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. 
+Participating modeling teams must submit weekly sample forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. 
 
 For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). 
 

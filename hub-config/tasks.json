@@ -422,6 +422,159 @@
                 "start": -6,
                 "end": 1
             }
+        },
+        {
+            "round_id_from_variable": true,
+            "round_id": "reference_date",
+            "model_tasks": [
+                {
+                    "task_ids": {
+                        "reference_date": {
+                            "required": null,
+                            "optional": [
+                                "2026-11-07"
+                            ]
+                        },
+                        "target": {
+                            "required": null,
+                            "optional": ["Flu ED visits pct"]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                              "denver",
+                              "mesa",
+                              "colorado-springs",
+                              "weld",
+                              "boulder",
+                              "larimer",
+                              "colorado",
+                              "savannah",
+                              "floyd",
+                              "hall",
+                              "marietta",
+                              "macon",
+                              "henry",
+                              "cherokee",
+                              "athens",
+                              "south-augusta",
+                              "columbus",
+                              "la-grange",
+                              "georgia",
+                              "indianapolis",
+                              "indiana",
+                              "bangor",
+                              "portland",
+                              "maine",
+                              "baltimore",
+                              "frederick",
+                              "montgomery",
+                              "harford",
+                              "maryland",
+                              "worcester",
+                              "pittsfield",
+                              "boston",
+                              "springfield",
+                              "new-bedford",
+                              "lynn",
+                              "massachusetts",
+                              "st-paul",
+                              "duluth",
+                              "minneapolis",
+                              "st-cloud",
+                              "rochester",
+                              "minnesota",
+                              "nenc",
+                              "senc",
+                              "fay-area",
+                              "rtp-area",
+                              "triad-area",
+                              "wnc",
+                              "clt-area",
+                              "north-carolina",                                
+                              "portland-or",
+                              "salem",
+                              "deschutes",
+                              "eugene",
+                              "medford",
+                              "oregon", 
+                              "columbia",
+                              "greenville",
+                              "florence",
+                              "charleston",
+                              "rock-hill",
+                              "horry",
+                              "south-carolina",
+                              "houston",
+                              "san-antonio",
+                              "beaumont",
+                              "el-paso",
+                              "austin",
+                              "dallas",
+                              "texas",
+                              "provo",
+                              "salt-lake-city",
+                              "ogden",
+                              "utah",
+                              "roanoke",
+                              "virginia"
+                              ]
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2026-11-07", "2026-11-14", "2026-11-21", "2026-11-28", "2026-12-05",
+                                "2026-12-12", "2026-12-19", "2026-12-26", "2027-01-02", "2027-01-09",
+                                "2027-01-16", "2027-01-23", "2027-01-30", "2027-02-06", "2027-02-13",
+                                "2027-02-20", "2027-02-27", "2027-03-06", "2027-03-13", "2027-03-20",
+                                "2027-03-27", "2027-04-03", "2027-04-10", "2027-04-17", "2027-04-24",
+                                "2027-05-01", "2027-05-08", "2027-05-15", "2027-05-22", "2027-05-29",
+                                "2027-06-05", "2025-11-07"
+                            ]
+                        }
+                    },
+                    "output_type": {
+                        "sample": {
+                            "is_required": true,
+                            "output_type_id_params": {
+                                "type": "character",
+                                "max_length": 20,
+                                "min_samples_per_task": 100,
+                                "max_samples_per_task": 100,
+                                "compound_taskid_set": [
+                                    "reference_date", 
+                                    "target",
+                                    "location"
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0,
+                                "maximum" : 100
+                            }
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "Flu ED visits pct",
+                            "target_name": "Percentage of ED visits due to influenza",
+                            "target_units": "percentage",
+                            "target_keys": {
+                                "target": "Flu ED visits pct"
+                            },
+                            "target_type": "continuous",
+                            "description": "This target represents the percentage of ED visits due to flu in the week ending on the date [horizon] weeks after the reference_date, on the target_end_date.",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
+                }
+            ],
+            "submissions_due": {
+                "relative_to": "reference_date",
+                "start": -6,
+                "end": 1
+            }
         }
     ],
     "output_type_id_datatype": "auto",

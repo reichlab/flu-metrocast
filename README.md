@@ -5,7 +5,7 @@ Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc
 **Table of Contents**
 
 -   [Executive summary](#executive-summary)
--   [Metro-level Forecasts of Influenza During the 2025-2026 Season](#metro-level-forecasts-of-influenza-during-the-2025-2026-season)
+-   [Metro-level Forecasts of Influenza During the 2026-2027 Season](#metro-level-forecasts-of-influenza-during-the-2026-2027-season)
     -   [Dates](#dates)
     -   [Prediction targets](#prediction-targets)
         -   [Jurisdictions using NSSP HSA-Level data](#jurisdictions-using-nssp-hsa-level-data)
@@ -29,7 +29,7 @@ Metro-level forecasting provides several key benefits:
 * Builds modeling capacity and data infrastructure that strengthen readiness for future outbreak.
 * Generates insights that are accessible and actionable for public health officials, healthcare systems, and community leaders.
 
-From **November 19, 2025 through May 20, 2026**, participating modeling teams will submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from 0 to +3 weeks**. For the 2025-2026 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
+From **November 4, 2026 through May 19, 2027**, participating modeling teams must submit **weekly quantile forecasts of the percentage of ED visits due to influenza (or ILI for NYC) for forecast horizons ranging from 0 to +3 weeks** and may optionally submit **full-season trajectories covering the remainder of the influenza season**. For the 2026-2027 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
 
 All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A [pre-registered evaluation](https://osf.io/rc9dt/overview) will be conducted at the end of the season.
 
@@ -39,11 +39,9 @@ Anyone interested in using these data for additional research or publications sh
 
 ---
 
-## Metro-level Forecasts of Influenza During the 2025-2026 Season
+## Metro-level Forecasts of Influenza During the 2026-2027 Season
 ### Dates
-The initial Flu MetroCast Hub submission will be due on **Wednesday, November 19, 2025**, with subsequent weekly submissions until May 20, 2026. 
-
-> Contingency note: During the U.S. government shutdown in October and November 2025, NSSP data releases were paused. If the shutdown remains in effect on November 19th, the Hub will collect only NYC forecasts on this date. Forecasts using NSSP data will commence on the first Wednesday after NSSP data are publicly released.
+The initial Flu MetroCast Hub submission will be due on **Wednesday, November 4, 2026**, with subsequent weekly submissions until May 19, 2027. 
 
 Participating teams must submit weekly forecasts **by 8 PM Eastern Time each Wednesday (the Forecast Due Date)** for inclusion in the ensemble model. This deadline aligns with the early Wednesday release of NSSP data on the percentage of ED visits. Any changes to the Forecast Due Date (e.g., due to holidays) will be communicated promptly by the MetroCast organizing team.
 
@@ -52,7 +50,11 @@ Each weekly submission file must include the `reference date`––defined as th
 ---
 
 ### Prediction targets
-From November through May, participating teams will submit weekly probabilistic (quantile) forecasts of the percentage of ED visits due to influenza. 
+From November through May, participating teams will submit weekly probabilistic **sample** forecasts of the percentage of ED visits due to influenza. Beginning with the 2026/2027 season **we will no longer accept quantiles**. The following sample requirements will be enforced:
+* each sample represents a trajectory for a given location and target. This is, in hubverse terminology, saying that the [compound_taskid_set](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) will include location and target. Thinking statistically, this means that the forecast distribution is required to be sampled with dependence across horizons for a given location. Models could also submit samples that are joint across locations and horizons.
+* 100 samples will be required for each target-location-horizon.
+
+Please see [hubverse documentation for additional information on sample output type](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html).
 
 The Hub will primarily collect forecasts at the city-, county-, region-, or metro-level (typically corresponding to HSAs) and, for validation, will also collect predictions for the corresponding state-level forecasts. 
 
@@ -74,7 +76,7 @@ For more information on forecast horizons, see the [horizon subsection in the `m
 
 | Target name       | Horizon       | Aggregate jurisdiction                                                                                                  |
 |--------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|
-| Flu ED visits pct  | 0 to +3 weeks | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Texas, Utah, Virginia |
+| Flu ED visits pct  | 0 to +3 weeks (**required**), full-season trajectory for remainder of season (optional) | Corresponding state –– Colorado, Georgia, Indiana, Maine, Maryland, Massachusetts, Minnesota, South Carolina, Oregon, Texas, Utah, Virginia |
 
 ---
 
@@ -88,7 +90,7 @@ Forecasts for NYC should also cover horizons 0 to +3 weeks.
 
 | Target name       | Horizon       | 
 |--------------------|---------------|
-| ILI ED visits pct  | 0 to +3 weeks | 
+| ILI ED visits pct  | 0 to +3 weeks (**required**), full-season trajectory for remainder of season (optional) | 
 
 ---
 
@@ -115,14 +117,14 @@ Forecasts for NC should also cover horizons 0 to +3 weeks.
 
 | Target name       | Horizon       | 
 |--------------------|---------------|
-| Flu ED visits pct  | 0 to +3 weeks | 
+| Flu ED visits pct  | 0 to +3 weeks (**required**), full-season trajectory for remainder of season (optional) | 
 
 ---
 
 ### Model output data storage
 The Flu MetroCast Hub will store a live dataset in this dedicated GitHub repository, following [Hubverse file-based data storage standards](https://docs.hubverse.io/en/latest/user-guide/hub-structure.html). The repository will contain separate directories for model output and model metadata submissions from modeling teams.
 
-Model output must follow a tabular representation where each row represents a single prediction and each column provides additional information about the prediction (see the Forecast File Format section). Model output may be submitted as CSV or Parquet files. 
+Model output must follow a tabular representation where each row represents a single prediction and each column provides additional information about the prediction (see the Forecast File Format section). **Model output must be submitted as Parquet files**. Beginning with the 2026/2027 season, file sizes will be larger due to the option to submit for additional horizons and the change to sample output type. 
 
 ---
 
@@ -146,7 +148,8 @@ Please see the [`target-data` README](/target-data#readme) for more information 
 
 Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. 
 
-For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). 
+For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). Beginning the the 2026/2027 season, teams must include an additional metadata field to indicate whether they are submitting full-season forecast trajectories every week:
+* long_term_forecasts: true | false
 
 Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. 
 

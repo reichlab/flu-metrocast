@@ -50,7 +50,7 @@ Each weekly submission file must include the `reference date`––defined as th
 ---
 
 ### Prediction targets
-From November through May, participating teams will submit weekly probabilistic **sample** forecasts of the percentage of ED visits due to influenza. Beginning with the 2026/2027 season **we will no longer accept quantiles**. The following sample requirements will be enforced:
+From November through May, participating teams will submit weekly probabilistic **sample** forecasts of the percentage of ED visits due to influenza. Beginning with the 2026-2027 season **we will no longer accept quantiles**. The following sample requirements will be enforced:
 * each sample represents a trajectory for a given location and target. This is, in hubverse terminology, saying that the [compound_taskid_set](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) will include location and target. Thinking statistically, this means that the forecast distribution is required to be sampled with dependence across horizons for a given location. Models could also submit samples that are joint across locations and horizons.
 * 100 samples will be required for each target-location-horizon.
 
@@ -124,7 +124,7 @@ Forecasts for NC should also cover horizons 0 to +3 weeks.
 ### Model output data storage
 The Flu MetroCast Hub will store a live dataset in this dedicated GitHub repository, following [Hubverse file-based data storage standards](https://docs.hubverse.io/en/latest/user-guide/hub-structure.html). The repository will contain separate directories for model output and model metadata submissions from modeling teams.
 
-Model output must follow a tabular representation where each row represents a single prediction and each column provides additional information about the prediction (see the Forecast File Format section). **Model output must be submitted as Parquet files**. Beginning with the 2026/2027 season, file sizes will be larger due to the option to submit for additional horizons and the change to sample output type. 
+Model output must follow a tabular representation where each row represents a single prediction and each column provides additional information about the prediction (see the Forecast File Format section). **Model output must be submitted as Parquet files**. Beginning with the 2026-2027 season, file sizes will be larger due to the option to submit for additional horizons and the change to sample output type. 
 
 ---
 
@@ -148,7 +148,7 @@ Please see the [`target-data` README](/target-data#readme) for more information 
 
 Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the [`model-output` subdirectory](/model-output) of a hub. 
 
-For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). Beginning the the 2026/2027 season, teams must include an additional metadata field to indicate whether they are submitting full-season forecast trajectories every week:
+For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata). Beginning with the 2026-2027 season, teams must include an additional metadata field to indicate whether they are submitting full-season forecast trajectories every week:
 * long_term_forecasts: true | false
 
 Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. 

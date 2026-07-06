@@ -122,9 +122,9 @@ Values in the `target` column must be a character (string). Currently, we only a
 
 ### horizon
 
-Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, teams are required to submit forecasts for horizons 0-3, so **values in this column must be between 0 and 3 for the required horizons**. 
+Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, teams are required to submit forecasts for horizons 0-3, so values in this column must be between 0 and 3 for the required horizons. 
 
-Beginning with the 2026-2027 season, teams may also submit weekly long-term, full-season forecast trajectories for the remaining weeks of the season, in which case values in this column may be greater than 3 to reflect long-term submissions beyond horizon 3. 
+Beginning with the 2026-2027 season, teams may also submit weekly long-term, full-season forecast trajectories for the remaining weeks of the season, in which case values in this column may be greater than 3 to reflect optional long-term submissions beyond horizon 3. 
 
 | Horizon | Description |
 |----------|-------------|
@@ -212,11 +212,11 @@ Please see [Hubverse documentation for additional information on the sample outp
 
 ### output_type_id
 
-Values in the `output_type_id` are sample indexes from 1-100, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should provide 100 samples (`output_type_id` 1,2,3...100) for each target-location combination.
+Values in the `output_type_id` column are sample indexes from 1-100, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should provide 100 samples (`output_type_id` 1,2,3...100) for each target-location combination.
 
-Samples must capture dependence across horizon: for a given target and location, all rows sharing the same output_type_id across horizons 0–3 should come from the same underlying draw from the joint predictive distribution — that is, together they represent one plausible trajectory over time for the target-location combination. In hubverse terms, the [`compound_task_ID set`](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) for this Hub's sample output type is {location, target}. Dependence is captured across horizon, which is not in this set.
+Samples must capture dependence across horizon. For a given target and location, all rows sharing the same `output_type_id` across horizons 0–3 should come from the same underlying draw from the joint predictive distribution — that is, together they represent one plausible trajectory over time for the target-location combination. In hubverse terms, the [`compound_task ID set`](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) for this Hub's sample output type is {location, target}. Dependence is captured across horizon, which is not in this set.
 
-Teams may optionally submit samples that are jointly dependent across locations as well (i.e., a shared output_type_id represents one draw across both horizons and locations simultaneously), but this is not required.
+Teams may optionally submit samples that are jointly dependent across locations as well (i.e., a shared `output_type_id` represents one draw across both horizons and locations simultaneously), but this is not required.
 
 ---
 

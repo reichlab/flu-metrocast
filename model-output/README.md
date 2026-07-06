@@ -122,7 +122,7 @@ Values in the `target` column must be a character (string). Currently, we only a
 
 ### horizon
 
-Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, teams are required to submit forecasts for horizons 0-3, so **values in this column must be between 0 and 3 for the required horizons**. Beginning with the 2026-2027 season, teams may also submit weekly full-season forecast trajectories for the remaining weeks of the season. 
+Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, teams are required to submit forecasts for horizons 0-3, so **values in this column must be between 0 and 3 for the required horizons**. Beginning with the 2026-2027 season, teams may also submit weekly long-term, full-season forecast trajectories for the remaining weeks of the season. 
 
 | Horizon | Description |
 |----------|-------------|
@@ -130,7 +130,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 | 1 | First week after Forecast Due Date |
 | 2 | Second week after Forecast Due Date |
 | 3 | Third week after Forecast Due Date |
-| 4+ | Fourth+ week after Forecast Due Date (horizons past 3 are optional) |
+| >3 | 4,5,6...etc. weeks after Forecast Due Date (optional) |
 
 ---
 
@@ -143,7 +143,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
 | 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |
-| 4+      |     |     |      |     |       |     | `target_end_date` for horizon 4+ (optional) |
+| >3      |     |     |      |     |       |     | `target_end_date` for horizon 4,5,6...etc. (optional) |
 
 ---
 

@@ -130,7 +130,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 | 1 | First week after Forecast Due Date |
 | 2 | Second week after Forecast Due Date |
 | 3 | Third week after Forecast Due Date |
-| >3 | 4,5,6...etc. weeks after Forecast Due Date (optional) |
+| 4+ | 4,5,6...etc. weeks after Forecast Due Date (optional) |
 
 ---
 
@@ -143,7 +143,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
 | 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |
-| >3      |     |     |      |     |       |     | `target_end_date` for horizon 4,5,6...etc. (optional) |
+| 4+      |     |     |      |     |       |     | `target_end_date` for horizon 4,5,6...etc. (optional) |
 
 ---
 

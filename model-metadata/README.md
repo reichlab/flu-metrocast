@@ -1,16 +1,12 @@
 # Model metadata
 
 
-<mark style="background-color: #FFE331">**Below is a template of the README.md file for the model-metadata folder of your hub. Italics in brackets are placeholders for information about your hub. **</mark>
-
-
-This folder contains metadata files for the models submitting to the  *[hub name]*. The specification for these files has been adapted to be consistent with [model metadata guidelines in the hubverse documentation](https://hubverse.io/en/latest/user-guide/model-metadata.html).
+This folder contains metadata files for the models submitting to the  **Flu MetroCast Hub**. The specification for these files has been adapted to be consistent with [model metadata guidelines in the hubverse documentation](https://hubverse.io/en/latest/user-guide/model-metadata.html).
 
 Each model is required to have metadata in 
 [yaml format](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html).
 
-These instructions provide detail about the [data
-format](#Data-format) as well as [validation](#Data-validation) that
+These instructions provide detail about the [data format](#data-format) as well as [validation](#data-validation) that
 you can do prior to a pull request with a metadata file.
 
 # Data format
@@ -79,6 +75,9 @@ characters.
 ### local_fit_jointly
 A boolean (either TRUE or FALSE) where TRUE indicates that that the local jurisdictions (e.g. the HSAs within a state) were fit jointly and FALSE indicates that each unique location was fit independently. 
 This variable will be used to group models when evaluating their performance. 
+
+### long_term_forecasts
+A boolean (either TRUE or FALSE) where TRUE indicates that the model will submit weekly forecasts for horizons 0-3 **AND** weekly long-term full-season trajectories for the remaining weeks of the season. FALSE indicates the model will only make predictions for mandatory horizons 0-3.
 
 ## Optional
 

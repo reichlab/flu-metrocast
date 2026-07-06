@@ -24,7 +24,7 @@
 
 # Forecast Formatting
 
-Participating modeling teams must submit weekly quantile forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the `model-output` subdirectory of a hub.  
+Participating modeling teams must submit weekly sample forecasts of the percentage of influenza or influenza-like illness (*NYC only*) to the `model-output` subdirectory of a hub.  
 
 For each model, teams must submit one model metadata file to the [`model-metadata` subdirectory](/model-metadata).
 
@@ -71,7 +71,7 @@ If you are not using one of the [standard licenses](https://github.com/reichlab/
 ## Forecasts
 
 Each forecast file should follow the name format:
-* YYYY-MM-DD-team-model.csv or .parquet
+* YYYY-MM-DD-team-model.parquet
 
 where:
 - YYYY — 4-digit year  
@@ -99,8 +99,6 @@ The output file must contain the following eight columns (in any order):
 
 No additional columns are allowed.  
 
-The value in each row of the file is a prediction at one quantile level (the level specified in the `output_type_id` field) for a particular combination of `horizon`, `location`, and `target_end_date`.
-
 ---
 
 ### reference_date
@@ -124,7 +122,7 @@ Values in the `target` column must be a character (string). Currently, we only a
 
 ### horizon
 
-Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, this should be a number **between 0 and 3**.
+Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, teams are required to submit forecasts for horizons 0-3, so **values in this column must be between 0 and 3 for the required horizons**. Beginning with the 2026-2027 season, teams may also submit weekly full-season forecast trajectories for the remaining weeks of the season. 
 
 | Horizon | Description |
 |----------|-------------|
@@ -132,6 +130,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 | 1 | First week after Forecast Due Date |
 | 2 | Second week after Forecast Due Date |
 | 3 | Third week after Forecast Due Date |
+| 4+ | Fourth+ week after Forecast Due Date (horizons past 3 are optional) |
 
 ---
 
@@ -144,7 +143,7 @@ Values in the `horizon` column indicate the number of weeks between the `referen
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
 | 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |
-
+| 4+      |     |     |      |     |       |     | `target_end_date` for horizon 4+ (optional) |
 
 ---
 
@@ -203,24 +202,25 @@ The `population` column lists the population of the forecast location (e.g., the
 
 ### output_type
 
-The value in the `output_type` column should be “quantile”, to reflect a set of quantile values of percentage of ED visits due to influenza or ILI (latter for NYC only). 
+The value in the `output_type` column should be “sample”, to reflect a probabilistic distribution through a collection of possible future observed values of the percentage of ED visits due to influenza or ILI (latter for NYC only). 
+
+Please see [Hubverse documentation for additional information on the sample output type](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html).
 
 ---
 
 ### output_type_id
 
-Values in the `output_type_id` are a quantile. This value indicates the quantile for the value in this row.
+Values in the `output_type_id` are sample indexes from 1-100, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should provide 100 samples (`output_type_id` 1,2,3...100) for each target-location combination.
 
-Teams should provide the following **9 quantiles**:
+Samples must capture dependence across horizon: for a given target and location, all rows sharing the same output_type_id across horizons 0–3 should come from the same underlying draw from the joint predictive distribution — that is, together they represent one plausible trajectory over time for the target-location combination. In hubverse terms, the [`compound_task_ID set`](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) for this Hub's sample output type is {location, target}. Dependence is captured across horizon, which is not in this set.
 
-* 0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975
-
+Teams may optionally submit samples that are jointly dependent across locations as well (i.e., a shared output_type_id represents one draw across both horizons and locations simultaneously), but this is not required.
 
 ---
 
 ### value
 
-Values in the `value` column are non-negative numbers indicating the quantile prediction for that row.
+Values in the `value` column are non-negative numbers indicating the predicted value for the sample index draw.
 
 ---
 

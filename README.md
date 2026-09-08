@@ -1,4 +1,4 @@
-# Flu MetroCast Hub 2025-2026 Guidelines
+# Flu MetroCast Hub 2026-2027 Guidelines
 Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc.gov/insight-net/php/about/index.html) Center for Implementation within the U.S. Centers for Disease Control and Prevention (CDC)’s Center for Forecasting and Outbreak Analytics (CFA)
 
 

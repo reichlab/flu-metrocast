@@ -113,10 +113,9 @@ This is the date from which all forecasts should be considered. This date is the
 
 ### target
 
-Values in the `target` column must be a character (string). Currently, we only accept the following targets:
+Values in the `target` column must be a character (string). Currently, we only accept the following target:
 
 - `Flu ED visits pct`
-- `ILI ED visits pct` *(NYC only)*
 
 ---
 

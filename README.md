@@ -8,7 +8,7 @@ Run by [epiENGAGE](https://epiengage.org/)––an [Insight Net](https://www.cdc
 -   [Metro-level Forecasts of Influenza During the 2026-2027 Season](#metro-level-forecasts-of-influenza-during-the-2026-2027-season)
     -   [Dates](#dates)
     -   [Prediction targets](#prediction-targets)
-        -   [Locations](#locations)
+        -   [Locations and horizons](#locations-and-horizons)
     -   [Model output data storage](#model-output-data-storage)
 -   [Target data](#target-data)
 -   [Forecast formatting](#forecast-formatting)
@@ -58,7 +58,7 @@ The Hub will primarily collect forecasts at the city-, county-, region-, or metr
 
 ---
 
-#### Locations
+#### Locations and horizons
 This season, teams should submit:
 * Weekly sample forecasts of the percentage of ED visits due to influenza at the sub-state location
 * Weekly sample forecasts of the percentage of ED visits due to influenza at the corresponding state level.

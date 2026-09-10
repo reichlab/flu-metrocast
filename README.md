@@ -63,7 +63,7 @@ This season, teams should submit:
 * Weekly sample forecasts of the percentage of ED visits due to influenza at the sub-state location
 * Weekly sample forecasts of the percentage of ED visits due to influenza at the corresponding state level.
   
-A full list of local and state jurisdictions to be forecasted can be found in the [locations.csv file in the Hub repository](/auxiliary-data/locations.csv). **We expect that additional jurisdictions may be added to this list based on data availability and interest as the season progresses.** 
+A full list of local and state jurisdictions to be forecasted can be found in the [locations.csv file in the Hub repository](/auxiliary-data/locations.csv). This file currently includes 64 sub-state locations (56 HSAs, NYC, and 7 North Carolina DHHS regions) and 13 states. **We expect that additional jurisdictions may be added to this list based on data availability and interest as the season progresses.** 
 
 Forecasts are required to cover horizons 0 to +3 weeks, defined as follows using horizon 0 as a starting point:
 * Horizon = 0: the current epidemiological week encompassing the Sunday prior to the Forecast Due Date through the upcoming Saturday.

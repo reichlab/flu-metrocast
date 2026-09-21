@@ -2,6 +2,7 @@
     "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v6.0.0/tasks-schema.json",
     "rounds": [
         {
+            "_COMMENT": "This round is for the pilot 2025",
             "round_id_from_variable": true,
             "round_id": "reference_date",
             "model_tasks": [
@@ -176,6 +177,7 @@
             }
         },
         {
+            "_COMMENT": "This round is for the 2025/2026 season",
             "round_id_from_variable": true,
             "round_id": "reference_date",
             "model_tasks": [
@@ -424,6 +426,7 @@
             }
         },
         {
+            "_COMMENT": "This round is for the 2026/2027 season.",
             "round_id_from_variable": true,
             "round_id": "reference_date",
             "model_tasks": [
@@ -432,7 +435,12 @@
                         "reference_date": {
                             "required": null,
                             "optional": [
-                                "2026-11-07"
+                                "2026-11-07", "2026-11-14", "2026-11-21", "2026-11-28", "2026-12-05",
+                                "2026-12-12", "2026-12-19", "2026-12-26", "2027-01-02", "2027-01-09",
+                                "2027-01-16", "2027-01-23", "2027-01-30", "2027-02-06", "2027-02-13",
+                                "2027-02-20", "2027-02-27", "2027-03-06", "2027-03-13", "2027-03-20",
+                                "2027-03-27", "2027-04-03", "2027-04-10", "2027-04-17", "2027-04-24",
+                                "2027-05-01", "2027-05-08", "2027-05-15", "2027-05-22"
                             ]
                         },
                         "target": {
@@ -484,6 +492,8 @@
                               "st-cloud",
                               "rochester",
                               "minnesota",
+                              "nyc",
+                              "new-york",
                               "nenc",
                               "senc",
                               "fay-area",
@@ -508,6 +518,8 @@
                               "houston",
                               "san-antonio",
                               "beaumont",
+                              "fort-worth",
+                              "tyler",
                               "el-paso",
                               "austin",
                               "dallas",
@@ -529,7 +541,7 @@
                                 "2027-02-20", "2027-02-27", "2027-03-06", "2027-03-13", "2027-03-20",
                                 "2027-03-27", "2027-04-03", "2027-04-10", "2027-04-17", "2027-04-24",
                                 "2027-05-01", "2027-05-08", "2027-05-15", "2027-05-22", "2027-05-29",
-                                "2027-06-05", "2025-11-07"
+                                "2027-06-05", "2027-06-12"
                             ]
                         }
                     },
@@ -563,7 +575,83 @@
                                 "target": "Flu ED visits pct"
                             },
                             "target_type": "continuous",
-                            "description": "This target represents the percentage of ED visits due to flu in the week ending on the date [horizon] weeks after the reference_date, on the target_end_date.",
+                            "description": "This target represents the percentage of ED visits due to flu in the week ending on the target_end_date.",
+                            "is_step_ahead": true,
+                            "time_unit": "week"
+                        }
+                    ]
+                },
+                {
+                    "task_ids": {
+                        "reference_date": {
+                            "required": null,
+                            "optional": [
+                                "2026-11-07", "2026-11-14", "2026-11-21", "2026-11-28", "2026-12-05",
+                                "2026-12-12", "2026-12-19", "2026-12-26", "2027-01-02", "2027-01-09",
+                                "2027-01-16", "2027-01-23", "2027-01-30", "2027-02-06", "2027-02-13",
+                                "2027-02-20", "2027-02-27", "2027-03-06", "2027-03-13", "2027-03-20",
+                                "2027-03-27", "2027-04-03", "2027-04-10", "2027-04-17", "2027-04-24",
+                                "2027-05-01", "2027-05-08", "2027-05-15", "2027-05-22"                            ]
+                        },
+                        "target": {
+                            "required": null,
+                            "optional": ["Flu hosp admits"]
+                        },
+                        "location": {
+                            "required": null,
+                            "optional": [
+                                "bay-area", 
+                                "central-california", 
+                                "greater-sierra-sacramento", 
+                                "los-angeles", 
+                                "rural-north", 
+                                "southern-california",
+                                "california"
+                              ]
+                        },
+                        "target_end_date": {
+                            "required": null,
+                            "optional": [
+                                "2026-11-07", "2026-11-14", "2026-11-21", "2026-11-28", "2026-12-05",
+                                "2026-12-12", "2026-12-19", "2026-12-26", "2027-01-02", "2027-01-09",
+                                "2027-01-16", "2027-01-23", "2027-01-30", "2027-02-06", "2027-02-13",
+                                "2027-02-20", "2027-02-27", "2027-03-06", "2027-03-13", "2027-03-20",
+                                "2027-03-27", "2027-04-03", "2027-04-10", "2027-04-17", "2027-04-24",
+                                "2027-05-01", "2027-05-08", "2027-05-15", "2027-05-22", "2027-05-29",
+                                "2027-06-05", "2027-06-12"
+                            ]
+                        }
+                    },
+                    "output_type": {
+                        "sample": {
+                            "is_required": true,
+                            "output_type_id_params": {
+                                "type": "character",
+                                "max_length": 20,
+                                "min_samples_per_task": 100,
+                                "max_samples_per_task": 100,
+                                "compound_taskid_set": [
+                                    "reference_date", 
+                                    "target",
+                                    "location"
+                                ]
+                            },
+                            "value": {
+                                "type": "double",
+                                "minimum": 0
+                            }
+                        }
+                    },
+                    "target_metadata": [
+                        {
+                            "target_id": "Flu hosp admits",
+                            "target_name": "Number of hospital admissions due to flu",
+                            "target_units": "count",
+                            "target_keys": {
+                                "target": "Flu hosp admits"
+                            },
+                            "target_type": "continuous",
+                            "description": "This target represents the number of new hospital admissions due to flu in the week ending on the target_end_date.",
                             "is_step_ahead": true,
                             "time_unit": "week"
                         }
@@ -573,7 +661,7 @@
             "submissions_due": {
                 "relative_to": "reference_date",
                 "start": -6,
-                "end": 1
+                "end": -2
             }
         }
     ],

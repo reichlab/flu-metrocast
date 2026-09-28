@@ -1,0 +1,12 @@
+team_name: "docxology"
+team_abbr: "docxology"
+model_name: "Docxology Joint Block Bootstrap"
+model_abbr: "jointblock"
+model_contributors: [{"name": "Daniel Ari Friedman", "affiliation": "Private Investigator", "email": "danielarifriedman@gmail.com"}]
+license: "CC-BY-4.0"
+designated_model: false
+data_sources: "Intended inputs are retained weekly Flu ED visits pct target observations from the Flu MetroCast Hub, derived from CDC NSSP and jurisdictional surveillance sources. Only explicitly identified influenza ED percentage series are used; NYC ILI is outside this model scope. No submitted hub forecasts are model inputs."
+methods: "Exploratory joint block-bootstrap baseline for weekly influenza ED percentages; preserves temporal/spatial sample pairing, bounded to 0-100. Horizons 0-3 only; skill not established."
+local_fit_jointly: true
+model_version: "1.0.0"
+ensemble_of_hub_models: false

@@ -108,6 +108,10 @@
         "ensemble_of_hub_models": {
             "description": "Indicator for whether this model is an ensemble of other Hub models",
             "type": "boolean"
+        },
+        "long_term_forecasts": {
+            "description": "Indicator for whether this model submits long-term forecasts. If submitting long-term forecasts, each submission should include forecasts for the remainder of the season",
+            "type": "boolean"
         }
     },
     "additionalProperties": false,
@@ -121,6 +125,7 @@
         "designated_model",
         "methods",
         "data_sources",
-        "local_fit_jointly"
+        "local_fit_jointly",
+        "long_term_forecasts"
     ]
 }

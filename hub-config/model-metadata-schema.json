@@ -125,7 +125,6 @@
         "designated_model",
         "methods",
         "data_sources",
-        "local_fit_jointly",
-        "long_term_forecasts"
+        "local_fit_jointly"
     ]
 }

@@ -62,6 +62,7 @@ utah,All,Utah,UT,Utah,3392331,hsa_nci_id,
 roanoke,14,Virginia,VA,"Roanoke, VA",513483,hsa_nci_id,"Amherst, Appomattox, Botetourt, Campbell, Craig, Floyd, Franklin, Lynchburg, Roanoke, Salem"
 virginia,All,Virginia,VA,Virginia,8705170,hsa_nci_id,
 nyc,94,New York,NY,NYC,8483844,hsa_nci_id,"Bronx, Kings, New York, Queens, Richmond"
+new-york,All,New York,NY,New York,19852366,hsa_nci_id,
 nenc,1,North Carolina,NC,"Northeastern, NC",941963,nc_flu_region_id,"Beaufort, Bertie, Camden, Chowan, Craven, Currituck, Dare, Edgecombe, Gates, Greene, Halifax, Hertford, Hyde, Jones, Lenoir, Martin, Nash, Northampton, Pamlico, Pasquotank, Perquimans, Pitt, Tyrrell, Washington, Wilson"
 senc,2,North Carolina,NC,"Southeastern, NC",848621,nc_flu_region_id,"Brunswick, Carteret, Columbus, Duplin, New Hanover, Onslow, Pender"
 fay-area,3,North Carolina,NC,"Fayetteville Area, NC",1354230,nc_flu_region_id,"Bladen, Cumberland, Harnett, Hoke, Johnston, Lee, Moore, Richmond, Robeson, Sampson, Scotland, Wayne"

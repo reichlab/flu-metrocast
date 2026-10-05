@@ -173,7 +173,10 @@
                 "relative_to": "reference_date",
                 "start": -6,
                 "end": 333
-            }
+            },
+            "derived_task_ids": [
+                "target_end_date"
+            ]
         },
         {
             "round_id_from_variable": true,
@@ -421,11 +424,15 @@
                 "relative_to": "reference_date",
                 "start": -6,
                 "end": 1
-            }
+            },
+            "derived_task_ids": [
+                "target_end_date"
+            ]
         },
         {
             "round_id_from_variable": true,
             "round_id": "reference_date",
+            "file_format": ["parquet"],
             "model_tasks": [
                 {
                     "task_ids": {
@@ -609,7 +616,7 @@
                         "target_end_date": {
                             "required": null,
                             "optional": [
-                                "2026-11-07", "2026-11-14", "2026-11-21", "2026-11-28", "2026-12-05",
+                                "2026-10-31", "2026-11-07", "2026-11-14", "2026-11-21", "2026-11-28", "2026-12-05",
                                 "2026-12-12", "2026-12-19", "2026-12-26", "2027-01-02", "2027-01-09",
                                 "2027-01-16", "2027-01-23", "2027-01-30", "2027-02-06", "2027-02-13",
                                 "2027-02-20", "2027-02-27", "2027-03-06", "2027-03-13", "2027-03-20",
@@ -662,8 +669,5 @@
             }
         }
     ],
-    "output_type_id_datatype": "auto",
-    "derived_task_ids": [
-      "target_end_date"
-    ]
+    "output_type_id_datatype": "auto"
 }

@@ -2,7 +2,6 @@
     "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v6.0.0/tasks-schema.json",
     "rounds": [
         {
-            "_COMMENT": "This round is for the pilot 2025",
             "round_id_from_variable": true,
             "round_id": "reference_date",
             "model_tasks": [
@@ -177,7 +176,6 @@
             }
         },
         {
-            "_COMMENT": "This round is for the 2025/2026 season",
             "round_id_from_variable": true,
             "round_id": "reference_date",
             "model_tasks": [
@@ -426,7 +424,6 @@
             }
         },
         {
-            "_COMMENT": "This round is for the 2026/2027 season.",
             "round_id_from_variable": true,
             "round_id": "reference_date",
             "model_tasks": [

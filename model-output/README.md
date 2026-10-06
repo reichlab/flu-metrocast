@@ -17,6 +17,7 @@
     - [output_type](#output_type)
     - [output_type_id](#output_type_id)
     - [value](#value)
+  - [Example Forecast Submission](#example-forecast-submission)
   - [Forecast Submission and Validation](#forecast-submission-and-validation)
     - [Pull Request Forecast Validation](#pull-request-forecast-validation)
     - [Local Forecast Validation](#local-forecast-validation)
@@ -206,7 +207,7 @@ Please see [Hubverse documentation for additional information on the sample outp
 
 ### output_type_id
 
-Values in the `output_type_id` column are character (ideally, alpha-numeric) sample indexes, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should ideally provide these as alpha-numeric samples numbered from 1-100 (`output_type_id` S1,S2,S3...S100) for each target-location combination. A single posterior draw from the model should have the same `output_type_id` across horizons and locations if it comes from the same model fit. This means that if El Paso and Houston are fit jointly, than their first posterior draw should be labeled S1 across locations and `target_end_dates`. See #example-forecast-submission for further information.
+Values in the `output_type_id` column are character (ideally, alpha-numeric) sample indexes, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should ideally provide these as alpha-numeric samples numbered from 1-100 (`output_type_id` S1,S2,S3...S100) for each target-location combination. A single posterior draw from the model should have the same `output_type_id` across horizons and locations if it comes from the same model fit. This means that if El Paso and Houston are fit jointly, than their first posterior draw should be labeled S1 across locations and `target_end_dates`. See [Example Forecast Submission](#example-forecast-submission) for further information.
 
 Samples must capture dependence across horizon. For a given target and location, all rows sharing the same `output_type_id` across horizons 0–3 should come from the same underlying draw from the joint predictive distribution — that is, together they represent one plausible trajectory over time for the target-location combination. In hubverse terms, the [`compound_task ID set`](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) for this Hub's sample output type is {location, target}. Dependence is captured across horizon, which is not in this set.
 
@@ -220,7 +221,7 @@ Values in the `value` column are non-negative numbers indicating the predicted v
 
 ---
 
-## Example submission
+## Example forecast submission
 
 
 * `reference_date`

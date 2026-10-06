@@ -39,12 +39,18 @@ model_contributors: [
     "affiliation": "MOBS Lab, Northeastern University",
     "email": "moghaddas.n@northeastern.edu"
   },
+  {
+    "name": "Peiwen Liu",
+    "affiliation": "MOBS Lab, Northeastern University",
+    "email": "liu.peiw@northeastern.edu"
+  },
 ]
 license: "CC-BY_SA-4.0"
 designated_model: true
 citation: "https://doi.org/10.1371/journal.pcbi.1013735"
 team_funding: "We acknowledge support from CDC-RFA-FT-23-0069 from the CDC's Center for Forecasting and Outbreak Analytics."
-data_sources: "Using latest_data.csv from MetroCast Hub."
-methods: "The Epydemix framework integrates demographic data with synthetic, high-resolution contact matrices that represent daily mixing across households, schools, workplaces, and community settings at a state-specific level. The infection dynamics are simulated using an age-structured SLIR-like model which is extended to include asymptomatic transmission and hospitalization. The model incorporates vaccination, school calendars that modulate the school contact matrix, seasonal variation in transmissibility, and residual immunity. Model parameters are calibrated to ED visits using approximate Bayesian computation."
+data_sources: "Using latest_data.csv from MetroCast Hub. Weekly state-level influenza strain/subtype proportions from CDC FluView and state health department webpages."
+methods: "The Epydemix framework integrates demographic data with synthetic, high-resolution contact matrices that represent daily mixing across households, schools, workplaces, and community settings at a state-specific level. The infection dynamics are simulated using an age-structured SLIR-like model which is extended to include asymptomatic transmission and hospitalization. The model incorporates vaccination, school calendars that modulate the school contact matrix, seasonal variation in transmissibility, and residual immunity. Each strain/subtype is simulated and calibrated independently to ED visits using approximate Bayesian computation."
 ensemble_of_hub_models: false
 local_fit_jointly: false
+long_term_forecasts: false

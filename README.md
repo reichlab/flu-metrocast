@@ -112,7 +112,7 @@ For each model, teams must submit one model metadata file to the [`model-metadat
 
 Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. 
 
-Please see the [`model-output` README](/model-output#readme) for detailed instructions on formatting and submission requirements. 
+Please see the [`model-output` README](/model-output#readme) for detailed instructions on formatting and submission requirements, including how to indicate which samples represent joint draws from a model across target end dates and potentially locations. 
 
 ---
 

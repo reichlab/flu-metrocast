@@ -17,6 +17,7 @@
     - [output_type](#output_type)
     - [output_type_id](#output_type_id)
     - [value](#value)
+  - [Example Forecast Submission](#example-forecast-submission)
   - [Forecast Submission and Validation](#forecast-submission-and-validation)
     - [Pull Request Forecast Validation](#pull-request-forecast-validation)
     - [Local Forecast Validation](#local-forecast-validation)
@@ -90,7 +91,6 @@ The output file must contain the following eight columns (in any order):
 
 * `reference_date`
 * `target` 
-* `horizon` 
 * `target_end_date` 
 * `location` 
 * `output_type` 
@@ -113,17 +113,24 @@ This is the date from which all forecasts should be considered. This date is the
 
 ### target
 
-Values in the `target` column must be a character (string). Currently, we only accept the following target:
+Values in the `target` column must be a character (string). We accept the following targets:
 
 - `Flu ED visits pct`
+- `Flu hosp admits`
 
 ---
 
-### horizon
+### target_end_date
 
-Values in the `horizon` column indicate the number of weeks between the `reference_date` and the `target_end_date`. For both Flu ED visits pct and ILI visits pct, teams are required to submit forecasts for horizons 0-3, so values in this column must be between 0 and 3 for the required horizons. 
+Values in the `target_end_date` column must be in the format:
 
-Beginning with the 2026-2027 season, teams may also submit weekly long-term, full-season forecast trajectories for the remaining weeks of the season, in which case values in this column may be greater than 3 to reflect optional long-term submissions beyond horizon 3. 
+* YYYY-MM-DD
+
+This is the last date of the forecast target's week. This will be **the date of the Saturday at the end of the forecasted week**. As a reminder, the `target_end_date` is the end date of the week during which influenza activity is reported. Within each row of the submission file, the `target_end_date` should be incremented by 7 days.
+For short-term forecasts, this will correspond to a `target_end_date` equal to the `reference_date` plus three additional `target_end_dates` corresponding to forecast horizons of 0, 1, 2, and 3 weeks.
+Beginning in the 2026-2027 season, teams may also submit weekly long-term, full-season forecast trajectories for the remaining weeks of the season.  
+We have included the table below as an aid to understand what `target_end_dates` need to be submitted relative to the reference date and the data release, however, we will no longer be accepting `horizon` as a column. 
+
 
 | Horizon | Description |
 |----------|-------------|
@@ -139,23 +146,12 @@ Beginning with the 2026-2027 season, teams may also submit weekly long-term, ful
 
 | Horizon | Sun | Mon | Tues | Wed | Thurs | Fri | Sat |
 |---------|-----|-----|------|-----|-------|-----|-----|
-| -1      |     |     |      |     |       |     | NSSP and NYC data available for EW ending today<br> |
+| -1      |     |     |      |     |       |     | Data available for EW ending today<br> |
 | 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) for prior EW ending 4 days ago (Saturday)<br>NYC data has daily update<br>Forecast Due Date (8 PM ET) |     |     | `reference_date`<br>`target_end_date` for horizon 0 |
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
 | 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |
 | 4+      |     |     |      |     |       |     | `target_end_date` for horizon 4,5,6...etc. (optional) |
-
----
-
-### target_end_date
-
-Values in the `target_end_date` column must be in the format:
-
-* YYYY-MM-DD
-
-This is the last date of the forecast target's week. This will be **the date of the Saturday at the end of the forecasted week**. As a reminder, the `target_end_date` is the end date of the week during which influenza activity is reported. Within each row of the submission file, the `target_end_date` should be equal to the `reference_date` + horizon*(7 days). 
-
 
 ---
 
@@ -211,7 +207,7 @@ Please see [Hubverse documentation for additional information on the sample outp
 
 ### output_type_id
 
-Values in the `output_type_id` column are sample indexes from 1-100, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should provide 100 samples (`output_type_id` 1,2,3...100) for each target-location combination.
+Values in the `output_type_id` column are character (ideally, alpha-numeric) sample indexes, reflecting 100 draws from the predictive distribution for each target-location combination. Teams should ideally provide these as alpha-numeric samples numbered from 1-100 (`output_type_id` S1,S2,S3...S100) for each target-location combination. A single posterior draw from the model should have the same `output_type_id` across horizons and locations if it comes from the same model fit. This means that if El Paso and Houston are fit jointly, than their first posterior draw should be labeled S1 across locations and `target_end_dates`. See [Example Forecast Submission](#example-forecast-submission) for further information.
 
 Samples must capture dependence across horizon. For a given target and location, all rows sharing the same `output_type_id` across horizons 0–3 should come from the same underlying draw from the joint predictive distribution — that is, together they represent one plausible trajectory over time for the target-location combination. In hubverse terms, the [`compound_task ID set`](https://docs.hubverse.io/en/latest/user-guide/sample-output-type.html#compound-modeling-tasks) for this Hub's sample output type is {location, target}. Dependence is captured across horizon, which is not in this set.
 
@@ -224,6 +220,41 @@ Teams may optionally submit samples that are jointly dependent across locations 
 Values in the `value` column are non-negative numbers indicating the predicted value for the sample index draw.
 
 ---
+
+## Example forecast submission
+
+
+* `reference_date`
+* `target` 
+* `target_end_date` 
+* `location` 
+* `output_type` 
+* `output_type_id` 
+* `value` 
+
+
+| reference_date | target | target_end_date | location | output_type | output_type_id | value | 
+|----------------|--------|-----------------|----------|-------------|----------------|-------|
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | el-paso | sample | T1 | 1.3 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | el-paso | sample | T2 | 1.25 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | el-paso | sample | T.. | ... |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | el-paso | sample | T1 | 1.7 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | el-paso | sample | T2 | 1.75 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | el-paso | sample | T.. | ... |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | houston | sample | T1 | 2.0 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | houston | sample | T2 | 1.96 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | houston | sample | T.. | ... |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | houston | sample | T1 | 2.05 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | houston | sample | T2 | 1.98 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | houston | sample | T.. | ... |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | salt-lake-city | sample | U1 | 1.54 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | salt-lake-city | sample | U2 | 1.48 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-07 | salt-lake-city | sample | U.. | ... |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | salt-lake-city | sample | U1 | 1.64 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | salt-lake-city | sample | U2 | 1.50 |
+| 2026-11-07 | Flu ED visits pct | 2026-11-14 | salt-lake-city | sample | U.. | ... |
+
+This table shows a snapshot of an example submission for same-week and 1-week ahead forecasts for two samples in which the model one model is fit jointly to El Paso and Houston, so the `output_type_id` is shared across locations and `target_end_dates`, whereas a separate model was fit for Salt Lake City, so this has a separate `output_type_id` that is only shared across time points within Salt Lake City. 
 
 ## Forecast Submission and Validation
 

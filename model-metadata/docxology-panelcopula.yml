@@ -1,0 +1,12 @@
+team_name: "docxology"
+team_abbr: "docxology"
+model_name: "Docxology Panel Schaake Copula"
+model_abbr: "panelcopula"
+model_contributors: [{"name": "Daniel Ari Friedman", "affiliation": "Private Investigator", "email": "danielarifriedman@gmail.com"}]
+license: "CC-BY-4.0"
+designated_model: true
+data_sources: "Retained weekly Flu ED visits pct target observations from the Flu MetroCast Hub (target-data/time-series.csv, the snapshot published by each due Wednesday), derived from CDC NSSP and jurisdictional surveillance sources. Only influenza ED percentage series are used; NYC ILI and California hospital targets are outside this model's scope, and series without enough as-of history are not forecast. No submitted hub forecasts are model inputs."
+methods: "Pooled direct quantile-regression panel (fourth-root, seasonal window) gives marginals; a Schaake shuffle of historical changes joins them into 100 trajectories across horizons 0-3 and locations."
+local_fit_jointly: true
+model_version: "1.0.0"
+ensemble_of_hub_models: false

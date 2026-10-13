@@ -1,0 +1,137 @@
+name: 'CA Target Data'
+
+on:
+  # Manual execution from the Actions tab ("Run workflow" button)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run: show the changes but do not push or open a PR'
+        type: boolean
+        default: false
+
+  # Scheduled execution: Every Saturday at 17:00 UTC
+  # (12:00 ET during EST, 13:00 ET during EDT; cron is always UTC)
+  schedule:
+    - cron: '0 17 * * 6'
+
+permissions:
+  contents: 'write'          # Required to create branches and push commits
+  pull-requests: 'write'     # Required to open pull requests
+
+jobs:
+  update:
+    # Run in the repository
+    if: "${{ github.repository == 'reichlab/flu-metrocast' }}"
+    runs-on: ubuntu-latest
+    env:
+      DRY_RUN: "${{ inputs.dry_run == true }}"
+      SLACK_BOT_TOKEN: "${{ secrets.CA_SLACK_BOT_TOKEN }}"
+      SLACK_CHANNEL: "${{ secrets.CA_SLACK_CHANNEL }}"
+
+    steps:
+      # Set reference date and create a unique branch name. The run attempt
+      # keeps branch names unique when a failed run is re-run.
+      - name: 'Set date and branch name'
+        run: |
+          DATE=$(date -u +'%Y-%m-%d')
+          echo "DATE=${DATE}" >> $GITHUB_ENV
+          echo "BRANCH=automation/ca-target-data-${DATE}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> $GITHUB_ENV
+
+      # Checkout the branch the workflow was started from (main when scheduled)
+      - name: 'Checkout repository'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Create a new date-based branch for this update
+      - name: 'Create new branch for update'
+        run: |
+          git checkout -b "$BRANCH"
+
+      # Set up R environment
+      - name: 'Setup R'
+        uses: r-lib/actions/setup-r@v2
+
+      # Install required R packages
+      - name: 'Install R dependencies'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::readr
+            any::dplyr
+            any::lubridate
+            any::stringr
+
+      # Download the CHHS data and update the three target-data files.
+      # The script writes nothing if the source has not changed.
+      - name: 'Run CA target data script'
+        run: Rscript ./src/get_ca_target_data_2627.R
+
+      # Print a summary of what changed (useful for dry runs)
+      - name: 'Show changes'
+        run: |
+          git diff --stat -- target-data/
+          git diff -U0 -- target-data/ | head -n 100
+
+      # Configure git user for automated commit
+      - name: 'Configure git'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      # Commit and push changes only if target-data was modified
+      - name: 'Commit and push changes'
+        run: |
+          git add target-data/
+          if git diff --cached --quiet; then
+            echo "No changes detected in target-data/. No commit created."
+            echo "CHANGES=false" >> $GITHUB_ENV
+            exit 0
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "Dry run: changes found but not pushed."
+            echo "CHANGES=dry-run" >> $GITHUB_ENV
+            exit 0
+          fi
+          git commit -m "CA target-data update for $DATE"
+          git push -u origin "$BRANCH"
+          echo "CHANGES=true" >> $GITHUB_ENV
+
+      # Create pull request within repository. PRs opened with GITHUB_TOKEN do
+      # not trigger other workflows, so target data validation has to be
+      # started by closing and reopening the PR.
+      - name: 'Create pull request (within repo)'
+        if: "${{ env.CHANGES == 'true' }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PULL_REQUEST_LINK=$(gh pr create \
+            --repo "reichlab/flu-metrocast" \
+            --head "$BRANCH" \
+            --base "main" \
+            --title "CA target-data update for $DATE" \
+            --body "Automated update of California 2026/2027 flu hospital admissions target-data for $DATE, from the CHHS Respiratory Virus Dashboard. Close and reopen this PR to run target data validation.")
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
+
+      # Slack notifications, sent by the Slack app's bot to CA_SLACK_CHANNEL
+      # (a member ID for a direct message, or a channel ID). Skipped until the
+      # CA_SLACK_BOT_TOKEN and CA_SLACK_CHANNEL secrets are added.
+      - name: 'Slack alert (success)'
+        if: "${{ success() && env.SLACK_BOT_TOKEN != '' && env.SLACK_CHANNEL != '' }}"
+        uses: 'slackapi/slack-github-action@v2.1'
+        with:
+          method: 'chat.postMessage'
+          token: "${{ env.SLACK_BOT_TOKEN }}"
+          payload: |
+            channel: "${{ env.SLACK_CHANNEL }}"
+            text: ":white_check_mark: *CA Data Update Succeeded* (${{ env.DATE }})\n${{ env.CHANGES == 'true' && format('<{0}|Link to pull request.>', env.PULL_REQUEST_LINK) || (env.CHANGES == 'dry-run' && '_Dry run, nothing pushed._' || '_No changes detected, no pull request created._') }}\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to action run ${{ github.run_id }}.>"
+
+      - name: 'Slack alert (failure)'
+        if: "${{ failure() && env.SLACK_BOT_TOKEN != '' && env.SLACK_CHANNEL != '' }}"
+        uses: 'slackapi/slack-github-action@v2.1'
+        with:
+          method: 'chat.postMessage'
+          token: "${{ env.SLACK_BOT_TOKEN }}"
+          payload: |
+            channel: "${{ env.SLACK_CHANNEL }}"
+            text: ":x: *CA Data Update Failed* (${{ env.DATE }})\nRe-run it from the Actions tab once the issue is fixed.\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to failed action run ${{ github.run_id }}.>"

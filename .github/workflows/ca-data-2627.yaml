@@ -39,7 +39,7 @@ jobs:
 
       # Checkout the branch the workflow was started from (main when scheduled)
       - name: 'Checkout repository'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 

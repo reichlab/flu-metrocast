@@ -1,8 +1,25 @@
 default:
     validate_model_data:
+      # Rounds with a horizon task ID (through 2025/26):
+      # target_end_date == reference_date + horizon weeks. Skipped for other rounds.
       horizon_timediff:
-        fn: "opt_check_tbl_horizon_timediff"
-        pkg: "hubValidations"
+        fn: "cstm_check_tbl_horizon_timediff"
+        source: "src/validations/R/check_target_end_date.R"
         args:
           t0_colname: "reference_date"
           t1_colname: "target_end_date"
+      # Rounds without a horizon task ID (2026/27 on): for each target and
+      # location, target_end_date covers exactly the weeks from the target's first
+      # horizon to horizon 3, or to the end of the season if the model's metadata
+      # has `long_term_forecasts: true`. Horizons are weeks from reference_date.
+      # Skipped for other rounds.
+      target_end_dates:
+        fn: "cstm_check_tbl_target_end_dates"
+        source: "src/validations/R/check_target_end_date.R"
+        args:
+          t0_colname: "reference_date"
+          t1_colname: "target_end_date"
+          first_horizon:
+            "Flu hosp admits": -1
+          default_first_horizon: 0
+          short_term_last_horizon: 3

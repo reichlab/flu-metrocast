@@ -11,7 +11,7 @@
         "owner": "reichlab",
         "name": "flu-metrocast"
     },
-    "file_format": ["csv"],
+    "file_format": ["csv", "parquet"],
     "timezone": "US/Eastern",
     "cloud": {
         "enabled": true,

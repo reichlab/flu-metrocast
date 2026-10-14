@@ -115,13 +115,15 @@ jobs:
 
       # Slack notifications, sent by the Slack app's bot to CA_SLACK_CHANNEL
       # (a member ID for a direct message, or a channel ID). Skipped until the
-      # CA_SLACK_BOT_TOKEN and CA_SLACK_CHANNEL secrets are added.
+      # CA_SLACK_BOT_TOKEN and CA_SLACK_CHANNEL secrets are added. `errors: true`
+      # makes the step fail if Slack rejects the message.
       - name: 'Slack alert (success)'
         if: "${{ success() && env.SLACK_BOT_TOKEN != '' && env.SLACK_CHANNEL != '' }}"
         uses: 'slackapi/slack-github-action@v2.1'
         with:
           method: 'chat.postMessage'
           token: "${{ env.SLACK_BOT_TOKEN }}"
+          errors: true
           payload: |
             channel: "${{ env.SLACK_CHANNEL }}"
             text: ":white_check_mark: *CA Data Update Succeeded* (${{ env.DATE }})\n${{ env.CHANGES == 'true' && format('<{0}|Link to pull request.>', env.PULL_REQUEST_LINK) || (env.CHANGES == 'dry-run' && '_Dry run, nothing pushed._' || '_No changes detected, no pull request created._') }}\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to action run ${{ github.run_id }}.>"
@@ -132,6 +134,7 @@ jobs:
         with:
           method: 'chat.postMessage'
           token: "${{ env.SLACK_BOT_TOKEN }}"
+          errors: true
           payload: |
             channel: "${{ env.SLACK_CHANNEL }}"
             text: ":x: *CA Data Update Failed* (${{ env.DATE }})\nRe-run it from the Actions tab once the issue is fixed.\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Link to failed action run ${{ github.run_id }}.>"

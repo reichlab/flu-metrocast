@@ -147,7 +147,7 @@ We have included the table below as an aid to understand what `target_end_dates`
 | Horizon | Sun | Mon | Tues | Wed | Thurs | Fri | Sat |
 |---------|-----|-----|------|-----|-------|-----|-----|
 | -1      |     |     |      |     |       |     | Data available for EW ending today<br> |
-| 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) for prior EW ending 4 days ago (Saturday)<br>NYC data has daily update<br>Forecast Due Date (8 PM ET) |     |     | `reference_date`<br>`target_end_date` for horizon 0 |
+| 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) for prior EW ending 4 days ago (Saturday)<br>Forecast Due Date (8 PM ET) |     |     | `reference_date`<br>`target_end_date` for horizon 0 |
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
 | 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |

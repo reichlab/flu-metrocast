@@ -147,7 +147,7 @@ We have included the table below as an aid to understand what `target_end_dates`
 | Horizon | Sun | Mon | Tues | Wed | Thurs | Fri | Sat |
 |---------|-----|-----|------|-----|-------|-----|-----|
 | -1      |     |     |      |     |       |     | Data available for EW ending today<br> |
-| 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) for prior EW ending 4 days ago (Saturday)<br>Forecast Due Date (8 PM ET) |     |     | `reference_date`<br>`target_end_date` for horizon 0 |
+| 0       |     |     |      | [Early release of NSSP data on GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data) and [CDC data portal release](https://data.cdc.gov/Public-Health-Surveillance/NSSP-Emergency-Department-Visit-Trajectories-by-St/rdmq-nq56/data_preview) for prior EW ending 4 days ago (Saturday). <br> Hub target data updated around 3:30 PM ET. <br> Forecast Due Date (8 PM ET) | [Release of NYC data on GitHub](https://github.com/nychealth/respiratory-illness-data/blob/main/data/ED_data_influenza.csv) for prior EW ending 5 days ago (Saturday). <br> For Wednesday forecasts, we will use the previous week's data, so it will be delayed by 11 days.  |     | `reference_date`<br>`target_end_date` for horizon 0 |
 | 1       |     |     |      |     |       |     | `target_end_date` for horizon 1 |
 | 2       |     |     |      |     |       |     | `target_end_date` for horizon 2 |
 | 3       |     |     |      |     |       |     | `target_end_date` for horizon 3 |

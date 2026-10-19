@@ -93,9 +93,9 @@ Target data are the “ground truth” observed data being modeled as the predic
 
 The [`target-data`](/target-data) will be updated every week on Wednesday by around 3:30 PM ET. 
 
-The target data for forecasts of locations with NSSP data available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data).  
+The target data for forecasts of locations with NSSP data available from the [CDC’s National Syndromic Surveillance Program (NSSP) data portal](https://data.cdc.gov/Public-Health-Surveillance/NSSP-Emergency-Department-Visit-Trajectories-by-St/rdmq-nq56/data_preview) and on [GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data).  
 
-The target data for NYC forecasts are available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). 
+The target data for NYC forecasts are available from the [New York City Department of Health and Mental Hygiene’s GitHub](https://github.com/nychealth/respiratory-illness-data/blob/main/data/ED_data_influenza.csv). 
 
 The target data for North Carolina (NC) forecasts are provided by The North Carolina Disease Event Tracking and Epidemiologic Collection Tool (NC DETECT) is North Carolina’s statewide syndromic surveillance system. NC DETECT was created by the [North Carolina Division of Public Health (NC DPH)](https://publichealth.nc.gov/index.htm) in 2004 in collaboration with the Carolina Center for Health Informatics (CCHI) in the UNC Department of Emergency Medicine to address the need for early event detection and timely public health surveillance in North Carolina using a variety of secondary data sources.  
 

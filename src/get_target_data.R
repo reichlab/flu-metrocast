@@ -1,32 +1,22 @@
-#There is no direct link for downloading these data.
-#You need to visit the website
-#https://a816-health.nyc.gov/hdi/epiquery/visualizations?PageType=ps&PopulationSource=Syndromic
-#and manually download the data with the following settings:
-#syndrome = ILI,
-#metric = count,
-#aggregate_by = day,
-#date_range = between 2024-09-29 and the most recent date.
-
-
-
+library(readr)
 library(dplyr)
-library(ISOweek)
-library(tidycensus)
-library(here)
-
 library(epidatr)
-library(tidyr)
+library(lubridate)
+
+
+## covert nyc data daily to weekly
 
 NY_ili_ED_daily_to_weekly_ts <- function(df_daily, as_of = NULL){
   if(is.null(as_of)){
-    as_of = as.Date(today())
+    as_of = Sys.Date()
   }else{
     as_of = as_of
   }
 
   # Clean the newly downloaded data
   df <- df_daily %>%
-    filter(Dim2Value == "All age groups" #,
+    filter(Dim2Value == "All age groups", #,
+           Dim1Value == "Citywide"
            #Dim1Value != "Unknown"
     ) %>%
     mutate(
@@ -37,169 +27,180 @@ NY_ili_ED_daily_to_weekly_ts <- function(df_daily, as_of = NULL){
       location = ifelse(Dim1Value == "Citywide", "NYC", Dim1Value),
       #Week = week(WeekStart),
       #Year = year(WeekStart),
-      target = "ILI ED visits",
+      target = "ILI ED visits pct",
       X = as.numeric(gsub(",", "", X))
     ) %>%
-
-    {if (as_of > "2025-01-03") filter(., WeekStart >= '2024-09-29') else .} %>%
     select(-Ind1Name, -Dim1Name, -Dim1Value, -Dim2Name, -Select.Metric, -Dim2Value, -Dim1Value, - Date) %>%
     rename(
       observation = X
     ) %>%
     select(as_of, WeekStart, location, target, target_end_date, observation)
 
-
   # Aggregate the data to weekly summaries
   df_weekly <- df %>% group_by(as_of, location, WeekStart, target, target_end_date) %>%
     mutate(observation = as.numeric(observation)) %>%
-    summarise(observation = sum(observation, na.rm = TRUE), .groups = "drop") %>%
+    summarise(observation = mean(observation, na.rm = TRUE), .groups = "drop") %>%
     select(-WeekStart) %>%
-    arrange(target_end_date)
+    arrange(target_end_date) %>%
+    mutate(location = tolower(gsub(" ", "-", location)),
+           observation = observation*100)
 
   return(df_weekly)
 }
 
 
+as_of = Sys.Date()
+new_date_str <- format(Sys.Date(), "%m-%d-%Y")
 
-TX_nssp_flu_ED_pct_weekly_ts <- function(myfips, as_of=NULL){
-  nssp <- pub_covidcast(
-    source = "nssp",
-    signals = "pct_ed_visits_influenza",
-    geo_type = "county",
-    time_type = "week",
-    geo_values = myfips$geo_value,
-    as_of = NULL
-  ) %>%
-    select(geo_value, signal, time_value, value) %>%
-    left_join(myfips, by = "geo_value") %>%
-    select(-state, -state_code, -state_name, -county_code)
-
-  if(is.null(as_of)){
-    as_of = as.Date(today())
-  }else{
-    as_of = as_of
-  }
-  nssp_ts <- nssp %>%
-    mutate(as_of = as_of,
-           County = gsub(" County", "", county),
-           target_end_date = as.Date(time_value) + 6,
-           target = "Flu ED visits pct",
-           observation = value) %>%
-    mutate(location = case_when(
-      County == "Bexar"  ~ "San Antonio",  # Example mapping
-      County == "Dallas" ~ "Dallas",
-      County == "El Paso" ~ "El Paso",
-      County == "Harris"  ~ "Houston",
-      County == "Travis"  ~ "Austin",
-      TRUE ~ County
-    )) %>%
-    select(as_of, location, target, target_end_date, observation)
-
-  return(nssp_ts)
-}
+raw_nyc_df <- read.csv(paste("raw-data/NYC_pct_ED_daily_asof_", new_date_str, ".csv", sep = ""))
 
 
-add_previous_season <- function(df_weekly, as_of = NULL){
-  if(is.null(as_of)){
-    as_of = as.Date(today())
-  }else{
-    as_of = as_of
-  }
-  ts <- read.csv("target-data/time-series.csv")
-  ts <- ts %>%
-    mutate(as_of = as.Date(as_of),
-           target_end_date = as.Date(target_end_date ))
-
-  df_weekly <- df_weekly %>%
-    bind_rows(ts %>%
-                filter(target == "ILI ED visits") %>%
-                filter(as_of == min(as_of)) %>%
-                filter(target_end_date < "2024-10-05") %>%
-                mutate(as_of = as.Date(today()))
-    )
-
-  print(dim(ts))
-  new_ts <- ts %>%
-    bind_rows(df_weekly) %>%
-    mutate(as_of = as.character(as_of),
-           target_end_date = as.character(target_end_date)) %>%
-    arrange(as_of, target_end_date) %>%
-    filter(target_end_date <= as_of)
-  print(dim(new_ts))
-  return(new_ts)
-}
+weekly_nyc <- NY_ili_ED_daily_to_weekly_ts(raw_nyc_df)
 
 
-
-ts_to_oracle <- function(df_weekly, target, as_of){
-  if(is.null(as_of)){
-    as_of = as.Date(today())
-  }else{
-    as_of = as_of
-  }
-  for_oracle <- df_weekly %>%
-    group_by(location, target_end_date) %>%
-    filter(as_of == max(as_of)) %>% # filtering with recent as_of_date
-    ungroup()
-
-  oracle_output <- for_oracle %>%
-    select(-as_of) %>%
-    mutate(target = target) %>%
-    rename(oracle_value = observation) %>%
-    arrange(target_end_date) %>%
-    filter(target_end_date <= as_of) %>%
-    select(target_end_date, location, target, oracle_value)
-
-  return(oracle_output)
-}
+NYC_data <- weekly_nyc %>%
+  mutate(observation = round(observation, 2)) %>%
+  filter(target_end_date <= today(),
+         target_end_date >= '2024-08-01')
 
 
-create_csv_check <- function(as_of){
-  parts <- unlist(strsplit(as_of, "-"))
-  new_date_str <- paste(parts[2], parts[3], parts[1], sep="-")
+##########################################
+##########################################
+## NSSP data
+##########################################
+##########################################
 
-  NYC_data <- read.csv(paste("raw-data/NYC_ED_daily_asof_", new_date_str, ".csv", sep = ""))
-  NYC_weekly <- NY_ili_ED_daily_to_weekly_ts(df_daily = NYC_data, as_of = NULL)
-  head(NYC_weekly)
+epidatr::disable_cache()
+NSSP_hsa <- pub_covidcast(
+  source = "beta_nssp_github",
+  signals = "pct_ed_visits_influenza",
+  geo_type = "hsa_nci",
+  time_type = "week",
+)
+max(NSSP_hsa$time_value)
 
-  myfips <- fips_codes %>%
-    filter(state == "TX",
-           county %in% c("Travis County",
-                         "Harris County",
-                         "Dallas County",
-                         "El Paso County",
-                         "Bexar County")) %>%
-    mutate(geo_value = paste(state_code, county_code, sep = ""))
 
-  TX_weekly <- TX_nssp_flu_ED_pct_weekly_ts(myfips = myfips, as_of=NULL)
-  head(TX_weekly)
+NSSP_state <- pub_covidcast(
+  source = "beta_nssp_github",
+  signals = "pct_ed_visits_influenza",
+  geo_type = "state",
+  time_type = "week",
+)
+max(NSSP_state$time_value)
 
-  df_weekly <- rbind(NYC_weekly, TX_weekly)
 
-  new_ts <- add_previous_season(df_weekly, as_of = NULL)
+locations <- read_csv("auxiliary-data/locations.csv")
+hsa_list <- locations %>%
+  filter(location_type == "hsa_nci_id",
+         location != 'nyc',
+         original_location_code != 'All')
 
-  ## check correctly added
-  new_ts |>
-    group_by(as_of, target, location) |>
-    summarize(n=n()) |>
-    View()
+state_list <- locations %>%
+  filter(original_location_code == "All",
+         location != 'north-carolina') %>%
+  mutate(state_abb2 = tolower(state_abb))
 
-  new_oracle <- ts_to_oracle(df_weekly = new_ts, as_of = NULL)
-  write.csv(new_ts, "target-data/time-series.csv", row.names = FALSE)
-  write.csv(new_oracle, "target-data/oracle-output.csv", row.names = FALSE)
+NSSP_hsa_df <- NSSP_hsa %>%
+  filter(geo_value %in% hsa_list$original_location_code) %>%
+  left_join(hsa_list %>%
+              select(location, original_location_code, population),
+            by = c("geo_value" = "original_location_code")) %>%
+  mutate(as_of = Sys.Date(),
+         target = "Flu ED visits pct",
+         target_end_date = time_value + 6) %>%
+  select(as_of, location, target, target_end_date, observation = value)
 
-}
 
-create_csv_check(as_of = as.character(today()))
+NSSP_state_df <- NSSP_state %>%
+  filter(geo_value %in% state_list$state_abb2) %>%
+  left_join(state_list %>%
+              select(location, state_abb2, population),
+            by = c("geo_value" = "state_abb2")) %>%
+  mutate(as_of = Sys.Date(),
+         target = "Flu ED visits pct",
+         target_end_date = time_value + 6) %>%
+  select(as_of, location, target, target_end_date, observation = value)
 
-aa <- read.csv("target-data/oracle-output.csv")
-aa$target_end_date <- as.Date(aa$target_end_date)
-write.csv(aa, "target-data/oracle-output.csv", row.names = FALSE)
+
+nssp1 <- rbind(NSSP_hsa_df, NSSP_state_df)
+nssp <- nssp1 %>%
+  mutate(observation = round(observation,2))
+
+##########################################
+##########################################
+## time_series
+##########################################
+##########################################
+
+time_series <- read_csv("target-data/time-series.csv")
+
+time_series %>% filter(location == "athens") %>%group_by(location, as_of) |> summarize(tot_rows = n())
+
+NY_ts <- NYC_data %>%
+  filter(target_end_date >= '2024-08-01') %>%
+  distinct()
+
+NSSP_ts <- nssp %>%
+  filter(target_end_date >= '2024-08-01') %>%
+  distinct()
+
+today_time_series <-  rbind(NY_ts, NSSP_ts)
+new_time_series <- rbind(time_series, today_time_series)
+
+write.csv(new_time_series, "target-data/time-series.csv", row.names = FALSE)
+
+
+##########################################
+##########################################
+#### latest-data
+##########################################
+##########################################
+
+latest_data <- read_csv("target-data/latest-data.csv")
+
+new_latest_data  <- NYC_data %>%
+  filter(target_end_date >= '2024-08-01') %>%
+  select(target_end_date, location, target, observation) %>%
+  distinct()  %>%
+  rbind(nssp %>%
+          filter(target_end_date >= '2024-08-01') %>%
+          select(target_end_date, location, target, observation) %>%
+          distinct())
 
 
 
+updated_latest_data <- latest_data %>%
+  rows_upsert(new_latest_data,
+              by = c("target_end_date", "location", "target"))
 
 
+write.csv(updated_latest_data, "target-data/latest-data.csv", row.names = FALSE)
 
 
+##########################################
+##########################################
+#### oracle-data
+##########################################
+##########################################
+
+target_end_date_list <- c("2025-11-22", "2025-11-29", "2025-12-06", "2025-12-13",
+                          "2025-12-20", "2025-12-27", "2026-01-03", "2026-01-10",
+                          "2026-01-17", "2026-01-24", "2026-01-31", "2026-02-07",
+                          "2026-02-14", "2026-02-21", "2026-02-28", "2026-03-07",
+                          "2026-03-14", "2026-03-21", "2026-03-28", "2026-04-04",
+                          "2026-04-11", "2026-04-18", "2026-04-25", "2026-05-02",
+                          "2026-05-09", "2026-05-16", "2026-05-23", "2026-05-30",
+                          "2026-06-06", "2026-06-13")
+
+oracle_output <- read_csv("target-data/oracle-output.csv")
+
+oracle_output1 <- updated_latest_data %>%
+  rename(oracle_value = observation) %>%
+  filter(target_end_date %in% target_end_date_list)
+
+new_oracle_output  <- oracle_output  %>%
+  rows_upsert(oracle_output1 ,
+              by = c("target_end_date", "location", "target"))
+
+write.csv(new_oracle_output, "target-data/oracle-output.csv", row.names = FALSE)
 

@@ -27,7 +27,7 @@ Metro-level forecasting provides several key benefits:
 * Builds modeling capacity and data infrastructure that strengthen readiness for future outbreak.
 * Generates insights that are accessible and actionable for public health officials, healthcare systems, and community leaders.
 
-From **November 4, 2026 through May 19, 2027**, participating modeling teams must submit **weekly sample forecasts of the percentage of ED visits due to influenza for forecast horizons ranging from 0 to +3 weeks** and may optionally submit **full-season trajectories covering the remainder of the influenza season**. For the 2026-2027 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
+From **October 21, 2026 through May 19, 2027**, participating modeling teams must submit **weekly sample forecasts of the percentage of ED visits due to influenza for forecast horizons ranging from 0 to +3 weeks** and may optionally submit **full-season trajectories covering the remainder of the influenza season**. For the 2026-2027 season, all forecasts––except those for NYC and North Carolina––will use publicly-available data from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data). These data provide weekly estimates of the percentage of influenza-related ED visits at the level of Health Service Areas (HSAs), which are single- or multi-county clusters reflecting local healthcare catchments that often align with metropolitan areas. Forecasts for NYC will use data from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). Forecasts for North Carolina will use data from the  [North Carolina Division of Public Health's (NC DPH) statewide syndromic surveillance system](https://publichealth.nc.gov/index.htm).
 
 All forecasts and observed target data will be publicly available in the Flu MetroCast GitHub repository, following Hubverse standards. Model submissions will be validated for compliance with these standards and incorporated into an ensemble forecast. Both ensemble and individual model outputs will be displayed on a [public-facing interactive dashboard](https://reichlab.io/metrocast-dashboard/). Forecasts will be evaluated in real time using metrics such as the weighted interval score (WIS), and results will be publicly reported. A [pre-registered evaluation](https://osf.io/rc9dt/overview) will be conducted at the end of the season.
 
@@ -39,7 +39,7 @@ Anyone interested in using these data for additional research or publications sh
 
 ## Metro-level Forecasts of Influenza During the 2026-2027 Season
 ### Dates
-The initial Flu MetroCast Hub submission will be due on **Wednesday, November 4, 2026**, with subsequent weekly submissions until May 19, 2027. 
+The initial Flu MetroCast Hub submission will be due on **Wednesday, October 21, 2026**, with subsequent weekly submissions until May 19, 2027. 
 
 Participating teams must submit weekly forecasts **by 8 PM Eastern Time each Wednesday (the Forecast Due Date)** for inclusion in the ensemble model. This deadline aligns with the early Wednesday release of NSSP data on the percentage of ED visits. Any changes to the Forecast Due Date (e.g., due to holidays) will be communicated promptly by the MetroCast organizing team.
 
@@ -91,9 +91,11 @@ Model output must follow a tabular representation where each row represents a si
 
 Target data are the “ground truth” observed data being modeled as the prediction target. You can find the raw and target data in the [`raw-data`](/raw-data) and [`target-data`](/target-data) folders of the MetroCast GitHub repository. Raw data represent ground truth data in its raw or native form. Target data are specially formatted raw data that can be used for model fitting, visualization, or evaluation purposes. 
 
-The target data for forecasts of locations with NSSP data available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data).  
+The [`target-data`](/target-data) will be updated every week on Wednesday by around 3:30 PM ET. 
 
-The target data for NYC forecasts are available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). 
+The target data for forecasts of locations with NSSP data available from the [CDC’s National Syndromic Surveillance Program (NSSP) data portal](https://data.cdc.gov/Public-Health-Surveillance/NSSP-Emergency-Department-Visit-Trajectories-by-St/rdmq-nq56/data_preview) and on [GitHub](https://github.com/CDCgov/covid19-forecast-hub/tree/main/auxiliary-data/nssp-raw-data).  
+
+The target data for NYC forecasts are available from the [New York City Department of Health and Mental Hygiene’s GitHub](https://github.com/nychealth/respiratory-illness-data/blob/main/data/ED_data_influenza.csv). 
 
 The target data for North Carolina (NC) forecasts are provided by The North Carolina Disease Event Tracking and Epidemiologic Collection Tool (NC DETECT) is North Carolina’s statewide syndromic surveillance system. NC DETECT was created by the [North Carolina Division of Public Health (NC DPH)](https://publichealth.nc.gov/index.htm) in 2004 in collaboration with the Carolina Center for Health Informatics (CCHI) in the UNC Department of Emergency Medicine to address the need for early event detection and timely public health surveillance in North Carolina using a variety of secondary data sources.  
 
@@ -112,7 +114,7 @@ For each model, teams must submit one model metadata file to the [`model-metadat
 
 Forecasts must follow Hubverse standards, including naming conventions, required columns, and valid values for all required fields, to ensure that model output can be easily aggregated, visualized, and evaluated with downstream tools. All submissions must pass automated validation before being accepted. 
 
-Please see the [`model-output` README](/model-output#readme) for detailed instructions on formatting and submission requirements. 
+Please see the [`model-output` README](/model-output#readme) for detailed instructions on formatting and submission requirements, including how to indicate which samples represent joint draws from a model across target end dates and potentially locations. 
 
 ---
 

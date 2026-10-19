@@ -93,7 +93,6 @@ target_end_date,location,target,observation
 10/15/2022,dallas,Flu ED visits pct,0.79
 10/15/2022,houston,Flu ED visits pct,3.17
 10/15/2022,beaumont,Flu ED visits pct,5.31
-10/15/2022,utah,Flu ED visits pct,0.12
 10/15/2022,roanoke,Flu ED visits pct,2.27
 10/22/2022,denver,Flu ED visits pct,0.19
 10/22/2022,boulder,Flu ED visits pct,0.44
@@ -227,7 +226,6 @@ target_end_date,location,target,observation
 11/12/2022,austin,Flu ED visits pct,5.41
 11/12/2022,san-antonio,Flu ED visits pct,7.95
 11/12/2022,houston,Flu ED visits pct,5.84
-11/12/2022,utah,Flu ED visits pct,1.21
 11/12/2022,roanoke,Flu ED visits pct,9.65
 11/19/2022,boulder,Flu ED visits pct,3.46
 11/19/2022,denver,Flu ED visits pct,3.54
@@ -263,7 +261,6 @@ target_end_date,location,target,observation
 11/19/2022,san-antonio,Flu ED visits pct,7.18
 11/19/2022,el-paso,Flu ED visits pct,3.69
 11/19/2022,dallas,Flu ED visits pct,7.17
-11/19/2022,utah,Flu ED visits pct,2.23
 11/19/2022,roanoke,Flu ED visits pct,6.54
 11/26/2022,denver,Flu ED visits pct,5.32
 11/26/2022,colorado-springs,Flu ED visits pct,4
@@ -364,7 +361,6 @@ target_end_date,location,target,observation
 12/10/2022,el-paso,Flu ED visits pct,5.19
 12/10/2022,houston,Flu ED visits pct,2.87
 12/10/2022,beaumont,Flu ED visits pct,1.89
-12/10/2022,utah,Flu ED visits pct,5.66
 12/10/2022,roanoke,Flu ED visits pct,5.66
 12/17/2022,denver,Flu ED visits pct,5.43
 12/17/2022,boulder,Flu ED visits pct,6.74
@@ -683,7 +679,6 @@ target_end_date,location,target,observation
 2/11/2023,houston,Flu ED visits pct,0.58
 2/11/2023,san-antonio,Flu ED visits pct,0.38
 2/11/2023,beaumont,Flu ED visits pct,0.16
-2/11/2023,utah,Flu ED visits pct,0.33
 2/11/2023,roanoke,Flu ED visits pct,0.82
 2/18/2023,boulder,Flu ED visits pct,0.54
 2/18/2023,denver,Flu ED visits pct,0.25
@@ -719,7 +714,6 @@ target_end_date,location,target,observation
 2/18/2023,beaumont,Flu ED visits pct,0.15
 2/18/2023,san-antonio,Flu ED visits pct,0.41
 2/18/2023,austin,Flu ED visits pct,0.46
-2/18/2023,utah,Flu ED visits pct,0.31
 2/18/2023,roanoke,Flu ED visits pct,0.9
 2/25/2023,denver,Flu ED visits pct,0.28
 2/25/2023,colorado,Flu ED visits pct,0.22
@@ -814,7 +808,6 @@ target_end_date,location,target,observation
 3/11/2023,san-antonio,Flu ED visits pct,0.32
 3/11/2023,el-paso,Flu ED visits pct,0.44
 3/11/2023,beaumont,Flu ED visits pct,0.22
-3/11/2023,utah,Flu ED visits pct,0.34
 3/11/2023,roanoke,Flu ED visits pct,0.46
 3/18/2023,denver,Flu ED visits pct,0.22
 3/18/2023,colorado-springs,Flu ED visits pct,0.3
@@ -847,7 +840,6 @@ target_end_date,location,target,observation
 3/18/2023,el-paso,Flu ED visits pct,0.36
 3/18/2023,dallas,Flu ED visits pct,0.33
 3/18/2023,austin,Flu ED visits pct,0.29
-3/18/2023,utah,Flu ED visits pct,0.21
 3/18/2023,virginia,Flu ED visits pct,0.33
 3/18/2023,roanoke,Flu ED visits pct,0.77
 3/25/2023,denver,Flu ED visits pct,0.16
@@ -918,7 +910,6 @@ target_end_date,location,target,observation
 4/1/2023,dallas,Flu ED visits pct,0.24
 4/1/2023,san-antonio,Flu ED visits pct,0.14
 4/1/2023,austin,Flu ED visits pct,0.35
-4/1/2023,utah,Flu ED visits pct,0.19
 4/1/2023,roanoke,Flu ED visits pct,0.61
 4/8/2023,colorado,Flu ED visits pct,0.14
 4/8/2023,boulder,Flu ED visits pct,0.18
@@ -1138,7 +1129,6 @@ target_end_date,location,target,observation
 5/13/2023,san-antonio,Flu ED visits pct,0.12
 5/13/2023,beaumont,Flu ED visits pct,0.13
 5/13/2023,dallas,Flu ED visits pct,0.28
-5/13/2023,utah,Flu ED visits pct,0.26
 5/13/2023,roanoke,Flu ED visits pct,0.25
 5/20/2023,colorado-springs,Flu ED visits pct,0.15
 5/20/2023,denver,Flu ED visits pct,0.2
@@ -1177,7 +1167,6 @@ target_end_date,location,target,observation
 5/20/2023,el-paso,Flu ED visits pct,1.15
 5/20/2023,beaumont,Flu ED visits pct,0.1
 5/20/2023,austin,Flu ED visits pct,0.2
-5/20/2023,utah,Flu ED visits pct,0.31
 5/20/2023,roanoke,Flu ED visits pct,0.33
 5/27/2023,denver,Flu ED visits pct,0.09
 5/27/2023,larimer,Flu ED visits pct,0.21
@@ -1322,7 +1311,6 @@ target_end_date,location,target,observation
 6/17/2023,el-paso,Flu ED visits pct,0.52
 6/17/2023,houston,Flu ED visits pct,0.14
 6/17/2023,beaumont,Flu ED visits pct,0.1
-6/17/2023,utah,Flu ED visits pct,0.15
 6/24/2023,denver,Flu ED visits pct,0.08
 6/24/2023,mesa,Flu ED visits pct,0
 6/24/2023,colorado-springs,Flu ED visits pct,0.03
@@ -1390,7 +1378,6 @@ target_end_date,location,target,observation
 7/1/2023,houston,Flu ED visits pct,0.15
 7/1/2023,dallas,Flu ED visits pct,0.16
 7/1/2023,austin,Flu ED visits pct,0.2
-7/1/2023,utah,Flu ED visits pct,0.12
 7/1/2023,virginia,Flu ED visits pct,0.12
 7/1/2023,roanoke,Flu ED visits pct,0.26
 7/8/2023,mesa,Flu ED visits pct,0.08
@@ -1425,7 +1412,6 @@ target_end_date,location,target,observation
 7/8/2023,dallas,Flu ED visits pct,0.17
 7/8/2023,beaumont,Flu ED visits pct,0.08
 7/8/2023,houston,Flu ED visits pct,0.1
-7/8/2023,utah,Flu ED visits pct,0.18
 7/8/2023,roanoke,Flu ED visits pct,0.23
 7/15/2023,denver,Flu ED visits pct,0.07
 7/15/2023,colorado,Flu ED visits pct,0.06
@@ -1495,7 +1481,6 @@ target_end_date,location,target,observation
 7/22/2023,el-paso,Flu ED visits pct,0.23
 7/22/2023,beaumont,Flu ED visits pct,0.1
 7/22/2023,houston,Flu ED visits pct,0.14
-7/22/2023,utah,Flu ED visits pct,0.11
 7/22/2023,roanoke,Flu ED visits pct,0.16
 7/29/2023,colorado,Flu ED visits pct,0.05
 7/29/2023,boulder,Flu ED visits pct,0.19
@@ -1655,7 +1640,6 @@ target_end_date,location,target,observation
 8/26/2023,dallas,Flu ED visits pct,0.21
 8/26/2023,san-antonio,Flu ED visits pct,0.14
 8/26/2023,austin,Flu ED visits pct,0.36
-8/26/2023,utah,Flu ED visits pct,0.07
 8/26/2023,roanoke,Flu ED visits pct,0.25
 9/2/2023,colorado,Flu ED visits pct,0.07
 9/2/2023,denver,Flu ED visits pct,0.1
@@ -1722,7 +1706,6 @@ target_end_date,location,target,observation
 9/9/2023,houston,Flu ED visits pct,0.23
 9/9/2023,beaumont,Flu ED visits pct,0.28
 9/9/2023,dallas,Flu ED visits pct,0.28
-9/9/2023,utah,Flu ED visits pct,0.21
 9/9/2023,roanoke,Flu ED visits pct,0.38
 9/16/2023,denver,Flu ED visits pct,0.09
 9/16/2023,mesa,Flu ED visits pct,0
@@ -1757,7 +1740,6 @@ target_end_date,location,target,observation
 9/16/2023,austin,Flu ED visits pct,0.39
 9/16/2023,el-paso,Flu ED visits pct,0.45
 9/16/2023,dallas,Flu ED visits pct,0.28
-9/16/2023,utah,Flu ED visits pct,0.08
 9/16/2023,roanoke,Flu ED visits pct,0.35
 9/23/2023,denver,Flu ED visits pct,0.11
 9/23/2023,boulder,Flu ED visits pct,0.07
@@ -2105,7 +2087,6 @@ target_end_date,location,target,observation
 11/25/2023,san-antonio,Flu ED visits pct,1.37
 11/25/2023,el-paso,Flu ED visits pct,1.46
 11/25/2023,houston,Flu ED visits pct,3.94
-11/25/2023,utah,Flu ED visits pct,1.51
 11/25/2023,roanoke,Flu ED visits pct,1.74
 12/2/2023,colorado-springs,Flu ED visits pct,1.75
 12/2/2023,denver,Flu ED visits pct,2.72
@@ -2212,7 +2193,6 @@ target_end_date,location,target,observation
 12/16/2023,houston,Flu ED visits pct,5.77
 12/16/2023,beaumont,Flu ED visits pct,6.45
 12/16/2023,san-antonio,Flu ED visits pct,3.94
-12/16/2023,utah,Flu ED visits pct,3.54
 12/16/2023,virginia,Flu ED visits pct,4.09
 12/16/2023,roanoke,Flu ED visits pct,4.34
 12/23/2023,boulder,Flu ED visits pct,3.78
@@ -2318,7 +2298,6 @@ target_end_date,location,target,observation
 1/6/2024,houston,Flu ED visits pct,4.48
 1/6/2024,dallas,Flu ED visits pct,5.74
 1/6/2024,el-paso,Flu ED visits pct,6.12
-1/6/2024,utah,Flu ED visits pct,6.01
 1/6/2024,roanoke,Flu ED visits pct,6.15
 1/13/2024,colorado-springs,Flu ED visits pct,3.21
 1/13/2024,denver,Flu ED visits pct,3.33
@@ -2422,7 +2401,6 @@ target_end_date,location,target,observation
 1/27/2024,dallas,Flu ED visits pct,7.76
 1/27/2024,austin,Flu ED visits pct,5.08
 1/27/2024,houston,Flu ED visits pct,3.02
-1/27/2024,utah,Flu ED visits pct,3.21
 1/27/2024,roanoke,Flu ED visits pct,5.08
 2/3/2024,mesa,Flu ED visits pct,3.34
 2/3/2024,larimer,Flu ED visits pct,3.04
@@ -2645,7 +2623,6 @@ target_end_date,location,target,observation
 3/9/2024,beaumont,Flu ED visits pct,0.85
 3/9/2024,houston,Flu ED visits pct,1.16
 3/9/2024,austin,Flu ED visits pct,1.47
-3/9/2024,utah,Flu ED visits pct,1.02
 3/9/2024,roanoke,Flu ED visits pct,3.42
 3/16/2024,mesa,Flu ED visits pct,2.32
 3/16/2024,denver,Flu ED visits pct,1.43
@@ -2747,7 +2724,6 @@ target_end_date,location,target,observation
 3/30/2024,austin,Flu ED visits pct,0.62
 3/30/2024,dallas,Flu ED visits pct,0.87
 3/30/2024,beaumont,Flu ED visits pct,0.46
-3/30/2024,utah,Flu ED visits pct,0.83
 3/30/2024,roanoke,Flu ED visits pct,1.9
 4/6/2024,colorado,Flu ED visits pct,0.66
 4/6/2024,denver,Flu ED visits pct,0.69
@@ -2858,7 +2834,6 @@ target_end_date,location,target,observation
 4/20/2024,beaumont,Flu ED visits pct,0.34
 4/20/2024,austin,Flu ED visits pct,0.46
 4/20/2024,houston,Flu ED visits pct,0.38
-4/20/2024,utah,Flu ED visits pct,0.4
 4/20/2024,roanoke,Flu ED visits pct,0.6
 4/27/2024,denver,Flu ED visits pct,0.44
 4/27/2024,mesa,Flu ED visits pct,0.16
@@ -2968,7 +2943,6 @@ target_end_date,location,target,observation
 5/11/2024,san-antonio,Flu ED visits pct,0.18
 5/11/2024,beaumont,Flu ED visits pct,0.1
 5/11/2024,dallas,Flu ED visits pct,0.29
-5/11/2024,utah,Flu ED visits pct,0.25
 5/11/2024,roanoke,Flu ED visits pct,0.24
 5/18/2024,mesa,Flu ED visits pct,0.08
 5/18/2024,denver,Flu ED visits pct,0.32
@@ -3040,7 +3014,6 @@ target_end_date,location,target,observation
 5/25/2024,dallas,Flu ED visits pct,0.23
 5/25/2024,beaumont,Flu ED visits pct,0.07
 5/25/2024,austin,Flu ED visits pct,0.19
-5/25/2024,utah,Flu ED visits pct,0.14
 5/25/2024,roanoke,Flu ED visits pct,0.15
 6/1/2024,denver,Flu ED visits pct,0.24
 6/1/2024,larimer,Flu ED visits pct,0.14
@@ -3225,7 +3198,6 @@ target_end_date,location,target,observation
 6/29/2024,houston,Flu ED visits pct,0.19
 6/29/2024,austin,Flu ED visits pct,0.2
 6/29/2024,el-paso,Flu ED visits pct,0.22
-6/29/2024,utah,Flu ED visits pct,0.14
 6/29/2024,roanoke,Flu ED visits pct,0.16
 7/6/2024,denver,Flu ED visits pct,0.08
 7/6/2024,mesa,Flu ED visits pct,0
@@ -3404,7 +3376,6 @@ target_end_date,location,target,observation
 8/3/2024,el-paso,Flu ED visits pct,0.18
 8/3/2024,beaumont,Flu ED visits pct,0.1
 8/3/2024,houston,Flu ED visits pct,0.23
-8/3/2024,utah,Flu ED visits pct,0.07
 8/10/2024,colorado,Flu ED visits pct,0.04
 8/10/2024,colorado-springs,Flu ED visits pct,0
 8/10/2024,denver,Flu ED visits pct,0.03
@@ -3555,7 +3526,6 @@ target_end_date,location,target,observation
 8/31/2024,dallas,Flu ED visits pct,0.19
 8/31/2024,austin,Flu ED visits pct,0.24
 8/31/2024,beaumont,Flu ED visits pct,0.38
-8/31/2024,utah,Flu ED visits pct,0.11
 8/31/2024,roanoke,Flu ED visits pct,0.28
 9/7/2024,colorado,Flu ED visits pct,0.04
 9/7/2024,boulder,Flu ED visits pct,0.04
@@ -3739,7 +3709,6 @@ target_end_date,location,target,observation
 10/5/2024,el-paso,Flu ED visits pct,0.23
 10/5/2024,dallas,Flu ED visits pct,0.19
 10/5/2024,houston,Flu ED visits pct,0.31
-10/5/2024,utah,Flu ED visits pct,0.17
 10/5/2024,virginia,Flu ED visits pct,0.19
 10/5/2024,roanoke,Flu ED visits pct,0.35
 10/12/2024,colorado,Flu ED visits pct,0.13
@@ -3849,7 +3818,6 @@ target_end_date,location,target,observation
 10/26/2024,beaumont,Flu ED visits pct,0.17
 10/26/2024,austin,Flu ED visits pct,0.22
 10/26/2024,san-antonio,Flu ED visits pct,0.35
-10/26/2024,utah,Flu ED visits pct,0.14
 10/26/2024,virginia,Flu ED visits pct,0.26
 10/26/2024,roanoke,Flu ED visits pct,0.54
 11/2/2024,denver,Flu ED visits pct,0.28
@@ -3922,7 +3890,6 @@ target_end_date,location,target,observation
 11/9/2024,san-antonio,Flu ED visits pct,0.49
 11/9/2024,austin,Flu ED visits pct,0.22
 11/9/2024,houston,Flu ED visits pct,0.72
-11/9/2024,utah,Flu ED visits pct,0.21
 11/9/2024,virginia,Flu ED visits pct,0.23
 11/9/2024,roanoke,Flu ED visits pct,0.41
 11/16/2024,denver,Flu ED visits pct,0.42
@@ -4246,7 +4213,6 @@ target_end_date,location,target,observation
 1/11/2025,dallas,Flu ED visits pct,5.05
 1/11/2025,beaumont,Flu ED visits pct,3.57
 1/11/2025,el-paso,Flu ED visits pct,7.3
-1/11/2025,utah,Flu ED visits pct,5.03
 1/11/2025,roanoke,Flu ED visits pct,1.98
 1/18/2025,colorado-springs,Flu ED visits pct,3.04
 1/18/2025,denver,Flu ED visits pct,4.31
@@ -4279,7 +4245,6 @@ target_end_date,location,target,observation
 1/18/2025,dallas,Flu ED visits pct,5.98
 1/18/2025,austin,Flu ED visits pct,6.83
 1/18/2025,beaumont,Flu ED visits pct,5.76
-1/18/2025,utah,Flu ED visits pct,4.49
 1/25/2025,denver,Flu ED visits pct,4.23
 1/25/2025,mesa,Flu ED visits pct,4.06
 1/25/2025,weld,Flu ED visits pct,6.93
@@ -4482,7 +4447,6 @@ target_end_date,location,target,observation
 3/1/2025,beaumont,Flu ED visits pct,2.02
 3/1/2025,houston,Flu ED visits pct,3.27
 3/1/2025,san-antonio,Flu ED visits pct,3.24
-3/1/2025,utah,Flu ED visits pct,2.67
 3/1/2025,virginia,Flu ED visits pct,4.98
 3/1/2025,roanoke,Flu ED visits pct,5.96
 3/8/2025,denver,Flu ED visits pct,2.06
@@ -4548,7 +4512,6 @@ target_end_date,location,target,observation
 3/15/2025,houston,Flu ED visits pct,2.04
 3/15/2025,el-paso,Flu ED visits pct,1.78
 3/15/2025,dallas,Flu ED visits pct,1.6
-3/15/2025,utah,Flu ED visits pct,1.91
 3/15/2025,roanoke,Flu ED visits pct,3.43
 3/22/2025,denver,Flu ED visits pct,1.11
 3/22/2025,colorado,Flu ED visits pct,1.28
@@ -4585,7 +4548,6 @@ target_end_date,location,target,observation
 3/22/2025,san-antonio,Flu ED visits pct,0.9
 3/22/2025,beaumont,Flu ED visits pct,1.27
 3/22/2025,austin,Flu ED visits pct,1.14
-3/22/2025,utah,Flu ED visits pct,1.6
 3/22/2025,roanoke,Flu ED visits pct,2.27
 3/29/2025,denver,Flu ED visits pct,0.87
 3/29/2025,colorado-springs,Flu ED visits pct,0.85
@@ -4977,7 +4939,6 @@ target_end_date,location,target,observation
 6/7/2025,austin,Flu ED visits pct,0.35
 6/7/2025,dallas,Flu ED visits pct,0.17
 6/7/2025,beaumont,Flu ED visits pct,0.36
-6/7/2025,utah,Flu ED visits pct,0.19
 6/7/2025,roanoke,Flu ED visits pct,0.13
 6/14/2025,colorado-springs,Flu ED visits pct,0.17
 6/14/2025,mesa,Flu ED visits pct,0
@@ -5057,7 +5018,6 @@ target_end_date,location,target,observation
 6/21/2025,dallas,Flu ED visits pct,0.1
 6/21/2025,san-antonio,Flu ED visits pct,0.2
 6/21/2025,beaumont,Flu ED visits pct,0.19
-6/21/2025,utah,Flu ED visits pct,0.09
 6/21/2025,roanoke,Flu ED visits pct,0.14
 6/28/2025,boulder,Flu ED visits pct,0.21
 6/28/2025,colorado-springs,Flu ED visits pct,0.05
@@ -5097,7 +5057,6 @@ target_end_date,location,target,observation
 6/28/2025,houston,Flu ED visits pct,0.23
 6/28/2025,beaumont,Flu ED visits pct,0.08
 6/28/2025,austin,Flu ED visits pct,0.16
-6/28/2025,utah,Flu ED visits pct,0.13
 6/28/2025,roanoke,Flu ED visits pct,0.16
 7/5/2025,denver,Flu ED visits pct,0.08
 7/5/2025,mesa,Flu ED visits pct,0.06
@@ -5129,7 +5088,6 @@ target_end_date,location,target,observation
 7/5/2025,dallas,Flu ED visits pct,0.09
 7/5/2025,houston,Flu ED visits pct,0.2
 7/5/2025,beaumont,Flu ED visits pct,0.1
-7/5/2025,utah,Flu ED visits pct,0.12
 7/5/2025,roanoke,Flu ED visits pct,0.04
 7/12/2025,denver,Flu ED visits pct,0.07
 7/12/2025,mesa,Flu ED visits pct,0
@@ -5266,7 +5224,6 @@ target_end_date,location,target,observation
 8/2/2025,austin,Flu ED visits pct,0.23
 8/2/2025,san-antonio,Flu ED visits pct,0.08
 8/2/2025,dallas,Flu ED visits pct,0.08
-8/2/2025,utah,Flu ED visits pct,0.05
 8/2/2025,roanoke,Flu ED visits pct,0.09
 8/9/2025,colorado,Flu ED visits pct,0.04
 8/9/2025,boulder,Flu ED visits pct,0
@@ -5370,7 +5327,6 @@ target_end_date,location,target,observation
 8/23/2025,el-paso,Flu ED visits pct,0.12
 8/23/2025,san-antonio,Flu ED visits pct,0.12
 8/23/2025,beaumont,Flu ED visits pct,0.09
-8/23/2025,utah,Flu ED visits pct,0.06
 8/23/2025,virginia,Flu ED visits pct,0.08
 8/23/2025,roanoke,Flu ED visits pct,0.09
 8/30/2025,denver,Flu ED visits pct,0.08
@@ -5444,7 +5400,6 @@ target_end_date,location,target,observation
 9/6/2025,dallas,Flu ED visits pct,0.14
 9/6/2025,beaumont,Flu ED visits pct,0.14
 9/6/2025,austin,Flu ED visits pct,0.21
-9/6/2025,utah,Flu ED visits pct,0.08
 9/6/2025,roanoke,Flu ED visits pct,0.1
 9/13/2025,denver,Flu ED visits pct,0.08
 9/13/2025,boulder,Flu ED visits pct,0.08
@@ -5538,7 +5493,6 @@ target_end_date,location,target,observation
 9/27/2025,beaumont,Flu ED visits pct,0.09
 9/27/2025,san-antonio,Flu ED visits pct,0.11
 9/27/2025,dallas,Flu ED visits pct,0.19
-9/27/2025,utah,Flu ED visits pct,0.11
 9/27/2025,virginia,Flu ED visits pct,0.08
 9/27/2025,roanoke,Flu ED visits pct,0.04
 10/4/2025,colorado,Flu ED visits pct,0.11
@@ -5750,7 +5704,6 @@ target_end_date,location,target,observation
 11/8/2025,el-paso,Flu ED visits pct,0.41
 11/8/2025,beaumont,Flu ED visits pct,0.31
 11/8/2025,austin,Flu ED visits pct,0.45
-11/8/2025,utah,Flu ED visits pct,0.39
 11/8/2025,virginia,Flu ED visits pct,0.3
 11/8/2025,roanoke,Flu ED visits pct,0.27
 11/15/2025,denver,Flu ED visits pct,1.02
@@ -5838,7 +5791,6 @@ target_end_date,location,target,observation
 10/22/2022,rock-hill,Flu ED visits pct,2.24
 10/22/2022,texas,Flu ED visits pct,2.94
 10/22/2022,houston,Flu ED visits pct,4.36
-10/22/2022,utah,Flu ED visits pct,0.21
 10/22/2022,virginia,Flu ED visits pct,2.56
 10/29/2022,colorado,Flu ED visits pct,0.48
 10/29/2022,boulder,Flu ED visits pct,0.49
@@ -5960,7 +5912,6 @@ target_end_date,location,target,observation
 12/31/2022,south-carolina,Flu ED visits pct,2.21
 12/31/2022,texas,Flu ED visits pct,3.1
 12/31/2022,dallas,Flu ED visits pct,2.88
-12/31/2022,utah,Flu ED visits pct,6.31
 1/7/2023,mesa,Flu ED visits pct,4.54
 1/7/2023,colorado-springs,Flu ED visits pct,2.25
 1/7/2023,hall,Flu ED visits pct,1.74
@@ -6020,7 +5971,6 @@ target_end_date,location,target,observation
 2/4/2023,massachusetts,Flu ED visits pct,0.38
 2/4/2023,springfield,Flu ED visits pct,0.32
 2/4/2023,el-paso,Flu ED visits pct,0.51
-2/4/2023,utah,Flu ED visits pct,0.42
 2/4/2023,virginia,Flu ED visits pct,0.46
 2/11/2023,colorado,Flu ED visits pct,0.29
 2/11/2023,colorado-springs,Flu ED visits pct,0.31
@@ -6063,7 +6013,6 @@ target_end_date,location,target,observation
 2/25/2023,rochester,Flu ED visits pct,0.5
 2/25/2023,south-carolina,Flu ED visits pct,0.5
 2/25/2023,horry,Flu ED visits pct,0.74
-2/25/2023,utah,Flu ED visits pct,0.28
 2/25/2023,roanoke,Flu ED visits pct,0.82
 3/4/2023,colorado,Flu ED visits pct,0.23
 3/4/2023,colorado-springs,Flu ED visits pct,0.26
@@ -6121,7 +6070,6 @@ target_end_date,location,target,observation
 3/25/2023,columbia,Flu ED visits pct,0.28
 3/25/2023,horry,Flu ED visits pct,0.4
 3/25/2023,san-antonio,Flu ED visits pct,0.19
-3/25/2023,utah,Flu ED visits pct,0.18
 4/1/2023,colorado-springs,Flu ED visits pct,0.18
 4/1/2023,hall,Flu ED visits pct,0.07
 4/1/2023,marietta,Flu ED visits pct,0.32
@@ -6157,7 +6105,6 @@ target_end_date,location,target,observation
 4/15/2023,worcester,Flu ED visits pct,0.14
 4/15/2023,minnesota,Flu ED visits pct,0.3
 4/15/2023,horry,Flu ED visits pct,0.37
-4/15/2023,utah,Flu ED visits pct,0.18
 4/22/2023,boulder,Flu ED visits pct,0.11
 4/22/2023,colorado-springs,Flu ED visits pct,0.12
 4/22/2023,weld,Flu ED visits pct,0
@@ -6172,7 +6119,6 @@ target_end_date,location,target,observation
 4/22/2023,horry,Flu ED visits pct,0.41
 4/22/2023,greenville,Flu ED visits pct,0.16
 4/22/2023,houston,Flu ED visits pct,0.17
-4/22/2023,utah,Flu ED visits pct,0.21
 4/29/2023,boulder,Flu ED visits pct,0.11
 4/29/2023,columbus,Flu ED visits pct,0
 4/29/2023,marietta,Flu ED visits pct,0.19
@@ -6245,7 +6191,6 @@ target_end_date,location,target,observation
 6/10/2023,columbia,Flu ED visits pct,0.26
 6/10/2023,greenville,Flu ED visits pct,0.15
 6/10/2023,el-paso,Flu ED visits pct,0.56
-6/10/2023,utah,Flu ED visits pct,0.19
 6/17/2023,weld,Flu ED visits pct,0.32
 6/17/2023,south-augusta,Flu ED visits pct,0.08
 6/17/2023,indiana,Flu ED visits pct,0.1
@@ -6301,7 +6246,6 @@ target_end_date,location,target,observation
 7/15/2023,new-bedford,Flu ED visits pct,0.11
 7/15/2023,st-paul,Flu ED visits pct,0.24
 7/15/2023,greenville,Flu ED visits pct,0.11
-7/15/2023,utah,Flu ED visits pct,0.1
 7/22/2023,colorado,Flu ED visits pct,0.06
 7/22/2023,marietta,Flu ED visits pct,0.07
 7/22/2023,cherokee,Flu ED visits pct,0.03
@@ -6397,7 +6341,6 @@ target_end_date,location,target,observation
 9/2/2023,minnesota,Flu ED visits pct,0.07
 9/2/2023,south-carolina,Flu ED visits pct,0.34
 9/2/2023,horry,Flu ED visits pct,0.32
-9/2/2023,utah,Flu ED visits pct,0.14
 9/9/2023,colorado-springs,Flu ED visits pct,0.01
 9/9/2023,georgia,Flu ED visits pct,0.25
 9/9/2023,macon,Flu ED visits pct,0.17
@@ -6445,7 +6388,6 @@ target_end_date,location,target,observation
 9/30/2023,lynn,Flu ED visits pct,0.22
 9/30/2023,rochester,Flu ED visits pct,0.15
 9/30/2023,south-carolina,Flu ED visits pct,0.43
-9/30/2023,utah,Flu ED visits pct,0.2
 9/30/2023,virginia,Flu ED visits pct,0.24
 9/30/2023,roanoke,Flu ED visits pct,0.29
 10/7/2023,larimer,Flu ED visits pct,0.05
@@ -6665,7 +6607,6 @@ target_end_date,location,target,observation
 2/3/2024,charleston,Flu ED visits pct,2.94
 2/3/2024,texas,Flu ED visits pct,6.69
 2/3/2024,san-antonio,Flu ED visits pct,7.97
-2/3/2024,utah,Flu ED visits pct,2.62
 2/10/2024,colorado,Flu ED visits pct,2.53
 2/10/2024,boulder,Flu ED visits pct,2.15
 2/10/2024,georgia,Flu ED visits pct,2.85
@@ -6673,7 +6614,6 @@ target_end_date,location,target,observation
 2/10/2024,st-cloud,Flu ED visits pct,5.84
 2/10/2024,greenville,Flu ED visits pct,2.04
 2/10/2024,columbia,Flu ED visits pct,3.24
-2/10/2024,utah,Flu ED visits pct,2.16
 2/17/2024,la-grange,Flu ED visits pct,2.06
 2/17/2024,indiana,Flu ED visits pct,4.82
 2/17/2024,maine,Flu ED visits pct,3.28
@@ -6705,7 +6645,6 @@ target_end_date,location,target,observation
 3/2/2024,duluth,Flu ED visits pct,4.76
 3/2/2024,el-paso,Flu ED visits pct,4.36
 3/2/2024,beaumont,Flu ED visits pct,0.92
-3/2/2024,utah,Flu ED visits pct,1.18
 3/9/2024,athens,Flu ED visits pct,1.44
 3/9/2024,columbus,Flu ED visits pct,1.36
 3/9/2024,bangor,Flu ED visits pct,2.1
@@ -6728,7 +6667,6 @@ target_end_date,location,target,observation
 3/16/2024,columbia,Flu ED visits pct,1.06
 3/16/2024,el-paso,Flu ED visits pct,2.64
 3/16/2024,beaumont,Flu ED visits pct,1.02
-3/16/2024,utah,Flu ED visits pct,0.99
 3/23/2024,colorado-springs,Flu ED visits pct,1.02
 3/23/2024,indianapolis,Flu ED visits pct,1.51
 3/23/2024,massachusetts,Flu ED visits pct,1.69
@@ -6770,7 +6708,6 @@ target_end_date,location,target,observation
 4/13/2024,south-carolina,Flu ED visits pct,0.46
 4/13/2024,greenville,Flu ED visits pct,0.3
 4/13/2024,san-antonio,Flu ED visits pct,0.3
-4/13/2024,utah,Flu ED visits pct,0.44
 4/13/2024,virginia,Flu ED visits pct,0.89
 4/20/2024,boulder,Flu ED visits pct,0.47
 4/20/2024,larimer,Flu ED visits pct,0.39
@@ -6829,7 +6766,6 @@ target_end_date,location,target,observation
 5/18/2024,st-paul,Flu ED visits pct,0.42
 5/18/2024,st-cloud,Flu ED visits pct,0.2
 5/18/2024,florence,Flu ED visits pct,0.2
-5/18/2024,utah,Flu ED visits pct,0.22
 5/25/2024,colorado,Flu ED visits pct,0.25
 5/25/2024,weld,Flu ED visits pct,0.96
 5/25/2024,columbus,Flu ED visits pct,0.04
@@ -6853,7 +6789,6 @@ target_end_date,location,target,observation
 6/1/2024,springfield,Flu ED visits pct,0.09
 6/1/2024,south-carolina,Flu ED visits pct,0.1
 6/1/2024,el-paso,Flu ED visits pct,0.42
-6/1/2024,utah,Flu ED visits pct,0.27
 6/8/2024,colorado,Flu ED visits pct,0.12
 6/8/2024,cherokee,Flu ED visits pct,0.2
 6/8/2024,marietta,Flu ED visits pct,0.11
@@ -6877,7 +6812,6 @@ target_end_date,location,target,observation
 6/15/2024,worcester,Flu ED visits pct,0.07
 6/15/2024,rock-hill,Flu ED visits pct,0.21
 6/15/2024,el-paso,Flu ED visits pct,0.18
-6/15/2024,utah,Flu ED visits pct,0.17
 6/22/2024,colorado,Flu ED visits pct,0.1
 6/22/2024,weld,Flu ED visits pct,0.24
 6/22/2024,portland,Flu ED visits pct,0.06
@@ -6942,7 +6876,6 @@ target_end_date,location,target,observation
 7/27/2024,st-cloud,Flu ED visits pct,0.05
 7/27/2024,duluth,Flu ED visits pct,0
 7/27/2024,horry,Flu ED visits pct,0.11
-7/27/2024,utah,Flu ED visits pct,0.07
 7/27/2024,virginia,Flu ED visits pct,0.11
 8/3/2024,larimer,Flu ED visits pct,0.12
 8/3/2024,hall,Flu ED visits pct,0.09
@@ -6981,7 +6914,6 @@ target_end_date,location,target,observation
 8/17/2024,florence,Flu ED visits pct,0.29
 8/17/2024,el-paso,Flu ED visits pct,0.16
 8/17/2024,beaumont,Flu ED visits pct,0.05
-8/17/2024,utah,Flu ED visits pct,0.08
 8/17/2024,roanoke,Flu ED visits pct,0.17
 8/24/2024,colorado,Flu ED visits pct,0.05
 8/24/2024,weld,Flu ED visits pct,0.12
@@ -7026,7 +6958,6 @@ target_end_date,location,target,observation
 9/14/2024,st-paul,Flu ED visits pct,0.15
 9/14/2024,south-carolina,Flu ED visits pct,0.19
 9/14/2024,greenville,Flu ED visits pct,0.05
-9/14/2024,utah,Flu ED visits pct,0.1
 9/21/2024,colorado-springs,Flu ED visits pct,0.04
 9/21/2024,savannah,Flu ED visits pct,0.1
 9/21/2024,floyd,Flu ED visits pct,0.12
@@ -7037,7 +6968,6 @@ target_end_date,location,target,observation
 9/21/2024,lynn,Flu ED visits pct,0.11
 9/21/2024,rock-hill,Flu ED visits pct,0.1
 9/21/2024,florence,Flu ED visits pct,0.32
-9/21/2024,utah,Flu ED visits pct,0.1
 9/28/2024,boulder,Flu ED visits pct,0.18
 9/28/2024,larimer,Flu ED visits pct,0.03
 9/28/2024,weld,Flu ED visits pct,0
@@ -7127,7 +7057,6 @@ target_end_date,location,target,observation
 11/16/2024,springfield,Flu ED visits pct,0.05
 11/16/2024,horry,Flu ED visits pct,0.34
 11/16/2024,austin,Flu ED visits pct,0.23
-11/16/2024,utah,Flu ED visits pct,0.32
 11/23/2024,boulder,Flu ED visits pct,0.27
 11/23/2024,larimer,Flu ED visits pct,0.75
 11/23/2024,savannah,Flu ED visits pct,0.2
@@ -7173,7 +7102,6 @@ target_end_date,location,target,observation
 12/14/2024,minnesota,Flu ED visits pct,1.34
 12/14/2024,st-paul,Flu ED visits pct,1.74
 12/14/2024,columbia,Flu ED visits pct,1.31
-12/14/2024,utah,Flu ED visits pct,2.64
 12/21/2024,boulder,Flu ED visits pct,3.17
 12/21/2024,columbus,Flu ED visits pct,1.32
 12/21/2024,athens,Flu ED visits pct,3.73
@@ -7205,7 +7133,6 @@ target_end_date,location,target,observation
 1/4/2025,springfield,Flu ED visits pct,3.18
 1/4/2025,florence,Flu ED visits pct,5.98
 1/4/2025,columbia,Flu ED visits pct,4.64
-1/4/2025,utah,Flu ED visits pct,7.51
 1/4/2025,virginia,Flu ED visits pct,4.45
 1/11/2025,colorado-springs,Flu ED visits pct,3.55
 1/11/2025,floyd,Flu ED visits pct,6.52
@@ -7377,7 +7304,6 @@ target_end_date,location,target,observation
 4/12/2025,worcester,Flu ED visits pct,1.44
 4/12/2025,south-carolina,Flu ED visits pct,0.44
 4/12/2025,greenville,Flu ED visits pct,0.7
-4/12/2025,utah,Flu ED visits pct,0.88
 4/19/2025,boulder,Flu ED visits pct,0.55
 4/19/2025,colorado-springs,Flu ED visits pct,0.43
 4/19/2025,cherokee,Flu ED visits pct,0.28
@@ -7460,7 +7386,6 @@ target_end_date,location,target,observation
 5/24/2025,florence,Flu ED visits pct,0.09
 5/24/2025,texas,Flu ED visits pct,0.42
 5/24/2025,houston,Flu ED visits pct,0.43
-5/24/2025,utah,Flu ED visits pct,0.22
 5/31/2025,mesa,Flu ED visits pct,0.06
 5/31/2025,weld,Flu ED visits pct,0.28
 5/31/2025,marietta,Flu ED visits pct,0.11
@@ -7476,7 +7401,6 @@ target_end_date,location,target,observation
 5/31/2025,duluth,Flu ED visits pct,0.08
 5/31/2025,columbia,Flu ED visits pct,0.12
 5/31/2025,rock-hill,Flu ED visits pct,0.28
-5/31/2025,utah,Flu ED visits pct,0.3
 5/31/2025,virginia,Flu ED visits pct,0.26
 6/7/2025,boulder,Flu ED visits pct,0.17
 6/7/2025,colorado-springs,Flu ED visits pct,0.17
@@ -7541,7 +7465,6 @@ target_end_date,location,target,observation
 7/12/2025,florence,Flu ED visits pct,0.03
 7/12/2025,horry,Flu ED visits pct,0.14
 7/12/2025,greenville,Flu ED visits pct,0.02
-7/12/2025,utah,Flu ED visits pct,0.1
 7/12/2025,virginia,Flu ED visits pct,0.07
 7/19/2025,larimer,Flu ED visits pct,0.03
 7/19/2025,la-grange,Flu ED visits pct,0.08
@@ -7549,7 +7472,6 @@ target_end_date,location,target,observation
 7/19/2025,minnesota,Flu ED visits pct,0.06
 7/19/2025,texas,Flu ED visits pct,0.15
 7/19/2025,el-paso,Flu ED visits pct,0.09
-7/19/2025,utah,Flu ED visits pct,0.08
 7/19/2025,virginia,Flu ED visits pct,0.08
 7/26/2025,weld,Flu ED visits pct,0.07
 7/26/2025,georgia,Flu ED visits pct,0.06
@@ -7562,7 +7484,6 @@ target_end_date,location,target,observation
 7/26/2025,springfield,Flu ED visits pct,0.06
 7/26/2025,columbia,Flu ED visits pct,0.03
 7/26/2025,beaumont,Flu ED visits pct,0.1
-7/26/2025,utah,Flu ED visits pct,0.07
 8/2/2025,weld,Flu ED visits pct,0.15
 8/2/2025,cherokee,Flu ED visits pct,0
 8/2/2025,floyd,Flu ED visits pct,0.08
@@ -7689,7 +7610,6 @@ target_end_date,location,target,observation
 10/4/2025,greenville,Flu ED visits pct,0.06
 10/4/2025,charleston,Flu ED visits pct,0.12
 10/4/2025,rock-hill,Flu ED visits pct,0.06
-10/4/2025,utah,Flu ED visits pct,0.11
 10/11/2025,georgia,Flu ED visits pct,0.08
 10/11/2025,hall,Flu ED visits pct,0.03
 10/11/2025,cherokee,Flu ED visits pct,0
@@ -7714,7 +7634,6 @@ target_end_date,location,target,observation
 10/18/2025,pittsfield,Flu ED visits pct,0.07
 10/18/2025,springfield,Flu ED visits pct,0.05
 10/18/2025,columbia,Flu ED visits pct,0.05
-10/18/2025,utah,Flu ED visits pct,0.11
 10/25/2025,colorado-springs,Flu ED visits pct,0.16
 10/25/2025,georgia,Flu ED visits pct,0.19
 10/25/2025,athens,Flu ED visits pct,0.12
@@ -7778,7 +7697,6 @@ target_end_date,location,target,observation
 10/8/2022,lynn,Flu ED visits pct,0.1
 10/8/2022,minnesota,Flu ED visits pct,0.14
 10/8/2022,rock-hill,Flu ED visits pct,1.19
-10/8/2022,utah,Flu ED visits pct,0.11
 10/8/2022,virginia,Flu ED visits pct,0.72
 10/15/2022,colorado,Flu ED visits pct,0.14
 10/15/2022,larimer,Flu ED visits pct,0.08
@@ -7807,7 +7725,6 @@ target_end_date,location,target,observation
 11/5/2022,massachusetts,Flu ED visits pct,0.59
 11/5/2022,south-carolina,Flu ED visits pct,9.94
 11/5/2022,texas,Flu ED visits pct,5.68
-11/5/2022,utah,Flu ED visits pct,0.56
 11/12/2022,larimer,Flu ED visits pct,1.59
 11/12/2022,marietta,Flu ED visits pct,4.7
 11/12/2022,la-grange,Flu ED visits pct,6.43
@@ -7831,7 +7748,6 @@ target_end_date,location,target,observation
 11/26/2022,minnesota,Flu ED visits pct,11.47
 11/26/2022,st-cloud,Flu ED visits pct,16.13
 11/26/2022,greenville,Flu ED visits pct,5.64
-11/26/2022,utah,Flu ED visits pct,3.84
 12/3/2022,indiana,Flu ED visits pct,11.21
 12/3/2022,bangor,Flu ED visits pct,8.35
 12/3/2022,pittsfield,Flu ED visits pct,4.99
@@ -7854,7 +7770,6 @@ target_end_date,location,target,observation
 12/24/2022,new-bedford,Flu ED visits pct,9.92
 12/24/2022,horry,Flu ED visits pct,1.6
 12/24/2022,texas,Flu ED visits pct,3.68
-12/24/2022,utah,Flu ED visits pct,7.5
 12/31/2022,minnesota,Flu ED visits pct,2.97
 12/31/2022,horry,Flu ED visits pct,1.59
 12/31/2022,houston,Flu ED visits pct,1.7
@@ -7868,21 +7783,18 @@ target_end_date,location,target,observation
 1/7/2023,worcester,Flu ED visits pct,4.05
 1/7/2023,south-carolina,Flu ED visits pct,1.74
 1/7/2023,texas,Flu ED visits pct,1.79
-1/7/2023,utah,Flu ED visits pct,3.45
 1/7/2023,virginia,Flu ED visits pct,1.43
 1/14/2023,colorado,Flu ED visits pct,1.15
 1/14/2023,savannah,Flu ED visits pct,0.76
 1/14/2023,indiana,Flu ED visits pct,1.02
 1/14/2023,maryland,Flu ED visits pct,0.63
 1/14/2023,st-paul,Flu ED visits pct,0
-1/14/2023,utah,Flu ED visits pct,1.41
 1/21/2023,boulder,Flu ED visits pct,0.64
 1/21/2023,weld,Flu ED visits pct,0.48
 1/21/2023,maryland,Flu ED visits pct,0.45
 1/21/2023,pittsfield,Flu ED visits pct,0.48
 1/21/2023,springfield,Flu ED visits pct,0.95
 1/21/2023,south-carolina,Flu ED visits pct,0.87
-1/21/2023,utah,Flu ED visits pct,0.76
 1/28/2023,georgia,Flu ED visits pct,0.55
 1/28/2023,marietta,Flu ED visits pct,0.15
 1/28/2023,indiana,Flu ED visits pct,0.4
@@ -7981,7 +7893,6 @@ target_end_date,location,target,observation
 5/6/2023,massachusetts,Flu ED visits pct,0.13
 5/6/2023,south-carolina,Flu ED visits pct,0.35
 5/6/2023,texas,Flu ED visits pct,0.34
-5/6/2023,utah,Flu ED visits pct,0.24
 5/13/2023,indiana,Flu ED visits pct,0.14
 5/13/2023,worcester,Flu ED visits pct,0.05
 5/13/2023,springfield,Flu ED visits pct,0.06
@@ -8009,7 +7920,6 @@ target_end_date,location,target,observation
 6/3/2023,new-bedford,Flu ED visits pct,0.26
 6/3/2023,springfield,Flu ED visits pct,0.02
 6/3/2023,st-cloud,Flu ED visits pct,0.1
-6/3/2023,utah,Flu ED visits pct,0.26
 6/10/2023,colorado,Flu ED visits pct,0.09
 6/10/2023,indiana,Flu ED visits pct,0.06
 6/10/2023,frederick,Flu ED visits pct,0.07
@@ -8025,7 +7935,6 @@ target_end_date,location,target,observation
 6/24/2023,indiana,Flu ED visits pct,0.06
 6/24/2023,harford,Flu ED visits pct,0
 6/24/2023,lynn,Flu ED visits pct,0.18
-6/24/2023,utah,Flu ED visits pct,0.13
 6/24/2023,virginia,Flu ED visits pct,0.1
 7/1/2023,colorado,Flu ED visits pct,0.06
 7/1/2023,indiana,Flu ED visits pct,0.05
@@ -8059,7 +7968,6 @@ target_end_date,location,target,observation
 7/29/2023,pittsfield,Flu ED visits pct,0
 7/29/2023,duluth,Flu ED visits pct,0.05
 7/29/2023,texas,Flu ED visits pct,0.21
-7/29/2023,utah,Flu ED visits pct,0.06
 7/29/2023,virginia,Flu ED visits pct,0.12
 8/5/2023,colorado,Flu ED visits pct,0.06
 8/5/2023,indiana,Flu ED visits pct,0.04
@@ -8068,7 +7976,6 @@ target_end_date,location,target,observation
 8/5/2023,montgomery,Flu ED visits pct,0.06
 8/5/2023,pittsfield,Flu ED visits pct,0
 8/5/2023,new-bedford,Flu ED visits pct,0.04
-8/5/2023,utah,Flu ED visits pct,0.07
 8/5/2023,virginia,Flu ED visits pct,0.09
 8/12/2023,larimer,Flu ED visits pct,0.05
 8/12/2023,maryland,Flu ED visits pct,0.07
@@ -8076,7 +7983,6 @@ target_end_date,location,target,observation
 8/12/2023,lynn,Flu ED visits pct,0.08
 8/12/2023,minnesota,Flu ED visits pct,0.04
 8/12/2023,columbia,Flu ED visits pct,0.08
-8/12/2023,utah,Flu ED visits pct,0.09
 8/12/2023,virginia,Flu ED visits pct,0.15
 8/19/2023,colorado,Flu ED visits pct,0.07
 8/19/2023,indiana,Flu ED visits pct,0.08
@@ -8087,7 +7993,6 @@ target_end_date,location,target,observation
 8/19/2023,charleston,Flu ED visits pct,0.25
 8/19/2023,rock-hill,Flu ED visits pct,0.1
 8/19/2023,el-paso,Flu ED visits pct,0.38
-8/19/2023,utah,Flu ED visits pct,0.1
 8/19/2023,virginia,Flu ED visits pct,0.14
 8/26/2023,larimer,Flu ED visits pct,0.03
 8/26/2023,harford,Flu ED visits pct,0
@@ -8133,7 +8038,6 @@ target_end_date,location,target,observation
 10/7/2023,springfield,Flu ED visits pct,0.05
 10/7/2023,minnesota,Flu ED visits pct,0.13
 10/7/2023,texas,Flu ED visits pct,0.56
-10/7/2023,utah,Flu ED visits pct,0.2
 10/14/2023,marietta,Flu ED visits pct,0.28
 10/14/2023,maryland,Flu ED visits pct,0.12
 10/14/2023,massachusetts,Flu ED visits pct,0.12
@@ -8143,7 +8047,6 @@ target_end_date,location,target,observation
 10/21/2023,pittsfield,Flu ED visits pct,0.21
 10/21/2023,worcester,Flu ED visits pct,0.05
 10/21/2023,minnesota,Flu ED visits pct,0.19
-10/21/2023,utah,Flu ED visits pct,0.4
 10/28/2023,boulder,Flu ED visits pct,0.22
 10/28/2023,south-augusta,Flu ED visits pct,0.59
 10/28/2023,maine,Flu ED visits pct,0.1
@@ -8157,7 +8060,6 @@ target_end_date,location,target,observation
 11/4/2023,springfield,Flu ED visits pct,0.19
 11/4/2023,minnesota,Flu ED visits pct,0.3
 11/4/2023,el-paso,Flu ED visits pct,0.71
-11/4/2023,utah,Flu ED visits pct,0.58
 11/11/2023,georgia,Flu ED visits pct,1.37
 11/11/2023,marietta,Flu ED visits pct,1.45
 11/11/2023,la-grange,Flu ED visits pct,1.82
@@ -8166,7 +8068,6 @@ target_end_date,location,target,observation
 11/11/2023,rock-hill,Flu ED visits pct,1.24
 11/11/2023,texas,Flu ED visits pct,1.99
 11/11/2023,el-paso,Flu ED visits pct,1.08
-11/11/2023,utah,Flu ED visits pct,0.73
 11/18/2023,colorado,Flu ED visits pct,1.58
 11/18/2023,georgia,Flu ED visits pct,1.82
 11/18/2023,athens,Flu ED visits pct,2.62
@@ -8174,7 +8075,6 @@ target_end_date,location,target,observation
 11/18/2023,south-augusta,Flu ED visits pct,2.24
 11/18/2023,maine,Flu ED visits pct,0.25
 11/18/2023,springfield,Flu ED visits pct,0.45
-11/18/2023,utah,Flu ED visits pct,0.91
 11/25/2023,colorado,Flu ED visits pct,2.13
 11/25/2023,larimer,Flu ED visits pct,1.27
 11/25/2023,georgia,Flu ED visits pct,2.11
@@ -8189,11 +8089,9 @@ target_end_date,location,target,observation
 12/2/2023,worcester,Flu ED visits pct,0.83
 12/2/2023,south-carolina,Flu ED visits pct,4.1
 12/2/2023,texas,Flu ED visits pct,2.64
-12/2/2023,utah,Flu ED visits pct,1.55
 12/9/2023,georgia,Flu ED visits pct,3
 12/9/2023,indiana,Flu ED visits pct,1.65
 12/9/2023,horry,Flu ED visits pct,5.82
-12/9/2023,utah,Flu ED visits pct,2.55
 12/16/2023,georgia,Flu ED visits pct,4.95
 12/16/2023,athens,Flu ED visits pct,8.59
 12/16/2023,maine,Flu ED visits pct,1.15
@@ -8206,7 +8104,6 @@ target_end_date,location,target,observation
 12/23/2023,worcester,Flu ED visits pct,3.11
 12/23/2023,south-carolina,Flu ED visits pct,12.11
 12/23/2023,horry,Flu ED visits pct,8.81
-12/23/2023,utah,Flu ED visits pct,5.53
 12/30/2023,larimer,Flu ED visits pct,4.91
 12/30/2023,indiana,Flu ED visits pct,5.37
 12/30/2023,worcester,Flu ED visits pct,4.77
@@ -8225,7 +8122,6 @@ target_end_date,location,target,observation
 1/13/2024,frederick,Flu ED visits pct,3.91
 1/13/2024,worcester,Flu ED visits pct,4.17
 1/13/2024,south-carolina,Flu ED visits pct,4.47
-1/13/2024,utah,Flu ED visits pct,4.52
 1/20/2024,weld,Flu ED visits pct,4.58
 1/20/2024,georgia,Flu ED visits pct,3.64
 1/20/2024,maine,Flu ED visits pct,2.33
@@ -8255,7 +8151,6 @@ target_end_date,location,target,observation
 2/17/2024,frederick,Flu ED visits pct,4.83
 2/17/2024,minnesota,Flu ED visits pct,4.4
 2/17/2024,texas,Flu ED visits pct,3.84
-2/17/2024,utah,Flu ED visits pct,2.21
 2/17/2024,virginia,Flu ED visits pct,3.51
 2/24/2024,indiana,Flu ED visits pct,4.81
 2/24/2024,maine,Flu ED visits pct,3.21
@@ -8264,7 +8159,6 @@ target_end_date,location,target,observation
 2/24/2024,pittsfield,Flu ED visits pct,3.52
 2/24/2024,lynn,Flu ED visits pct,3.88
 2/24/2024,el-paso,Flu ED visits pct,4.76
-2/24/2024,utah,Flu ED visits pct,1.8
 3/2/2024,colorado,Flu ED visits pct,1.72
 3/2/2024,marietta,Flu ED visits pct,1.84
 3/2/2024,indiana,Flu ED visits pct,4.43
@@ -8307,7 +8201,6 @@ target_end_date,location,target,observation
 4/6/2024,larimer,Flu ED visits pct,0.88
 4/6/2024,georgia,Flu ED visits pct,0.55
 4/6/2024,worcester,Flu ED visits pct,2.15
-4/6/2024,utah,Flu ED visits pct,0.52
 4/13/2024,larimer,Flu ED visits pct,0.54
 4/13/2024,georgia,Flu ED visits pct,0.42
 4/13/2024,indiana,Flu ED visits pct,1.12
@@ -8333,7 +8226,6 @@ target_end_date,location,target,observation
 5/4/2024,minnesota,Flu ED visits pct,0.61
 5/4/2024,texas,Flu ED visits pct,0.35
 5/4/2024,el-paso,Flu ED visits pct,0.88
-5/4/2024,utah,Flu ED visits pct,0.3
 5/4/2024,virginia,Flu ED visits pct,0.36
 5/11/2024,colorado,Flu ED visits pct,0.28
 5/11/2024,larimer,Flu ED visits pct,0.06
@@ -8366,7 +8258,6 @@ target_end_date,location,target,observation
 6/8/2024,massachusetts,Flu ED visits pct,0.12
 6/8/2024,new-bedford,Flu ED visits pct,0.17
 6/8/2024,springfield,Flu ED visits pct,0.06
-6/8/2024,utah,Flu ED visits pct,0.23
 6/15/2024,marietta,Flu ED visits pct,0.07
 6/15/2024,frederick,Flu ED visits pct,0.27
 6/15/2024,springfield,Flu ED visits pct,0.03
@@ -8377,7 +8268,6 @@ target_end_date,location,target,observation
 6/22/2024,harford,Flu ED visits pct,0.05
 6/22/2024,worcester,Flu ED visits pct,0.09
 6/22/2024,st-paul,Flu ED visits pct,0.11
-6/22/2024,utah,Flu ED visits pct,0.14
 6/22/2024,virginia,Flu ED visits pct,0.16
 6/29/2024,colorado,Flu ED visits pct,0.09
 6/29/2024,marietta,Flu ED visits pct,0.07
@@ -8391,7 +8281,6 @@ target_end_date,location,target,observation
 7/6/2024,minnesota,Flu ED visits pct,0.09
 7/6/2024,st-paul,Flu ED visits pct,0.19
 7/6/2024,horry,Flu ED visits pct,0.15
-7/6/2024,utah,Flu ED visits pct,0.09
 7/13/2024,georgia,Flu ED visits pct,0.1
 7/13/2024,floyd,Flu ED visits pct,0.05
 7/13/2024,la-grange,Flu ED visits pct,0.08
@@ -8452,7 +8341,6 @@ target_end_date,location,target,observation
 9/7/2024,springfield,Flu ED visits pct,0
 9/7/2024,duluth,Flu ED visits pct,0.03
 9/7/2024,horry,Flu ED visits pct,0.18
-9/7/2024,utah,Flu ED visits pct,0.08
 9/14/2024,larimer,Flu ED visits pct,0.03
 9/14/2024,georgia,Flu ED visits pct,0.1
 9/14/2024,cherokee,Flu ED visits pct,0.06
@@ -8499,7 +8387,6 @@ target_end_date,location,target,observation
 10/19/2024,massachusetts,Flu ED visits pct,0.12
 10/19/2024,pittsfield,Flu ED visits pct,0.07
 10/19/2024,south-carolina,Flu ED visits pct,0.14
-10/19/2024,utah,Flu ED visits pct,0.14
 10/26/2024,colorado,Flu ED visits pct,0.24
 10/26/2024,boulder,Flu ED visits pct,1.26
 10/26/2024,larimer,Flu ED visits pct,0.18
@@ -8535,14 +8422,12 @@ target_end_date,location,target,observation
 11/30/2024,new-bedford,Flu ED visits pct,0.66
 11/30/2024,springfield,Flu ED visits pct,0.31
 11/30/2024,greenville,Flu ED visits pct,0.09
-11/30/2024,utah,Flu ED visits pct,1
 11/30/2024,virginia,Flu ED visits pct,0.44
 12/7/2024,larimer,Flu ED visits pct,1.29
 12/7/2024,maine,Flu ED visits pct,0.13
 12/7/2024,maryland,Flu ED visits pct,0.44
 12/7/2024,worcester,Flu ED visits pct,0.85
 12/7/2024,texas,Flu ED visits pct,1.4
-12/7/2024,utah,Flu ED visits pct,1.61
 12/14/2024,marietta,Flu ED visits pct,1.26
 12/14/2024,cherokee,Flu ED visits pct,2.52
 12/14/2024,massachusetts,Flu ED visits pct,0.89
@@ -8556,7 +8441,6 @@ target_end_date,location,target,observation
 12/21/2024,harford,Flu ED visits pct,2.02
 12/21/2024,frederick,Flu ED visits pct,1.72
 12/21/2024,lynn,Flu ED visits pct,1.38
-12/21/2024,utah,Flu ED visits pct,4.9
 12/21/2024,virginia,Flu ED visits pct,2.25
 12/28/2024,georgia,Flu ED visits pct,5.63
 12/28/2024,hall,Flu ED visits pct,7.28
@@ -8566,7 +8450,6 @@ target_end_date,location,target,observation
 12/28/2024,lynn,Flu ED visits pct,3.32
 12/28/2024,springfield,Flu ED visits pct,2.8
 12/28/2024,minnesota,Flu ED visits pct,6.48
-12/28/2024,utah,Flu ED visits pct,8.59
 1/4/2025,henry,Flu ED visits pct,5.95
 1/4/2025,maine,Flu ED visits pct,2.09
 1/4/2025,frederick,Flu ED visits pct,3.54
@@ -8600,7 +8483,6 @@ target_end_date,location,target,observation
 1/25/2025,minnesota,Flu ED visits pct,10.06
 1/25/2025,south-carolina,Flu ED visits pct,13.07
 1/25/2025,texas,Flu ED visits pct,10.29
-1/25/2025,utah,Flu ED visits pct,4.98
 1/25/2025,virginia,Flu ED visits pct,7.2
 2/1/2025,boulder,Flu ED visits pct,5.33
 2/1/2025,weld,Flu ED visits pct,7.51
@@ -8615,7 +8497,6 @@ target_end_date,location,target,observation
 2/8/2025,pittsfield,Flu ED visits pct,14.53
 2/8/2025,springfield,Flu ED visits pct,13.19
 2/8/2025,texas,Flu ED visits pct,9.29
-2/8/2025,utah,Flu ED visits pct,4.55
 2/15/2025,larimer,Flu ED visits pct,4.6
 2/15/2025,indiana,Flu ED visits pct,11.35
 2/15/2025,springfield,Flu ED visits pct,12.25
@@ -8627,7 +8508,6 @@ target_end_date,location,target,observation
 2/22/2025,indiana,Flu ED visits pct,9.3
 2/22/2025,pittsfield,Flu ED visits pct,9.02
 2/22/2025,charleston,Flu ED visits pct,2.56
-2/22/2025,utah,Flu ED visits pct,3.44
 3/1/2025,indiana,Flu ED visits pct,6.79
 3/1/2025,maine,Flu ED visits pct,6.75
 3/1/2025,harford,Flu ED visits pct,4.57
@@ -8679,7 +8559,6 @@ target_end_date,location,target,observation
 5/3/2025,lynn,Flu ED visits pct,0.37
 5/3/2025,springfield,Flu ED visits pct,0.37
 5/3/2025,texas,Flu ED visits pct,0.48
-5/3/2025,utah,Flu ED visits pct,0.38
 5/10/2025,colorado-springs,Flu ED visits pct,0.38
 5/10/2025,maryland,Flu ED visits pct,0.43
 5/10/2025,baltimore,Flu ED visits pct,0.3
@@ -8688,7 +8567,6 @@ target_end_date,location,target,observation
 5/17/2025,colorado,Flu ED visits pct,0.39
 5/17/2025,new-bedford,Flu ED visits pct,0.18
 5/17/2025,lynn,Flu ED visits pct,0.11
-5/17/2025,utah,Flu ED visits pct,0.25
 5/24/2025,boulder,Flu ED visits pct,0.25
 5/24/2025,georgia,Flu ED visits pct,0.15
 5/24/2025,maryland,Flu ED visits pct,0.23
@@ -8714,7 +8592,6 @@ target_end_date,location,target,observation
 6/14/2025,frederick,Flu ED visits pct,0.34
 6/14/2025,springfield,Flu ED visits pct,0.08
 6/14/2025,horry,Flu ED visits pct,0.16
-6/14/2025,utah,Flu ED visits pct,0.17
 6/21/2025,colorado,Flu ED visits pct,0.1
 6/21/2025,worcester,Flu ED visits pct,0.09
 6/21/2025,texas,Flu ED visits pct,0.22
@@ -8768,7 +8645,6 @@ target_end_date,location,target,observation
 8/9/2025,indiana,Flu ED visits pct,0.04
 8/9/2025,maine,Flu ED visits pct,0.06
 8/9/2025,maryland,Flu ED visits pct,0.06
-8/9/2025,utah,Flu ED visits pct,0.1
 8/16/2025,georgia,Flu ED visits pct,0.08
 8/16/2025,marietta,Flu ED visits pct,0.04
 8/16/2025,indiana,Flu ED visits pct,0.03
@@ -8777,7 +8653,6 @@ target_end_date,location,target,observation
 8/16/2025,new-bedford,Flu ED visits pct,0.12
 8/16/2025,horry,Flu ED visits pct,0.11
 8/16/2025,texas,Flu ED visits pct,0.18
-8/16/2025,utah,Flu ED visits pct,0.06
 8/23/2025,colorado,Flu ED visits pct,0.04
 8/23/2025,cherokee,Flu ED visits pct,0.06
 8/23/2025,henry,Flu ED visits pct,0.05
@@ -8795,7 +8670,6 @@ target_end_date,location,target,observation
 8/30/2025,new-bedford,Flu ED visits pct,0.04
 8/30/2025,worcester,Flu ED visits pct,0.11
 8/30/2025,rock-hill,Flu ED visits pct,0
-8/30/2025,utah,Flu ED visits pct,0.08
 9/6/2025,georgia,Flu ED visits pct,0.13
 9/6/2025,marietta,Flu ED visits pct,0.08
 9/6/2025,indiana,Flu ED visits pct,0.06
@@ -8807,7 +8681,6 @@ target_end_date,location,target,observation
 9/13/2025,colorado,Flu ED visits pct,0.09
 9/13/2025,frederick,Flu ED visits pct,0.06
 9/13/2025,horry,Flu ED visits pct,0.14
-9/13/2025,utah,Flu ED visits pct,0.07
 9/20/2025,maryland,Flu ED visits pct,0.08
 9/20/2025,harford,Flu ED visits pct,0
 9/20/2025,massachusetts,Flu ED visits pct,0.07
@@ -8829,7 +8702,6 @@ target_end_date,location,target,observation
 10/11/2025,marietta,Flu ED visits pct,0.11
 10/11/2025,portland,Flu ED visits pct,0.05
 10/11/2025,pittsfield,Flu ED visits pct,0.06
-10/11/2025,utah,Flu ED visits pct,0.15
 10/11/2025,virginia,Flu ED visits pct,0.11
 10/18/2025,cherokee,Flu ED visits pct,0.18
 10/18/2025,marietta,Flu ED visits pct,0.06
@@ -8862,7 +8734,6 @@ target_end_date,location,target,observation
 11/15/2025,minnesota,Flu ED visits pct,0.35
 10/1/2022,georgia,Flu ED visits pct,1.31
 10/1/2022,south-carolina,Flu ED visits pct,1.37
-10/1/2022,utah,Flu ED visits pct,0.15
 10/8/2022,larimer,Flu ED visits pct,0.03
 10/8/2022,cherokee,Flu ED visits pct,1.56
 10/8/2022,maine,Flu ED visits pct,0.08
@@ -8887,7 +8758,6 @@ target_end_date,location,target,observation
 10/29/2022,maine,Flu ED visits pct,0.19
 10/29/2022,new-bedford,Flu ED visits pct,0.38
 10/29/2022,springfield,Flu ED visits pct,0.21
-10/29/2022,utah,Flu ED visits pct,0.33
 11/5/2022,marietta,Flu ED visits pct,7.14
 11/5/2022,indiana,Flu ED visits pct,2.61
 11/5/2022,maryland,Flu ED visits pct,5.74
@@ -8916,7 +8786,6 @@ target_end_date,location,target,observation
 12/3/2022,massachusetts,Flu ED visits pct,5.27
 12/3/2022,lynn,Flu ED visits pct,5.5
 12/3/2022,horry,Flu ED visits pct,3.13
-12/3/2022,utah,Flu ED visits pct,5.18
 12/3/2022,virginia,Flu ED visits pct,7.25
 12/10/2022,colorado,Flu ED visits pct,5.28
 12/10/2022,marietta,Flu ED visits pct,2.04
@@ -8925,7 +8794,6 @@ target_end_date,location,target,observation
 12/17/2022,indiana,Flu ED visits pct,9.77
 12/17/2022,south-carolina,Flu ED visits pct,2.4
 12/17/2022,rock-hill,Flu ED visits pct,4.94
-12/17/2022,utah,Flu ED visits pct,6.53
 12/24/2022,maryland,Flu ED visits pct,2.91
 12/24/2022,frederick,Flu ED visits pct,3.38
 12/24/2022,virginia,Flu ED visits pct,2.95
@@ -8950,7 +8818,6 @@ target_end_date,location,target,observation
 1/28/2023,frederick,Flu ED visits pct,0.53
 1/28/2023,massachusetts,Flu ED visits pct,0.52
 1/28/2023,lynn,Flu ED visits pct,0.34
-1/28/2023,utah,Flu ED visits pct,0.51
 2/4/2023,boulder,Flu ED visits pct,0.71
 2/4/2023,new-bedford,Flu ED visits pct,0.55
 2/4/2023,lynn,Flu ED visits pct,0.31
@@ -8971,7 +8838,6 @@ target_end_date,location,target,observation
 3/4/2023,maine,Flu ED visits pct,0.1
 3/4/2023,massachusetts,Flu ED visits pct,0.19
 3/4/2023,texas,Flu ED visits pct,0.45
-3/4/2023,utah,Flu ED visits pct,0.34
 3/11/2023,marietta,Flu ED visits pct,0.19
 3/11/2023,maine,Flu ED visits pct,0.14
 3/11/2023,new-bedford,Flu ED visits pct,0.23
@@ -8993,7 +8859,6 @@ target_end_date,location,target,observation
 4/8/2023,new-bedford,Flu ED visits pct,0.29
 4/8/2023,lynn,Flu ED visits pct,0.29
 4/8/2023,south-carolina,Flu ED visits pct,0.36
-4/8/2023,utah,Flu ED visits pct,0.24
 4/8/2023,virginia,Flu ED visits pct,0.28
 4/15/2023,larimer,Flu ED visits pct,0.16
 4/15/2023,georgia,Flu ED visits pct,0.28
@@ -9011,7 +8876,6 @@ target_end_date,location,target,observation
 4/29/2023,springfield,Flu ED visits pct,0.11
 4/29/2023,minnesota,Flu ED visits pct,0.42
 4/29/2023,south-carolina,Flu ED visits pct,0.28
-4/29/2023,utah,Flu ED visits pct,0.17
 5/6/2023,marietta,Flu ED visits pct,0.12
 5/6/2023,frederick,Flu ED visits pct,0.07
 5/6/2023,new-bedford,Flu ED visits pct,0.11
@@ -9033,7 +8897,6 @@ target_end_date,location,target,observation
 5/27/2023,maryland,Flu ED visits pct,0.13
 5/27/2023,massachusetts,Flu ED visits pct,0.18
 5/27/2023,south-carolina,Flu ED visits pct,0.43
-5/27/2023,utah,Flu ED visits pct,0.39
 6/3/2023,lynn,Flu ED visits pct,0.27
 6/3/2023,south-carolina,Flu ED visits pct,0.43
 6/3/2023,rock-hill,Flu ED visits pct,0.94
@@ -9128,7 +8991,6 @@ target_end_date,location,target,observation
 9/23/2023,frederick,Flu ED visits pct,0.14
 9/23/2023,massachusetts,Flu ED visits pct,0.1
 9/23/2023,horry,Flu ED visits pct,0.53
-9/23/2023,utah,Flu ED visits pct,0.12
 9/30/2023,colorado,Flu ED visits pct,0.13
 9/30/2023,indiana,Flu ED visits pct,0.15
 9/30/2023,maine,Flu ED visits pct,0.04
@@ -9138,7 +9000,6 @@ target_end_date,location,target,observation
 10/7/2023,harford,Flu ED visits pct,0.2
 10/14/2023,new-bedford,Flu ED visits pct,0.13
 10/14/2023,texas,Flu ED visits pct,0.66
-10/14/2023,utah,Flu ED visits pct,0.26
 10/21/2023,colorado,Flu ED visits pct,0.4
 10/21/2023,georgia,Flu ED visits pct,0.5
 10/21/2023,marietta,Flu ED visits pct,0.38
@@ -9153,7 +9014,6 @@ target_end_date,location,target,observation
 10/28/2023,new-bedford,Flu ED visits pct,0.07
 10/28/2023,south-carolina,Flu ED visits pct,0.74
 10/28/2023,texas,Flu ED visits pct,1.08
-10/28/2023,utah,Flu ED visits pct,0.39
 11/4/2023,georgia,Flu ED visits pct,0.75
 11/4/2023,indiana,Flu ED visits pct,0.24
 11/4/2023,maryland,Flu ED visits pct,0.28
@@ -9196,7 +9056,6 @@ target_end_date,location,target,observation
 12/23/2023,springfield,Flu ED visits pct,4.24
 12/30/2023,massachusetts,Flu ED visits pct,4.41
 12/30/2023,lynn,Flu ED visits pct,5.43
-12/30/2023,utah,Flu ED visits pct,7.47
 1/6/2024,georgia,Flu ED visits pct,4.7
 1/6/2024,frederick,Flu ED visits pct,5.71
 1/6/2024,massachusetts,Flu ED visits pct,3.36
@@ -9209,7 +9068,6 @@ target_end_date,location,target,observation
 1/13/2024,virginia,Flu ED visits pct,3.79
 1/20/2024,indiana,Flu ED visits pct,3.93
 1/20/2024,pittsfield,Flu ED visits pct,1.58
-1/20/2024,utah,Flu ED visits pct,3.85
 1/27/2024,boulder,Flu ED visits pct,2.16
 1/27/2024,larimer,Flu ED visits pct,2.84
 1/27/2024,maryland,Flu ED visits pct,2.16
@@ -9258,7 +9116,6 @@ target_end_date,location,target,observation
 3/23/2024,new-bedford,Flu ED visits pct,1.98
 3/23/2024,rock-hill,Flu ED visits pct,0.65
 3/23/2024,texas,Flu ED visits pct,0.98
-3/23/2024,utah,Flu ED visits pct,0.95
 3/30/2024,colorado,Flu ED visits pct,0.83
 3/30/2024,georgia,Flu ED visits pct,0.59
 3/30/2024,marietta,Flu ED visits pct,0.44
@@ -9283,7 +9140,6 @@ target_end_date,location,target,observation
 4/27/2024,frederick,Flu ED visits pct,0.53
 4/27/2024,lynn,Flu ED visits pct,0.86
 4/27/2024,minnesota,Flu ED visits pct,0.86
-4/27/2024,utah,Flu ED visits pct,0.33
 5/4/2024,boulder,Flu ED visits pct,0.26
 5/4/2024,larimer,Flu ED visits pct,0.05
 5/4/2024,marietta,Flu ED visits pct,0.18
@@ -9336,20 +9192,17 @@ target_end_date,location,target,observation
 7/13/2024,maryland,Flu ED visits pct,0.09
 7/13/2024,lynn,Flu ED visits pct,0.21
 7/13/2024,springfield,Flu ED visits pct,0.03
-7/13/2024,utah,Flu ED visits pct,0.07
 7/20/2024,colorado,Flu ED visits pct,0.05
 7/20/2024,georgia,Flu ED visits pct,0.11
 7/20/2024,marietta,Flu ED visits pct,0.16
 7/20/2024,maine,Flu ED visits pct,0.04
 7/20/2024,massachusetts,Flu ED visits pct,0.08
-7/20/2024,utah,Flu ED visits pct,0.09
 7/27/2024,georgia,Flu ED visits pct,0.09
 7/27/2024,minnesota,Flu ED visits pct,0.06
 8/3/2024,frederick,Flu ED visits pct,0.07
 8/3/2024,lynn,Flu ED visits pct,0.12
 8/10/2024,georgia,Flu ED visits pct,0.1
 8/10/2024,lynn,Flu ED visits pct,0.15
-8/10/2024,utah,Flu ED visits pct,0.06
 8/10/2024,virginia,Flu ED visits pct,0.13
 8/17/2024,larimer,Flu ED visits pct,0.06
 8/17/2024,marietta,Flu ED visits pct,0.06
@@ -9360,7 +9213,6 @@ target_end_date,location,target,observation
 8/24/2024,larimer,Flu ED visits pct,0
 8/24/2024,indiana,Flu ED visits pct,0.05
 8/24/2024,massachusetts,Flu ED visits pct,0.07
-8/24/2024,utah,Flu ED visits pct,0.08
 8/31/2024,horry,Flu ED visits pct,0.1
 9/7/2024,marietta,Flu ED visits pct,0.02
 9/7/2024,maryland,Flu ED visits pct,0.08
@@ -9372,14 +9224,12 @@ target_end_date,location,target,observation
 9/21/2024,minnesota,Flu ED visits pct,0.12
 9/28/2024,marietta,Flu ED visits pct,0.05
 9/28/2024,lynn,Flu ED visits pct,0.07
-9/28/2024,utah,Flu ED visits pct,0.12
 10/5/2024,georgia,Flu ED visits pct,0.08
 10/5/2024,frederick,Flu ED visits pct,0.13
 10/5/2024,minnesota,Flu ED visits pct,0.13
 10/5/2024,texas,Flu ED visits pct,0.3
 10/12/2024,marietta,Flu ED visits pct,0.06
 10/12/2024,maryland,Flu ED visits pct,0.07
-10/12/2024,utah,Flu ED visits pct,0.15
 10/19/2024,georgia,Flu ED visits pct,0.13
 10/19/2024,springfield,Flu ED visits pct,0.09
 10/26/2024,maine,Flu ED visits pct,0.06
@@ -9390,7 +9240,6 @@ target_end_date,location,target,observation
 11/2/2024,maine,Flu ED visits pct,0.04
 11/2/2024,new-bedford,Flu ED visits pct,0.29
 11/2/2024,springfield,Flu ED visits pct,0.08
-11/2/2024,utah,Flu ED visits pct,0.17
 11/9/2024,colorado,Flu ED visits pct,0.33
 11/9/2024,larimer,Flu ED visits pct,0.59
 11/9/2024,indiana,Flu ED visits pct,0.17
@@ -9407,7 +9256,6 @@ target_end_date,location,target,observation
 11/23/2024,marietta,Flu ED visits pct,0.19
 11/23/2024,indiana,Flu ED visits pct,0.29
 11/23/2024,maine,Flu ED visits pct,0.06
-11/23/2024,utah,Flu ED visits pct,0.52
 11/30/2024,larimer,Flu ED visits pct,0.9
 11/30/2024,georgia,Flu ED visits pct,0.4
 11/30/2024,marietta,Flu ED visits pct,0.35
@@ -9460,7 +9308,6 @@ target_end_date,location,target,observation
 2/1/2025,new-bedford,Flu ED visits pct,10.35
 2/1/2025,lynn,Flu ED visits pct,10.72
 2/1/2025,horry,Flu ED visits pct,9.69
-2/1/2025,utah,Flu ED visits pct,4.68
 2/8/2025,boulder,Flu ED visits pct,5.99
 2/8/2025,indiana,Flu ED visits pct,12.3
 2/8/2025,maine,Flu ED visits pct,7.24
@@ -9469,7 +9316,6 @@ target_end_date,location,target,observation
 2/8/2025,minnesota,Flu ED visits pct,7.02
 2/15/2025,boulder,Flu ED visits pct,5.07
 2/15/2025,maine,Flu ED visits pct,8.55
-2/15/2025,utah,Flu ED visits pct,3.73
 2/22/2025,georgia,Flu ED visits pct,2.85
 2/22/2025,frederick,Flu ED visits pct,7.46
 2/22/2025,lynn,Flu ED visits pct,7.57
@@ -9485,7 +9331,6 @@ target_end_date,location,target,observation
 3/8/2025,massachusetts,Flu ED visits pct,3.49
 3/8/2025,new-bedford,Flu ED visits pct,3.79
 3/8/2025,south-carolina,Flu ED visits pct,2.93
-3/8/2025,utah,Flu ED visits pct,2.4
 3/8/2025,virginia,Flu ED visits pct,4.29
 3/15/2025,colorado,Flu ED visits pct,1.8
 3/15/2025,horry,Flu ED visits pct,2.12
@@ -9497,7 +9342,6 @@ target_end_date,location,target,observation
 3/29/2025,maine,Flu ED visits pct,2.84
 3/29/2025,worcester,Flu ED visits pct,1.9
 3/29/2025,rock-hill,Flu ED visits pct,1.15
-3/29/2025,utah,Flu ED visits pct,1.38
 3/29/2025,virginia,Flu ED visits pct,2.54
 4/5/2025,boulder,Flu ED visits pct,0.81
 4/5/2025,larimer,Flu ED visits pct,0.92
@@ -9505,7 +9349,6 @@ target_end_date,location,target,observation
 4/5/2025,maryland,Flu ED visits pct,2.42
 4/5/2025,lynn,Flu ED visits pct,1.32
 4/5/2025,texas,Flu ED visits pct,0.83
-4/5/2025,utah,Flu ED visits pct,0.92
 4/12/2025,boulder,Flu ED visits pct,0.5
 4/12/2025,frederick,Flu ED visits pct,2.24
 4/12/2025,massachusetts,Flu ED visits pct,1.23
@@ -9517,14 +9360,12 @@ target_end_date,location,target,observation
 4/19/2025,south-carolina,Flu ED visits pct,0.33
 4/19/2025,greenville,Flu ED visits pct,0.42
 4/19/2025,texas,Flu ED visits pct,0.69
-4/19/2025,utah,Flu ED visits pct,0.56
 4/26/2025,larimer,Flu ED visits pct,0.91
 4/26/2025,indiana,Flu ED visits pct,0.38
 4/26/2025,frederick,Flu ED visits pct,1.76
 4/26/2025,new-bedford,Flu ED visits pct,0.72
 4/26/2025,horry,Flu ED visits pct,0.46
 4/26/2025,texas,Flu ED visits pct,0.57
-4/26/2025,utah,Flu ED visits pct,0.46
 5/3/2025,maryland,Flu ED visits pct,0.6
 5/3/2025,new-bedford,Flu ED visits pct,0.65
 5/3/2025,south-carolina,Flu ED visits pct,0.24
@@ -9534,7 +9375,6 @@ target_end_date,location,target,observation
 5/10/2025,pittsfield,Flu ED visits pct,0.14
 5/10/2025,new-bedford,Flu ED visits pct,0.33
 5/10/2025,texas,Flu ED visits pct,0.46
-5/10/2025,utah,Flu ED visits pct,0.32
 5/17/2025,maine,Flu ED visits pct,0.19
 5/17/2025,maryland,Flu ED visits pct,0.27
 5/17/2025,rock-hill,Flu ED visits pct,0.16
@@ -9623,7 +9463,6 @@ target_end_date,location,target,observation
 9/20/2025,lynn,Flu ED visits pct,0.11
 9/20/2025,minnesota,Flu ED visits pct,0.06
 9/20/2025,texas,Flu ED visits pct,0.25
-9/20/2025,utah,Flu ED visits pct,0.06
 9/27/2025,larimer,Flu ED visits pct,0.03
 9/27/2025,georgia,Flu ED visits pct,0.09
 9/27/2025,marietta,Flu ED visits pct,0.04
@@ -9652,12 +9491,10 @@ target_end_date,location,target,observation
 10/25/2025,maryland,Flu ED visits pct,0.18
 10/25/2025,springfield,Flu ED visits pct,0.08
 10/25/2025,minnesota,Flu ED visits pct,0.09
-10/25/2025,utah,Flu ED visits pct,0.13
 11/1/2025,georgia,Flu ED visits pct,0.26
 11/1/2025,maine,Flu ED visits pct,0.14
 11/1/2025,lynn,Flu ED visits pct,0.22
 11/1/2025,rock-hill,Flu ED visits pct,0.17
-11/1/2025,utah,Flu ED visits pct,0.1
 11/8/2025,colorado,Flu ED visits pct,0.57
 11/8/2025,larimer,Flu ED visits pct,0.25
 11/8/2025,georgia,Flu ED visits pct,0.34
@@ -9674,7 +9511,6 @@ target_end_date,location,target,observation
 11/15/2025,pittsfield,Flu ED visits pct,0.22
 11/15/2025,new-bedford,Flu ED visits pct,0.26
 11/15/2025,south-carolina,Flu ED visits pct,0.33
-11/15/2025,utah,Flu ED visits pct,0.64
 11/22/2025,denver,Flu ED visits pct,2
 11/22/2025,larimer,Flu ED visits pct,0.81
 11/22/2025,mesa,Flu ED visits pct,0.37
@@ -9709,7 +9545,6 @@ target_end_date,location,target,observation
 11/22/2025,houston,Flu ED visits pct,4.95
 11/22/2025,el-paso,Flu ED visits pct,1.58
 11/22/2025,san-antonio,Flu ED visits pct,1.18
-11/22/2025,utah,Flu ED visits pct,0.88
 11/22/2025,colorado-springs,Flu ED visits pct,1.02
 11/22/2025,la-grange,Flu ED visits pct,0.77
 11/22/2025,maine,Flu ED visits pct,0.28
@@ -9748,7 +9583,6 @@ target_end_date,location,target,observation
 11/29/2025,dallas,Flu ED visits pct,1.14
 11/29/2025,el-paso,Flu ED visits pct,2.75
 11/29/2025,beaumont,Flu ED visits pct,2.86
-11/29/2025,utah,Flu ED visits pct,1.39
 11/29/2025,virginia,Flu ED visits pct,1.38
 11/29/2025,roanoke,Flu ED visits pct,0.75
 11/29/2025,indiana,Flu ED visits pct,0.91
@@ -16898,7 +16732,6 @@ target_end_date,location,target,observation
 12/6/2025,dallas,Flu ED visits pct,1.12
 12/6/2025,el-paso,Flu ED visits pct,2.66
 12/6/2025,beaumont,Flu ED visits pct,4.89
-12/6/2025,utah,Flu ED visits pct,1.7
 12/6/2025,virginia,Flu ED visits pct,1.58
 12/6/2025,roanoke,Flu ED visits pct,0.8
 12/6/2025,maine,Flu ED visits pct,0.78
@@ -16982,7 +16815,6 @@ target_end_date,location,target,observation
 12/13/2025,minnesota,Flu ED visits pct,4.35
 12/13/2025,south-carolina,Flu ED visits pct,2.47
 12/13/2025,texas,Flu ED visits pct,4.15
-12/13/2025,utah,Flu ED visits pct,2.95
 12/13/2025,virginia,Flu ED visits pct,2.57
 12/20/2025,clt-area,Flu ED visits pct,14.24
 12/20/2025,fay-area,Flu ED visits pct,14.46
@@ -17049,7 +16881,6 @@ target_end_date,location,target,observation
 12/20/2025,minnesota,Flu ED visits pct,8.41
 12/20/2025,south-carolina,Flu ED visits pct,6.32
 12/20/2025,texas,Flu ED visits pct,7.58
-12/20/2025,utah,Flu ED visits pct,5.51
 12/20/2025,virginia,Flu ED visits pct,5.01
 12/27/2025,clt-area,Flu ED visits pct,20.4
 12/27/2025,fay-area,Flu ED visits pct,20.5
@@ -17073,7 +16904,6 @@ target_end_date,location,target,observation
 12/27/2025,dallas,Flu ED visits pct,9.16
 12/27/2025,el-paso,Flu ED visits pct,22.33
 12/27/2025,beaumont,Flu ED visits pct,14.02
-12/27/2025,utah,Flu ED visits pct,9.25
 12/27/2025,virginia,Flu ED visits pct,10.17
 12/27/2025,roanoke,Flu ED visits pct,6.28
 12/27/2025,indiana,Flu ED visits pct,8.78
@@ -17183,7 +17013,6 @@ target_end_date,location,target,observation
 1/3/2026,minnesota,Flu ED visits pct,10.13
 1/3/2026,south-carolina,Flu ED visits pct,7.13
 1/3/2026,texas,Flu ED visits pct,5.98
-1/3/2026,utah,Flu ED visits pct,6.99
 1/3/2026,virginia,Flu ED visits pct,8.34
 1/10/2026,clt-area,Flu ED visits pct,7.94
 1/10/2026,fay-area,Flu ED visits pct,9.29
@@ -18282,7 +18111,6 @@ target_end_date,location,target,observation
 1/10/2026,oregon,Flu ED visits pct,2.47
 1/10/2026,south-carolina,Flu ED visits pct,4.25
 1/10/2026,texas,Flu ED visits pct,3.91
-1/10/2026,utah,Flu ED visits pct,4.2
 1/10/2026,virginia,Flu ED visits pct,5.52
 1/17/2026,clt-area,Flu ED visits pct,5.11
 1/17/2026,fay-area,Flu ED visits pct,6
@@ -18355,7 +18183,6 @@ target_end_date,location,target,observation
 1/17/2026,oregon,Flu ED visits pct,2.96
 1/17/2026,south-carolina,Flu ED visits pct,2.88
 1/17/2026,texas,Flu ED visits pct,3.4
-1/17/2026,utah,Flu ED visits pct,3.37
 1/17/2026,virginia,Flu ED visits pct,3.97
 1/24/2026,clt-area,Flu ED visits pct,4.07
 1/24/2026,fay-area,Flu ED visits pct,5.3
@@ -18428,7 +18255,6 @@ target_end_date,location,target,observation
 1/24/2026,oregon,Flu ED visits pct,4.28
 1/24/2026,south-carolina,Flu ED visits pct,3.38
 1/24/2026,texas,Flu ED visits pct,4.71
-1/24/2026,utah,Flu ED visits pct,3.16
 1/24/2026,virginia,Flu ED visits pct,3.92
 1/31/2026,clt-area,Flu ED visits pct,3.85
 1/31/2026,fay-area,Flu ED visits pct,5.41
@@ -18501,7 +18327,6 @@ target_end_date,location,target,observation
 1/31/2026,oregon,Flu ED visits pct,7.07
 1/31/2026,south-carolina,Flu ED visits pct,3.54
 1/31/2026,texas,Flu ED visits pct,4.27
-1/31/2026,utah,Flu ED visits pct,3.04
 1/31/2026,virginia,Flu ED visits pct,3.43
 2/7/2026,clt-area,Flu ED visits pct,3.09
 2/7/2026,fay-area,Flu ED visits pct,4.64
@@ -18574,7 +18399,6 @@ target_end_date,location,target,observation
 2/7/2026,oregon,Flu ED visits pct,7.24
 2/7/2026,south-carolina,Flu ED visits pct,3.58
 2/7/2026,texas,Flu ED visits pct,4.01
-2/7/2026,utah,Flu ED visits pct,3.2
 2/7/2026,virginia,Flu ED visits pct,2.11
 2/14/2026,clt-area,Flu ED visits pct,2.88
 2/14/2026,fay-area,Flu ED visits pct,3.89
@@ -18647,7 +18471,6 @@ target_end_date,location,target,observation
 2/14/2026,oregon,Flu ED visits pct,5.68
 2/14/2026,south-carolina,Flu ED visits pct,3.26
 2/14/2026,texas,Flu ED visits pct,4.36
-2/14/2026,utah,Flu ED visits pct,3.24
 2/14/2026,virginia,Flu ED visits pct,2
 2/21/2026,clt-area,Flu ED visits pct,4.08
 2/21/2026,fay-area,Flu ED visits pct,4.61
@@ -18720,7 +18543,6 @@ target_end_date,location,target,observation
 2/21/2026,oregon,Flu ED visits pct,4.38
 2/21/2026,south-carolina,Flu ED visits pct,3.38
 2/21/2026,texas,Flu ED visits pct,3.37
-2/21/2026,utah,Flu ED visits pct,2.6
 2/21/2026,virginia,Flu ED visits pct,2.45
 2/28/2026,clt-area,Flu ED visits pct,4
 2/28/2026,fay-area,Flu ED visits pct,3.96
@@ -18793,7 +18615,6 @@ target_end_date,location,target,observation
 2/28/2026,oregon,Flu ED visits pct,3.16
 2/28/2026,south-carolina,Flu ED visits pct,2.43
 2/28/2026,texas,Flu ED visits pct,2.61
-2/28/2026,utah,Flu ED visits pct,2.02
 2/28/2026,virginia,Flu ED visits pct,2.35
 3/7/2026,clt-area,Flu ED visits pct,4.02
 3/7/2026,fay-area,Flu ED visits pct,4.74
@@ -18866,7 +18687,6 @@ target_end_date,location,target,observation
 3/7/2026,oregon,Flu ED visits pct,2.56
 3/7/2026,south-carolina,Flu ED visits pct,2.27
 3/7/2026,texas,Flu ED visits pct,2.3
-3/7/2026,utah,Flu ED visits pct,1.5
 3/7/2026,virginia,Flu ED visits pct,2.53
 3/14/2026,clt-area,Flu ED visits pct,3.21
 3/14/2026,fay-area,Flu ED visits pct,3.18
@@ -18939,7 +18759,6 @@ target_end_date,location,target,observation
 3/14/2026,oregon,Flu ED visits pct,1.7
 3/14/2026,south-carolina,Flu ED visits pct,1.57
 3/14/2026,texas,Flu ED visits pct,1.57
-3/14/2026,utah,Flu ED visits pct,1.08
 3/14/2026,virginia,Flu ED visits pct,2.12
 3/21/2026,clt-area,Flu ED visits pct,2.52
 3/21/2026,fay-area,Flu ED visits pct,2.59
@@ -19012,7 +18831,6 @@ target_end_date,location,target,observation
 3/21/2026,oregon,Flu ED visits pct,1.39
 3/21/2026,south-carolina,Flu ED visits pct,1.12
 3/21/2026,texas,Flu ED visits pct,1.13
-3/21/2026,utah,Flu ED visits pct,0.88
 3/21/2026,virginia,Flu ED visits pct,1.68
 3/28/2026,clt-area,Flu ED visits pct,2.31
 3/28/2026,fay-area,Flu ED visits pct,2.15
@@ -19085,7 +18903,6 @@ target_end_date,location,target,observation
 3/28/2026,oregon,Flu ED visits pct,1.13
 3/28/2026,south-carolina,Flu ED visits pct,0.99
 3/28/2026,texas,Flu ED visits pct,0.94
-3/28/2026,utah,Flu ED visits pct,0.7
 3/28/2026,virginia,Flu ED visits pct,1.5
 4/4/2026,clt-area,Flu ED visits pct,2.16
 4/4/2026,fay-area,Flu ED visits pct,1.94
@@ -19158,7 +18975,6 @@ target_end_date,location,target,observation
 4/4/2026,oregon,Flu ED visits pct,0.73
 4/4/2026,south-carolina,Flu ED visits pct,0.79
 4/4/2026,texas,Flu ED visits pct,0.75
-4/4/2026,utah,Flu ED visits pct,0.54
 4/4/2026,virginia,Flu ED visits pct,1.3
 4/11/2026,clt-area,Flu ED visits pct,1.68
 4/11/2026,fay-area,Flu ED visits pct,2.06
@@ -19231,7 +19047,6 @@ target_end_date,location,target,observation
 4/11/2026,oregon,Flu ED visits pct,0.57
 4/11/2026,south-carolina,Flu ED visits pct,0.62
 4/11/2026,texas,Flu ED visits pct,0.62
-4/11/2026,utah,Flu ED visits pct,0.5
 4/11/2026,virginia,Flu ED visits pct,0.71
 4/18/2026,clt-area,Flu ED visits pct,1.46
 4/18/2026,fay-area,Flu ED visits pct,1.36
@@ -19304,7 +19119,6 @@ target_end_date,location,target,observation
 4/18/2026,oregon,Flu ED visits pct,0.46
 4/18/2026,south-carolina,Flu ED visits pct,0.37
 4/18/2026,texas,Flu ED visits pct,0.54
-4/18/2026,utah,Flu ED visits pct,0.34
 4/18/2026,virginia,Flu ED visits pct,0.47
 4/25/2026,clt-area,Flu ED visits pct,1.14
 4/25/2026,fay-area,Flu ED visits pct,1.18
@@ -19377,7 +19191,6 @@ target_end_date,location,target,observation
 4/25/2026,oregon,Flu ED visits pct,0.44
 4/25/2026,south-carolina,Flu ED visits pct,0.24
 4/25/2026,texas,Flu ED visits pct,0.44
-4/25/2026,utah,Flu ED visits pct,0.35
 4/25/2026,virginia,Flu ED visits pct,0.35
 5/2/2026,clt-area,Flu ED visits pct,1.29
 5/2/2026,fay-area,Flu ED visits pct,1.43
@@ -19450,7 +19263,6 @@ target_end_date,location,target,observation
 5/2/2026,oregon,Flu ED visits pct,0.48
 5/2/2026,south-carolina,Flu ED visits pct,0.21
 5/2/2026,texas,Flu ED visits pct,0.4
-5/2/2026,utah,Flu ED visits pct,0.21
 5/2/2026,virginia,Flu ED visits pct,0.28
 5/9/2026,clt-area,Flu ED visits pct,1.38
 5/9/2026,fay-area,Flu ED visits pct,1.3
@@ -19523,7 +19335,6 @@ target_end_date,location,target,observation
 5/9/2026,oregon,Flu ED visits pct,0.38
 5/9/2026,south-carolina,Flu ED visits pct,0.22
 5/9/2026,texas,Flu ED visits pct,0.4
-5/9/2026,utah,Flu ED visits pct,0.16
 5/9/2026,virginia,Flu ED visits pct,0.25
 5/16/2026,clt-area,Flu ED visits pct,1.39
 5/16/2026,fay-area,Flu ED visits pct,1.11
@@ -19596,7 +19407,6 @@ target_end_date,location,target,observation
 5/16/2026,oregon,Flu ED visits pct,0.27
 5/16/2026,south-carolina,Flu ED visits pct,0.14
 5/16/2026,texas,Flu ED visits pct,0.35
-5/16/2026,utah,Flu ED visits pct,0.15
 5/16/2026,virginia,Flu ED visits pct,0.25
 5/23/2026,clt-area,Flu ED visits pct,1.16
 5/23/2026,fay-area,Flu ED visits pct,0.94
@@ -19669,7 +19479,6 @@ target_end_date,location,target,observation
 5/23/2026,oregon,Flu ED visits pct,0.2
 5/23/2026,south-carolina,Flu ED visits pct,0.16
 5/23/2026,texas,Flu ED visits pct,0.35
-5/23/2026,utah,Flu ED visits pct,0.06
 5/23/2026,virginia,Flu ED visits pct,0.16
 5/30/2026,clt-area,Flu ED visits pct,1.15
 5/30/2026,fay-area,Flu ED visits pct,0.97
@@ -19742,7 +19551,6 @@ target_end_date,location,target,observation
 5/30/2026,oregon,Flu ED visits pct,0.14
 5/30/2026,south-carolina,Flu ED visits pct,0.09
 5/30/2026,texas,Flu ED visits pct,0.31
-5/30/2026,utah,Flu ED visits pct,0.09
 5/30/2026,virginia,Flu ED visits pct,0.14
 6/6/2026,clt-area,Flu ED visits pct,0.97
 6/6/2026,fay-area,Flu ED visits pct,0.78
@@ -19815,7 +19623,6 @@ target_end_date,location,target,observation
 6/6/2026,oregon,Flu ED visits pct,0.11
 6/6/2026,south-carolina,Flu ED visits pct,0.08
 6/6/2026,texas,Flu ED visits pct,0.25
-6/6/2026,utah,Flu ED visits pct,0.1
 6/6/2026,virginia,Flu ED visits pct,0.13
 6/13/2026,clt-area,Flu ED visits pct,0.82
 6/13/2026,fay-area,Flu ED visits pct,0.73
@@ -19888,7 +19695,6 @@ target_end_date,location,target,observation
 6/13/2026,oregon,Flu ED visits pct,0.1
 6/13/2026,south-carolina,Flu ED visits pct,0.04
 6/13/2026,texas,Flu ED visits pct,0.2
-6/13/2026,utah,Flu ED visits pct,0.06
 6/13/2026,virginia,Flu ED visits pct,0.11
 6/20/2026,clt-area,Flu ED visits pct,0.63
 6/20/2026,fay-area,Flu ED visits pct,0.58
@@ -19961,7 +19767,6 @@ target_end_date,location,target,observation
 6/20/2026,oregon,Flu ED visits pct,0.09
 6/20/2026,south-carolina,Flu ED visits pct,0.06
 6/20/2026,texas,Flu ED visits pct,0.17
-6/20/2026,utah,Flu ED visits pct,0.07
 6/20/2026,virginia,Flu ED visits pct,0.08
 6/27/2026,clt-area,Flu ED visits pct,0.65
 6/27/2026,fay-area,Flu ED visits pct,0.49
@@ -20034,7 +19839,6 @@ target_end_date,location,target,observation
 6/27/2026,oregon,Flu ED visits pct,0.06
 6/27/2026,south-carolina,Flu ED visits pct,0.06
 6/27/2026,texas,Flu ED visits pct,0.15
-6/27/2026,utah,Flu ED visits pct,0.05
 6/27/2026,virginia,Flu ED visits pct,0.09
 9/9/2023,nyc,Flu ED visits pct,0.1
 9/16/2023,nyc,Flu ED visits pct,0.11
@@ -21339,7 +21143,6 @@ target_end_date,location,target,observation
 8/1/2026,minnesota,Flu ED visits pct,0.03
 8/1/2026,maine,Flu ED visits pct,0.03
 8/1/2026,south-carolina,Flu ED visits pct,0.02
-8/1/2026,utah,Flu ED visits pct,0.06
 3/14/2026,new-york,Flu ED visits pct,1.06
 5/16/2026,new-york,Flu ED visits pct,0.21
 5/30/2026,new-york,Flu ED visits pct,0.11
@@ -21360,7 +21163,6 @@ target_end_date,location,target,observation
 6/13/2026,new-york,Flu ED visits pct,0.08
 8/8/2026,maine,Flu ED visits pct,0.04
 8/8/2026,south-carolina,Flu ED visits pct,0.05
-8/8/2026,utah,Flu ED visits pct,0.07
 8/8/2026,maryland,Flu ED visits pct,0.05
 8/8/2026,oregon,Flu ED visits pct,0.03
 8/8/2026,colorado,Flu ED visits pct,0.03
@@ -21388,7 +21190,6 @@ target_end_date,location,target,observation
 7/4/2026,minnesota,Flu ED visits pct,0.03
 7/4/2026,georgia,Flu ED visits pct,0.06
 7/4/2026,south-carolina,Flu ED visits pct,0.04
-7/11/2026,utah,Flu ED visits pct,0.07
 7/11/2026,georgia,Flu ED visits pct,0.03
 7/11/2026,minnesota,Flu ED visits pct,0.02
 7/11/2026,colorado,Flu ED visits pct,0.05
@@ -21400,7 +21201,6 @@ target_end_date,location,target,observation
 7/11/2026,indiana,Flu ED visits pct,0.03
 7/4/2026,oregon,Flu ED visits pct,0.05
 7/18/2026,georgia,Flu ED visits pct,0.05
-7/18/2026,utah,Flu ED visits pct,0.05
 7/18/2026,maine,Flu ED visits pct,0.08
 7/18/2026,minnesota,Flu ED visits pct,0.03
 7/18/2026,colorado,Flu ED visits pct,0.04
@@ -21411,12 +21211,10 @@ target_end_date,location,target,observation
 7/18/2026,virginia,Flu ED visits pct,0.06
 7/18/2026,new-york,Flu ED visits pct,0.04
 7/11/2026,south-carolina,Flu ED visits pct,0.06
-7/4/2026,utah,Flu ED visits pct,0.07
 7/18/2026,south-carolina,Flu ED visits pct,0.05
 7/11/2026,virginia,Flu ED visits pct,0.08
 7/11/2026,new-york,Flu ED visits pct,0.03
 7/25/2026,georgia,Flu ED visits pct,0.04
-7/25/2026,utah,Flu ED visits pct,0.05
 7/25/2026,south-carolina,Flu ED visits pct,0.04
 7/25/2026,maine,Flu ED visits pct,0.05
 7/25/2026,minnesota,Flu ED visits pct,0.03
@@ -21425,7 +21223,6 @@ target_end_date,location,target,observation
 7/25/2026,massachusetts,Flu ED visits pct,0.03
 7/25/2026,indiana,Flu ED visits pct,0.03
 7/25/2026,new-york,Flu ED visits pct,0.03
-8/15/2026,utah,Flu ED visits pct,0.06
 8/15/2026,new-york,Flu ED visits pct,0.04
 8/15/2026,colorado,Flu ED visits pct,0.04
 8/22/2026,colorado,Flu ED visits pct,0.04
@@ -21437,14 +21234,12 @@ target_end_date,location,target,observation
 8/22/2026,minnesota,Flu ED visits pct,0.05
 8/22/2026,maine,Flu ED visits pct,0.06
 8/22/2026,south-carolina,Flu ED visits pct,0.08
-8/22/2026,utah,Flu ED visits pct,0.08
 8/22/2026,oregon,Flu ED visits pct,0.07
 8/22/2026,texas,Flu ED visits pct,0.2
 8/8/2026,georgia,Flu ED visits pct,0.08
 8/15/2026,georgia,Flu ED visits pct,0.1
 8/29/2026,oregon,Flu ED visits pct,0.1
 8/29/2026,maryland,Flu ED visits pct,0.1
-8/29/2026,utah,Flu ED visits pct,0.07
 8/29/2026,minnesota,Flu ED visits pct,0.06
 8/29/2026,maine,Flu ED visits pct,0.07
 8/29/2026,texas,Flu ED visits pct,0.29
@@ -21466,14 +21261,12 @@ target_end_date,location,target,observation
 9/5/2026,virginia,Flu ED visits pct,0.14
 9/5/2026,new-york,Flu ED visits pct,0.08
 9/5/2026,indiana,Flu ED visits pct,0.07
-9/5/2026,utah,Flu ED visits pct,0.1
 8/15/2026,minnesota,Flu ED visits pct,0.03
 9/5/2026,oregon,Flu ED visits pct,0.13
 7/18/2026,maryland,Flu ED visits pct,0.04
 8/22/2026,maryland,Flu ED visits pct,0.05
 9/5/2026,massachusetts,Flu ED visits pct,0.06
 9/12/2026,south-carolina,Flu ED visits pct,0.18
-9/12/2026,utah,Flu ED visits pct,0.19
 9/12/2026,georgia,Flu ED visits pct,0.12
 9/12/2026,colorado,Flu ED visits pct,0.15
 9/12/2026,massachusetts,Flu ED visits pct,0.1
@@ -21487,7 +21280,6 @@ target_end_date,location,target,observation
 9/19/2026,virginia,Flu ED visits pct,0.22
 9/19/2026,new-york,Flu ED visits pct,0.16
 9/19/2026,indiana,Flu ED visits pct,0.12
-9/19/2026,utah,Flu ED visits pct,0.31
 9/19/2026,minnesota,Flu ED visits pct,0.19
 9/19/2026,oregon,Flu ED visits pct,0.37
 9/19/2026,colorado,Flu ED visits pct,0.19
@@ -21496,7 +21288,6 @@ target_end_date,location,target,observation
 9/12/2026,oregon,Flu ED visits pct,0.24
 9/19/2026,massachusetts,Flu ED visits pct,0.15
 9/19/2026,texas,Flu ED visits pct,0.42
-9/26/2026,utah,Flu ED visits pct,0.32
 9/26/2026,colorado,Flu ED visits pct,0.28
 9/26/2026,maryland,Flu ED visits pct,0.23
 9/26/2026,massachusetts,Flu ED visits pct,0.2
@@ -21516,7 +21307,6 @@ target_end_date,location,target,observation
 10/3/2026,maine,Flu ED visits pct,0.44
 10/3/2026,minnesota,Flu ED visits pct,0.24
 10/3/2026,south-carolina,Flu ED visits pct,0.44
-10/3/2026,utah,Flu ED visits pct,0.44
 10/3/2026,maryland,Flu ED visits pct,0.29
 10/3/2026,oregon,Flu ED visits pct,0.59
 10/3/2026,colorado,Flu ED visits pct,0.31

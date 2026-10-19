@@ -1,0 +1,20 @@
+team_name: "University of Colorado Boulder"
+team_abbr: "CU"
+model_name: "Neural random-walk ODE flu model"
+model_abbr: "NeuralWalkODE"
+model_version: "2026-27"
+model_contributors: [
+  {
+    "name": "Remy Pasco",
+    "affiliation": "University of Colorado Boulder",
+    "email": "remy.pasco@colorado.edu"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: true
+data_sources: "Flu ED visits pct: NSSP ED visits (data.cdc.gov) for HSAs and states; MetroCast Hub target data for the NC DETECT regions, NYC and the Utah regions. Flu hosp admits: California Department of Public Health regional flu admissions (shared under a data agreement) and the MetroCast Hub's California target data; NHSN state hospital admissions and CDC FluSurv-NET for pretraining. Both: gridMET daily temperature and specific humidity; Census county populations and centroids."
+methods: "SEIR ODE per location and season. Transmission = a neural network's seasonal curve (weather, holidays, location) times a latent random walk refit weekly, which carries most variation. ED %: an ED observation layer. Hospital admissions: the same transmission network, with a delayed admission flow scaled by a per-season and per-region rate and negative-binomial counts, pretrained on public admissions and fit to the California regions."
+local_fit_jointly: true
+long_term_forecasts: true
+team_funding: ""
+ensemble_of_hub_models: false

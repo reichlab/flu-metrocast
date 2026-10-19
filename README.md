@@ -91,6 +91,8 @@ Model output must follow a tabular representation where each row represents a si
 
 Target data are the “ground truth” observed data being modeled as the prediction target. You can find the raw and target data in the [`raw-data`](/raw-data) and [`target-data`](/target-data) folders of the MetroCast GitHub repository. Raw data represent ground truth data in its raw or native form. Target data are specially formatted raw data that can be used for model fitting, visualization, or evaluation purposes. 
 
+The [`target-data`](/target-data) will be updated every week on Wednesday by around 3:30 PM ET. 
+
 The target data for forecasts of locations with NSSP data available from the [CDC’s National Syndromic Surveillance Program (NSSP)](https://healthdata.gov/CDC/NSSP-Emergency-Department-Visit-Trajectories-by-St/hr4c-e7p6/about_data).  
 
 The target data for NYC forecasts are available from the [New York City Department of Health and Mental Hygiene’s EpiQuery - Syndromic Surveillance Data](https://a816-health.nyc.gov/hdi/epiquery/). 

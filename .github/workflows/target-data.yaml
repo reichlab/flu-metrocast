@@ -1,57 +1,62 @@
-name: 'Weekly Target Data'
+name: 'Weekly Target Data 2026-27'
 
 on:
-  # Allow manual execution for testing purposes
   workflow_dispatch:
-
-  # Scheduled execution: Every Wednesday at 11:30 ET (16:30 UTC during EST)
-  #schedule:
-  #  - cron: '30 16 * * 3'
+    inputs:
+      dry_run:
+        description: 'Show changes without pushing or opening a PR'
+        type: boolean
+        default: false
+  schedule:
+    # Wednesday 16:30 UTC (11:30 EST / 12:30 EDT)
+    - cron: '30 16 * * 3'
 
 permissions:
-  contents: 'write'          # Required to create branches and push commits
-  pull-requests: 'write'     # Required to open pull requests
+  contents: write
+  pull-requests: write
 
 jobs:
   update:
-    # Run in the repository
-    if: "${{ github.repository == 'reichlab/flu-metrocast' }}"
+    if: ${{ github.repository == 'reichlab/flu-metrocast' }}
     runs-on: ubuntu-latest
+    env:
+      DRY_RUN: ${{ inputs.dry_run == true }}
+      SLACK_BOT_TOKEN: ${{ secrets.NSSP_SLACK_BOT_TOKEN }}
+      SLACK_CHANNEL: ${{ secrets.NSSP_SLACK_CHANNEL }}
 
     steps:
-      # Set reference date and create a unique branch name
-      - name: 'Set date and branch name'
-        run: |
-          echo "DATE=$(date -u +'%Y-%m-%d')" >> $GITHUB_ENV
-          echo "BRANCH=automation/target-data-${DATE}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
-
-      - name: "Stop schedule after 2026-05-23"
-        if: ${{ github.event_name == 'schedule' }}
+      - name: 'Check season end date and set run dates'
+        id: season
+        shell: bash
         run: |
           TODAY=$(date -u +%Y-%m-%d)
-          if [[ "$TODAY" > "2026-05-23" ]]; then
-            echo "Schedule expired. Stopping workflow."
-            exit 0
+          echo "DATE=$TODAY" >> "$GITHUB_ENV"
+          # UTC Sunday=0, Wednesday=3; anchor to Wednesday of the same Sun-Sat week.
+          DOW=$(date -u +%w)
+          OFFSET=$((3 - DOW))
+          WEDNESDAY=$(date -u -d "$TODAY $OFFSET days" +%Y-%m-%d)
+          echo "REFERENCE_WEDNESDAY=$WEDNESDAY" >> "$GITHUB_ENV"
+          echo "BRANCH=automation/target-data-${TODAY}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_ENV"
+          if [[ "$TODAY" > "2027-06-30" ]]; then
+            echo "Season ended ($TODAY). Skipping update."
+            echo 'active=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'active=true' >> "$GITHUB_OUTPUT"
           fi
 
-      # Checkout main branch 
-      - name: 'Checkout repository'
+      - name: 'Checkout main branch'
+        if: ${{ steps.season.outputs.active == 'true' }}
         uses: actions/checkout@v4
         with:
-          ref: 'main'
+          ref: main
           fetch-depth: 0
 
-      # Create a new date-based branch for this update
-      - name: 'Create new branch for update'
-        run: |
-          git checkout -b "$BRANCH"
-
-      # Set up R environment
-      - name: 'Setup R'
+      - name: 'Set up R'
+        if: ${{ steps.season.outputs.active == 'true' }}
         uses: r-lib/actions/setup-r@v2
 
-      # Install required R packages
       - name: 'Install R dependencies'
+        if: ${{ steps.season.outputs.active == 'true' }}
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
@@ -59,91 +64,126 @@ jobs:
             any::dplyr
             any::epidatr
             any::lubridate
+            any::tidycensus
+            any::readxl
+            any::stringr
 
-      # Freshness gate:
-      # Only proceed if max(NSSP_hsa$time_value) == today - 10 days
-      - name: 'Check NSSP data freshness'
+      - name: 'Check NSSP and NYC data freshness'
+        if: ${{ steps.season.outputs.active == 'true' }}
+        id: freshness
+        shell: bash
         run: |
-          Rscript -e '
-            epidatr::disable_cache()
-            library(epidatr)
-            NSSP_hsa <- pub_covidcast(
-              source = "beta_nssp_github",
-              signals = "pct_ed_visits_influenza",
-              geo_type = "hsa_nci",
-              time_type = "week"
-            )
-            mx <- max(as.Date(NSSP_hsa$time_value), na.rm = TRUE)
-            expected <- Sys.Date() - 10
-            cat("Max date:", as.character(mx), "\n")
-            cat("Expected:", as.character(expected), "\n")
-            if (is.infinite(mx) || is.na(mx) || mx != expected) {
-              cat("SKIP=true\n", file = Sys.getenv("GITHUB_ENV"), append = TRUE)
-            } else {
-              cat("SKIP=false\n", file = Sys.getenv("GITHUB_ENV"), append = TRUE)
-            }
-          '
-      
-      - name: 'Check NYC file availability'
-        run: |
-          FILE="raw-data/NYC_pct_ED_daily_asof_$(date -u +%m-%d-%Y).csv"
+          Rscript - <<'RSCRIPT'
+          library(epidatr)
+          library(dplyr)
+          epidatr::disable_cache()
 
-          echo "Looking for file: $FILE"
+          today <- Sys.Date()
+          reference_wednesday <- as.Date(Sys.getenv('REFERENCE_WEDNESDAY'))
+          expected_nssp <- reference_wednesday - 4L
+          min_nyc <- reference_wednesday - 11L
+          max_nyc <- reference_wednesday - 4L
 
-          if [ -f "$FILE" ]; then
-            echo "NYC_FILE_OK=true" >> $GITHUB_ENV
-            echo "File found. Continuing."
-          else
-            echo "NYC_FILE_OK=false" >> $GITHUB_ENV
-            echo "File NOT found. Skipping workflow."
-          fi
+          nssp <- epidata_snapshot(
+            source = 'nssp',
+            signals = 'pct_ed_visits_influenza',
+            geo_type = 'hsa_nci'
+          )
+          nssp_dates <- as.Date(nssp$reference_time)
+          latest_nssp <- if (all(is.na(nssp_dates))) as.Date(NA) else max(nssp_dates, na.rm = TRUE)
+          nssp_ok <- !is.na(latest_nssp) && latest_nssp == expected_nssp
 
+          nyc_recent <- read.csv(
+            'https://raw.githubusercontent.com/nychealth/respiratory-illness-data/main/data/ED_data_influenza.csv'
+          )
+          nyc_dates <- as.Date(nyc_recent$date)
+          valid_nyc <- !is.na(nyc_dates) & !is.na(nyc_recent$Influenza.visits.overall)
+          latest_nyc <- if (!any(valid_nyc)) as.Date(NA) else max(nyc_dates[valid_nyc])
+          nyc_ok <- !is.na(latest_nyc) && latest_nyc >= min_nyc && latest_nyc <= max_nyc
 
-      # Stop execution early if freshness condition is not met
-      - name: 'Skip if freshness condition fails'
-        if: "${{ env.SKIP == 'true' }}"
-        run: |
-          echo "NSSP data not sufficiently updated. Skipping update."
-          exit 0
+          cat('Today:', as.character(today), '\n')
+          cat('Reference Wednesday:', as.character(reference_wednesday), '\n')
+          cat('Latest NSSP HSA:', as.character(latest_nssp),
+              '(required:', as.character(expected_nssp), ')\n')
+          cat('Latest NYC:', as.character(latest_nyc),
+              '(allowed:', as.character(min_nyc), 'to', as.character(max_nyc), ')\n')
+          cat('NSSP ready:', nssp_ok, '; NYC ready:', nyc_ok, '\n')
 
-      # Run the target data update script
+          cat(paste0('ready=', tolower(nssp_ok && nyc_ok), '\n'),
+              file = Sys.getenv('GITHUB_OUTPUT'), append = TRUE)
+          RSCRIPT
+
+      - name: 'Create update branch'
+        if: ${{ steps.freshness.outputs.ready == 'true' }}
+        run: git checkout -b "$BRANCH"
+
       - name: 'Run target data script'
-        if: "${{ env.SKIP != 'true' }}"
-        run: Rscript ./src/get_target_data_2526.R
+        if: ${{ steps.freshness.outputs.ready == 'true' }}
+        run: Rscript ./src/get_target_data.R
 
-      # Configure git user for automated commit
-      - name: 'Configure git'
-        if: "${{ env.SKIP != 'true' }}"
+      - name: 'Show changes'
+        if: ${{ steps.freshness.outputs.ready == 'true' }}
+        shell: bash
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git diff --stat -- target-data/
+          git diff -U0 -- target-data/ | sed -n '1,100p'
 
-      # Commit and push changes only if target-data was modified
+      - name: 'Configure git'
+        if: ${{ steps.freshness.outputs.ready == 'true' }}
+        run: |
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --local user.name 'github-actions[bot]'
+
       - name: 'Commit and push changes'
-        if: "${{ env.SKIP != 'true' }}"
+        if: ${{ steps.freshness.outputs.ready == 'true' }}
+        id: changes
+        shell: bash
         run: |
           git add target-data/
           if git diff --cached --quiet; then
-            echo "No changes detected in target-data/. No commit created."
-            echo "CHANGES=false" >> $GITHUB_ENV
-            exit 0
+            echo 'No target-data changes. No PR needed.'
+            echo 'status=none' >> "$GITHUB_OUTPUT"
+          elif [[ "$DRY_RUN" == 'true' ]]; then
+            echo 'Dry run: changes found, but no commit/push/PR.'
+            echo 'status=dry-run' >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Weekly target-data update for $DATE"
+            git push -u origin "$BRANCH"
+            echo 'status=pushed' >> "$GITHUB_OUTPUT"
           fi
-          git commit -m "Weekly target-data update for $DATE"
-          git push -u origin "$BRANCH"
-          echo "CHANGES=true" >> $GITHUB_ENV
-      
 
-      # Create pull request within repository
-      - name: 'Create pull request (within repo)'
-        if: "${{ env.CHANGES == 'true' }}"
+      - name: 'Create pull request'
+        if: ${{ steps.changes.outputs.status == 'pushed' }}
+        id: pr
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
         run: |
           PULL_REQUEST_LINK=$(gh pr create \
-            --repo "reichlab/flu-metrocast" \
+            --repo 'reichlab/flu-metrocast' \
             --head "$BRANCH" \
-            --base "main" \
+            --base 'main' \
             --title "Weekly target-data update for $DATE" \
-            --body "Automated update of target-data for $DATE.")
-          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
-        
+            --body "Automated 2026-27 target-data update for $DATE. Note: PRs created using GITHUB_TOKEN may not trigger pull_request validation workflows automatically.")
+          echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> "$GITHUB_ENV"
+
+      # Optional: configure NSSP_SLACK_BOT_TOKEN and NSSP_SLACK_CHANNEL repository secrets.
+      - name: 'Slack alert (success)'
+        if: ${{ success() && env.SLACK_BOT_TOKEN != '' && env.SLACK_CHANNEL != '' }}
+        uses: slackapi/slack-github-action@v2.1
+        with:
+          method: 'chat.postMessage'
+          token: ${{ env.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: "${{ env.SLACK_CHANNEL }}"
+            text: ":white_check_mark: *NSSP/NYC target-data workflow completed* (${{ env.DATE }}). Status: ${{ steps.season.outputs.active != 'true' && 'season ended' || steps.freshness.outputs.ready != 'true' && 'freshness check not met' || steps.changes.outputs.status == 'pushed' && 'PR created' || steps.changes.outputs.status == 'dry-run' && 'dry run, nothing pushed' || 'no changes' }}. ${{ env.PULL_REQUEST_LINK }} <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Action log>"
+
+      - name: 'Slack alert (failure)'
+        if: ${{ failure() && env.SLACK_BOT_TOKEN != '' && env.SLACK_CHANNEL != '' }}
+        uses: slackapi/slack-github-action@v2.1
+        with:
+          method: 'chat.postMessage'
+          token: ${{ env.SLACK_BOT_TOKEN }}
+          payload: |
+            channel: "${{ env.SLACK_CHANNEL }}"
+            text: ":x: *NSSP/NYC target-data workflow failed* (${{ env.DATE }}). <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View failed action>"

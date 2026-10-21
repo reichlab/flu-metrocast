@@ -1,0 +1,21 @@
+team_name: "CPHMR, Clemson University"
+team_abbr: "DMAPRIME"
+model_name: "Median of GBQR, QRF and linear quantile regression with health-system correction"
+model_abbr: "QR_E"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Tanvir Ahammed",
+    "affiliation": "Clemson University, South Carolina",
+    "email": "tahamme@g.clemson.edu"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: true
+local_fit_jointly: true
+long_term_forecasts: false
+
+data_sources: "MetroCast Hub target data; CDC NSSP percent of ED visits due to influenza for other health service areas and all states (CDCgov/covid19-forecast-hub auxiliary-data); for South Carolina, North Carolina and Georgia, weekly influenza diagnoses and laboratory tests from Prisma Health and MUSC (South Carolina health-system EHR data)."
+
+methods: "Quantile-wise median of three global models (LightGBM gradient-boosted quantile regression, a quantile regression forest, and linear quantile regression), trained jointly on all MetroCast locations plus 300 other NSSP health service areas and all states. Each series is transformed to its fourth root and scaled by its own 95th percentile; the models predict 11 quantiles of the change from the last observed week for each step ahead, using the level, slope and curvature (Taylor-polynomial fits over 3-6 weeks), rolling means, lags, season week, weeks from Christmas, population, noise level and the state's current trend. Uncertainty: each model's quantiles are fit directly with quantile loss, and the median of the three quantile functions is used without post-hoc widening. Spatial correlation: locations share one model and a state-trend feature, but dependence between locations is not modeled; samples are independent across locations. For South Carolina, North Carolina and Georgia, the forecast distribution is shifted by a median quantile regression of past forecast errors on the recent growth of pooled Prisma Health + MUSC influenza test positivity, positive tests and diagnoses (trained on 2023-24 to 2025-26 errors). 100 trajectories per location are drawn from the final quantile function, using the same quantile level across the four weeks (dependence across horizons)."
+ensemble_of_hub_models: false

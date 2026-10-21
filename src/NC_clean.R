@@ -212,7 +212,7 @@ nc_latest_data <- nc_time_series %>%
 # 3) Compute `nc_oracle_output` from `nc_latest_data` to subsetting it to this
 #    season of flu metrocast hub.
 nc_oracle_output <- nc_latest_data %>%
-  filter(target_end_date >= as.Date("2025-11-22")) %>%
+  filter(target_end_date >= as.Date("2026-10-24")) %>%
   rename(oracle_value = observation) %>%
   relocate(target_end_date, location, target, oracle_value)
 
@@ -223,7 +223,6 @@ time_series_as_of_filter_date <- as.Date(Sys.getenv(
   unset = as.character(max(nc_time_series$as_of))
 ))
 nc_time_series <- nc_time_series %>%
-  filter(target_end_date >= as.Date("2024-08-02")) %>%
   filter(as_of == time_series_as_of_filter_date)
 
 # 5) Write the `nc_time_series`, `nc_latest_data`, and `nc_oracle_output`

@@ -83,7 +83,7 @@ jobs:
             --head "ACCIDDA:main" \
             --base "main" \
             --title "Update NC target data for $DATE" \
-            --body "Automated update of NC target data for $DATE. cc: @CyGei, @Mmietchen, @TimothyWillard.")
+            --body "Automated update of NC target data for $DATE.")
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
         env:
           DATE: "${{ env.DATE }}"

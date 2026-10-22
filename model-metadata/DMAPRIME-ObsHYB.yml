@@ -1,0 +1,31 @@
+team_name: "CPHMR, Clemson University"
+team_abbr: "DMAPRIME"
+model_name: "Observation-aware pooled hybrid CNN-LSTM"
+model_abbr: "ObsHYB"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Jiande Wu",
+    "affiliation": "Clemson University, South Carolina",
+    "email": "jiandew@clemson.edu"
+  },
+  {
+    "name": "Amanda Bleichrodt",
+    "affiliation": "Clemson University, South Carolina",
+    "email": "ambleic@clemson.edu"
+  },
+  {
+    "name": "Lior Rennert",
+    "affiliation": "Clemson University, South Carolina",
+    "email": "liorr@clemson.edu"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: true
+local_fit_jointly: true
+long_term_forecasts: false
+data_sources: "MetroCast Hub target data; CDC NSSP weekly percent of ED visits due to influenza for every state, health service area (HSA) and the nation (data.cdc.gov rdmq-nq56), with reliability flags computed by the ObsAwareData rules (github.com/DMA-PRIME/ObsAwareData). Public data only."
+methods: "One hybrid CNN-LSTM is trained jointly on the hub locations and every other U.S. state and health service area in NSSP (about 1,000 series), so local series borrow epidemic dynamics from the whole country. Each series is transformed to z = log1p(percent). Inputs are a 10-week window of the location's z relative to its last observed week, weekly change and level standardized by its own history; the same change features of its parent series (HSA or metro area -> state, state -> nation) and of the nation; observation-aware reliability flags of the location's own series for every week (low coverage from CDC's trend label, anomalous week-to-week change; ObsAwareData rules), so the network learns how much to trust each observation; and seasonal sin/cos terms. The network (parallel 1-D convolutions, bidirectional LSTM, attention pooling) outputs quantiles of the change in z from the last observed week for horizons 0-3 (plus one extra horizon for locations whose data arrive a week later, such as NYC), trained with pinball loss. Six networks are averaged: three seeds, each early-stopped once on the most recent weeks and once on the previous season's epidemic period (better near-term and longer-term forecasts, respectively). Sample trajectories come from a Gaussian copula across horizons whose correlation is estimated from the networks' own validation errors (normal scores of the PIT): for each location, 100 correlated normal vectors are drawn and each horizon's 100 values are the forecast quantiles at levels (i+0.5)/100 assigned in the rank order of the draws. Locations share parameters; dependence between locations is not modeled explicitly. Retrained every week on the latest data. If the NSSP data end one week before the hub's data on the forecast date, every location is forecast from NSSP's last week with the extra horizon, so all inputs stay consistent."
+repo_url: "https://github.com/DMA-PRIME/FluSight-HYB"
+ensemble_of_hub_models: false
+team_funding: "Center for Forecasting and Outbreak Analytics of the Centers for Disease Control and Prevention (CDC) under award number NU38FT000011 and National Library of Medicine of the National Institutes of Health (NIH) under award number R01LM014193."

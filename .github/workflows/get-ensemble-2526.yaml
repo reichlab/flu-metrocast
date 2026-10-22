@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   # Scheduled execution: Every Thursday at 9:00 ET (14:00 UTC during EST)
-  schedule:
-    - cron: "0 14 * * 4"
+  #schedule:
+  #  - cron: "0 14 * * 4"
 
 permissions:
   contents: write

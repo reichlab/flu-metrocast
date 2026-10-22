@@ -32,5 +32,6 @@ methods: "
   are fit jointly to all locations with shared fourier and AR parameters."
 data_sources: "Weekly percent flu ED visits from NSSP."
 ensemble_of_hub_models: false
+long_term_forecasts: true
 repo_url: "https://github.com/reichlab/sarix"
 local_fit_jointly: true

@@ -20,7 +20,7 @@ designated_model: true
 team_funding: ""
 methods: "An equally weighted linear pool ensemble of trajectory-based forecasts submitted to the Flu-MetroCast Hub. The ensemble is constructed using `hubEnsembles::linear_pool()` by sampling 100 complete forecast trajectories from the contributing models, with equal model weights. The selected trajectories are directly used as the ensemble forecast, preserving the temporal dependence structure within each trajectory. The short-term ensemble covers forecast horizons 0–3."
 methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
-data_sources: "Using latest_data.csv from MetroCast Hub.  
+data_sources: "Using latest_data.csv from MetroCast Hub."
 ensemble_of_hub_models: true
 repo_url: "https://github.com/reichlab/flu-metrocast"
 local_fit_jointly: false

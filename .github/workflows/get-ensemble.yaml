@@ -1,0 +1,120 @@
+name: Weekly Trajectory Ensemble
+
+on:
+  workflow_dispatch:
+  # Thursday noon America/New_York (EDT 16 UTC; EST 17 UTC).
+  schedule:
+    - cron: '0 16 * * 4'
+    - cron: '0 17 * * 4'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ensemble:
+    if: github.repository == 'reichlab/flu-metrocast'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Determine reference date and check existing outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            LOCAL_HOUR=$(TZ=America/New_York date +%H)
+            if [[ "$LOCAL_HOUR" != "12" ]]; then
+              echo "Not noon Eastern; skipping this UTC schedule slot."
+              echo "SKIP=true" >> "$GITHUB_ENV"
+              exit 0
+            fi
+          fi
+
+          LOCAL_DATE=$(TZ=America/New_York date +%F)
+          LOCAL_DOW=$(TZ=America/New_York date +%u)
+          DAYS_TO_SAT=$(( (6 - LOCAL_DOW + 7) % 7 ))
+          REFERENCE_DATE=$(TZ=America/New_York date -d "$LOCAL_DATE + $DAYS_TO_SAT days" +%F)
+          SHORT_OUTPUT="model-output/epiENGAGE-ensemble_short/${REFERENCE_DATE}-epiENGAGE-ensemble_short.parquet"
+          LONG_OUTPUT="model-output/epiENGAGE-ensemble_long/${REFERENCE_DATE}-epiENGAGE-ensemble_long.parquet"
+
+          echo "REFERENCE_DATE=$REFERENCE_DATE" >> "$GITHUB_ENV"
+          echo "SHORT_OUTPUT=$SHORT_OUTPUT" >> "$GITHUB_ENV"
+          echo "LONG_OUTPUT=$LONG_OUTPUT" >> "$GITHUB_ENV"
+          echo "BRANCH=automation/ensemble-${REFERENCE_DATE}-${GITHUB_RUN_ID}" >> "$GITHUB_ENV"
+
+          if [[ -f "$SHORT_OUTPUT" && -f "$LONG_OUTPUT" ]]; then
+            echo "Both ensemble outputs already exist on main; skipping."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          else
+            echo "SKIP=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Create update branch
+        if: env.SKIP != 'true'
+        run: git switch -c "$BRANCH"
+
+      - name: Setup R
+        if: env.SKIP != 'true'
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install R dependencies
+        if: env.SKIP != 'true'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::purrr
+            any::here
+            any::arrow
+            github::hubverse-org/hubUtils
+            github::hubverse-org/hubData
+            github::hubverse-org/hubEnsembles
+
+      - name: Run ensemble script
+        if: env.SKIP != 'true'
+        run: Rscript ./src/get_ensemble.R
+
+      - name: Commit and push outputs
+        if: env.SKIP != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f "$SHORT_OUTPUT" ]]; then
+            echo "Expected short-term output missing: $SHORT_OUTPUT"
+            exit 1
+          fi
+          # Long-term output is optional if no eligible long-term models submit.
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add -- "$SHORT_OUTPUT"
+          if [[ -f "$LONG_OUTPUT" ]]; then
+            git add -- "$LONG_OUTPUT"
+          fi
+          if git diff --cached --quiet; then
+            echo "No output changes; skipping PR."
+            echo "CHANGES=false" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          git commit -m "Weekly trajectory ensembles for $REFERENCE_DATE"
+          git push -u origin "$BRANCH"
+          echo "CHANGES=true" >> "$GITHUB_ENV"
+
+      - name: Create pull request
+        if: env.CHANGES == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --repo 'reichlab/flu-metrocast' \
+            --head "$BRANCH" \
+            --base main \
+            --title "Weekly trajectory ensembles for $REFERENCE_DATE" \
+            --body "Automated short- and, when available, long-term trajectory ensemble forecasts for reference date $REFERENCE_DATE."

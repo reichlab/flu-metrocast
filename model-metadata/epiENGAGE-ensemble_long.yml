@@ -1,7 +1,7 @@
 team_name: "epiENGAGE"
 team_abbr: "epiENGAGE"
 model_name: "Ensemble models using flu-metrocast forecast submissions"
-model_abbr: "linear_pool_long"
+model_abbr: "ensemble_long"
 model_version: "1.0"
 model_contributors: [
   {

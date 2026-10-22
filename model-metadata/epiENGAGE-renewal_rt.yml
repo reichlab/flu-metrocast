@@ -1,0 +1,26 @@
+team_name: "epiENGAGE"
+team_abbr: "epiENGAGE"
+model_name: "Renewal / Rt sample-trajectory model"
+model_abbr: "renewal_rt"
+local_fit_jointly: true
+model_contributors:
+  - name: "Rémy Pasco"
+    affiliation: "University of Colorado Boulder"
+    email: "remy.pasco@colorado.edu"
+  - name: "Kaitlyn Johnson"
+    affiliation: "London School of Hygiene & Tropical Medicine"
+    email: "Kaitlyn.Johnson@lshtm.ac.uk"
+  - name: "Advay Vyas"
+    affiliation: "The University of Texas at Austin"
+    email: "advay.vyas@utexas.edu"
+  - name: "Dongah Kim"
+    affiliation: "The University of Texas at Austin"
+    email: "dongah.kim@austin.utexas.edu"
+  - name: "Nicholas Reich"
+    affiliation: "UMass Amherst"
+    email: "nick@umass.edu"
+license: "CC-BY-4.0"
+designated_model: false
+long_term_forecasts: true
+data_sources: "Flu MetroCast Hub target data (% ED visits due to flu: NSSP, NC DETECT, NYC DOHMH). California flu hospital admissions: CDPH Respiratory Virus Dashboard (NHSN admissions by region, data.chhs.ca.gov), with 2022-2024 history from the public HHS facility-level admissions file aggregated to the same regions."
+methods: "Semi-mechanistic renewal/Rt model producing 100 coherent full-season sample trajectories per location. Growth rates are estimated from log incidence with a smoothing spline (smoothing set from each location's noise level) and mapped to Rt via the Euler-Lotka relation with a flu generation interval. Rt is forecast as a seasonal climatology pooled across locations plus a location offset and an AR(1) deviation; the forecast starts from a local-linear-trend Kalman filter state, and the level is projected with a renewal-consistent growth step and Ornstein-Uhlenbeck reversion toward a seasonal level, with per-location observation noise. ED %: equal mixture of 50 trajectories from this model and 50 from the original spline-anchored variant. Hospital admissions: the same model on log(count + 5). Samples are capped at twice each location's historical maximum."

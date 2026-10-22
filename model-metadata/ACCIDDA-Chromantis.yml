@@ -1,0 +1,27 @@
+team_name: "Atlantic Coast Center for Infectious Disease Dynamics and Analytics"
+team_abbr: "ACCIDDA"
+model_name: "Chromantis"
+model_abbr: "Chromantis"
+model_version: "0.1"
+model_contributors:
+  [
+    {
+      "name": "Joseph Lemaitre",
+      "affiliation": "University of North Carolina at Chapel Hill",
+      "email": "jo.lemaitresamra@gmail.com",
+    },
+    {
+      "name": "Justin Lessler",
+      "affiliation": "University of North Carolina at Chapel Hill",
+      "email": "jlessler@unc.edu",
+    },
+  ]
+repo_url: "https://github.com/ACCIDDA/chromantis"
+license: "CC-BY-4.0"
+designated_model: true
+team_funding: "J.L. and J.C.L. disclose support from the Insight Net cooperative agreement CDC-RFA-FT-23-0069 from the CDC’s Center for Forecasting and Outbreak Analytics."
+methods: "Neural network fitted jointly to all locations, using each location's history and its state's series; five seeds, 100 sampled trajectories."
+data_sources: "MetroCast Hub target data only."
+ensemble_of_hub_models: false
+local_fit_jointly: true
+long_term_forecasts: false

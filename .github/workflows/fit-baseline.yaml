@@ -1,0 +1,111 @@
+name: Weekly Baseline Model
+
+on:
+  workflow_dispatch:
+  # 5 PM America/New_York every Wednesday (EDT=21 UTC, EST=22 UTC).
+  # Both UTC slots are scheduled; the local-time guard below runs only one.
+  schedule:
+    - cron: '0 21 * * 3'
+    - cron: '0 22 * * 3'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    if: github.repository == 'reichlab/flu-metrocast'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Determine reference date and check existing output
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            LOCAL_HOUR=$(TZ=America/New_York date +%H)
+            if [[ "$LOCAL_HOUR" != "17" ]]; then
+              echo "Not 5 PM Eastern; skipping this UTC schedule slot."
+              echo "SKIP=true" >> "$GITHUB_ENV"
+              exit 0
+            fi
+          fi
+
+          LOCAL_DATE=$(TZ=America/New_York date +%F)
+          # Reference date is the upcoming Saturday (including today if Saturday).
+          LOCAL_DOW=$(TZ=America/New_York date +%u)
+          DAYS_TO_SAT=$(( (6 - LOCAL_DOW + 7) % 7 ))
+          REFERENCE_DATE=$(TZ=America/New_York date -d "$LOCAL_DATE + $DAYS_TO_SAT days" +%F)
+          OUTPUT="model-output/epiENGAGE-baseline/${REFERENCE_DATE}-epiENGAGE-baseline.parquet"
+
+          echo "REFERENCE_DATE=$REFERENCE_DATE" >> "$GITHUB_ENV"
+          echo "OUTPUT=$OUTPUT" >> "$GITHUB_ENV"
+          echo "BRANCH=automation/baseline-${REFERENCE_DATE}-${GITHUB_RUN_ID}" >> "$GITHUB_ENV"
+
+          if [[ -f "$OUTPUT" ]]; then
+            echo "Output already exists on main: $OUTPUT. Skipping forecast."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          else
+            echo "Output not found on main: $OUTPUT. Generating forecast."
+            echo "SKIP=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Create update branch
+        if: env.SKIP != 'true'
+        run: git switch -c "$BRANCH"
+
+      - name: Setup R
+        if: env.SKIP != 'true'
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install R dependencies
+        if: env.SKIP != 'true'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::dplyr
+            any::purrr
+            any::arrow
+
+      - name: Run baseline script
+        if: env.SKIP != 'true'
+        run: Rscript ./src/fit_baseline.R
+
+      - name: Commit and push output
+        if: env.SKIP != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f "$OUTPUT" ]]; then
+            echo "Expected output missing: $OUTPUT"
+            exit 1
+          fi
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add -- "$OUTPUT"
+          if git diff --cached --quiet; then
+            echo "No output changes; skipping PR."
+            echo "CHANGES=false" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          git commit -m "Weekly baseline trajectory output for $REFERENCE_DATE"
+          git push -u origin "$BRANCH"
+          echo "CHANGES=true" >> "$GITHUB_ENV"
+
+      - name: Create pull request
+        if: env.CHANGES == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --repo 'reichlab/flu-metrocast' \
+            --head "$BRANCH" \
+            --base main \
+            --title "Weekly baseline trajectory output for $REFERENCE_DATE" \
+            --body "Automated baseline trajectory Parquet forecast for reference date $REFERENCE_DATE."

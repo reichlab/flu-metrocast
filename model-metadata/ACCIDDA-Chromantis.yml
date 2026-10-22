@@ -20,8 +20,8 @@ repo_url: "https://github.com/ACCIDDA/chromantis"
 license: "CC-BY-4.0"
 designated_model: true
 team_funding: "J.L. and J.C.L. disclose support from the Insight Net cooperative agreement CDC-RFA-FT-23-0069 from the CDC’s Center for Forecasting and Outbreak Analytics."
-methods: "Neural network fitted jointly to all locations, using each location's history and its state's series; five seeds, 100 sampled trajectories."
+methods: "Neural networks fitted jointly to all locations, using each location's history and its state's series; five seeds each, 100 sampled trajectories. Weeks 0-3 come from a 4-week model; later weeks continue each trajectory with a rank-matched path from a full-season model."
 data_sources: "MetroCast Hub target data only."
 ensemble_of_hub_models: false
 local_fit_jointly: true
-long_term_forecasts: false
+long_term_forecasts: true

@@ -1,0 +1,27 @@
+team_name: "epiENGAGE"
+team_abbr: "epiENGAGE"
+model_name: "Ensemble models using flu-metrocast forecast submissions"
+model_abbr: "linear_pool_short"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Dongah Kim",
+    "affiliation": "Department of Integrative Biology, University of Texas Austin",
+    "email": "dongah.kim@austin.utexas.edu"
+  },
+  {
+    "name": "Nick G. Reich",
+    "affiliation": "Department of Biostatistics and Epidemiology, University of Massachussetts Amherst",
+    "email": "nick@umass.edu"
+  },
+]
+license: "CC-BY-4.0"
+designated_model: true
+team_funding: ""
+methods: "An equally weighted linear pool ensemble of trajectory-based forecasts submitted to the Flu-MetroCast Hub. The ensemble is constructed using `hubEnsembles::linear_pool()` by sampling 100 complete forecast trajectories from the contributing models, with equal model weights. The selected trajectories are directly used as the ensemble forecast, preserving the temporal dependence structure within each trajectory. The short-term ensemble covers forecast horizons 0–3."
+methods_url: "https://hubverse-org.github.io/hubEnsembles/articles/hubEnsembles.html"
+data_sources: "Using latest_data.csv from MetroCast Hub.  
+ensemble_of_hub_models: true
+repo_url: "https://github.com/reichlab/flu-metrocast"
+local_fit_jointly: false
+citation: ""

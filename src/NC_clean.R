@@ -190,18 +190,19 @@ nc_clean <- NC_clean() %>%
   fill(observation, .direction = "down") %>%
   ungroup()
 
-# 1) We take the return of interpolation and subset it to the as of date minimum
-#    for this season of flu metrocast hub and do some light formatting. Right
-#    now `nc_time_series` contains all 'as_of'/'target_end_date' combos we have.
+# 1) Keep all available 'as_of' releases and their observation histories.
+#    Older observations are carried forward using only values already reported
+#    by each release date.
 nc_time_series <- nc_clean %>%
-  filter(as_of >= as.Date("2025-11-19")) %>%
   mutate(target = "Flu ED visits pct") %>%
   relocate(as_of, location, target, target_end_date, observation)
 
 # 2) Compute `nc_latest_data` from `nc_time_series` by selecting the row with
 #    the greatest 'as_of' date for a given 'location', 'target',
-#    'target_end_date'.
+#    'target_end_date'. Keep the existing release cutoff for latest-data and
+#    oracle-output only.
 nc_latest_data <- nc_time_series %>%
+  filter(as_of >= as.Date("2025-11-19")) %>%
   group_by(location, target, target_end_date) %>%
   filter(as_of == max(as_of)) %>%
   slice(1L) %>%
@@ -216,14 +217,11 @@ nc_oracle_output <- nc_latest_data %>%
   rename(oracle_value = observation) %>%
   relocate(target_end_date, location, target, oracle_value)
 
-# 4) Subset `nc_time_series` to data with a 'target_end_date' of 2025-08-02 or
-#    later and the max 'as_of' date.
-time_series_as_of_filter_date <- as.Date(Sys.getenv(
-  x = "AS_OF_FILTER_DATE",
-  unset = as.character(max(nc_time_series$as_of))
-))
+# 4) Include every release in time-series.csv, excluding empty placeholders
+#    before an observation was first reported. Do not fill those placeholders
+#    using information from later releases.
 nc_time_series <- nc_time_series %>%
-  filter(as_of == time_series_as_of_filter_date)
+  filter(!is.na(observation))
 
 # 5) Write the `nc_time_series`, `nc_latest_data`, and `nc_oracle_output`
 #    variables to the "target-data/time-series.csv",

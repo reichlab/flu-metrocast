@@ -53,6 +53,7 @@ excluded_models <- c(
   "epiENGAGE-lop_norm",
   "epiENGAGE-ensemble_short",
   "epiENGAGE-ensemble_long",
+  "epiENGAGE-baseline",
   "FluSight-ensemble"
 )
 

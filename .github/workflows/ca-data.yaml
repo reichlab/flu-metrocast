@@ -65,7 +65,7 @@ jobs:
       # Download the CHHS data and update the three target-data files.
       # The script writes nothing if the source has not changed.
       - name: 'Run CA target data script'
-        run: Rscript ./src/get_ca_target_data_2627.R
+        run: Rscript ./src/get_ca_target_data.R
 
       # Print a summary of what changed (useful for dry runs)
       - name: 'Show changes'
@@ -110,7 +110,7 @@ jobs:
             --head "$BRANCH" \
             --base "main" \
             --title "CA target-data update for $DATE" \
-            --body "Automated update of California 2026/2027 flu hospital admissions target-data for $DATE, from the CHHS Respiratory Virus Dashboard. Close and reopen this PR to run target data validation.")
+            --body "Automated update of California $SEASON flu hospital admissions target-data for $DATE, from the CHHS Respiratory Virus Dashboard. Close and reopen this PR to run target data validation.")
           echo "PULL_REQUEST_LINK=$PULL_REQUEST_LINK" >> $GITHUB_ENV
 
       # Slack notifications, sent by the Slack app's bot to CA_SLACK_CHANNEL

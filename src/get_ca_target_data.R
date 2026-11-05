@@ -1,5 +1,5 @@
 # This script downloads California Respiratory Virus Dashboard data from the
-# CHHS open data portal and updates the 2026/2027 season California influenza
+# CHHS open data portal and updates the current season's California influenza
 # admissions in the three target-data files.
 library(dplyr)
 library(readr)
@@ -10,7 +10,6 @@ source_url <- paste0(
   "https://data.chhs.ca.gov/dataset/6724b36f-b89e-4fa7-9cbb-290526894511/",
   "resource/00a147ba-0410-4699-9e34-fd18bbb7017d/download/rv-dashboard.csv"
 )
-season <- "2026/2027"
 target_name <- "Flu hosp admits"
 # as_of is the next Wednesday (or today if today is a Wednesday), so it lines
 # up with the weekly as_of dates of the other locations in time-series.csv.
@@ -20,6 +19,19 @@ as_of <- Sys.Date() + (4 - wday(Sys.Date())) %% 7
 #    region and week of the season. Counts from 1 to 10 are censored (left
 #    blank) in the source.
 ca_raw <- read_csv(source_url, col_types = cols(.default = col_character()))
+
+# The current season is the SEASON of the most recent week in the source, so
+# the script switches to a new season once CHHS starts publishing it (CHHS
+# seasons do not start exactly on July 1).
+season <- ca_raw |>
+  filter(mdy(WEEKENDING) == max(mdy(WEEKENDING), na.rm = TRUE)) |>
+  distinct(SEASON) |>
+  pull(SEASON)
+stopifnot(length(season) == 1, str_detect(season, "^[0-9]{4}/[0-9]{4}$"))
+message("Season: ", season)
+if (nzchar(Sys.getenv("GITHUB_ENV"))) {
+  cat("SEASON=", season, "\n", file = Sys.getenv("GITHUB_ENV"), sep = "", append = TRUE)
+}
 
 ca_latest <- ca_raw |>
   filter(SEASON == season, AGE_GRP == "All Ages") |>

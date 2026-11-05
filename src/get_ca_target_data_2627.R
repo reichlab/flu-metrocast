@@ -12,34 +12,25 @@ source_url <- paste0(
 )
 season <- "2026/2027"
 target_name <- "Flu hosp admits"
-age_groups <- c("0-4 yrs", "5-17 yrs", "18-64 yrs", ">64 yrs")
 # as_of is the next Wednesday (or today if today is a Wednesday), so it lines
 # up with the weekly as_of dates of the other locations in time-series.csv.
 as_of <- Sys.Date() + (4 - wday(Sys.Date())) %% 7
 
-# 1) Download the raw data and aggregate FLU_ADM across age groups for each
-#    region and week of the season. "All Ages" is excluded, and so is "<18 yrs"
-#    since it overlaps "0-4 yrs" and "5-17 yrs" (it currently has no FLU_ADM).
-#    Blank FLU_ADM cells (suppressed small counts) are treated as missing and
-#    dropped from the sum.
+# 1) Download the raw data and keep the "All Ages" FLU_ADM value for each
+#    region and week of the season. Counts under 10 are censored (left blank)
+#    in the source and are set to 0.
 ca_raw <- read_csv(source_url, col_types = cols(.default = col_character()))
 
 ca_latest <- ca_raw |>
-  filter(SEASON == season, AGE_GRP %in% age_groups) |>
+  filter(SEASON == season, AGE_GRP == "All Ages") |>
   mutate(
     target_end_date = mdy(WEEKENDING),
     location = RPHO_REGION |>
       str_to_lower() |>
       str_replace_all("[^a-z0-9]+", "-"),
-    FLU_ADM = as.numeric(FLU_ADM)
+    observation = coalesce(as.numeric(FLU_ADM), 0),
+    target = target_name
   ) |>
-  group_by(target_end_date, location) |>
-  summarise(
-    observation = if (all(is.na(FLU_ADM))) NA_real_ else sum(FLU_ADM, na.rm = TRUE),
-    .groups = "drop"
-  ) |>
-  filter(!is.na(observation)) |>
-  mutate(target = target_name) |>
   select(target_end_date, location, target, observation) |>
   arrange(target_end_date, location)
 
@@ -47,7 +38,8 @@ locations <- read_csv("auxiliary-data/locations.csv", show_col_types = FALSE)
 stopifnot(
   nrow(ca_latest) > 0,
   all(ca_latest$location %in% locations$location),
-  all(ca_latest$observation >= 0)
+  all(ca_latest$observation >= 0),
+  !anyDuplicated(ca_latest[c("target_end_date", "location")])
 )
 
 # 2) Stop without writing anything if the source has not changed since the

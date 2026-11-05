@@ -2,7 +2,7 @@ team_name: "NAU"
 team_abbr: "NAU"
 model_name: "Copycat"
 model_abbr: "Copycat"
-model_version: "1.0"
+model_version: "2.0"
 model_contributors: [
   {
     "name": "Spencer J. Fox",
@@ -14,10 +14,11 @@ model_contributors: [
 license: "CC-BY-4.0"
 designated_model: true
 team_funding: "CSTE/CDC award NU38OT000297"
-methods: "A pattern matching model that matches growth rate trends to historic growth rate curves."
+methods: "Method of analogues: matches each location's recent growth rates and level to historical seasons and follows the closest analogs' trajectories; 100 trajectories per location."
 methods_url: "https://thefoxlab.wordpress.com/"
-data_sources: "ILI NYC ED Visits, we exclude one season (20/21) and partial from the 19/20 season (removing data after March 2020)"
+data_sources: "Flu MetroCast target data (NSSP, NC DETECT and Utah regional ED visits); historical ILI+ (1997 on) and FluSurv-NET (2009 on) as analogs."
 ensemble_of_hub_models: false
-local_fit_jointly: FALSE
+local_fit_jointly: false
 repo_url: "https://github.com/sjfox/copycat"
+long_term_forecasts: true
 citation: ""

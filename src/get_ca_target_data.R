@@ -1,5 +1,5 @@
 # This script downloads California Respiratory Virus Dashboard data from the
-# CHHS open data portal and updates the 2026/2027 season California influenza
+# CHHS open data portal and updates the current season's California influenza
 # admissions in the three target-data files.
 library(dplyr)
 library(readr)
@@ -10,36 +10,70 @@ source_url <- paste0(
   "https://data.chhs.ca.gov/dataset/6724b36f-b89e-4fa7-9cbb-290526894511/",
   "resource/00a147ba-0410-4699-9e34-fd18bbb7017d/download/rv-dashboard.csv"
 )
-season <- "2026/2027"
 target_name <- "Flu hosp admits"
-age_groups <- c("0-4 yrs", "5-17 yrs", "18-64 yrs", ">64 yrs")
 # as_of is the next Wednesday (or today if today is a Wednesday), so it lines
 # up with the weekly as_of dates of the other locations in time-series.csv.
 as_of <- Sys.Date() + (4 - wday(Sys.Date())) %% 7
 
-# 1) Download the raw data and aggregate FLU_ADM across age groups for each
-#    region and week of the season. "All Ages" is excluded, and so is "<18 yrs"
-#    since it overlaps "0-4 yrs" and "5-17 yrs" (it currently has no FLU_ADM).
-#    Blank FLU_ADM cells (suppressed small counts) are treated as missing and
-#    dropped from the sum.
+# 1) Download the raw data and keep the "All Ages" FLU_ADM value for each
+#    region and week of the season. Counts from 1 to 10 are censored (left
+#    blank) in the source.
 ca_raw <- read_csv(source_url, col_types = cols(.default = col_character()))
 
+# The current season is the SEASON of the most recent week in the source, so
+# the script switches to a new season once CHHS starts publishing it (CHHS
+# seasons do not start exactly on July 1).
+season <- ca_raw |>
+  filter(mdy(WEEKENDING) == max(mdy(WEEKENDING), na.rm = TRUE)) |>
+  distinct(SEASON) |>
+  pull(SEASON)
+stopifnot(length(season) == 1, str_detect(season, "^[0-9]{4}/[0-9]{4}$"))
+message("Season: ", season)
+if (nzchar(Sys.getenv("GITHUB_ENV"))) {
+  cat("SEASON=", season, "\n", file = Sys.getenv("GITHUB_ENV"), sep = "", append = TRUE)
+}
+
 ca_latest <- ca_raw |>
-  filter(SEASON == season, AGE_GRP %in% age_groups) |>
+  filter(SEASON == season, AGE_GRP == "All Ages") |>
   mutate(
     target_end_date = mdy(WEEKENDING),
     location = RPHO_REGION |>
       str_to_lower() |>
       str_replace_all("[^a-z0-9]+", "-"),
-    FLU_ADM = as.numeric(FLU_ADM)
+    observation = as.numeric(FLU_ADM),
+    target = target_name
   ) |>
-  group_by(target_end_date, location) |>
-  summarise(
-    observation = if (all(is.na(FLU_ADM))) NA_real_ else sum(FLU_ADM, na.rm = TRUE),
-    .groups = "drop"
+  select(target_end_date, location, target, observation)
+
+# 2) Fill in censored values. The state total equals the sum of the regions, so
+#    when exactly one region is censored in a week its value is the state total
+#    minus the other regions. If that value is not between 1 and 10, or when
+#    two or more regions are censored, censored values are set to 0.
+ca_latest <- ca_latest |>
+  group_by(target_end_date) |>
+  mutate(
+    is_region = location != "california",
+    n_censored = sum(is_region & is.na(observation)),
+    implied = sum(observation[!is_region]) - sum(observation[is_region], na.rm = TRUE),
+    observation = case_when(
+      !is.na(observation) ~ observation,
+      is_region & n_censored == 1 & implied %in% 1:10 ~ implied,
+      TRUE ~ 0
+    )
   ) |>
-  filter(!is.na(observation)) |>
-  mutate(target = target_name) |>
+  ungroup()
+
+bad_implied <- ca_latest |>
+  filter(n_censored == 1, !(implied %in% 1:10)) |>
+  distinct(target_end_date, implied)
+for (i in seq_len(nrow(bad_implied))) {
+  warning(
+    "Week ending ", bad_implied$target_end_date[i], ": implied censored value ",
+    bad_implied$implied[i], " is not between 1 and 10; set to 0."
+  )
+}
+
+ca_latest <- ca_latest |>
   select(target_end_date, location, target, observation) |>
   arrange(target_end_date, location)
 
@@ -47,10 +81,11 @@ locations <- read_csv("auxiliary-data/locations.csv", show_col_types = FALSE)
 stopifnot(
   nrow(ca_latest) > 0,
   all(ca_latest$location %in% locations$location),
-  all(ca_latest$observation >= 0)
+  all(ca_latest$observation >= 0),
+  !anyDuplicated(ca_latest[c("target_end_date", "location")])
 )
 
-# 2) Stop without writing anything if the source has not changed since the
+# 3) Stop without writing anything if the source has not changed since the
 #    last update, so the workflow does not open a PR with only a new as_of.
 latest_data <- read_csv("target-data/latest-data.csv", show_col_types = FALSE)
 previous <- latest_data |>
@@ -66,7 +101,7 @@ if (isTRUE(all.equal(
   quit(save = "no", status = 0)
 }
 
-# 3) time-series: add this season's values under the as_of date. A rerun in
+# 4) time-series: add this season's values under the as_of date. A rerun in
 #    the same week replaces that week's values instead of duplicating them.
 time_series <- read_csv("target-data/time-series.csv", show_col_types = FALSE) |>
   rows_upsert(
@@ -76,7 +111,7 @@ time_series <- read_csv("target-data/time-series.csv", show_col_types = FALSE) |
     by = c("as_of", "location", "target", "target_end_date")
   )
 
-# 4) latest-data and oracle-output: replace this season's California values
+# 5) latest-data and oracle-output: replace this season's California values
 #    with the newest ones, leaving every other row untouched.
 latest_data <- latest_data |>
   rows_upsert(ca_latest, by = c("target_end_date", "location", "target"))

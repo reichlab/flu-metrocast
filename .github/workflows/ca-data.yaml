@@ -61,6 +61,7 @@ jobs:
             any::dplyr
             any::lubridate
             any::stringr
+            any::jsonlite
 
       # Download the CHHS data and update the three target-data files.
       # The script writes nothing if the source has not changed.

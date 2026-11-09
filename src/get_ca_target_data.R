@@ -116,9 +116,27 @@ time_series <- read_csv("target-data/time-series.csv", show_col_types = FALSE) |
 latest_data <- latest_data |>
   rows_upsert(ca_latest, by = c("target_end_date", "location", "target"))
 
+# oracle-output only includes the target end dates the hub forecasts for this
+# target, as listed in hub-config/tasks.json (for 2026/2027, from 2026-10-24).
+hub_tasks <- jsonlite::read_json("hub-config/tasks.json")
+oracle_dates <- hub_tasks$rounds |>
+  lapply(\(round) round$model_tasks) |>
+  unlist(recursive = FALSE) |>
+  Filter(f = \(task) target_name %in% unlist(task$task_ids$target)) |>
+  lapply(\(task) unlist(task$task_ids$target_end_date)) |>
+  unlist() |>
+  c(character()) |>
+  as.Date()
+if (!any(ca_latest$target_end_date %in% oracle_dates)) {
+  message("No ", season, " dates in hub-config/tasks.json yet; oracle-output not updated.")
+}
+
 oracle_output <- read_csv("target-data/oracle-output.csv", show_col_types = FALSE) |>
+  filter(target != target_name | target_end_date %in% oracle_dates) |>
   rows_upsert(
-    ca_latest |> rename(oracle_value = observation),
+    ca_latest |>
+      filter(target_end_date %in% oracle_dates) |>
+      rename(oracle_value = observation),
     by = c("target_end_date", "location", "target")
   )
 

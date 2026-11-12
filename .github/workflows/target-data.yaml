@@ -23,6 +23,7 @@ jobs:
       DRY_RUN: ${{ inputs.dry_run == true }}
       SLACK_BOT_TOKEN: ${{ secrets.NSSP_SLACK_BOT_TOKEN }}
       SLACK_CHANNEL: ${{ secrets.NSSP_SLACK_CHANNEL }}
+      DELPHI_EPIDATA_KEY: ${{ secrets.DELPHI_EPIDATA_KEY }}
 
     steps:
       - name: 'Check season end date and set run dates'

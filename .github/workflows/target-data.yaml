@@ -1,4 +1,4 @@
-name: 'Weekly Target Data 2026-27'
+name: 'Weekly Target Data'
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ permissions:
 jobs:
   update:
     if: ${{ github.repository == 'reichlab/flu-metrocast' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       DRY_RUN: ${{ inputs.dry_run == true }}
       SLACK_BOT_TOKEN: ${{ secrets.NSSP_SLACK_BOT_TOKEN }}

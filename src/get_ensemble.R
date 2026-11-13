@@ -46,7 +46,10 @@ submitted <- hub_con %>%
 # ------------------------------------------------------------
 
 n_samples <- 100
-short_horizons <- 0:3
+target_horizons <- list(
+  "Flu ED visits pct" = 0:3,
+  "Flu hosp admits" = -1:3
+)
 
 excluded_models <- c(
   "epiENGAGE-ensemble_mean",
@@ -60,7 +63,8 @@ excluded_models <- c(
 samples <- submitted %>%
   filter(
     output_type == "sample",
-    !model_id %in% excluded_models
+    !model_id %in% excluded_models,
+    target %in% names(target_horizons)
   ) %>%
   mutate(
     horizon = as.integer(
@@ -69,7 +73,7 @@ samples <- submitted %>%
   ) %>%
   filter(
     !is.na(horizon),
-    horizon >= 0,
+    horizon >= -1,
     target_end_date == reference_date + 7 * horizon
   )
 
@@ -92,35 +96,33 @@ model_horizons <- samples %>%
   )
 
 long_candidates <- model_horizons %>%
-  filter(max_horizon > max(short_horizons))
-
-if (nrow(long_candidates) == 0) {
-  cat("No long-term forecasts submitted this week.\n")
-  long_horizons <- NULL
-} else {
-
-  # Common long-term horizon across candidate models.
-  # This avoids extending the ensemble beyond the
-  # shortest contributing long-term forecast.
-
-  long_max_horizon <- min(long_candidates$max_horizon)
-  long_horizons <- 0:long_max_horizon
-
-  cat(
-    "Detected long-term horizon: 0–",
-    long_max_horizon, "\n",
-    sep = ""
-  )
-}
+  filter(max_horizon > 3)
 
 cat("\nLong-term candidate models:\n")
 
 print(
   long_candidates %>%
-    distinct(model_id) %>%
-    arrange(model_id),
+    distinct(target, model_id) %>%
+    arrange(target, model_id),
   n = Inf
 )
+
+get_long_horizons <- function(target_name) {
+
+  candidates <- long_candidates %>%
+    filter(target == target_name)
+
+  if (nrow(candidates) == 0) {
+    return(NULL)
+  }
+
+  start_h <- min(target_horizons[[target_name]])
+
+  start_h:min(candidates$max_horizon)
+}
+
+long_ed_horizons <- get_long_horizons("Flu ED visits pct")
+long_ca_horizons <- get_long_horizons("Flu hosp admits")
 
 # ------------------------------------------------------------
 # 4. Prepare complete trajectories
@@ -152,34 +154,75 @@ prepare_trajectories <- function(data, horizons, models = NULL) {
     select(-horizon)
 }
 
-short_input <- prepare_trajectories(
-  samples,
-  horizons = short_horizons
+# Short-term
+short_ed_input <- prepare_trajectories(
+  samples %>% filter(target == "Flu ED visits pct"),
+  horizons = target_horizons[["Flu ED visits pct"]]
 )
 
-long_input <- NULL
+short_ca_input <- prepare_trajectories(
+  samples %>% filter(target == "Flu hosp admits"),
+  horizons = target_horizons[["Flu hosp admits"]]
+)
 
-if (!is.null(long_horizons)) {
+# Long-term
+long_ed_input <- NULL
+long_ca_input <- NULL
 
-  long_models <- unique(long_candidates$model_id)
+if (!is.null(long_ed_horizons)) {
 
-  long_input <- prepare_trajectories(
-    samples,
-    horizons = long_horizons,
-    models = long_models
+  long_ed_models <- long_candidates %>%
+    filter(target == "Flu ED visits pct") %>%
+    pull(model_id) %>%
+    unique()
+
+  long_ed_input <- prepare_trajectories(
+    samples %>% filter(target == "Flu ED visits pct"),
+    horizons = long_ed_horizons,
+    models = long_ed_models
   )
 }
+
+if (!is.null(long_ca_horizons)) {
+
+  long_ca_models <- long_candidates %>%
+    filter(target == "Flu hosp admits") %>%
+    pull(model_id) %>%
+    unique()
+
+  long_ca_input <- prepare_trajectories(
+    samples %>% filter(target == "Flu hosp admits"),
+    horizons = long_ca_horizons,
+    models = long_ca_models
+  )
+}
+
 
 # ------------------------------------------------------------
 # 5. Validate and save
 # ------------------------------------------------------------
 
-validate_and_save <- function(data, model_id, horizons) {
+validate_and_save <- function(data, model_id, horizons_by_target) {
+
+  if (nrow(data) == 0) {
+    stop("Empty ensemble: ", model_id)
+  }
+
+  for (target_name in unique(data$target)) {
+
+    target_data <- data %>%
+      filter(target == target_name)
+
+    horizons <- horizons_by_target[[target_name]]
+
+    if (is.null(horizons)) {
+      stop("Missing horizons for: ", target_name)
+    }
 
   n_horizons <- length(horizons)
   required_dates <- reference_date + 7 * horizons
 
-  check <- data %>%
+  check <- target_data %>%
     group_by(reference_date, target, location, output_type_id) %>%
     summarise(
       n_rows = n(),
@@ -196,7 +239,7 @@ validate_and_save <- function(data, model_id, horizons) {
     stop("Incomplete trajectories in ", model_id)
   }
 
-  check_locations <- data %>%
+  check_locations <- target_data %>%
     group_by(reference_date, target, location) %>%
     summarise(
       n_samples = n_distinct(output_type_id),
@@ -210,7 +253,9 @@ validate_and_save <- function(data, model_id, horizons) {
   )) {
     stop("Invalid sample counts in ", model_id)
   }
+  }
 
+  # Original output formatting and saving
   output <- data %>%
     group_by(reference_date, target, location) %>%
     mutate(
@@ -256,40 +301,93 @@ validate_and_save <- function(data, model_id, horizons) {
 # 6. Short-term ensemble
 # ------------------------------------------------------------
 
-short_ensemble <- hubEnsembles::linear_pool(
-  short_input,
-  model_id = "epiENGAGE-ensemble_short",
-  compound_taskid_set = c(
-    "reference_date", "target", "location"
-  ),
-  n_output_samples = 100
-)
+short_outputs <- list()
+
+if (nrow(short_ed_input) > 0) {
+
+  short_outputs[["Flu ED visits pct"]] <-
+    hubEnsembles::linear_pool(
+      short_ed_input,
+      model_id = "epiENGAGE-ensemble_short",
+      compound_taskid_set = c(
+        "reference_date", "target", "location"
+      ),
+      n_output_samples = n_samples
+    )
+}
+
+if (nrow(short_ca_input) > 0) {
+
+  short_outputs[["Flu hosp admits"]] <-
+    hubEnsembles::linear_pool(
+      short_ca_input,
+      model_id = "epiENGAGE-ensemble_short",
+      compound_taskid_set = c(
+        "reference_date", "target", "location"
+      ),
+      n_output_samples = n_samples
+    )
+}
+
+if (length(short_outputs) == 0) {
+  stop("No complete short-term trajectories.")
+}
+
+short_ensemble <- bind_rows(short_outputs)
 
 short_output <- validate_and_save(
   short_ensemble,
   model_id = "epiENGAGE-ensemble_short",
-  horizons = short_horizons
+  horizons_by_target = target_horizons
 )
 
 # ------------------------------------------------------------
 # 7. Long-term ensemble
 # ------------------------------------------------------------
 
-if (!is.null(long_horizons) && nrow(long_input) > 0) {
+long_outputs <- list()
+long_horizons_by_target <- list()
 
-  long_ensemble <- hubEnsembles::linear_pool(
-    long_input,
-    model_id = "epiENGAGE-ensemble_long",
-    compound_taskid_set = c(
-      "reference_date", "target", "location"
-    ),
-    n_output_samples = 100
-  )
+if (!is.null(long_ed_input) && nrow(long_ed_input) > 0) {
+
+  long_outputs[["Flu ED visits pct"]] <-
+    hubEnsembles::linear_pool(
+      long_ed_input,
+      model_id = "epiENGAGE-ensemble_long",
+      compound_taskid_set = c(
+        "reference_date", "target", "location"
+      ),
+      n_output_samples = n_samples
+    )
+
+  long_horizons_by_target[["Flu ED visits pct"]] <-
+    long_ed_horizons
+}
+
+if (!is.null(long_ca_input) && nrow(long_ca_input) > 0) {
+
+  long_outputs[["Flu hosp admits"]] <-
+    hubEnsembles::linear_pool(
+      long_ca_input,
+      model_id = "epiENGAGE-ensemble_long",
+      compound_taskid_set = c(
+        "reference_date", "target", "location"
+      ),
+      n_output_samples = n_samples
+    )
+
+  long_horizons_by_target[["Flu hosp admits"]] <-
+    long_ca_horizons
+}
+
+if (length(long_outputs) > 0) {
+
+  long_ensemble <- bind_rows(long_outputs)
 
   long_output <- validate_and_save(
     long_ensemble,
     model_id = "epiENGAGE-ensemble_long",
-    horizons = long_horizons
+    horizons_by_target = long_horizons_by_target
   )
 
 } else {

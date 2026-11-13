@@ -1,0 +1,30 @@
+team_name: "UMass Amherst"
+team_abbr: "UMass"
+model_name: "Axial transformer r2"
+model_abbr: "axial_r2"
+model_version: "1.0"
+model_contributors: [
+  {
+    name: "Nikhil Lebaka",
+    affiliation: "UMass Amherst",
+    email: "nrlebaka@umass.edu",
+  },
+  {
+    name: "Evan Ray",
+    affiliation: "UMass Amherst",
+    email: "elray@umass.edu",
+  },
+  {
+    name: "Nick Reich",
+    affiliation: "UMass Amherst",
+    email: "nick@umass.edu",
+  }
+]
+license: "CC-BY-4.0"
+designated_model: true
+data_sources: "MetroCast Hub target data; NSSP ED visits for other locations."
+methods: "A small transformer, pretrained on simulated flu seasons and fine-tuned on past real seasons, forecasts all locations in a state together. Samples are trajectories across horizons. Forecasts average several trained networks."
+repo_url: "https://github.com/nikhillebaka/axial"
+local_fit_jointly: true
+ensemble_of_hub_models: false
+long_term_forecasts: false

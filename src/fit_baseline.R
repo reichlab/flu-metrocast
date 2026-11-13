@@ -1,3 +1,4 @@
+
 # Trajectory baseline forecasts
 # Run: Rscript src/fit_baseline_trajectory.R
 
@@ -64,10 +65,13 @@ latest_dates <- input %>%
     weeks_behind = as.integer(
       (reference_date - last_observed_date) / 7
     ),
-    simulation_horizons = n_horizons + weeks_behind - 1L,
-    include = weeks_behind %in% c(1L, 2L)
-  )
+    is_ca = target == "Flu hosp admits",
+    n_submission_horizons = if_else(is_ca, 5L, 4L),
+    include = weeks_behind %in% c(1L, 2L),
 
+    # Number of simulation steps needed
+    simulation_horizons = weeks_behind + 3L
+  )
 # --------------------------------------------------
 # Locations requiring an extra simulation step
 # --------------------------------------------------
@@ -75,11 +79,16 @@ latest_dates <- input %>%
 extra_step_locations <- latest_dates %>%
   filter(weeks_behind == 2L) %>%
   arrange(location, target) %>%
-  select(location, target, last_observed_date, weeks_behind)
+  select(
+    location,
+    target,
+    last_observed_date,
+    weeks_behind,
+    simulation_horizons
+  )
 
 cat("\n========================================\n")
-cat("Locations requiring 5-step simulation\n")
-cat("(Forecast starts from horizon -1)\n")
+cat("Locations with 2-week reporting delay\n")
 cat("========================================\n")
 
 if (nrow(extra_step_locations) > 0) {
@@ -95,7 +104,12 @@ if (nrow(extra_step_locations) > 0) {
 excluded_locations <- latest_dates %>%
   filter(!include) %>%
   arrange(location, target) %>%
-  select(location, target, last_observed_date, weeks_behind)
+  select(
+    location,
+    target,
+    last_observed_date,
+    weeks_behind
+  )
 
 cat("\n========================================\n")
 cat("Locations excluded from forecasting\n")
@@ -116,12 +130,24 @@ cat("Forecasting summary\n")
 cat("========================================\n")
 
 cat("Reference date:", as.character(reference_date), "\n")
-cat("Standard 4-step forecasts:",
-    sum(latest_dates$weeks_behind == 1L), "\n")
-cat("Extended 5-step forecasts:",
-    nrow(extra_step_locations), "\n")
-cat("Excluded forecasts:",
-    nrow(excluded_locations), "\n\n")
+
+cat(
+  "Standard ED forecasts:",
+  sum(latest_dates$include & !latest_dates$is_ca),
+  "\n"
+)
+
+cat(
+  "California hospital forecasts:",
+  sum(latest_dates$include & latest_dates$is_ca),
+  "\n"
+)
+
+cat(
+  "Excluded forecasts:",
+  nrow(excluded_locations),
+  "\n\n"
+)
 
 # --------------------------------------------------
 # Forecast one location-target series
@@ -162,20 +188,35 @@ forecast_one_series <- function(data) {
     (reference_date - last_observed_date) / 7
   )
 
-  # Skip if data are more than two weeks old
+  # Skip locations with unsupported reporting delays
   if (!weeks_behind %in% c(1L, 2L)) {
     return(NULL)
   }
 
-  # 1 week behind -> 4 simulation steps
-  # 2 weeks behind -> 5 simulation steps
-  simulation_horizons <- n_horizons + weeks_behind - 1L
+  # California: -1, 0, 1, 2, 3
+  # Other states: 0, 1, 2, 3
+  is_ca <- key$target == "Flu hosp admits"
 
+  submission_horizons <- if (is_ca) {
+    -1:3
+  } else {
+    0:3
+  }
+
+  # Simulation step for each submission horizon
+  # Step 0 represents the latest observed value
+  selected_steps <- weeks_behind + submission_horizons
+
+  # Number of future simulation steps required
+  simulation_horizons <- max(selected_steps)
+
+  # Fit baseline model
   fitted <- fit_quantile_baseline(
     incidence,
     symmetrize = TRUE
   )
 
+  # Generate future trajectories
   trajectories <- new_predict.quantile_baseline(
     quantile_baseline = fitted,
     newdata = incidence,
@@ -185,31 +226,54 @@ forecast_one_series <- function(data) {
 
   trajectories <- pmax(trajectories, 0)
 
-  # Select the final four simulation steps
-  # weeks_behind = 1 -> columns 1:4
-  # weeks_behind = 2 -> columns 2:5
-  selected_steps <- seq.int(
-    from = weeks_behind,
-    length.out = n_horizons
+  # Select required simulation steps
+  # Step 0: latest observed value (if applicable)
+  # Step >= 1: simulated future values
+  selected_trajectories <- matrix(
+    NA_real_,
+    nrow = n_samples,
+    ncol = length(submission_horizons)
   )
 
-  trajectories <- trajectories[
-    , selected_steps, drop = FALSE
-  ]
+  for (h in seq_along(submission_horizons)) {
 
-  stopifnot(ncol(trajectories) == n_horizons)
+    step <- selected_steps[h]
 
+    if (step == 0L) {
+
+      # Already observed week
+      selected_trajectories[, h] <- tail(incidence, 1)
+
+    } else {
+
+      selected_trajectories[, h] <- trajectories[, step]
+
+    }
+  }
+
+  stopifnot(
+    ncol(selected_trajectories) ==
+      length(submission_horizons)
+  )
+
+  # Convert trajectories to hub submission format
   bind_rows(
-    lapply(seq_len(n_horizons), function(h) {
+    lapply(seq_along(submission_horizons), function(h) {
+
+      horizon <- submission_horizons[h]
 
       tibble(
         reference_date = reference_date,
         target = key$target,
-        target_end_date = reference_date + 7L * (h - 1L),
+        target_end_date = reference_date + 7L * horizon,
         location = key$location,
         output_type = "sample",
-        output_type_id = paste0("T", seq_len(n_samples)),
-        value = as.numeric(trajectories[, h])
+        output_type_id = if (is_ca) {
+          paste0("CA", seq_len(n_samples))
+        } else {
+          paste0("T", seq_len(n_samples))
+        },
+        value = as.numeric(selected_trajectories[, h])
       )
 
     })
@@ -245,7 +309,25 @@ stopifnot(
   all(forecast_output$output_type == "sample")
 )
 
-check <- forecast_output %>%
+# Expected horizons for each target
+expected_horizons <- function(target) {
+  if (target == "Flu hosp admits") {
+    -1:3
+  } else {
+    0:3
+  }
+}
+
+# Calculate submission horizon from target end date
+forecast_check <- forecast_output %>%
+  mutate(
+    horizon = as.integer(
+      (target_end_date - reference_date) / 7
+    )
+  )
+
+# Check number of dates per trajectory
+check <- forecast_check %>%
   count(
     reference_date,
     target,
@@ -254,7 +336,48 @@ check <- forecast_output %>%
     name = "n_dates"
   )
 
-stopifnot(all(check$n_dates == n_horizons))
+stopifnot(
+  all(
+    check$n_dates ==
+      ifelse(
+        check$target == "Flu hosp admits",
+        5L,
+        4L
+      )
+  )
+)
+
+# Check exact horizon sets for each location-target
+horizon_check <- forecast_check %>%
+  group_by(location, target) %>%
+  summarise(
+    valid = setequal(
+      unique(horizon),
+      expected_horizons(first(target))
+    ),
+    .groups = "drop"
+  )
+
+stopifnot(all(horizon_check$valid))
+
+# Print horizon summary
+cat("\n========================================\n")
+cat("Submission horizon summary\n")
+cat("========================================\n")
+
+print(
+  forecast_check %>%
+    group_by(target) %>%
+    summarise(
+      horizons = paste(
+        sort(unique(horizon)),
+        collapse = ", "
+      ),
+      n_locations = n_distinct(location),
+      .groups = "drop"
+    ),
+  n = Inf
+)
 
 # --------------------------------------------------
 # Save Parquet

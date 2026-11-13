@@ -260,7 +260,7 @@ validate_and_save <- function(data, model_id, horizons_by_target) {
     group_by(reference_date, target, location) %>%
     mutate(
       output_type_id = paste0(
-        "S",
+        if_else(target == "Flu hosp admits", "CA", "S"),
         match(output_type_id, unique(output_type_id))
       )
     ) %>%
@@ -393,3 +393,4 @@ if (length(long_outputs) > 0) {
 } else {
   cat("\nSkipping long-term ensemble this week.\n")
 }
+

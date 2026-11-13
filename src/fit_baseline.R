@@ -68,13 +68,10 @@ latest_dates <- input %>%
     is_ca = target == "Flu hosp admits",
     n_submission_horizons = if_else(is_ca, 5L, 4L),
     include = weeks_behind %in% c(1L, 2L),
-    simulation_horizons = if_else(
-      is_ca,
-      weeks_behind + 3L,
-      weeks_behind + 2L
-    )
-  )
 
+    # Number of simulation steps needed
+    simulation_horizons = weeks_behind + 3L
+  )
 # --------------------------------------------------
 # Locations requiring an extra simulation step
 # --------------------------------------------------
@@ -271,7 +268,11 @@ forecast_one_series <- function(data) {
         target_end_date = reference_date + 7L * horizon,
         location = key$location,
         output_type = "sample",
-        output_type_id = paste0("T", seq_len(n_samples)),
+        output_type_id = if (is_ca) {
+          paste0("CA", seq_len(n_samples))
+        } else {
+          paste0("T", seq_len(n_samples))
+        },
         value = as.numeric(selected_trajectories[, h])
       )
 

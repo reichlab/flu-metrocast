@@ -2507,19 +2507,19 @@
 2026-10-31,"maryland","Flu ED visits pct",1.18
 2026-10-31,"minnesota","Flu ED visits pct",0.45
 2026-10-24,"bay-area","Flu hosp admits",303
-2026-10-24,"california","Flu hosp admits",1166
+2026-10-24,"california","Flu hosp admits",1181
 2026-10-24,"central-california","Flu hosp admits",82
-2026-10-24,"greater-sierra-sacramento","Flu hosp admits",101
+2026-10-24,"greater-sierra-sacramento","Flu hosp admits",102
 2026-10-24,"los-angeles","Flu hosp admits",296
 2026-10-24,"rural-north","Flu hosp admits",11
-2026-10-24,"southern-california","Flu hosp admits",373
-2026-10-31,"bay-area","Flu hosp admits",287
-2026-10-31,"california","Flu hosp admits",1170
-2026-10-31,"central-california","Flu hosp admits",85
-2026-10-31,"greater-sierra-sacramento","Flu hosp admits",127
+2026-10-24,"southern-california","Flu hosp admits",387
+2026-10-31,"bay-area","Flu hosp admits",288
+2026-10-31,"california","Flu hosp admits",1224
+2026-10-31,"central-california","Flu hosp admits",92
+2026-10-31,"greater-sierra-sacramento","Flu hosp admits",128
 2026-10-31,"los-angeles","Flu hosp admits",292
 2026-10-31,"rural-north","Flu hosp admits",7
-2026-10-31,"southern-california","Flu hosp admits",372
+2026-10-31,"southern-california","Flu hosp admits",417
 2026-11-07,"clt-area","Flu ED visits pct",3.4
 2026-11-07,"fay-area","Flu ED visits pct",3.32
 2026-11-07,"nenc","Flu ED visits pct",1.14
@@ -2647,3 +2647,10 @@
 2026-11-07,"minnesota","Flu ED visits pct",0.64
 2026-10-31,"georgia","Flu ED visits pct",1.61
 2026-11-07,"georgia","Flu ED visits pct",2.04
+2026-11-07,"bay-area","Flu hosp admits",339
+2026-11-07,"california","Flu hosp admits",1251
+2026-11-07,"central-california","Flu hosp admits",106
+2026-11-07,"greater-sierra-sacramento","Flu hosp admits",127
+2026-11-07,"los-angeles","Flu hosp admits",307
+2026-11-07,"rural-north","Flu hosp admits",21
+2026-11-07,"southern-california","Flu hosp admits",351

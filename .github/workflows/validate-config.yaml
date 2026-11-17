@@ -1,5 +1,10 @@
 name: Hub Config Validation (R)
 
+# Validates the hub's config files when a pull request changes them and posts
+# the result on that pull request. Added with:
+#
+#   hubCI::use_hub_github_action("validate-config")
+
 on:
   workflow_dispatch:
   pull_request:
@@ -11,50 +16,11 @@ on:
 permissions:
   contents: read
   pull-requests: write
-  issues: write
 
 jobs:
   validate-hub-config:
-    runs-on: ubuntu-22.04
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      PR_NUMBER: ${{ github.event.number }}
-      HUB_PATH: ${{ github.workspace }}
-
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          install-r: false
-          use-public-rspm: true
-          extra-repositories: 'https://hubverse-org.r-universe.dev'
-
-      - name: Update R
-        run: |
-          sudo apt-get update
-
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          cache: 'always'
-          packages: |
-            any::hubAdmin
-            any::sessioninfo
-
-      - name: Run validations
-        id: validate
-        run: hubAdmin::ci_validate_hub_config(diff = "${{ runner.temp }}/diff.md")
-        shell: Rscript {0}
-      - name: "Comment on PR"
-        id: comment-diff
-        if: ${{ github.event_name != 'workflow_dispatch' }}
-        uses: carpentries/actions/comment-diff@main
-        with:
-          pr: ${{ env.PR_NUMBER }}
-          path: ${{ runner.temp }}/diff.md
-      - name: Error on Failure
-        if: ${{ steps.validate.outputs.result == 'false' }}
-        run: |
-          echo "::error title=Invalid Configuration::Errors were detected in one or more config files in 'hub-config/'"
-          exit 1
-
+      - uses: hubverse-org/hubverse-actions/validate-config@v2

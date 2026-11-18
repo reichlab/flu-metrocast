@@ -2329,8 +2329,8 @@
 2026-10-24,"fay-area","Flu ED visits pct",2.13
 2026-10-24,"nenc","Flu ED visits pct",0.47
 2026-10-24,"north-carolina","Flu ED visits pct",1.44
-2026-10-24,"rtp-area","Flu ED visits pct",1.19
-2026-10-24,"senc","Flu ED visits pct",0.65
+2026-10-24,"rtp-area","Flu ED visits pct",1.2
+2026-10-24,"senc","Flu ED visits pct",0.67
 2026-10-24,"triad-area","Flu ED visits pct",1.21
 2026-10-24,"wnc","Flu ED visits pct",0.62
 2026-10-24,"bear-river","Flu ED visits pct",1.15
@@ -2415,14 +2415,14 @@
 2026-10-24,"virginia","Flu ED visits pct",0.9
 2026-10-24,"texas","Flu ED visits pct",1.99
 2026-10-24,"massachusetts","Flu ED visits pct",0.66
-2026-10-31,"clt-area","Flu ED visits pct",3.01
-2026-10-31,"fay-area","Flu ED visits pct",2.61
+2026-10-31,"clt-area","Flu ED visits pct",3.02
+2026-10-31,"fay-area","Flu ED visits pct",2.62
 2026-10-31,"nenc","Flu ED visits pct",1.07
-2026-10-31,"north-carolina","Flu ED visits pct",1.91
-2026-10-31,"rtp-area","Flu ED visits pct",1.53
+2026-10-31,"north-carolina","Flu ED visits pct",1.92
+2026-10-31,"rtp-area","Flu ED visits pct",1.54
 2026-10-31,"senc","Flu ED visits pct",0.55
-2026-10-31,"triad-area","Flu ED visits pct",1.7
-2026-10-31,"wnc","Flu ED visits pct",0.93
+2026-10-31,"triad-area","Flu ED visits pct",1.73
+2026-10-31,"wnc","Flu ED visits pct",0.94
 2026-10-31,"bear-river","Flu ED visits pct",1.78
 2026-10-31,"central","Flu ED visits pct",0.19
 2026-10-31,"davis","Flu ED visits pct",0.96
@@ -2520,14 +2520,14 @@
 2026-10-31,"los-angeles","Flu hosp admits",292
 2026-10-31,"rural-north","Flu hosp admits",7
 2026-10-31,"southern-california","Flu hosp admits",417
-2026-11-07,"clt-area","Flu ED visits pct",3.4
-2026-11-07,"fay-area","Flu ED visits pct",3.32
-2026-11-07,"nenc","Flu ED visits pct",1.14
-2026-11-07,"north-carolina","Flu ED visits pct",2.32
-2026-11-07,"rtp-area","Flu ED visits pct",2.04
+2026-11-07,"clt-area","Flu ED visits pct",3.52
+2026-11-07,"fay-area","Flu ED visits pct",3.34
+2026-11-07,"nenc","Flu ED visits pct",1.16
+2026-11-07,"north-carolina","Flu ED visits pct",2.38
+2026-11-07,"rtp-area","Flu ED visits pct",2.07
 2026-11-07,"senc","Flu ED visits pct",0.97
-2026-11-07,"triad-area","Flu ED visits pct",2.11
-2026-11-07,"wnc","Flu ED visits pct",1.14
+2026-11-07,"triad-area","Flu ED visits pct",2.18
+2026-11-07,"wnc","Flu ED visits pct",1.2
 2026-11-07,"bear-river","Flu ED visits pct",1.46
 2026-11-07,"central","Flu ED visits pct",0.56
 2026-11-07,"davis","Flu ED visits pct",1.67
@@ -2654,3 +2654,11 @@
 2026-11-07,"los-angeles","Flu hosp admits",307
 2026-11-07,"rural-north","Flu hosp admits",21
 2026-11-07,"southern-california","Flu hosp admits",351
+2026-11-14,"clt-area","Flu ED visits pct",3.96
+2026-11-14,"fay-area","Flu ED visits pct",4.14
+2026-11-14,"nenc","Flu ED visits pct",1.56
+2026-11-14,"north-carolina","Flu ED visits pct",2.79
+2026-11-14,"rtp-area","Flu ED visits pct",2.38
+2026-11-14,"senc","Flu ED visits pct",1.33
+2026-11-14,"triad-area","Flu ED visits pct",2.67
+2026-11-14,"wnc","Flu ED visits pct",1.04

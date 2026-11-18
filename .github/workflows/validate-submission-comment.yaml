@@ -1,0 +1,28 @@
+name: Post Submission Validation Result
+
+# Posts the result saved by Hub Submission Validation (R) on the pull request.
+# A workflow triggered by a pull request from a fork has a read-only token and
+# cannot comment, so posting happens here, after that workflow finishes, in the
+# hub's own context. Both workflows are added with:
+#
+#   hubCI::use_hub_github_action("validate-submission")
+#
+# `workflows:` below must match the validation workflow's `name:`. Renaming one
+# without the other stops results being posted.
+
+on:
+  workflow_run:
+    workflows: ["Hub Submission Validation (R)"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  comment:
+    if: github.event.repository.fork != true
+    uses: hubverse-org/hubverse-actions/.github/workflows/post-validation-comment.yaml@v2
+    permissions:
+      contents: read
+      actions: read
+      pull-requests: write

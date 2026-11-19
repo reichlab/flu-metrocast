@@ -2,7 +2,7 @@ team_name: "VTSanghani"
 team_abbr: "VTSanghani"
 model_name: "PRIME"
 model_abbr: "PRIME"
-model_version: "2.0"
+model_version: "2.1"
 model_contributors: [
   {
     "name": "Yiqi Su",
@@ -20,7 +20,8 @@ model_contributors: [
 license: "CC-BY-4.0"
 team_funding: "NSF awards CCF-1918770, DBI-2412389"
 designated_model: true
-methods: "Integration of model-based and time series forecasting methods."
-data_sources: "Jurisdiction- and city-level weekly incident influenza like illness (ILI) case counts and hospitalization admissions."
+methods: "Pooled ridge regression on log(ED visit percentage + 0.05), using local and state lagged levels, growth and seasonal harmonics. Fixed policy retained from October 24: ridge center, interval factor 1.25 and local-volatility shrinkage 0. Historical median/MAD log-error margins and a Gaussian rank copula generate 100 temporally dependent trajectories per location. Calibration uses rolling origins through August 30, 2025; historical real-time checks use archived in-season releases supplemented with labeled revised older history. Actual reporting gaps determine direct forecast leads. Locations are pooled for fitting, but sample IDs imply dependence across weeks within a location only, not across locations. ED percentages only; California hospital admissions and full-season trajectories are not submitted. Method description corrected November 18, 2026; model settings are unchanged."
+data_sources: "MetroCast hub weekly ED influenza percentages from CDC NSSP and jurisdiction-specific NYC, North Carolina and Utah surveillance sources; archived hub releases; hub location and state mappings. No ILI covariates are used by the operational pipeline."
 ensemble_of_hub_models: false
-local_fit_jointly: false
+local_fit_jointly: true
+long_term_forecasts: false

@@ -1,0 +1,20 @@
+team_name: "One Health Trust - Johns Hopkins University"
+team_abbr: "OHTJHU"
+model_name: "FLUFFHEADMetro: FLUFFHEAD on metro-area synthetic populations"
+model_abbr: "FLUFFHEADMetro"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Eili Klein",
+    "affiliation": "Johns Hopkins University",
+    "email": "eklein@jhu.edu"
+  }
+]
+repo_url: "https://github.com/CDDEP-DC/FLUFFHEAD"
+license: "CC-BY-4.0"
+designated_model: true
+methods: "Network agent-based model (FLUFFHEAD) run on the hub's locations. Each hub location's counties (NSSP's HSA-county crosswalk, or the counties named for NYC and the North Carolina, Utah and California regions) are built into a synthetic population of individual agents from 2023 Census data with GeoPops, and locations strongly linked by commuting share one network (52 networks, 124 million people). Transmission runs over household, school, work and community contacts, thinned by weekends, school calendars, a daily absolute-humidity factor, prior immunity and vaccination, with holiday mixing raised December 10-31. Each location is fitted by adaptive importance sampling to its share of its state's NHSN influenza admissions, the share set by NSSP emergency department visits (California: CDPH regional admissions). The kept draws are run to the end of the season with weather uncertainty; imports follow FLUFFHEAD's national forecast. The percent of ED visits due to influenza is forecast from each sample trajectory's growth in admissions, half a week ahead (ED leads admissions), applied to the location's last reported value, with log-normal noise widening by horizon; California admissions likewise from the last CHHS value, and California as the sum of its regions. The other states use FLUFFHEAD's state forecasts the same way. 100 samples per location are trajectories across horizons."
+data_sources: "NHSN influenza hospital admissions (FluSight target data); CDC NSSP influenza ED visits by HSA and state (data.cdc.gov rdmq-nq56) and the hub's target data (NSSP, NYC DOHMH, NC DPH, Utah DHHS, CHHS); CDPH regional admissions; Census ACS 2019-2023, 2020 Census, LODES8 2023, CBP 2023, NCES 2023-24 via GeoPops; IEM ASOS dew point and NWS forecasts; CDC vaccination coverage; FAA enplanements and DB1B air travel."
+ensemble_of_hub_models: false
+long_term_forecasts: false
+local_fit_jointly: true
